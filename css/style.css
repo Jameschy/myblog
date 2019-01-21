@@ -198,7 +198,8 @@ img { max-width: 100%; }
   -ms-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
-  width: 45px;
+  width: auto;
+  height: 60px;
   display: block;
 }
 .opacity-nav {
