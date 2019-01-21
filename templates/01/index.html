@@ -166,11 +166,15 @@
 <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
 <script type="text/javascript">
     $(document).ready(function () {
+        //after 1s Auto slideDown the Bar
+        setTimeout(function () {
+           alert("创建于2018/01/18");
+        }, 1000);
 
         //after 1s Auto slideDown the Bar
         setTimeout(function () {
-            $("#download").css("transform", "translateY(0)")
-        }, 1000);
+            $("#download").css("transform", "translateY(0)");
+        }, 2000);
 
         //after 8s Auto display the download block
         setInterval(function () {
