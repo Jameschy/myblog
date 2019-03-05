@@ -27,8 +27,17 @@
 </div>
 </body>
 <script type="text/javascript">
+    var genres;
 
-    var datas;
+    const data = genres;
+    const chart = new G2.chart({
+        id:'chart1',
+        height:400,
+    })
+    chart.source(data);
+    chart.interval().position('genre*sold').color('genre')
+    chart.render();
+
 
         $.ajax({
             type:"GET",
@@ -39,8 +48,9 @@
                     console.log("成功，无数据");
                     console.log(data);
                 }else{
-                    datas = data
-                    // console.log(data);
+
+                    genres = data
+                    console.log(data);
                 }
             },
             error:function(jqXHR){
@@ -48,13 +58,6 @@
             }
         });
 
-    console.log(datas);
-    const chart = new G2.chart({
-        id:'chart1',
-        height:400,
-        data:datas
-    })
-    chart.render();
 
 </script>
 </html>
