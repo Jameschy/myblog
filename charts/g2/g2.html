@@ -15,8 +15,9 @@
 <!-- 创建图表容器 -->
 <div id="c1"></div>
 <script>
-    var genres;
+    $(document)
 
+function getData(){
     $.ajax({
         type:"GET",
         url:"https://jameschy.tk/charts/data/genre.json",
@@ -33,9 +34,9 @@
             console.log("Error: "+jqXHR.status);
         }
     });
+}
 
     function createChart(datas){
-        console.log(typeof (datas));
         var data = datas; // G2 对数据源格式的要求，仅仅是 JSON 数组，数组的每个元素是一个标准 JSON 对象。
         // Step 1: 创建 Chart 对象
         const chart = new G2.Chart({
