@@ -21,43 +21,117 @@
             </div>
         </div>
         <div class="col">
+            <h1>G2 graph2 柱形图</h1>
+            <div class="col" id="chart2">
 
+            </div>
         </div>
     </div>
 </div>
 </body>
 <script type="text/javascript">
-    var genres;
 
-    const data = genres;
-    const chart = new G2.chart({
-        id:'chart1',
-        height:400,
-    })
-    chart.source(data);
-    chart.interval().position('genre*sold').color('genre')
-    chart.render();
+    $(function () {
+        getData();
+    });
 
-
+    function getData() {
         $.ajax({
-            type:"GET",
-            url:"https://jameschy.tk/charts/data/fansInc30.json",
-            dataType:"json",
-            success:function(data){
-                if(data.errorCode==0){
+            type: "GET",
+            url: "https://jameschy.tk/charts/data/fans30.json",
+            dataType: "json",
+            success: function (data) {
+                if (data.errorCode == 0) {
                     console.log("成功，无数据");
                     console.log(data);
-                }else{
-
-                    genres = data
+                } else {
                     console.log(data);
+                    createChart(data,chart1,'cross',1);
+                    createChart(data,chart2,'cross',0);
                 }
             },
-            error:function(jqXHR){
-                console.log("Error: "+jqXHR.status);
+            error: function (jqXHR) {
+                console.log("Error: " + jqXHR.status);
             }
         });
+    }
 
+    function createChart(datas,ids,crosshairsT,types) {
+        const data = datas; // G2 对数据源格式的要求，仅仅是 JSON 数组，数组的每个元素是一个标准 JSON 对象。
+        // Step 1: 创建 Chart 对象
+        const chart = new G2.Chart({
+            container: ids, // 指定图表容器 ID
+            // width: 600, // 指定图表宽度
+            height: 300 // 指定图表高度
+        });
+
+        chart.axis('y',{
+            label: {
+                formatter:function (text,item,index) {
+                    var n = parseInt(text);
+                    if (n == 0){
+                        return 0;
+                    }else if(Math.abs(n)>=0 && Math.abs(n)<1000){
+                        return text;
+                    }else if (Math.abs(n)>=1000&&Math.abs(n)<10000){
+                        return (n/1000).toFixed(n% 1000 ==0?0:1) + 'K'
+                    }else {
+                        return (n/1000).toFixed(n% 10000 ==0?0:1)+'W'
+                    }
+                    return text;
+                }
+            }
+        })
+
+
+
+        // Step 2: 载入数据源
+        chart.source(data,{
+            x:{
+                alias:'日期',
+                type:'time',
+                mask:'MM-DD',//时间显示方式
+                tickInterval:2* 24 * 3600 * 1000// 坐标间隔,（24 * 3600 * 1000表示一天）
+            },
+            y:{
+                alias:'点赞数' //y轴数据标题显示
+            }
+        });
+        // chart.legend('x',false);//x坐标参数图例
+        // chart.legend('y',false);//y坐标参数图例，两者皆不显示可缩写如下
+        // chart.legend(false);
+        chart.legend(
+            'x',false,
+            'y',{
+                position: 'start'
+            }
+        );
+
+
+        chart.tooltip({
+            crosshairs: {
+                type:crosshairsT //鼠标浮上辅助线样式
+            }
+        })
+        // Step 3：创建图形语法，绘制柱状图，由 x 和 y 两个属性决定图形位置，x 映射至 x 轴，y 映射至 y 轴
+
+        if (types == 1) {
+
+            chart.line().position('x*y').color('x').size(2);//图表样式，line ==>折线
+            chart.area().position('x*y').color('#26c6da').style({opacity: 0.25});//图表样式，area ==>坐标点围成的面积区
+            chart.point().position('x*y').color('x').size(4).shape('circle').style({//图表样式，point ==>坐标点
+                stroke: '#fff',
+                lineWidth: 1
+            });
+        }else {
+            chart.interval().position('x*y').color('y');
+            chart.point().position('x*y').color('x').size(2.5)
+        }
+
+
+        // Step 4: 渲染图表
+        chart.render();
+    }
 
 </script>
 </html>

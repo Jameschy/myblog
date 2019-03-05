@@ -15,18 +15,20 @@
 <!-- 创建图表容器 -->
 <div id="c1"></div>
 <script>
-    $(document)
-
-function getData(){
+    $(function () {
+        getData();
+    });
+// function getData(){
     $.ajax({
         type:"GET",
-        url:"https://jameschy.tk/charts/data/genre.json",
+        url:"https://jameschy.tk/charts/data/fans30.json",
         dataType:"json",
         success:function(data){
             if(data.errorCode==0){
                 console.log("成功，无数据");
                 console.log(data);
             }else{
+                console.log(data);
                 createChart(data);
             }
         },
@@ -34,7 +36,7 @@ function getData(){
             console.log("Error: "+jqXHR.status);
         }
     });
-}
+// }
 
     function createChart(datas){
         var data = datas; // G2 对数据源格式的要求，仅仅是 JSON 数组，数组的每个元素是一个标准 JSON 对象。
@@ -48,7 +50,7 @@ function getData(){
         chart.source(data);
         // Step 3：创建图形语法，绘制柱状图，由 genre 和 sold 两个属性决定图形位置，genre 映射至 x 轴，sold 映射至 y 轴
         // chart.interval().position('x*y').color('x')
-        chart.interval().position('genre*sold').color('genre')
+        chart.interval().position('x*y').color('x')
         // Step 4: 渲染图表
         chart.render();
     }
