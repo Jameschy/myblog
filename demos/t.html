@@ -15,9 +15,23 @@
 
     objToStr = JSON.stringify(userAgent);
 
-    alert(objToStr);
+    console.log(objToStr);
+    console.log(typeof(objToStr));
 
-    document.getElementById("content").value = objToStr;
+    if(str.indexOf("QQBrowser")>-1){
+        alert("你的浏览器是QQ浏览器")
+    }else if(str.indexOf("sogoumobilebrowser")>-1){
+        alert("你的浏览器是搜狗浏览器")
+    }else if(str.indexOf("ucbrowser")>-1){
+        alert("你的浏览器是UC浏览器")
+    }else if(str.indexOf("safari")>-1){
+        alert("你的浏览器是苹果浏览器")
+    }else if(str.indexOf("qihoobrowser")>-1){
+        alert("你的浏览器是360浏览器")
+    }else{
+        alert("你的浏览器是其他浏览器")
+    }
+    // document.getElementById("content").value = objToStr;
 
 
 </script>
