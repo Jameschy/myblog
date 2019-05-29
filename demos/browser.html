@@ -120,10 +120,18 @@
                     }
 
                     //搜狗浏览器
-                    if ( agent.indexOf( "se 2.x" )> 0 ) {
+                    if ( agent.indexOf( "sogoumobilebrowser" )> 0 ) {
                         return '搜狗浏览器' ;
                     }
 
+                    //搜狗浏览器
+                    if ( agent.indexOf( "ucbrowser" )> 0 ) {
+                        return 'UC浏览器' ;
+                    }
+                    //搜狗浏览器
+                    if ( agent.indexOf( "360se" )> 0 ) {
+                        return '360浏览器' ;
+                    }
                     //Chrome:也可以使用window.chrome && window.chrome.webstore判断
                     if (chrome && System.type !== "Opera" ) {
                         var external = window.external,
