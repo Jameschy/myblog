@@ -25,7 +25,11 @@
     }else if(objToStr.indexOf("UCBrowser")>-1){
         alert("你的浏览器是UC浏览器")
     }else if(objToStr.indexOf("Safari")>-1){
-        alert("你的浏览器是苹果浏览器")
+      if(objToStr.indexOf("Cri")>-1){
+          alert("你的浏览器是谷歌浏览器")
+      }else {
+          alert("你的浏览器是苹果浏览器")
+      }
     }else if(objToStr.indexOf("QihooBrowser")>-1){
         alert("你的浏览器是360浏览器")
     }else{
