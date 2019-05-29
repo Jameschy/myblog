@@ -1,0 +1,26 @@
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>浏览器检测</title>
+</head>
+
+<body>
+
+
+
+<textarea name="textarea222" cols="100" rows="10" id="content" >ddd</textarea>
+
+<script>
+
+    var userAgent = window.navigator.userAgent;
+
+    objToStr = JSON.stringify(userAgent);
+
+    alert(objToStr);
+
+    document.getElementById("content").value = objToStr;
+
+
+</script>
+
+</body>
+</html>
