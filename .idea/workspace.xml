@@ -1,237 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8466950a-1e01-428c-b6a6-de0886846a8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/myblogs.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/defpage/left.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/defpage/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/adminstyle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/bakdata.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/bigdatasay.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/clearmember.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/deldata.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/diymenu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/doautore.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/dolog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/dosql.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/adminstyle1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/adminstyle2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/adminstyle3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/adminstyle4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/adminstyle5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/adminstyle6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/adminstyle7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/clearmember1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/clearmember2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/deldata1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/deldata2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/diymenu1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/diymenu2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/diymenu3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/diymenu4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/diymenu5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/doautore1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/doautore2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/doautore3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/doautore4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/dolog1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/dolog2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/dosql1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/dosql2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/dosql3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/dosql4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/infodoc1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/infodoc2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/infototal1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/infototal2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/loginlog1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/loginlog2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/member1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/member2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/member3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/memberbuygroup1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/memberbuygroup2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/memberbuygroup3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/memberbuygroup4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/membercard1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/membercard2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/membercard3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/membercard4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/membercard5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/membercard6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/memberdelmsg1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/memberdelmsg2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/memberf1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/memberf2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/memberf3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/memberform1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/memberform2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/memberform3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/membergetfen1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/membergetfen2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/membergroup1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/membergroup2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/membergroup3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/membersendmail1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/membersendmail2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/membersendmsg1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/membersendmsg2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/memberspaceadmin1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/memberspaceadmin2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/memberspaceadmin3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/memberspaceadmin4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/memberspaceadmin5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/memberspacetemp1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/memberspacetemp2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/memberspacetemp3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/memberspacetemp4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/memberspacetemp5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/memberspacetemp6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/moveclassinfo1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/moveclassinfo2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/netpay1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/netpay2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/netpay3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/netpay4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/netpay5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/netpay6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/netpay7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/netpay8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/netpay9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/postdata1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/postdata2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/pubvar1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/pubvar2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/pubvar3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/pubvar4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/pubvar5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/pubvar6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/repnewstext1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/repnewstext2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/schall1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/schall2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/schall3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/schall4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/schall5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/schall6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/schall7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/schall8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/schall9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/searchkey1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/searchkey2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/setfirewall1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/setfirewall2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/setfirewall3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/setfirewall4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/setsafe1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/setsafe2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/setting1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/setting10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/setting11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/setting2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/setting3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/setting4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/setting5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/setting6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/setting7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/setting8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/setting9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/task1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/task2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/task3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/task4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/task5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/task6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/user1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/user2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/user3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/user4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/userclass1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/userclass2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/usergroup1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/usergroup2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/usergroup3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/usergroup4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/usertotal1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/usertotal2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/usertotal3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/votemod1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/votemod2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/votemod3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/votemod4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/wap1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/wap2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/wap3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/wap4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/wap5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/wap6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/wap7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/workflow1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/workflow2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/workflow3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/workflow4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/workflow5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/workflow6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/workflow7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/workflow8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/workflow9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/yh1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/yh2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/yh3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/img/yh4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/infodoc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/infototal.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/jmadmin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/loginlog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/member.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/memberbuygroup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/membercard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/memberdelmsg.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/memberf.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/memberform.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/membergetfen.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/membergroup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/membersendmail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/membersendmsg.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/memberspaceadmin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/memberspacetemp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/mod.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/moveclassinfo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/netpay.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/postdata.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/pubvar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/repnewstext.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/safesay.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/schall.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/searchkey.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/setfirewall.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/setsafe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/setting.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/sitemove.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/togmember.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/update.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/user.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/userclass.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/usergroup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/usertotal.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/votemod.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/wap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/workflow.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/html/yh.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/images/css.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/images/dir.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/images/empiresoft.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/images/folder.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/images/homepage.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/images/htm_icon.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/images/noadd.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/images/txt.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/images/txt_icon.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecms/admin_op/index.html" afterDir="false" />
+    <list default="true" id="8466950a-1e01-428c-b6a6-de0886846a8b" name="Default Changelist" comment="修改手册多个中文编码声明！">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demos/t.html" beforeDir="false" afterPath="$PROJECT_DIR$/demos/t.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -243,31 +15,69 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+        <entry file="file://$PROJECT_DIR$/ecms/extend_manual/html/dbdoc/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+            <state>
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ecms/admin_op/images/css.css">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/ecms/extend_manual/html/dbdoc/page/db_table.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demos/browser.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-209">
+              <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ecms/admin_op/index.html">
+        <entry file="file://$PROJECT_DIR$/demos/t.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="70" selection-start-line="9" selection-start-column="70" selection-end-line="9" selection-end-column="70" />
+            <state relative-caret-position="528">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ecms/extend_manual/html/dbdoc/left.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Browser.client.name</find>
+      <find>Browser.client.version</find>
+      <find>client.version</find>
+      <find>.version</find>
+      <find>Safari</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -276,12 +86,31 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/ecms/extend_manual/index.html" />
+        <option value="$PROJECT_DIR$/ecms/extend_manual/html/comfun.html" />
+        <option value="$PROJECT_DIR$/ecms/extend_manual/html/extendsay.html" />
+        <option value="$PROJECT_DIR$/ecms/extend_manual/defpage/left.html" />
+        <option value="$PROJECT_DIR$/ecms/extend_manual/defpage/main.html" />
+        <option value="$PROJECT_DIR$/ecms/extend_manual/html/dbdoc/index.html" />
+        <option value="$PROJECT_DIR$/ecms/extend_manual/html/dbdoc/left.html" />
+        <option value="$PROJECT_DIR$/ecms/extend_manual/html/mod.html" />
+        <option value="$PROJECT_DIR$/ecms/extend_manual/html/programsql.html" />
+        <option value="$PROJECT_DIR$/ecms/extend_manual/html/question.html" />
+        <option value="$PROJECT_DIR$/ecms/extend_manual/html/showhelloworld.html" />
+        <option value="$PROJECT_DIR$/ecms/extend_manual/html/showinfolist.html" />
+        <option value="$PROJECT_DIR$/ecms/extend_manual/html/shownewnews.html" />
+        <option value="$PROJECT_DIR$/ecms/extend_manual/html/syspath.html" />
+        <option value="$PROJECT_DIR$/ecms/extend_manual/html/dbdoc/page/db_table.html" />
+        <option value="$PROJECT_DIR$/demos/br2.html" />
+        <option value="$PROJECT_DIR$/demos/browser.html" />
+        <option value="$PROJECT_DIR$/demos/browser2.html" />
+        <option value="$PROJECT_DIR$/demos/t.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="974" />
+    <option name="width" value="1215" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -301,13 +130,7 @@
             <path>
               <item name="myblogs" type="b2602c69:ProjectViewProjectNode" />
               <item name="myblogs" type="462c0819:PsiDirectoryNode" />
-              <item name="ecms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblogs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblogs" type="462c0819:PsiDirectoryNode" />
-              <item name="ecms" type="462c0819:PsiDirectoryNode" />
-              <item name="admin_op" type="462c0819:PsiDirectoryNode" />
+              <item name="demos" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -316,14 +139,16 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ecms/extend_manual" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\myblogs\ecms\extend_manual" />
       <recent name="F:\myblogs\ecms\admin_op" />
     </key>
   </component>
@@ -349,7 +174,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557891335791</updated>
-      <workItem from="1557891338174" duration="252000" />
+      <workItem from="1557891338174" duration="2207000" />
+      <workItem from="1558154818702" duration="609000" />
+      <workItem from="1558339646062" duration="1153000" />
+      <workItem from="1558429664362" duration="599000" />
+      <workItem from="1559093714037" duration="395000" />
+      <workItem from="1559094588302" duration="7934000" />
+      <workItem from="1559112958653" duration="1667000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1557891488049</created>
@@ -358,24 +189,117 @@
       <option name="project" value="LOCAL" />
       <updated>1557891488049</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="修改手册中文编码声明！">
+      <created>1557899249032</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1557899249032</updated>
+    </task>
+    <task id="LOCAL-00003" summary="修改手册多个中文编码声明！">
+      <created>1557899435549</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1557899435549</updated>
+    </task>
+    <task id="LOCAL-00004" summary="新加浏览器判读">
+      <created>1559093751205</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1559093751205</updated>
+    </task>
+    <task id="LOCAL-00005" summary="新加b2">
+      <created>1559095995048</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1559095995048</updated>
+    </task>
+    <task id="LOCAL-00006" summary="修改b2">
+      <created>1559096263853</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1559096263853</updated>
+    </task>
+    <task id="LOCAL-00007" summary="修改">
+      <created>1559096932736</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1559096932736</updated>
+    </task>
+    <task id="LOCAL-00008" summary="修改2222">
+      <created>1559098243184</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1559098243184</updated>
+    </task>
+    <task id="LOCAL-00009" summary="修改ssss">
+      <created>1559098522778</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1559098522778</updated>
+    </task>
+    <task id="LOCAL-00010" summary="修改手册多个中文编码声明！">
+      <created>1559099461740</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1559099461740</updated>
+    </task>
+    <task id="LOCAL-00011" summary="修ssss">
+      <created>1559100035311</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1559100035311</updated>
+    </task>
+    <task id="LOCAL-00012" summary="修">
+      <created>1559101314451</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1559101314451</updated>
+    </task>
+    <task id="LOCAL-00013" summary="新加Test文本">
+      <created>1559113271234</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1559113271234</updated>
+    </task>
+    <task id="LOCAL-00014" summary="新加Test">
+      <created>1559113522508</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1559113522508</updated>
+    </task>
+    <task id="LOCAL-00015" summary="检测">
+      <created>1559114534692</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1559114534692</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="252000" />
+    <option name="totallyTimeSpent" value="14564000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-7" y="0" width="1215" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2455395" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" visible="true" weight="0.27360514" />
-      <window_info anchor="bottom" id="GraphQL" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -383,6 +307,11 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="GraphQL" order="8" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" sideWeight="0.4995752" visible="true" weight="0.33261105" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5004248" side_tool="true" visible="true" weight="0.33261105" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -416,26 +345,186 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试" />
+    <MESSAGE value="修改手册中文编码声明！" />
+    <MESSAGE value="新加浏览器判读" />
+    <MESSAGE value="新加b2" />
+    <MESSAGE value="修改b2" />
+    <MESSAGE value="修改" />
+    <MESSAGE value="修改2222" />
+    <MESSAGE value="修改ssss" />
+    <MESSAGE value="修改手册多个中文编码声明！" />
+    <MESSAGE value="修ssss" />
+    <MESSAGE value="修" />
+    <MESSAGE value="新加Test文本" />
+    <MESSAGE value="新加Test" />
+    <MESSAGE value="检测" />
+    <option name="LAST_COMMIT_MESSAGE" value="检测" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecms/admin_op/images/css.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecms/admin_op/index.html">
+    <entry file="file://$PROJECT_DIR$/ecms/admin_manual/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="70" selection-start-line="9" selection-start-column="70" selection-end-line="9" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecms/admin_manual/images/css.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecms/extend_manual/defpage/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecms/extend_manual/html/mod.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecms/extend_manual/html/programsql.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecms/extend_manual/html/question.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecms/extend_manual/html/showhelloworld.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecms/extend_manual/html/showinfolist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecms/extend_manual/html/shownewnews.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecms/extend_manual/html/syspath.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecms/extend_manual/html/comfun.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecms/extend_manual/defpage/left.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-931">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecms/extend_manual/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecms/extend_manual/html/extendsay.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecms/extend_manual/html/dbdoc/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecms/extend_manual/html/dbdoc/page/db_table.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecms/extend_manual/html/dbdoc/left.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/browser2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" lean-forward="true" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/browser.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-209">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/t.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
