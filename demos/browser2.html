@@ -7,6 +7,8 @@
     <body>
         
         
+        
+        
     </body>
     <script type="text/javascript">
     //判断访问终端
@@ -32,58 +34,34 @@
     }
     //        document.write("用户代理: " + navigator.userAgent);//用户代理
     //         document.write("版本信息: " + navigator.appVersion);//浏览器版本
-
+    //判断是否IE内核
+    if(browser.versions.trident){
+        alert("is IE");
+    }
+    if(browser.versions.weixin){
+        alert('weixin')
+    }
+    if(browser.versions.gecko){
+        alert('FireFox')
+    }
+    //判断是否webKit内核
+    if(browser.versions.webKit){
+        alert("is webKit");
+    }
 
     // 判断是否移动端
     if(browser.versions.mobile||browser.versions.android||browser.versions.ios){
-        // alert("移动端");
-        if (/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
-            // alert(navigator.userAgent);
-            //判断是否IE内核
-            if(browser.versions.trident){
-                alert("is IE");
-            }
-            if(browser.versions.weixin){
-                alert('weixin')
-            }
-            if(browser.versions.gecko){
-                alert('FireFox')
-            }
-            //判断是否webKit内核
-            if(browser.versions.webKit){
-                alert("is webKit");
-            }
-
-            if(browser.versions.webApp){
-                alert("is Safria");
-            }
-            //苹果端
-        } else if (/(Android)/i.test(navigator.userAgent)) {
-            // alert(navigator.userAgent);
-            //判断是否IE内核
-            if(browser.versions.trident){
-                alert("is IE");
-            }
-            if(browser.versions.weixin){
-                alert('weixin')
-            }
-            if(browser.versions.gecko){
-                alert('FireFox')
-            }
-            //判断是否webKit内核
-            if(browser.versions.webKit){
-                alert("is webKit");
-            }
-
-            if(browser.versions.webApp){
-                alert("is Safria");
-            }
-            //安卓端
-        } else {
-            //pc端
-        };
+        alert("移动端");
     }
-
+    if (/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
+        alert(navigator.userAgent);
+        //苹果端
+    } else if (/(Android)/i.test(navigator.userAgent)) {
+        alert(navigator.userAgent);
+        //安卓端
+    } else {
+        //pc端
+    };
 </script>
     
 </html>
