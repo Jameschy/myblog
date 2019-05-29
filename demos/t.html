@@ -23,6 +23,10 @@
         alert("你的浏览器是搜狗浏览器")
     } else if (objToStr.indexOf("UCBrowser") > -1) {
         alert("你的浏览器是UC浏览器")
+    }  else if (objToStr.indexOf("QihooBrowser") > -1) {
+        alert("你的浏览器是360浏览器")
+    } else if (objToStr.indexOf("Baidu") > -1) {
+        alert("你的浏览器是百度浏览器")
     } else if (objToStr.indexOf("Safari") > -1) {
         if (objToStr.indexOf("Cri") > -1) {
             alert("你的浏览器是谷歌浏览器")
@@ -31,11 +35,7 @@
         } else {
             alert("你的浏览器是苹果浏览器")
         }
-    } else if (objToStr.indexOf("QihooBrowser") > -1) {
-        alert("你的浏览器是360浏览器")
-    } else if (objToStr.indexOf("Baidu") > -1) {
-        alert("你的浏览器是百度浏览器")
-    } else {
+    }else {
         alert("你的浏览器是其他浏览器")
     }
     document.getElementById("content").value = objToStr;
