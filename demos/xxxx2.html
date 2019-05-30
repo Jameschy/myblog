@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="top-menu-row"><span id="topNav"> <strong><?=$public_r['sitename']?>：-绿色安全免安装,做大家都喜欢的绿色软件下载站！</strong> <i><a
+        href="/new/">最新软件</a>|<a href="/soft/" class="focus">软件分类</a>|<a href="/special/">软件专题</a>|<a rel="nofollow"
+                                                                                                      href="/fabu.html"
+                                                                                                      class="focus">软件发布</a>|<a
+        rel="nofollow" href="/newsoft.html">论坛转帖</a></i> </span></div>
+<div id="page"
+<?=$softpage?>>
+<div id="header">
+    <div class="head"><a href="/" id="logo"><?=$public_r['sitename']?></a><span class="logotxt"></span>
+        <div id="search">
+            <form action="/e/search/index.php" method="post" target="_blank" class="bdcs-search-form">
+                <input type="text" class="bdcs-search-form-input" name="keyboard" id="bdcsMain"
+                       placeholder="点此输入您要下载的软件">
+                <input id="tbname" name="tbname" value="download" type="hidden">
+                <input id="tempid" name="tempid" value="2" type="hidden">
+                <input id="show" name="show" value="title,smalltext" type="hidden">
+                <input type="submit" class="bdcs-search-form-submit" value="搜 索">
+            </form>
+            <p class="bdcs-hot"><a href="/soft/91749.html" target="_blank" class="bdcs-hot-item">优酷客户端</a> <a
+                    href="/soft/121179.html" target="_blank" class="bdcs-hot-item">Microsoft Office2007</a> <a
+                    href="/soft/26358.html" target="_blank" class="bdcs-hot-item">pps影视</a> <a href="/soft/39357.html"
+                                                                                               target="_blank"
+                                                                                               class="bdcs-hot-item">酷狗音乐</a>
+            </p>
+        </div>
+    </div>
+    <div id="nav" class="clearfix">
+        <p>
+            <a href="/" <?=$homecss?> target="_self">首页</a>
+            <a href="/soft/" <?=$softcss?> target="_blank">软件下载</a>
+            <a href="/android/" title="安卓频道"<? if($topid==175){echo ' class="cur"';}?> target="_self">安卓频道</a>
+            <a href="/ios/" title="苹果频道"<? if($topid==176){echo ' class="cur"';}?> target="_self">苹果频道</a>
+            <a href="/jiaocheng/"<? if($topid==174){echo ' class="cur"';}?> title="游戏攻略" target="_self">教程攻略</a>
+            <a href="/jiaocheng/"<? if($topid==174){echo ' class="cur"';}?> title="游戏" target="_self">教程查看</a>
+            <a href="/special/"  <?=$ztcss?> title="软件专题" target="_self">软件专题</a>
+        </p>
+    </div>
+    <?
+if($softcsshome){
+?>
+    <div id="subNav" class="clearfix"><span>您当前所在位置：<a href="/">下载首页</a> -> [!--pagetitle--]</span></div>
+    <?
+}else{
+	if(empty($nonav)){
+?>
+    <div id="subNav" class="clearfix">[showclasstemp]'0',12,0,10[/showclasstemp]</div>
+    <?
+	}
+}
+?>
+</div>
+
+</body>
+</html>

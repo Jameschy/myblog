@@ -1,84 +1,85 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
+  <meta charset="utf-8">
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<title>phome_enewsqmsg Êı¾İ±í×Ö¶Î½âÊÍ</title>
+<title>phome_enewsqmsg æ•°æ®è¡¨å­—æ®µè§£é‡Š</title>
 <link href="../images/style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 <table width="100%" border="0" align="center">
   <tr> 
-    <td width="100%"><strong><font color="#0000FF">phome_enewsqmsg Êı¾İ±í×Ö¶Î½âÊÍ£¨Õ¾ÄÚĞÅÏ¢±í£©</font></strong></td>
+    <td width="100%"><strong><font color="#0000FF">phome_enewsqmsg æ•°æ®è¡¨å­—æ®µè§£é‡Šï¼ˆç«™å†…ä¿¡æ¯è¡¨ï¼‰</font></strong></td>
   </tr>
 </table>
 <br>
 <table width="800" border="0" cellspacing="1" cellpadding="3" class="tableborder">
   <tr class="header"> 
-    <td width="20%" height="30">×Ö¶ÎÃû</td>
-    <td width="15%">ÀàĞÍ</td>
-    <td width="20%">½âÊÍ</td>
-    <td width="45%">¸½¼ÓËµÃ÷</td>
+    <td width="20%" height="30">å­—æ®µå</td>
+    <td width="15%">ç±»å‹</td>
+    <td width="20%">è§£é‡Š</td>
+    <td width="45%">é™„åŠ è¯´æ˜</td>
   </tr>
   <tr> 
     <td height="30" bgcolor="#FFFFFF"><strong>mid</strong></td>
     <td bgcolor="#FFFFFF">bigint(20)</td>
-    <td bgcolor="#FFFFFF">ĞÅÏ¢ID</td>
+    <td bgcolor="#FFFFFF">ä¿¡æ¯ID</td>
     <td bgcolor="#FFFFFF"></td>
   </tr>
   <tr> 
     <td height="30" bgcolor="#FFFFFF"><strong>title</strong></td>
     <td bgcolor="#FFFFFF">varchar(120)</td>
-    <td bgcolor="#FFFFFF">ĞÅÏ¢±êÌâ</td>
+    <td bgcolor="#FFFFFF">ä¿¡æ¯æ ‡é¢˜</td>
     <td bgcolor="#FFFFFF"></td>
   </tr>
   <tr> 
     <td height="30" bgcolor="#FFFFFF"><strong>msgtext</strong></td>
     <td bgcolor="#FFFFFF">text</td>
-    <td bgcolor="#FFFFFF">ĞÅÏ¢ÄÚÈİ</td>
+    <td bgcolor="#FFFFFF">ä¿¡æ¯å†…å®¹</td>
     <td bgcolor="#FFFFFF"></td>
   </tr>
   <tr> 
     <td height="30" bgcolor="#FFFFFF"><strong>haveread</strong></td>
     <td bgcolor="#FFFFFF">tinyint(1)</td>
-    <td bgcolor="#FFFFFF">ÊÇ·ñÔÄ¶Á¹ı</td>
-    <td bgcolor="#FFFFFF">0ÎªÎ´¶Á£¬1ÎªÒÑ¶Á</td>
+    <td bgcolor="#FFFFFF">æ˜¯å¦é˜…è¯»è¿‡</td>
+    <td bgcolor="#FFFFFF">0ä¸ºæœªè¯»ï¼Œ1ä¸ºå·²è¯»</td>
   </tr>
   <tr> 
     <td height="30" bgcolor="#FFFFFF"><strong>msgtime</strong></td>
     <td bgcolor="#FFFFFF">datetime</td>
-    <td bgcolor="#FFFFFF">·¢ËÍÊ±¼ä</td>
+    <td bgcolor="#FFFFFF">å‘é€æ—¶é—´</td>
     <td bgcolor="#FFFFFF"></td>
   </tr>
   <tr> 
     <td height="30" bgcolor="#FFFFFF"><strong>to_username</strong></td>
     <td bgcolor="#FFFFFF">varchar(30)</td>
-    <td bgcolor="#FFFFFF">½ÓÊÕÕßÓÃ»§Ãû</td>
+    <td bgcolor="#FFFFFF">æ¥æ”¶è€…ç”¨æˆ·å</td>
     <td bgcolor="#FFFFFF"></td>
   </tr>
   <tr> 
     <td height="30" bgcolor="#FFFFFF"><strong>from_userid</strong></td>
     <td bgcolor="#FFFFFF">int(11)</td>
-    <td bgcolor="#FFFFFF">·¢ËÍÕßÓÃ»§ID</td>
+    <td bgcolor="#FFFFFF">å‘é€è€…ç”¨æˆ·ID</td>
     <td bgcolor="#FFFFFF"></td>
   </tr>
   <tr> 
     <td height="30" bgcolor="#FFFFFF"><strong>from_username</strong></td>
     <td bgcolor="#FFFFFF">varchar(30)</td>
-    <td bgcolor="#FFFFFF">·¢ËÍÕßÓÃ»§Ãû</td>
+    <td bgcolor="#FFFFFF">å‘é€è€…ç”¨æˆ·å</td>
     <td bgcolor="#FFFFFF"></td>
   </tr>
   <tr> 
     <td height="30" bgcolor="#FFFFFF"><strong>outbox</strong></td>
     <td bgcolor="#FFFFFF">tinyint(1)</td>
-    <td bgcolor="#FFFFFF">ÀàĞÍ</td>
-    <td bgcolor="#FFFFFF">1Îª·¢¼şÏäĞÅÏ¢£¬0ÎªÊÕ¼şÏäĞÅÏ¢</td>
+    <td bgcolor="#FFFFFF">ç±»å‹</td>
+    <td bgcolor="#FFFFFF">1ä¸ºå‘ä»¶ç®±ä¿¡æ¯ï¼Œ0ä¸ºæ”¶ä»¶ç®±ä¿¡æ¯</td>
   </tr>
   <tr> 
     <td height="30" bgcolor="#FFFFFF"><strong>issys</strong></td>
     <td bgcolor="#FFFFFF">tinyint(1)</td>
-    <td bgcolor="#FFFFFF">ÊÇ·ñÎªÏµÍ³ĞÅÏ¢</td>
-    <td bgcolor="#FFFFFF">1ÎªÏµÍ³ĞÅÏ¢£¬0ÎªÆÕÍ¨ĞÅÏ¢</td>
+    <td bgcolor="#FFFFFF">æ˜¯å¦ä¸ºç³»ç»Ÿä¿¡æ¯</td>
+    <td bgcolor="#FFFFFF">1ä¸ºç³»ç»Ÿä¿¡æ¯ï¼Œ0ä¸ºæ™®é€šä¿¡æ¯</td>
   </tr>
 </table>
 </body>

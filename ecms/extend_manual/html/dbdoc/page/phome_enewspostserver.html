@@ -1,108 +1,109 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
+  <meta charset="utf-8">
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<title>phome_enewspostserver Êı¾İ±í×Ö¶Î½âÊÍ</title>
+<title>phome_enewspostserver æ•°æ®è¡¨å­—æ®µè§£é‡Š</title>
 <link href="../images/style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 <table width="100%" border="0" align="center">
   <tr> 
-    <td width="100%"><strong><font color="#0000FF">phome_enewspostserver Êı¾İ±í×Ö¶Î½âÊÍ£¨Ô¶³ÌÍ¬²½·¢²¼±í£©</font></strong></td>
+    <td width="100%"><strong><font color="#0000FF">phome_enewspostserver æ•°æ®è¡¨å­—æ®µè§£é‡Šï¼ˆè¿œç¨‹åŒæ­¥å‘å¸ƒè¡¨ï¼‰</font></strong></td>
   </tr>
 </table>
 <br>
 <table width="800" border="0" cellspacing="1" cellpadding="3" class="tableborder">
   <tr class="header"> 
-    <td width="20%" height="30">×Ö¶ÎÃû</td>
-    <td width="15%">ÀàĞÍ</td>
-    <td width="24%">½âÊÍ</td>
-    <td width="41%">¸½¼ÓËµÃ÷</td>
+    <td width="20%" height="30">å­—æ®µå</td>
+    <td width="15%">ç±»å‹</td>
+    <td width="24%">è§£é‡Š</td>
+    <td width="41%">é™„åŠ è¯´æ˜</td>
   </tr>
   <tr> 
     <td height="30" bgcolor="#FFFFFF">pid</td>
     <td bgcolor="#FFFFFF">smallint(6)</td>
-    <td bgcolor="#FFFFFF">·¢²¼ID</td>
-    <td bgcolor="#FFFFFF">1Îª¸½¼ş</td>
+    <td bgcolor="#FFFFFF">å‘å¸ƒID</td>
+    <td bgcolor="#FFFFFF">1ä¸ºé™„ä»¶</td>
   </tr>
   <tr> 
     <td height="30" bgcolor="#FFFFFF">pname</td>
     <td bgcolor="#FFFFFF">varchar(60)</td>
-    <td bgcolor="#FFFFFF">·¢²¼Ãû³Æ</td>
+    <td bgcolor="#FFFFFF">å‘å¸ƒåç§°</td>
     <td bgcolor="#FFFFFF"></td>
   </tr>
   <tr> 
     <td height="30" bgcolor="#FFFFFF">purl</td>
     <td bgcolor="#FFFFFF">varchar(255)</td>
-    <td bgcolor="#FFFFFF">Ô¶³Ì·ÃÎÊµØÖ·</td>
+    <td bgcolor="#FFFFFF">è¿œç¨‹è®¿é—®åœ°å€</td>
     <td bgcolor="#FFFFFF">&nbsp;</td>
   </tr>
   <tr> 
     <td height="30" bgcolor="#FFFFFF">ptype</td>
     <td bgcolor="#FFFFFF">tinyint(1)</td>
-    <td bgcolor="#FFFFFF">·¢²¼ÀàĞÍ</td>
-    <td bgcolor="#FFFFFF">1Îª¸½¼ş</td>
+    <td bgcolor="#FFFFFF">å‘å¸ƒç±»å‹</td>
+    <td bgcolor="#FFFFFF">1ä¸ºé™„ä»¶</td>
   </tr>
   <tr> 
     <td height="30" bgcolor="#FFFFFF">ftphost</td>
     <td bgcolor="#FFFFFF">varchar(255)</td>
-    <td bgcolor="#FFFFFF">FTP·şÎñÆ÷µØÖ·</td>
+    <td bgcolor="#FFFFFF">FTPæœåŠ¡å™¨åœ°å€</td>
     <td bgcolor="#FFFFFF">&nbsp;</td>
   </tr>
   <tr>
     <td height="30" bgcolor="#FFFFFF">ftpport</td>
     <td bgcolor="#FFFFFF">varchar(20)</td>
-    <td bgcolor="#FFFFFF">FTP·şÎñÆ÷¶Ë¿Ú</td>
+    <td bgcolor="#FFFFFF">FTPæœåŠ¡å™¨ç«¯å£</td>
     <td bgcolor="#FFFFFF">&nbsp;</td>
   </tr>
   <tr>
     <td height="30" bgcolor="#FFFFFF">ftpusername</td>
     <td bgcolor="#FFFFFF">varchar(120)</td>
-    <td bgcolor="#FFFFFF">FTPÓÃ»§Ãû</td>
+    <td bgcolor="#FFFFFF">FTPç”¨æˆ·å</td>
     <td bgcolor="#FFFFFF">&nbsp;</td>
   </tr>
   <tr>
     <td height="30" bgcolor="#FFFFFF">ftppassword</td>
     <td bgcolor="#FFFFFF">varchar(120)</td>
-    <td bgcolor="#FFFFFF">FTPÃÜÂë</td>
+    <td bgcolor="#FFFFFF">FTPå¯†ç </td>
     <td bgcolor="#FFFFFF">&nbsp;</td>
   </tr>
   <tr>
     <td height="30" bgcolor="#FFFFFF">ftppath</td>
     <td bgcolor="#FFFFFF">varchar(255)</td>
-    <td bgcolor="#FFFFFF">FTP´æ·ÅÄ¿Â¼</td>
+    <td bgcolor="#FFFFFF">FTPå­˜æ”¾ç›®å½•</td>
     <td bgcolor="#FFFFFF">&nbsp;</td>
   </tr>
   <tr>
     <td height="30" bgcolor="#FFFFFF">ftpmode</td>
     <td bgcolor="#FFFFFF">tinyint(1)</td>
-    <td bgcolor="#FFFFFF">FTP´«ËÍÄ£Ê½</td>
-    <td bgcolor="#FFFFFF">1ÎªASCII£¬0Îª¶ş½øÖÆ</td>
+    <td bgcolor="#FFFFFF">FTPä¼ é€æ¨¡å¼</td>
+    <td bgcolor="#FFFFFF">1ä¸ºASCIIï¼Œ0ä¸ºäºŒè¿›åˆ¶</td>
   </tr>
   <tr>
     <td height="30" bgcolor="#FFFFFF">ftpssl</td>
     <td bgcolor="#FFFFFF">tinyint(1)</td>
-    <td bgcolor="#FFFFFF">FTPÆôÓÃ SSL Á¬½Ó</td>
-    <td bgcolor="#FFFFFF">1ÎªÆôÓÃ£¬0Îª¹Ø±Õ</td>
+    <td bgcolor="#FFFFFF">FTPå¯ç”¨ SSL è¿æ¥</td>
+    <td bgcolor="#FFFFFF">1ä¸ºå¯ç”¨ï¼Œ0ä¸ºå…³é—­</td>
   </tr>
   <tr>
     <td height="30" bgcolor="#FFFFFF">ftppasv</td>
     <td bgcolor="#FFFFFF">tinyint(1)</td>
-    <td bgcolor="#FFFFFF">FTPÆôÓÃ±»¶¯Ä£Ê½(pasv)Á¬½Ó</td>
-    <td bgcolor="#FFFFFF">1ÎªÆôÓÃ£¬0Îª¹Ø±Õ</td>
+    <td bgcolor="#FFFFFF">FTPå¯ç”¨è¢«åŠ¨æ¨¡å¼(pasv)è¿æ¥</td>
+    <td bgcolor="#FFFFFF">1ä¸ºå¯ç”¨ï¼Œ0ä¸ºå…³é—­</td>
   </tr>
   <tr>
     <td height="30" bgcolor="#FFFFFF">ftpouttime</td>
     <td bgcolor="#FFFFFF">smallint(6)</td>
-    <td bgcolor="#FFFFFF">FTP ´«Êä³¬Ê±Ê±¼ä</td>
+    <td bgcolor="#FFFFFF">FTP ä¼ è¾“è¶…æ—¶æ—¶é—´</td>
     <td bgcolor="#FFFFFF">&nbsp;</td>
   </tr>
   <tr> 
     <td height="30" bgcolor="#FFFFFF">lastposttime</td>
     <td bgcolor="#FFFFFF">int(11)</td>
-    <td bgcolor="#FFFFFF">×îºó·¢²¼Ê±¼ä</td>
-    <td bgcolor="#FFFFFF">unixÊ±¼ä´Á</td>
+    <td bgcolor="#FFFFFF">æœ€åå‘å¸ƒæ—¶é—´</td>
+    <td bgcolor="#FFFFFF">unixæ—¶é—´æˆ³</td>
   </tr>
 </table>
 </body>
