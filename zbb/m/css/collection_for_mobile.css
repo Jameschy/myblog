@@ -9,15 +9,15 @@
     color: #333;
 }
 .collection-banner {
-    background-image: url(../../../../img/zhongbao/new/collect-banner.png);
+    background-image: url(../img/collect-banner.png);
 }
 
 .mark-banner-wrap {
-    background-image: url(../../../../img/zhongbao/new/mark-banner.png);
+    background-image: url(../img/mark-banner.png);
 }
 
 .crawl-banner-wrap {
-    background-image: url(../../../../img/zhongbao/new/crawl-banner.png);
+    background-image: url(../img/crawl-banner.png);
 }
 
 .banner-title {
@@ -56,19 +56,19 @@
 }
 
 .des-icon1 {
-    background-image: url(../../../../img/zhongbao/new/mobile/collection/des-icon1.png);
+    background-image: url(../img/des-icon1.png);
 }
 
 .des-icon2 {
-    background-image: url(../../../../img/zhongbao/new/mobile/collection/des-icon2.png);
+    background-image: url(../img/des-icon2.png);
 }
 
 .des-icon3 {
-    background-image: url(../../../../img/zhongbao/new/mobile/collection/des-icon3.png);
+    background-image: url(../img/des-icon3.png);
 }
 
 .des-icon4 {
-    background-image: url(../../../../img/zhongbao/new/mobile/collection/des-icon4.png);
+    background-image: url(../img/des-icon4.png);
 }
 
 .collect-content {
@@ -120,25 +120,25 @@
 .service-icon1 {
     width: .82rem;
     height: .9rem;
-    background-image: url(../../../../img/zhongbao/new/mobile/collection/service-icon1.png);
+    background-image: url(../img/service-icon1.png);
 }
 
 .service-icon2 {
     width: .88rem;
     height: .9rem;
-    background-image: url(../../../../img/zhongbao/new/mobile/collection/service-icon2.png);
+    background-image: url(../img/service-icon2.png);
 }
 
 .service-icon3 {
     width: .72rem;
     height: 1.02rem;
-    background-image: url(../../../../img/zhongbao/new/mobile/collection/service-icon3.png);
+    background-image: url(../img/service-icon3.png);
 }
 
 .service-icon4 {
     width: .88rem;
     height: .96rem;
-    background-image: url(../../../../img/zhongbao/new/mobile/collection/service-icon4.png);
+    background-image: url(../img/service-icon4.png);
 }
 
 .collect-service-content {
@@ -162,7 +162,7 @@
 .service-item-btn {
     width: 1.16rem;
     height: 1.16rem;
-    background-image: url(../../../../img/zhongbao/new/mobile/index/btn-dingzhi.png);
+    background-image: url(../img/btn-dingzhi.png);
     background-repeat: no-repeat;
     background-size: cover;
     float: right;
@@ -171,26 +171,26 @@
 .service-item-btn-EN {
     width: 1.16rem;
     height: 1.16rem;
-    background-image: url(../../../../img/zhongbao/new/mobile/index/btn-dingzhi-EN.png);
+    background-image: url(../img/btn-dingzhi-EN.png);
     background-repeat: no-repeat;
     background-size: cover;
     float: right;
 }
 
 .mark-icon1 {
-    background-image: url(../../../../img/zhongbao/new/mobile/mark/mark-icon1.png);
+    background-image: url(../img/mark-icon1.png);
 }
 
 .mark-icon2 {
-    background-image: url(../../../../img/zhongbao/new/mobile/mark/mark-icon2.png);
+    background-image: url(../img/mark-icon2.png);
 }
 
 .mark-icon3 {
-    background-image: url(../../../../img/zhongbao/new/mobile/mark/mark-icon3.png);
+    background-image: url(../img/mark-icon3.png);
 }
 
 .mark-icon4 {
-    background-image: url(../../../../img/zhongbao/new/mobile/mark/mark-icon4.png);
+    background-image: url(../img/mark-icon4.png);
 }
 
 .markcrawl-icon {
@@ -198,43 +198,43 @@
     height: .9rem;
 }
 .mark-service-icon1 {
-    background-image: url(../../../../img/zhongbao/new/mobile/mark/mark-service-icon1.png);
+    background-image: url(../img/mark-service-icon1.png);
 }
 
 .mark-service-icon2 {
-    background-image: url(../../../../img/zhongbao/new/mobile/mark/mark-service-icon2.png);
+    background-image: url(../img/mark-service-icon2.png);
 }
 
 .mark-service-icon3 {
-    background-image: url(../../../../img/zhongbao/new/mobile/mark/mark-service-icon3.png);
+    background-image: url(../img/mark-service-icon3.png);
 }
 
 .crawl-icon1 {
-    background-image: url(../../../../img/zhongbao/new/mobile/crawl/crawl-icon1.png);
+    background-image: url(../img/crawl-icon1.png);
 }
 
 .crawl-icon2 {
-    background-image: url(../../../../img/zhongbao/new/mobile/crawl/crawl-icon2.png);
+    background-image: url(../img/crawl-icon2.png);
 }
 
 .crawl-icon3 {
-    background-image: url(../../../../img/zhongbao/new/mobile/crawl/crawl-icon3.png);
+    background-image: url(../img/crawl-icon3.png);
 }
 
 .crawl-icon4 {
-    background-image: url(../../../../img/zhongbao/new/mobile/crawl/crawl-icon4.png);
+    background-image: url(../img/crawl-icon4.png);
 }
 
 .crawl-service-icon1 {
-    background-image: url(../../../../img/zhongbao/new/mobile/crawl/crawl-service-icon1.png);
+    background-image: url(../img/crawl-service-icon1.png);
 }
 
 .crawl-service-icon2 {
-    background-image: url(../../../../img/zhongbao/new/mobile/crawl/crawl-service-icon2.png);
+    background-image: url(../img/crawl-service-icon2.png);
 }
 
 .crawl-service-icon3 {
-    background-image: url(../../../../img/zhongbao/new/mobile/crawl/crawl-service-icon3.png);
+    background-image: url(../img/crawl-service-icon3.png);
 }
 
 .service-type-wrap {

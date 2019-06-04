@@ -39,7 +39,7 @@
     margin-top: -.44rem;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    background-image: url(../../../../img/zhongbao/new/mobile/index/send-code.png);
+    background-image: url(../img/send-code.png);
 }
 
 .submit-demand {
@@ -67,7 +67,7 @@
     margin-top: -.44rem;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    background-image: url(../../../../img/zhongbao/new/mobile/index/send-code-EN.png);
+    background-image: url(../img/send-code-EN.png);
 }
 
 .error {

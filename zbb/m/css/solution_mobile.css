@@ -8,27 +8,27 @@
 }
 
 .auto-pilot-bg {
-    background-image: url(../../../../img/zhongbao/autopilot/auto-pilot-bg.png);
+    background-image: url(../img/auto-pilot-bg.png);
 }
 
 .security-bg {
-    background-image: url(../../../../img/zhongbao/security/security-bg.jpg);
+    background-image: url(../img/security-bg.jpg);
 }
 
 .public-opinion-bg {
-    background-image: url(../../../../img/zhongbao/public-opinion/public-opinion-bg.jpg);
+    background-image: url(../img/public-opinion-bg.jpg);
 }
 
 .face-recog-bg {
-    background-image: url(../../../../img/zhongbao/face-recognition/face-recog-bg.jpg);
+    background-image: url(../img/face-recog-bg.jpg);
 }
 
 .ocr-bg {
-    background-image: url(../../../../img/zhongbao/ocr/ocr-bg.jpg);
+    background-image: url(../img/ocr-bg.jpg);
 }
 
 .speech-bg {
-    background-image: url(../../../../img/zhongbao/speech/speech-bg.jpg);
+    background-image: url(../img/speech-bg.jpg);
 }
 
 .banner-content {
