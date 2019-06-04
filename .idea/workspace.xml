@@ -19,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/zbb/m/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="88" column="58" selection-start-line="88" selection-start-column="58" selection-end-line="88" selection-end-column="58" />
+            <state relative-caret-position="272">
+              <caret line="17" column="75" lean-forward="true" selection-start-line="17" selection-start-column="75" selection-end-line="17" selection-end-column="75" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -66,6 +66,15 @@
                 <element signature="n#style#0;n#p#3;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#16;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#16;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zbb/m/css/base_for_mobile.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="182" column="18" selection-start-line="182" selection-start-column="18" selection-end-line="182" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -162,7 +171,6 @@
         <option value="$PROJECT_DIR$/zbb/m/css/solution_mobile.css" />
         <option value="$PROJECT_DIR$/zbb/m/css/collection_for_mobile.css" />
         <option value="$PROJECT_DIR$/zbb/m/css/contact_mobile.css" />
-        <option value="$PROJECT_DIR$/zbb/m/css/base_for_mobile.css" />
         <option value="$PROJECT_DIR$/zbb/m/contact.html" />
         <option value="$PROJECT_DIR$/zbb/m/collection.html" />
         <option value="$PROJECT_DIR$/zbb/m/case.html" />
@@ -175,6 +183,7 @@
         <option value="$PROJECT_DIR$/zbb/m/faceRecognition.html" />
         <option value="$PROJECT_DIR$/zbb/m/securitySolution.html" />
         <option value="$PROJECT_DIR$/zbb/m/speechSolution.html" />
+        <option value="$PROJECT_DIR$/zbb/m/css/base_for_mobile.css" />
         <option value="$PROJECT_DIR$/zbb/m/index.html" />
       </list>
     </option>
@@ -208,6 +217,13 @@
               <item name="myblogs" type="462c0819:PsiDirectoryNode" />
               <item name="zbb" type="462c0819:PsiDirectoryNode" />
               <item name="m" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myblogs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblogs" type="462c0819:PsiDirectoryNode" />
+              <item name="zbb" type="462c0819:PsiDirectoryNode" />
+              <item name="m" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -270,7 +286,7 @@
       <workItem from="1559179674540" duration="2149000" />
       <workItem from="1559186334776" duration="1151000" />
       <workItem from="1559620553250" duration="6753000" />
-      <workItem from="1559629812215" duration="6912000" />
+      <workItem from="1559629812215" duration="7377000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1557891488049</created>
@@ -587,11 +603,25 @@
       <option name="project" value="LOCAL" />
       <updated>1559636635297</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="修复误改部分">
+      <created>1559636881110</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1559636881110</updated>
+    </task>
+    <task id="LOCAL-00047" summary="隐藏登陆二维码">
+      <created>1559637163283</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1559637163283</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33996000" />
+    <option name="totallyTimeSpent" value="34461000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -670,8 +700,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="修改ssss" />
-    <MESSAGE value="修改手册多个中文编码声明！" />
     <MESSAGE value="修ssss" />
     <MESSAGE value="修" />
     <MESSAGE value="新加Test文本" />
@@ -695,7 +723,9 @@
     <MESSAGE value="修改icon" />
     <MESSAGE value="修改icon,二次提交" />
     <MESSAGE value="修改icon,二次提交，禁止js测" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改icon,二次提交，禁止js测" />
+    <MESSAGE value="修复误改部分" />
+    <MESSAGE value="隐藏登陆二维码" />
+    <option name="LAST_COMMIT_MESSAGE" value="隐藏登陆二维码" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ecms/extend_manual/html/dbdoc/page/phome_enewsuserlist.html">
@@ -887,13 +917,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zbb/m/css/base_for_mobile.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1478,10 +1501,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/zbb/m/css/base_for_mobile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="182" column="18" selection-start-line="182" selection-start-column="18" selection-end-line="182" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/zbb/m/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="88" column="58" selection-start-line="88" selection-start-column="58" selection-end-line="88" selection-end-column="58" />
+        <state relative-caret-position="272">
+          <caret line="17" column="75" lean-forward="true" selection-start-line="17" selection-start-column="75" selection-end-line="17" selection-end-column="75" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
