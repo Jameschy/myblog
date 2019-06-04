@@ -1,0 +1,250 @@
+.scene-banner-wrap {
+    height: 3.4rem;
+    background-size: cover;
+    background-image: url(../../../../img/zhongbao/new/mobile/scene/scene-banner.png);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.scene-banner-title {
+    color: #333;
+    font-size: 20px;
+    font-family: MicrosoftYaHei;
+    line-height: 26px;
+    margin-top: .96rem;
+}
+
+.scene-btn-wrap {
+    width: 2.78rem;
+    height: .72rem;
+    position: absolute;
+    left: 50%;
+    margin-left: -1.39rem;
+    bottom: .82rem;
+}
+
+.btn-back {
+    background: #108CEF;
+    width: 2.78rem;
+    height: .72rem;
+    -webkit-border-radius: .56rem;
+       -moz-border-radius: .56rem;
+            border-radius: .56rem;
+    opacity: .7;
+    fill-opacity: 70;
+}
+
+.scene-apply-btn {
+    display: inline-block;
+    width: 2.78rem;
+    height: .72rem;
+    -webkit-border-radius: .56rem;
+       -moz-border-radius: .56rem;
+            border-radius: .56rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: .72rem;
+    color: #fff;
+}
+
+.scene-process {
+
+}
+
+.process-item {
+    width: 94%;
+    height: 1.96rem;
+    -webkit-border-radius: .08rem;
+       -moz-border-radius: .08rem;
+            border-radius: .08rem;
+    background: #f4f4f4;
+    margin: 0 auto;
+    margin-top: .2rem;
+    position: relative;
+}
+
+.item-arrow-top,
+.item-arrow-bottom {
+    display: block;
+    width: .5rem;
+    height: .5rem;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    position: absolute;
+    left: 50%;
+    margin-left: -.3rem;
+}
+
+.item-arrow-top {
+    background: #fff;
+    top: -.3rem;
+    z-index: 1;
+}
+
+.item-arrow-bottom {
+    background: #f4f4f4;
+    bottom: -.2rem;
+    z-index: 2;
+}
+
+.process-title {
+    text-align: center;
+    color: #333;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: .62rem;
+    margin-bottom: .2rem;
+}
+
+.process-item {
+    text-align: center;
+    font-family: PingFangSC-Regular;
+    position: relative;
+    padding-top: .5rem;
+    box-sizing: border-box;
+}
+
+.process-item h1 {
+    color: #dcdcdc;
+    font-size: 72px;
+    position: absolute;
+    left: .1rem;
+    line-height: 1.96rem;
+    float: left;
+    margin-top: -.5rem;
+}
+
+.item-title {
+    font-size: 16px;
+    line-height: 22px;
+    color: #333;
+}
+
+.item-des {
+    font-size: 12px;
+    line-height: 16px;
+    color: #999;
+    margin-top: .24rem;
+}
+
+.clear {
+    clear: both;
+}
+
+.scene-nav-wrap {
+    border-bottom: .02rem solid #ccc;
+    height: .9rem;
+}
+
+.scene-nav {
+    width: 94%;
+    margin: 0 auto;
+    height: .91rem;
+}
+
+.nav-item {
+    width: 24%;
+    height: .9rem;
+    color: #333;
+    font-size: 16px;
+    line-height: .9rem;
+    text-align: center;
+    float: left;
+    /*border: .02rem solid #fff;*/
+    position: relative;
+}
+
+.nav-item-checked {
+    border-top: .02rem solid #ccc;
+    border-right: .02rem solid #ccc;
+    border-left: .02rem solid #ccc;
+    border-bottom: .02rem solid #fff;
+    -webkit-border-radius: 3px 3px 0 0;
+       -moz-border-radius: 3px 3px 0 0;
+            border-radius: 3px 3px 0 0;
+    color: #999;
+}
+
+.scene-desc-item {
+    width: 94%;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: .66rem;
+}
+
+.scene-desc-img {
+    width: .84rem;
+    height: .88rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.scene-desc-content {
+    margin-left: .86rem;
+}
+
+.scene-content-title {
+    color: #333;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: .02rem;
+}
+
+.scene-content-des {
+    word-wrap: break-word;
+    word-break: break-all;
+    color: #999;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.checked-bottom {
+    width: 100%;
+    z-index: 999;
+    position: absolute;
+    height: 2px;
+    background: #fff;
+    display: none;
+    bottom: 0;
+}
+
+.hide {
+    display: none;
+}
+
+.scene-desc-wrap {
+    margin-top: .66rem;
+    margin-bottom: .8rem;
+}
+
+.btn-wrap {
+    margin-top: .2rem;
+}
+
+.btn-use,
+.btn-preview {
+    display: inline-block;
+    width: 2.8rem;
+    height: 1.2rem;
+    border: .02rem solid #108cef;
+    -webkit-border-radius: .04rem;
+       -moz-border-radius: .04rem;
+            border-radius: .04rem;
+    font-size: 18px;
+    line-height: 1.2rem;
+    text-align: center;
+}
+
+.btn-preview {
+    color: #108cef;
+}
+
+.btn-use {
+    background: #108cef;
+    color: #fff;
+    margin-right: .2rem;
+}
