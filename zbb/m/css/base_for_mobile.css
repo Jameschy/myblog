@@ -178,8 +178,10 @@ body {
 }
 
 
-
-
+div#ext_stophi,
+div#passport-login-pop{
+    display: none;
+}
 
 
 
