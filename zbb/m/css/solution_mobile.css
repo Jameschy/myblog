@@ -1,0 +1,82 @@
+.banner-wrap {
+    width: 100%;
+    height: 3.4rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding: .64rem .4rem;
+}
+
+.auto-pilot-bg {
+    background-image: url(../../../../img/zhongbao/autopilot/auto-pilot-bg.png);
+}
+
+.security-bg {
+    background-image: url(../../../../img/zhongbao/security/security-bg.jpg);
+}
+
+.public-opinion-bg {
+    background-image: url(../../../../img/zhongbao/public-opinion/public-opinion-bg.jpg);
+}
+
+.face-recog-bg {
+    background-image: url(../../../../img/zhongbao/face-recognition/face-recog-bg.jpg);
+}
+
+.ocr-bg {
+    background-image: url(../../../../img/zhongbao/ocr/ocr-bg.jpg);
+}
+
+.speech-bg {
+    background-image: url(../../../../img/zhongbao/speech/speech-bg.jpg);
+}
+
+.banner-content {
+    color: #fff;
+    font-family: MicrosoftYaHei;
+}
+
+.banner-content h3{
+    font-size: 24px;
+    line-height: 2.12rem;
+    text-align: center;
+}
+
+.banner-content p {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.solution-item {
+    padding: .64rem .36rem 0 .36rem ;
+}
+
+.item-title {
+    text-align: center;
+    font-size: 18px;
+    line-height: 20px;
+    color: #333;
+}
+
+.item-des {
+    text-indent: 24px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #999;
+    margin-top: .22rem;
+}
+
+.item-img {
+    width: 100%;
+    background-size: 100%;
+}
+
+
+
+
+
+
+
+
+
+

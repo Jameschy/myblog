@@ -1,0 +1,91 @@
+.contact-title {
+    padding: .36rem 0;
+    margin-top: .28rem;
+    text-align: center;
+    font-size: 24px;
+    line-height: 31px;
+    color: #333;
+    font-family: MicrosoftYaHei;
+}
+
+.bui-popup-customer-row {
+    margin: 0 auto;
+    margin-bottom: .4rem;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: PingFangSC-Light;
+    width: 90%;
+}
+
+.bui-popup-customer-row input{
+    width: 96%;
+    height: .68rem;
+    -webkit-border-radius: 2px;
+       -moz-border-radius: 2px;
+            border-radius: 2px;
+    -webkit-appearance: none;
+}
+
+.personal-code {
+    position: relative;
+}
+
+.send-code {
+    position: absolute;
+    right: -1px;
+    width: 2.36rem;
+    height: .88rem;
+    top: 50%;
+    margin-top: -.44rem;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url(../../../../img/zhongbao/new/mobile/index/send-code.png);
+}
+
+.submit-demand {
+    width: 90%;
+    height: 1.2rem;
+    background: #4A90E2;
+    color: #fff;
+    text-align: center;
+    line-height: 1.2rem;
+    font-size: 18px;
+    font-family: MicrosoftYaHei;
+    -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+            border-radius: 3px;
+    margin: 0 auto;
+    margin-top: .4rem;
+}
+
+.send-code-EN {
+    position: absolute;
+    right: -1px;
+    width: 2.36rem;
+    height: .88rem;
+    top: 50%;
+    margin-top: -.44rem;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url(../../../../img/zhongbao/new/mobile/index/send-code-EN.png);
+}
+
+.error {
+    color: #E63837;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.error-input {
+    box-shadow: 0 0 4px 0 #E63837;
+}
+
+.custom-demand-content-block .submit {
+    text-align: center;
+}
+
+.section-type {
+    margin-bottom: .8rem;
+}
+
+

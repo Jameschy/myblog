@@ -1,0 +1,329 @@
+body {
+    scroll-behavior: smooth;
+}
+
+.zui-section {
+    padding: 0 0 40px 0;
+    overflow: hidden;
+}
+
+.zui-section:nth-child(even) {
+    background-color: #fff;    
+}
+
+.zui-section:nth-child(odd) {
+    background-color: #f6f7fb;
+}
+
+.zui-section .group {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.zui-section p[ui-type="text"] {
+    font-size: 14px;
+    line-height: 24px;
+    color: #333;
+    margin: 1em 0;
+}
+
+.zui-section img[ui-type="diagram"] {
+    width: 100%;
+    margin-top: 28px;
+    border: 0;
+}
+
+.zui-section .group .title {
+    margin: 40px 0 30px 0;
+    font-size: 24px;
+    color: #141a24;
+    padding-left: 14px;
+    position: relative;
+}
+
+.zui-section .group .title::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 4px;
+    bottom: 3px;
+    top: 6px;
+    left: 0;
+    background: #108cee;
+}
+
+.zui-section .figure {
+    float: left;
+    width: 49.15%;
+    box-sizing: border-box;
+    padding: 40px 5px 0 0;
+}
+
+.zui-section .figure:nth-child(odd) {
+    margin-right: 20px;
+}
+
+.figure img {
+    float: left;
+}
+
+.figure .description {
+    position: relative;
+    margin-left: 85px;
+}
+
+.figure .description > h3 {
+    color: #141a24;
+    margin-bottom: 14px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.figure .description > .content {
+    color: #666;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.apply-btn > .submit {
+    cursor: pointer;
+    width: 160px;
+    color: #FFF;
+    background: #108cee;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 38px;
+    font-size: 14px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    height: 38px;
+}
+
+.apply-btn > submit:hover {
+    background: #0b83e1;
+}
+
+.section-introduce {
+    background: #0e0e10!important;
+    background-image: linear-gradient(to right, #0e0e10, #1e2026);
+    background-repeat: repeat;
+    position: relative;
+    padding-bottom: 0;
+}
+
+.section-introduce .group {
+    height: 390px;
+    padding: 28px 0 0 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.section-introduce h1 {
+    font-size: 42px;
+    margin: 12px 0;
+    color: #FFF;
+    line-height: 44px;
+    font-weight: 400;
+}
+
+.section-introduce h2 {
+    font-size: 14px;
+    color: #FFF;
+    line-height: 16px;
+    font-weight: 400;
+    opacity: .5;
+}
+
+.section-introduce .desc {
+    color: #FFF;
+    font-size: 14px;
+    max-width: 680px;
+    line-height: 24px;
+    margin-top: 20px;
+}
+
+.section-introduce .group .apply-btn {
+    position: absolute;
+    bottom: 40px;
+}
+
+.product-nav {
+    position: relative;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    -webkit-transition: background-color .5s ease-out;
+       -moz-transition: background-color .5s ease-out;
+            transition: background-color .5s ease-out;
+}
+
+.product-nav .module-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.product-nav .module-nav .nav {
+    display: inline-block;
+    text-align: center;
+    line-height: 42px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.9);
+    cursor: pointer;
+}
+
+.product-nav .module-nav .nav.current,
+.product-nav .module-nav .nav:hover {
+    color: #108cee;
+}
+
+.product-nav i {
+    position: absolute;
+    width: 40px;
+    display: block;
+    height: 2px;
+    background: #108cee;
+    bottom: 0;
+    -webkit-transition: left .5s ease-out;
+       -moz-transition: left .5s ease-out;
+            transition: left .5s ease-out;
+}
+
+.product-nav .nav-show-box {
+    height: 0;
+    overflow: hidden;
+    position: relative;
+    width: 1180px;
+    margin: 0 auto;
+    -webkit-transition: height .5s ease-out;
+       -moz-transition: height .5s ease-out;
+            transition: height .5s ease-out;
+}
+
+.product-nav .nav-product-title {
+    margin: 7px 160px;
+    font-size: 24px;
+    color: #FFF;
+    line-height: 36px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.product-nav.nav-fixed {
+    position: fixed;
+    top: 0;
+    background: #FFF;
+    bottom: initial;
+    border-bottom: 1px solid #e6e6e6;
+    z-index: 1;
+}
+
+.product-nav.nav-fixed .apply-btn {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 7px;
+}
+
+.product-nav.nav-fixed .nav-product-title {
+    color: #333;
+}
+
+.product-nav.nav-fixed .nav-show-box {
+    height: 50px;
+}
+
+.product-nav.nav-fixed .module-nav a {
+    color: #333;
+}
+
+.section-features .figure .description > .content {
+    font-size: 14px;
+}
+
+.section-features .group > .content,
+.section-advantages .group > .content {
+    margin-top: -20px;
+}
+.section-related .figure {
+    padding: 0;
+}
+.section-related .figure .description {
+    margin-left: 0;
+    position: static;
+}
+
+.section-related .figure .ico {
+    margin-bottom: 80px;
+}
+
+.section-related .figure .description > .content {
+    font-size: 14px;
+    margin-right: 110px;
+}
+
+.section-related a {    
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    line-height: 30px;
+    color: #108cee;
+}
+
+.section-related a:hover .figure {
+    background: #fafafa;
+}
+
+.section-related a:hover h3 {
+    color: #0b83e1;
+}
+
+.section-related a:hover .append-btn {
+    border-color: #0b83e1;
+    color: #0b83e1;
+}
+
+.section-processes .figures {
+    overflow: hidden;
+}
+
+.section-processes .apply-btn {
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 160px;
+}
+
+.section-processes .figure {
+    width: 280px;
+    height: 175px;
+    padding: 25px 0 0 0;
+    margin-right: 20px;
+    border: 1px solid #e6e6e6;
+    text-align: center;
+}
+
+.section-processes .figure:last-child {
+    margin-right: 0;
+}
+
+.section-processes .figure > img {
+    display: block;
+    float: none;
+    margin: 0 auto;
+}
+
+.section-processes .figure > h3 {    
+    padding-top: 10px;
+    font-size: 16px;
+    color: #0b83e1;
+    line-height: 30px;
+}
+
+.section-processes .figure > p {
+    font-size: 14px;
+    color: #666;
+}

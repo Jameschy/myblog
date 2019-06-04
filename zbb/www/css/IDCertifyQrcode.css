@@ -1,0 +1,326 @@
+.tang-pass-IDCertifyQrcode .clearfix:after,.tang-pass-IDCertifyQrcode .pass-form-item:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.tang-pass-IDCertifyQrcode .clearfix, .tang-pass-IDCertifyQrcode .pass-form-item {
+    zoom: 1;
+}
+
+.tang-pass-IDCertifyQrcode dl,
+.tang-pass-IDCertifyQrcode dt,
+.tang-pass-IDCertifyQrcode dd,
+.tang-pass-IDCertifyQrcode ul,
+.tang-pass-IDCertifyQrcode ol,
+.tang-pass-IDCertifyQrcode li,
+.tang-pass-IDCertifyQrcode input,
+.tang-pass-IDCertifyQrcode p {
+    margin: 0;
+    padding: 0;
+}
+.tang-pass-IDCertifyQrcode a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #1b66c7;
+    font-family: Arial, Helvetica, STHeiti, "宋体";
+}
+.tang-pass-IDCertifyQrcode a:hover {
+    text-decoration: underline;
+    color: #2e7fdb;
+}
+
+/* tang-ui commons */
+.tang-pass-IDCertifyQrcode div.tang-title span {
+    width: auto;
+    height: 18px;
+    font-size: 16px;
+    font-family: "宋体";
+    color: #666;
+    text-indent: 20px;
+    padding: 15px 0 13px;
+    margin-right: 29px;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+    box-sizing: content-box;
+}
+.tang-pass-IDCertifyQrcode div.tang-title {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-width: 1px 1px 0 1px;
+    border-bottom: 0;
+}
+.tang-pass-IDCertifyQrcode div.tang-title-dragable {
+    cursor: move;
+    position: relative;
+}
+.tang-pass-IDCertifyQrcode div.tang-title .buttons {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 20px;
+    top: 16px;
+}
+.tang-pass-IDCertifyQrcode div.tang-title .buttons a {
+    width: 16px;
+    height: 16px;
+    outline: none;
+    display: block;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+.tang-pass-IDCertifyQrcode div.tang-title a.close-btn {
+    background-image: url('/passApi/img/pass_login_icons.png');
+    background-image: -webkit-image-set(url('/passApi/img/pass_login_icons.png') 1x,url('/passApi/img/pass_login_icons_retina.png') 2x);
+    background-image: -moz-image-set(url('/passApi/img/pass_login_icons.png') 1x,url('/passApi/img/pass_login_icons_retina.png') 2x);
+    background-image: -o-image-set(url('/passApi/img/pass_login_icons.png') 1x,url('/passApi/img/pass_login_icons_retina.png') 2x);
+    background-image: -ms-image-set(url('/passApi/img/pass_login_icons.png') 1x,url('/passApi/img/pass_login_icons_retina.png') 2x);
+    background-position: -56px -48px ;
+}
+.tang-pass-IDCertifyQrcode div.tang-title a.close-btn:hover {
+    background-position: -72px -48px ;
+}
+.tang-pass-IDCertifyQrcode div.tang-body {
+    background-color: #FFF;
+    border: 1px solid #ddd; 
+    border-width: 0 1px 1px 1px;
+}
+.tang-pass-IDCertifyQrcode div.tang-content {
+    border-top: 1px solid #F2F2F2;
+}
+
+.tang-pass-IDCertifyQrcode .tang-body .contentFrame {
+    padding: 0;
+}
+
+.tang-pass-IDCertifyQrcode .tang-body .contentFrame iframe {
+    border: 0;
+    width: 100%;
+    height: 100%;
+}
+.tang-pass-IDCertifyQrcode .tang-body {
+    position: relative;
+    overflow: visible;
+}
+
+.tang-mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #FFF;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.tang-pass-IDCertifyQrcode .pass-login-pop-form {
+    margin-bottom: 15px;
+}
+
+/*公共*/
+.tang-pass-IDCertifyQrcode .pass-login-pop-content {
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+
+.pass-IDCertifyQrcode-pop-content {
+    padding: 0 20px 30px;
+}
+
+.pass-IDCertifyQrcode-pop-content .pass-titleWrapper {
+    font-size: 12px;
+    margin-top: 30px;
+    line-height: 20px;
+}
+
+.tang-pass-IDCertifyQrcode .pass-form-item {
+    position: relative;
+    margin: 0;
+    margin-bottom: 15px;
+    z-index: 18;
+    width: 360px;
+}
+
+.IDCertifyQrcode-status-con {
+    width: 138px;
+    height: 138px;
+    background: url("/passApi/img/qrcode-con.png") no-repeat center;
+    padding: 9px;
+    text-align: center;
+    color: #000;
+    font-size: 14px;
+    display: none;
+    -webkit-transition: all 0.3s liner;
+       -moz-transition: all 0.3s liner;
+        -ms-transition: all 0.3s liner;
+            transition: all 0.3s liner;
+    -webkit-transform: translateX(0);
+       -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+            transform: translateX(0);
+}
+.IDCertifyQrcode-main-img,.IDCertifyQrcode-loading-img {
+    width: 138px;
+    height: 138px;
+}
+.IDCertifyQrcode-status-msg {
+    font-size: 12px;
+    color:#333 ;
+}
+.IDCertifyQrcode-status-con .IDCertifyQrcode-status-icon {
+    width: 36px;
+    height: 36px;
+    margin:28px auto 16px;
+}
+.IDCertifyQrcode-status-loading {
+    display: block;
+}
+.IDCertifyQrcode-stauts-main {
+    position: relative;
+}
+.IDCertifyQrcode-status-animation {
+    background:url("/passApi/img/qrcode-guide.png") no-repeat center;
+    height: 156px;
+    width: 125px;
+    position: absolute;
+    top: 0px;
+    left: 180px;
+    display: none;
+}
+.IDCertifyQrcode-status-guideAnim {
+    display: block;
+}
+.IDCertifyQrcode-status-success .IDCertifyQrcode-status-icon {
+    background:url("/passApi/img/qrcode-success.png") no-repeat center;
+}
+.IDCertifyQrcode-status-error .IDCertifyQrcode-status-icon {
+    background:url("/passApi/img/qrcode-error.png") no-repeat center;
+}
+.IDCertifyQrcode-status-refresh .IDCertifyQrcode-status-icon {
+    margin-top: 15px;
+    background:url("/passApi/img/qrcode-refresh.png") no-repeat center;
+}
+p.IDCertifyQrcode-refresh-btn {
+    color: #fff;
+    text-align: center;
+    padding: 8px 10px;
+    background: #3388ff;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 6px;
+}
+.IDCertifyQrcode-animation {
+    -webkit-animation: marginLeft .3s linear;
+       -moz-animation: marginLeft .3s linear;
+        -ms-animation: marginLeft .3s linear;
+            animation: marginLeft .3s linear;
+
+    -webkit-transition: all 0.3s liner;
+       -moz-transition: all 0.3s liner;
+        -ms-transition: all 0.3s liner;
+            transition: all 0.3s liner;
+
+    -webkit-transform: translateX(-69px);
+       -moz-transform: translateX(-69px);
+        -ms-transform: translateX(-69px);
+            transform: translateX(-69px);
+}
+.IDCertifyQrcode-animationRight {
+    -webkit-animation: marginRight .3s linear;
+       -moz-animation: marginRight .3s linear;
+        -ms-animation: marginRight .3s linear;
+            animation: marginRight .3s linear;
+
+    -webkit-transition: all 0.3s liner;
+       -moz-transition: all 0.3s liner;
+        -ms-transition: all 0.3s liner;
+            transition: all 0.3s liner;
+
+    -webkit-transform: translateX(0);
+       -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+            transform: translateX(0);
+}
+@-webkit-keyframes marginLeft {
+    0%{
+        -webkit-transform: translateX(0);
+    }
+    100% {
+        -webkit-transform: translateX(-69px);
+    }
+}
+@-moz-keyframes marginLeft {
+    0%{
+        -moz-transform: translateX(0);
+    }
+    100% {
+        -moz-transform: translateX(-69px);
+    }
+}
+@-ms-keyframes marginLeft {
+    0%{
+        -ms-transform: translateX(0);
+    }
+    100% {
+        -ms-transform: translateX(-69px);
+    }
+}
+@keyframes marginLeft {
+    0%{
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-69px);
+    }
+}
+
+@-webkit-keyframes marginRight {
+    0%{
+        -webkit-transform: translateX(-69px);
+    }
+    100% {
+        -webkit-transform: translateX(0);
+    }
+}
+@-moz-keyframes marginRight {
+    0%{
+        -moz-transform: translateX(-69px);
+    }
+    100% {
+        -moz-transform: translateX(0);
+    }
+}
+@-ms-keyframes marginRight {
+    0%{
+        -ms-transform: translateX(-69px);
+    }
+    100% {
+        -ms-transform: translateX(0);
+    }
+}
+@keyframes marginRight {
+    0%{
+        transform: translateX(-69px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.left {
+    float: left;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}

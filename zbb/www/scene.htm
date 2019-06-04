@@ -1,0 +1,363 @@
+
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>  百度数据众包平台  </title>
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE">
+    <meta name="keywords" content="百度数据众包,数据标注,数据采集,数据清洗,文本数据,语音数据,图像数据">
+    <meta name="description" content="百度数据众包，提供专业的数据标注、制作、采集服务，全方位支持文本、语音、图像、视频等各类型数据的处理，速度快、成本低、质量高。服务适合舆情监控、图片识别、OCR识别、语音识别、自然语言处理、交通、电商、医疗等领域的数据处理。">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="telephone=no" name="format-detection">
+    <link rel="shortcut icon" href="https://www.baidu.com/cache/icon/favicon.ico" type="image/x-icon">
+    <link rel="icon" sizes="any"  href="https://www.baidu.com/cache/icon/favicon.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
+
+    <!--basic css-->
+    
+    <link rel="stylesheet" href="css/mobase.css-v=83d856cfd5908c7f7c7583fd155952e8.css" tppabs="http://zhongbao.baidu.com/mark/static/css/mobase.css?v=83d856cfd5908c7f7c7583fd155952e8">
+    
+<link rel="stylesheet" href="css/base.css-v=3834dcaa7e585a3dfbbc25051fe0cd68.css" tppabs="http://zhongbao.baidu.com/mark/static/css/zhongbao/new/base.css?v=3834dcaa7e585a3dfbbc25051fe0cd68">
+
+
+    <script src="js/cal_font_size.js" tppabs="http://zhongbao.baidu.com/mark//static/js/cal_font_size.js"></script>
+        <script>var _hmt = _hmt || [];(function() {var hm = document.createElement("script");hm.src = "hm.js-48f82868aa1ed62bf1defb68bd7972b1"/*tpa=http://hm.baidu.com/hm.js?48f82868aa1ed62bf1defb68bd7972b1*/;var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(hm, s);})();</script>
+
+    <!--basic lib-->
+    <script src="js/jquery.min.js" tppabs="http://apps.bdimg.com/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/sea.js-version=2016102520" tppabs="http://zhongbao.baidu.com/mark/static/js_ng/sea.js?version=2016102520"></script>
+    <script src="js/seaconfig.js-version=2016102520" tppabs="http://zhongbao.baidu.com/mark/static/js_ng/seaconfig.js?version=2016102520"></script>
+    <script src="js/polyfill.min.js" tppabs="http://zhongbao.baidu.com/mark/static/js_ng/lib/polyfill.min.js"></script>
+    <!--basic css-->
+    <link rel="stylesheet" type="text/css" href="css/iconfont.css" tppabs="http://zhongbao.baidu.com/mark/static/js_bf/static/css/hui_iconfont_v1.0.6/iconfont.css">
+
+    <!--global var-->
+    <script>
+        var baseUrl = 'index.htm'/*tpa=http://zhongbao.baidu.com/*/;
+        var base_url_module = 'http://zhongbao.baidu.com/crowdtest/';
+        var base_dir_module = 'http://zhongbao.baidu.com/crowdtest/';
+        var yii_csrf_token_global = '45c3bafff3bda49da6a164987c297198a5dee0e2';
+        var yii_csrf_token = '45c3bafff3bda49da6a164987c297198a5dee0e2';
+
+        var BASE_ADMIN_DIR_MODULE = "/admin/";
+        var BASE_MARK_DIR_MODULE = "/mark/";
+        var BASE_PROXY_URL = "";
+//        seajs.use('/mark/static/js/popup/RightSideDock', function(dock) {
+//            dock.init("");
+//        });
+    var isMobile = "";
+    if (!isMobile) {
+        window.seajs.use('/mark/static/js/popup/MenuSidebar', function (dock) {
+            dock.init();
+        });
+    }
+    </script>
+</head>
+<body>
+ <div class="zui-header-wrap"><div class="zui-header"><div class="zui-header-logo dib"><a href="index.htm" tppabs="http://zhongbao.baidu.com/"><img class="zui-header-logo-img" src="img/logo.svg" tppabs="http://zhongbao.baidu.com/mark/static/img/zhongbao/logo.svg" style="width: 216px;height: 38px;"></a></div><ul class="zui-header-menu dib">
+        <li class="zui-header-menu-item zui-header-menu-item-dropdown zui-header-menu-item-index">
+        <a href="index.htm" tppabs="http://zhongbao.baidu.com/mark/home/index">首页</a>
+            </li>
+        <li class="zui-header-menu-item zui-header-menu-item-dropdown zui-header-menu-item-service">
+        <a href="javascript:;">产品服务</a>
+                <ul class="zui-header-inner-nav service-nav">
+                        <li class="zui-header-inner-menu-item">
+                                <a href="collection.htm" tppabs="http://zhongbao.baidu.com/mark/home/collection">人工采集</a>
+                            </li>
+                        <li class="zui-header-inner-menu-item">
+                                <a href="mark.htm" tppabs="http://zhongbao.baidu.com/mark/home/mark">数据标注</a>
+                            </li>
+                        <li class="zui-header-inner-menu-item">
+                                <a href="crawl.htm" tppabs="http://zhongbao.baidu.com/mark/home/crawl">数据抓取</a>
+                            </li>
+                        <li class="zui-header-inner-menu-item">
+                                <a href="survey.htm" tppabs="http://zhongbao.baidu.com/mark/home/survey">问卷调研</a>
+                            </li>
+                    </ul>
+            </li>
+        <li class="zui-header-menu-item zui-header-menu-item-dropdown zui-header-menu-item-case">
+        <a href="case.htm" tppabs="http://zhongbao.baidu.com/mark/home/case">案例中心</a>
+            </li>
+        <li class="zui-header-menu-item zui-header-menu-item-dropdown zui-header-menu-item-solution">
+        <a href="javascript:;">解决方案</a>
+                <ul class="zui-header-inner-nav solution-nav">
+                        <li class="zui-header-inner-menu-item">
+                                <h3>行业解决方案</h3>
+                <ul class="zui-header-nest-solution-nav">
+                                        <li><a href="autoPilot.htm" tppabs="http://zhongbao.baidu.com/mark/home/autoPilot">自动驾驶数据解决方案</a></li>
+                                        <li><a href="securitySolution.htm" tppabs="http://zhongbao.baidu.com/mark/home/securitySolution">智能安防解决方案</a></li>
+                                        <li><a href="publicOpinion.htm" tppabs="http://zhongbao.baidu.com/mark/home/publicOpinion">新闻舆情解决方案</a></li>
+                                    </ul>
+                            </li>
+                        <li class="zui-header-inner-menu-item">
+                                <h3>专项解决方案</h3>
+                <ul class="zui-header-nest-solution-nav">
+                                        <li><a href="faceRecognition.htm" tppabs="http://zhongbao.baidu.com/mark/home/faceRecognition">人脸人像解决方案</a></li>
+                                        <li><a href="ocr.htm" tppabs="http://zhongbao.baidu.com/mark/home/ocr">OCR识别解决方案</a></li>
+                                        <li><a href="speechSolution.htm" tppabs="http://zhongbao.baidu.com/mark/home/speechSolution">智能语音解决方案</a></li>
+                                    </ul>
+                            </li>
+                    </ul>
+            </li>
+        <li class="zui-header-menu-item zui-header-menu-item-dropdown zui-header-menu-item-dataStore">
+        <a href="dataStore.htm" tppabs="http://zhongbao.baidu.com/mark/home/dataStore">数据商店</a>
+            </li>
+        <li class="zui-header-menu-item zui-header-menu-item-dropdown zui-header-menu-item-about">
+        <a href="about.htm" tppabs="http://zhongbao.baidu.com/mark/home/about">关于我们</a>
+            </li>
+        <li class="zui-header-menu-item zui-header-menu-item-dropdown zui-header-menu-item-contact">
+        <a href="contact.htm" tppabs="http://zhongbao.baidu.com/mark/home/contact">联系我们</a>
+            </li>
+    </ul><div class="zui-header-op dib"><span class="zui-header-op-item" id="js_pass_login_btn">登录</span><a href="index.htm" tppabs="http://zhongbao.baidu.com/ds/project/list" class="zui-header-op-item" id="js_pass_console_btn">管理控制台</a><div class="toggle-language"></div></div></div></div><label for="is-mobile" style="display: none;"></label><input type="hidden" id="is-mobile" value=""><div class="case-header">
+    <img id="case_header_bg_img" src="img/scene_img.png" tppabs="http://zhongbao.baidu.com/mark/static/img/zhongbao/newly/scene_img.png">
+    <div class="text-block">
+        <div class="main-text mb20" style="font-size: 48px;">为您提供优质的应用场景</div>
+        <div class="scene-button-wrap">
+            <a class="apply-now" href="index-url=http---zhongbao.baidu.com-mark-check-projectIndex&showLogin=1.htm" tppabs="http://zhongbao.baidu.com/mark/check/projectIndex">进入自助平台</a>
+            <a class="apply-custom" href="custom.htm" tppabs="http://zhongbao.baidu.com/mark/home/custom">我要定制服务</a>
+        </div>
+    </div>
+</div>
+<div class="scene-section section-type">
+    <div class="scene-type">自助服务流程</div><!--
+        --><div class="scene-step-content-block">
+    <div class="scene-step-card">
+        <div class="scene-step-title"></div>
+        <div class="scene-step-content">根据您的需求设计任务题型（场景提供丰富题型组合）</div>
+    </div><!--
+        --><div class="scene-step-connect"></div><!--
+        --><div class="scene-step-card">
+    <div class="scene-step-title"></div>
+    <div class="scene-step-content">准备好您需要处理的数据并根据引导上传</div>
+</div><!--
+        --><div class="scene-step-connect"></div><!--
+        --><div class="scene-step-card">
+    <div class="scene-step-title"></div>
+    <div class="scene-step-content">设置特定任务配置，一键发布到test平台进行标注</div>
+</div><!--
+        --><div class="scene-step-connect"></div><!--
+        --><div class="scene-step-card">
+    <div class="scene-step-title"></div>
+    <div class="scene-step-content">test平台标注审核结束，一键回收标注结果数据</div>
+</div>
+</div>
+</div>
+<div class="scene-section section-type">
+    <div class="scene-type">自助服务场景</div><!--
+        --><div class="scene-type-tab">
+        <a class="scene-sub-type" scene-tag="text">文本处理</a>
+        <a class="scene-sub-type" scene-tag="image">图片处理</a>
+        <a class="scene-sub-type" scene-tag="audio">语音处理</a>
+        <a class="scene-sub-type" scene-tag="web">网页处理</a>
+    </div>
+    <div class="scene-step-content-block">
+                <div class="scene-sub-type-content hide" scene-tag="text">
+                        <div class="scene-type-content-text">
+                <label>文本归类</label>
+                <div>大数据时代，如何让你的大数据变成有效的数据是更为重要的事情。大量的产品评价信息、搜索关键词、实体词汇都需要去冗余处理、分类处理。使用该场景，可快速创建针对文本的归类任务，点击预览可以查看该场景提供的标注题型。<br>例如，如果您有数量庞大的产品评价信息等待处理，而您需要筛选出其中明确好评及明确差评的信息进行分析，该场景下可为每条评价信息配置多个选项（如：明确差评，明确好评，中立，广告），最终您的原始数据会按照选项分类标注。</div>
+                <div class="scene-button-wrap">
+                    <a class="zui-btn zui-btn-white mr10" target="_blank" href="index-url=http---zhongbao.baidu.com-mark-scene-preview-id=1&showLogin=1.htm" tppabs="http://zhongbao.baidu.com/mark/scene/preview?id=1">预览</a>
+                    <a class="zui-btn zui-btn-green" target="_blank" href="index-url=http---zhongbao.baidu.com-mark-check-projectIndex&showLogin=1.htm" tppabs="http://zhongbao.baidu.com/mark/check/projectIndex">立即使用</a>
+                </div>
+            </div>
+            <div class="scene-sub-type-img" style="background-image: url(/mark/static/img/zhongbao/icon/text_mark.png);"></div>
+                        <div class="scene-type-content-text">
+                <label>文本提取</label>
+                <div>如果您需要从网页、文章、文本集合中提取出符合需求的文本，甚至是撰写新的文本（如网页摘要），都可选择该场景。<br>例如，如果您现在有大量的网页链接，需要通过网页展示的信息提取出三个网页的内容关键词，该场景下可以配置一个网页展示区域及多个文本输入框，您最终回收的数据为所有网页链接及与其一一对应的关键词集合。</div>
+                <div class="scene-button-wrap">
+                    <a class="zui-btn zui-btn-white mr10" target="_blank" href="index-url=http---zhongbao.baidu.com-mark-scene-preview-id=51&showLogin=1.htm" tppabs="http://zhongbao.baidu.com/mark/scene/preview?id=51">预览</a>
+                    <a class="zui-btn zui-btn-green" target="_blank" href="index-url=http---zhongbao.baidu.com-mark-check-projectIndex&showLogin=1.htm" tppabs="http://zhongbao.baidu.com/mark/check/projectIndex">立即使用</a>
+                </div>
+            </div>
+            <div class="scene-sub-type-img" style="background-image: url(/mark/static/img/zhongbao/icon/text_extract.png);"></div>
+                        <div class="scene-type-content-text">
+                <label>文本校正</label>
+                <div>在文本的处理中，人工的校正总是更为准确。特别是针对中文这种语法多变、词义复杂的语种，人工校正当然是必不可少的一步。选择该场景，创建可以完成文本词法、准确用词等校正工作的任务。<br>假如，您正在做自然语言处理，有一些机器分析的文本词法需要进行人工校验，则可以用该场景，将您的词法规则描述清晰，按照特定样式展示出您的原始数据，众包平台将为您返回校正后的文本。</div>
+                <div class="scene-button-wrap">
+                    <a class="zui-btn zui-btn-white mr10" target="_blank" href="index-url=http---zhongbao.baidu.com-mark-scene-preview-id=52&showLogin=1.htm" tppabs="http://zhongbao.baidu.com/mark/scene/preview?id=52">预览</a>
+                    <a class="zui-btn zui-btn-green" target="_blank" href="index-url=http---zhongbao.baidu.com-mark-check-projectIndex&showLogin=1.htm" tppabs="http://zhongbao.baidu.com/mark/check/projectIndex">立即使用</a>
+                </div>
+            </div>
+            <div class="scene-sub-type-img" style="background-image: url(/mark/static/img/zhongbao/icon/text_verify.png);"></div>
+                    </div>
+                <div class="scene-sub-type-content hide" scene-tag="image">
+                        <div class="scene-type-content-text">
+                <label>图片归类</label>
+                <div>与文本相似，大量的图片数据也有分类处理、有效图片筛选等需求。该场景设计了非常简洁的图片筛选题型，让图片分类处理更加高效、快速。您只需提供图片链接及筛选条件即可快速创建发布任务。<br>假如，您是电商平台开发方，有大量图片需要根据关键词归类，该场景提供了非常高效的筛选方式，您只需要提供图片链接集合及对应需筛选的类别关键字，可以很快回收分类后的图片数据。</div>
+                <div class="scene-button-wrap">
+                    <a class="zui-btn zui-btn-white mr10" target="_blank" href="index-url=http---zhongbao.baidu.com-mark-scene-preview-id=9&showLogin=1.htm" tppabs="http://zhongbao.baidu.com/mark/scene/preview?id=9">预览</a>
+                    <a class="zui-btn zui-btn-green" target="_blank" href="index-url=http---zhongbao.baidu.com-mark-check-projectIndex&showLogin=1.htm" tppabs="http://zhongbao.baidu.com/mark/check/projectIndex">立即使用</a>
+                </div>
+            </div>
+            <div class="scene-sub-type-img" style="background-image: url(/mark/static/img/zhongbao/icon/picture_filter.png);"></div>
+                        <div class="scene-type-content-text">
+                <label>图片标签化</label>
+                <div>为菜品图片标记口味和烹饪方式信息，为服装图片标记花色、款式等信息，是一种为图片打标签的需求，图片标签化场景可以很好地满足这种需求。<br>如果您的电商平台有大量的图片数据，需要进行多维度的标签标注，那这个场景将非常满足您的需求。</div>
+                <div class="scene-button-wrap">
+                    <a class="zui-btn zui-btn-white mr10" target="_blank" href="index-url=http---zhongbao.baidu.com-mark-scene-preview-id=38&showLogin=1.htm" tppabs="http://zhongbao.baidu.com/mark/scene/preview?id=38">预览</a>
+                    <a class="zui-btn zui-btn-green" target="_blank" href="index-url=http---zhongbao.baidu.com-mark-check-projectIndex&showLogin=1.htm" tppabs="http://zhongbao.baidu.com/mark/check/projectIndex">立即使用</a>
+                </div>
+            </div>
+            <div class="scene-sub-type-img" style="background-image: url(/mark/static/img/zhongbao/icon/picture_filter.png);"></div>
+                        <div class="scene-type-content-text">
+                <label>图片内容标记</label>
+                <div>在百度无人车交通元素识别，图片文字识别中，需要大量的原始识别数据支持。该场景很好地支持图片中实体内容的识别标注，提供简单的框选标注工具让数据回收效率、准确度更高。<br>对于正在做图像识别的您来说，这个场景将能为您快速地提供相当准确的框标注数据，如图片中的人脸框标注、文字框标注等。</div>
+                <div class="scene-button-wrap">
+                    <a class="zui-btn zui-btn-white mr10" target="_blank" href="index-url=http---zhongbao.baidu.com-mark-scene-preview-id=6&showLogin=1.htm" tppabs="http://zhongbao.baidu.com/mark/scene/preview?id=6">预览</a>
+                    <a class="zui-btn zui-btn-green" target="_blank" href="index-url=http---zhongbao.baidu.com-mark-check-projectIndex&showLogin=1.htm" tppabs="http://zhongbao.baidu.com/mark/check/projectIndex">立即使用</a>
+                </div>
+            </div>
+            <div class="scene-sub-type-img" style="background-image: url(/mark/static/img/zhongbao/icon/picture_extract.png);"></div>
+                        <div class="scene-type-content-text">
+                <label>图片采集</label>
+                <div>特定物体、实体图片采集，基于地理位置的图片信息采集，无论是需要大量的图片数据或者是需要特定条件下收集的图片数据，都可以通过这个场景实现。<br>如果您正在开发LBS相关服务，需要大量的基于地理位置信息的图片，如商场、门店、景点等图片，该场景则是最好的选择。</div>
+                <div class="scene-button-wrap">
+                    <a class="zui-btn zui-btn-white mr10" target="_blank" href="index-url=http---zhongbao.baidu.com-mark-scene-preview-id=40&showLogin=1.htm" tppabs="http://zhongbao.baidu.com/mark/scene/preview?id=40">预览</a>
+                    <a class="zui-btn zui-btn-green" target="_blank" href="index-url=http---zhongbao.baidu.com-mark-check-projectIndex&showLogin=1.htm" tppabs="http://zhongbao.baidu.com/mark/check/projectIndex">立即使用</a>
+                </div>
+            </div>
+            <div class="scene-sub-type-img" style="background-image: url(/mark/static/img/zhongbao/icon/picture_pick.png);"></div>
+                    </div>
+                <div class="scene-sub-type-content hide" scene-tag="audio">
+                        <div class="scene-type-content-text">
+                <label>语音内容提取</label>
+                <div>机器往往不能完全准确地识别出语音的内容，但人工可以做到，而要优化语音识别也需要人工的介入。该场景通过人工转义，可以实现高质量的音频内容文本化。<br>如果正在研发语音识别的您有大量的语料需要做文本化处理，这个场景将为您提供无语种限制的人工转义，可很大程度保障转义的正确性。</div>
+                <div class="scene-button-wrap">
+                    <a class="zui-btn zui-btn-white mr10" target="_blank" href="index-url=http---zhongbao.baidu.com-mark-scene-preview-id=2&showLogin=1.htm" tppabs="http://zhongbao.baidu.com/mark/scene/preview?id=2">预览</a>
+                    <a class="zui-btn zui-btn-green" target="_blank" href="index-url=http---zhongbao.baidu.com-mark-check-projectIndex&showLogin=1.htm" tppabs="http://zhongbao.baidu.com/mark/check/projectIndex">立即使用</a>
+                </div>
+            </div>
+            <div class="scene-sub-type-img" style="background-image: url(/mark/static/img/zhongbao/icon/audio_text.png);"></div>
+                        <div class="scene-type-content-text">
+                <label>语音筛选</label>
+                <div>如果您的机器学习已经有了对音频的识别但需要校验结果，或者您采集的音频数据需要进行一轮清洗以提高采集质量，则可以使用语音筛选场景实现。<br>如果您已经采集了大量规定内容的语音，可以通过该场景进行语音文件的有效性筛选（如：内容是否清晰，是否为规定内容的语音），或者语音提供者的属性筛选（如：男声、女声、孩童、老人等）。</div>
+                <div class="scene-button-wrap">
+                    <a class="zui-btn zui-btn-white mr10" target="_blank" href="index-url=http---zhongbao.baidu.com-mark-scene-preview-id=2&showLogin=1.htm" tppabs="http://zhongbao.baidu.com/mark/scene/preview?id=2">预览</a>
+                    <a class="zui-btn zui-btn-green" target="_blank" href="index-url=http---zhongbao.baidu.com-mark-check-projectIndex&showLogin=1.htm" tppabs="http://zhongbao.baidu.com/mark/check/projectIndex">立即使用</a>
+                </div>
+            </div>
+            <div class="scene-sub-type-img" style="background-image: url(/mark/static/img/zhongbao/icon/audio_clear.png);"></div>
+                        <div class="scene-type-content-text">
+                <label>语料采集</label>
+                <div>与图片采集不同，语音采集的难度更大，尤其是对特殊内容及语种的语料采集。在众包平台这些问题都能得到解决，您只需要定义好采集需求，我们的语音采集场景将能快速支持。<br>如果您的语音技术研发需要大量特定条件的语音（如：女声阅读特定内容）或者普通语音，这个场景则可完全满足您的需求。</div>
+                <div class="scene-button-wrap">
+                    <a class="zui-btn zui-btn-white mr10" target="_blank" href="index-url=http---zhongbao.baidu.com-mark-scene-preview-id=5&showLogin=1.htm" tppabs="http://zhongbao.baidu.com/mark/scene/preview?id=5">预览</a>
+                    <a class="zui-btn zui-btn-green" target="_blank" href="index-url=http---zhongbao.baidu.com-mark-check-projectIndex&showLogin=1.htm" tppabs="http://zhongbao.baidu.com/mark/check/projectIndex">立即使用</a>
+                </div>
+            </div>
+            <div class="scene-sub-type-img" style="background-image: url(/mark/static/img/zhongbao/icon/audio_pick.png);"></div>
+                    </div>
+                <div class="scene-sub-type-content hide" scene-tag="web">
+                        <div class="scene-type-content-text">
+                <label>有效网页筛选</label>
+                <div>该场景支持嵌入iframe，您只需提供网页链接及相关query，即可发布网页有效性筛选的任务。该场景可以处理的类型包括搜索结果相关性判断、网页内容与query匹配度判断、网页搜索内容对比选择等。<br>假如，您是搜索引擎开发方，需要人工判断分析您的产品搜索结果与query的匹配程度，在该场景下，嵌入搜索网页展示，及相应的匹配程度选项（如：非常符合，一般符合，不太符合等），标注员会按照您设定的判断规则进行归类处理。</div>
+                <div class="scene-button-wrap">
+                    <a class="zui-btn zui-btn-white mr10" target="_blank" href="index-url=http---zhongbao.baidu.com-mark-scene-preview-id=3&showLogin=1.htm" tppabs="http://zhongbao.baidu.com/mark/scene/preview?id=3">预览</a>
+                    <a class="zui-btn zui-btn-green" target="_blank" href="index-url=http---zhongbao.baidu.com-mark-check-projectIndex&showLogin=1.htm" tppabs="http://zhongbao.baidu.com/mark/check/projectIndex">立即使用</a>
+                </div>
+            </div>
+            <div class="scene-sub-type-img" style="background-image: url(/mark/static/img/zhongbao/icon/page_clear.png);"></div>
+                    </div>
+            </div>
+</div><div class="zui-footer">
+    <div class="bui-footer-wrap">
+        <div class="bui-footer">
+            <div class="container">
+                <div class="bui-footer-row">
+                                        <div class="item-group">
+                        <div class="category">关于百度众包</div>
+                                                <div class="item">
+                            <a href="custom.htm" tppabs="http://zhongbao.baidu.com/mark/home/custom" target="">定制服务</a>
+                        </div>
+                                                <div class="item">
+                            <a href="scene.htm" tppabs="http://zhongbao.baidu.com/mark/home/scene" target="">自助平台</a>
+                        </div>
+                                                <div class="item">
+                            <a href="case.htm" tppabs="http://zhongbao.baidu.com/mark/home/case" target="">成功案例</a>
+                        </div>
+                                            </div>
+                                        <div class="item-group">
+                        <div class="category">友情链接</div>
+                                                <div class="item">
+                            <a href="javascript:if(confirm('http://test.baidu.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://test.baidu.com/'" tppabs="http://test.baidu.com/" target="black">百度众测</a>
+                        </div>
+                                                <div class="item">
+                            <a href="javascript:if(confirm('http://mtc.baidu.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://mtc.baidu.com/'" tppabs="http://mtc.baidu.com/" target="black">百度MTC</a>
+                        </div>
+                                                <div class="item">
+                            <a href="javascript:if(confirm('http://ai.baidu.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://ai.baidu.com/'" tppabs="http://ai.baidu.com/" target="black">百度大脑</a>
+                        </div>
+                                                <div class="item">
+                            <a href="javascript:if(confirm('http://aim.baidu.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://aim.baidu.com/'" tppabs="http://aim.baidu.com/" target="black">百度AI市场</a>
+                        </div>
+                                            </div>
+                                        <div class="item-group">
+                        <div class="category">联系我们</div>
+                        <p style="color: #6b6d76;">商务合作</p>
+                        <p style="color: #6b6d76;">Email: <a target="_blank" href="mailto:zhongbao@baidu.com">zhongbao@baidu.com</a></p>
+                        <p style="color: #6b6d76;">QQ: <a target="_blank" href="tencent://message/?uin=1537361276">1537361276</a></p>
+                        <p style="color: #6b6d76;margin-top: 5px;">代理业务</p>
+                        <p style="color: #6b6d76;">Email: <a target="_blank" href="mailto:Crowdtest@baidu.com">Crowdtest@baidu.com</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="bui-footer-row bottom">
+                <p>
+                    百度众包&emsp;|&emsp;<a href="serviceAgreement.htm" tppabs="http://zhongbao.baidu.com/mark/home/serviceAgreement" target="_blank">服务协议</a>&emsp;|&emsp;<a href="privacy.htm" tppabs="http://zhongbao.baidu.com/mark/home/privacy" target="_blank">隐私政策</a>
+                </p>
+                <p>
+                    ©<span id="footerYear"></span> Baidu&nbsp;&nbsp;
+                    <a href="javascript:if(confirm('http://www.baidu.com/duty/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.baidu.com/duty/'" tppabs="http://www.baidu.com/duty/">使用百度前必读</a>&nbsp;&nbsp;
+                    <a target="_blank" href="javascript:if(confirm('http://www.miibeian.gov.cn/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.miibeian.gov.cn/'" tppabs="http://www.miibeian.gov.cn/">京ICP证030173号</a>
+                    <img style="width: 15px; height: 17px;" src="img/gs.gif" tppabs="http://gimg.baidu.com/img/gs.gif">
+                </p>
+            </div>
+        </div>
+    </div>
+</div> 
+
+
+
+
+<script src="js/uni_login_wrapper.js-cdnversion=201906041000" tppabs="http://passport.baidu.com/passApi/js/uni_login_wrapper.js?cdnversion=201906041000"></script>
+<script src="js/wrapper.js-cdnversion=20190604" tppabs="http://passport.baidu.com/passApi/js/wrapper.js?cdnversion=20190604"></script>
+<script>
+window.showLogin = '';
+window.oldUrl = '';
+window.userId = '0';
+
+</script>
+<script src="js/layout.js" tppabs="http://zhongbao.baidu.com/mark//static/js/layout.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('.scene-type-tab .scene-sub-type').click(function() {
+            var typeTag = $(this).attr('scene-tag');
+            $('.scene-type-tab .scene-sub-type').removeClass('active');
+            $(this).addClass('active');
+            $('.scene-sub-type-content').addClass('hide');
+            $('.scene-sub-type-content[scene-tag=' + typeTag +']').removeClass('hide');
+        });
+        $('.scene-type-tab .scene-sub-type').first().click();
+
+        // mobile
+        var navItem = $('.nav-item');
+        navItem.on('click', function () {
+            $(this).addClass('nav-item-checked').siblings().removeClass('nav-item-checked');
+            $(this).find('.checked-bottom').show();
+            $(this).siblings().find('.checked-bottom').hide();
+            var typeTag = $(this).attr('scene-tag');
+            $('.scene-content-detail').addClass('hide');
+            $('.scene-content-detail[scene-tag=' + typeTag + ']').removeClass('hide');
+        });
+        $(navItem[0]).trigger('click');
+
+    });
+</script>
+
+</body>
+</html>
