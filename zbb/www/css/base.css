@@ -391,12 +391,12 @@ body {
 .zui-section.section-banner {
     height: 400px;
     FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#3999FA,endColorStr=#53A7FD); /*IE 6 7 8*/
-    background: url(/mark/static/img/zhongbao/base/banner_bg.png) center no-repeat, -ms-linear-gradient(top, #0b5ba8, #0b5ba8);        /* IE 10 */
-    background: url(/mark/static/img/zhongbao/base/banner_bg.png) center no-repeat, -moz-linear-gradient(top,#0b5ba8,#0b5ba8);/*ç«ç‹*/
-    background: url(/mark/static/img/zhongbao/base/banner_bg.png) center no-repeat, -webkit-gradient(linear, 0% 0%, 0% 100%,from(#0b5ba8), to(#0b5ba8));/*è°·æ­Œ*/
-    background: url(/mark/static/img/zhongbao/base/banner_bg.png) center no-repeat, -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0b5ba8), to(#0b5ba8));      /* Safari 4-5, Chrome 1-9*/
-    background: url(/mark/static/img/zhongbao/base/banner_bg.png) center no-repeat, -webkit-linear-gradient(top, #0b5ba8, #0b5ba8);   /*Safari5.1 Chrome 10+*/
-    background: url(/mark/static/img/zhongbao/base/banner_bg.png) center no-repeat, -o-linear-gradient(top, #0b5ba8, #0b5ba8);  /*Opera 11.10+*/
+    background: url(../img/banner_bg.png) center no-repeat, -ms-linear-gradient(top, #0b5ba8, #0b5ba8);        /* IE 10 */
+    background: url(../img/banner_bg.png) center no-repeat, -moz-linear-gradient(top,#0b5ba8,#0b5ba8);/*ç«ç‹*/
+    background: url(../img/banner_bg.png) center no-repeat, -webkit-gradient(linear, 0% 0%, 0% 100%,from(#0b5ba8), to(#0b5ba8));/*è°·æ­Œ*/
+    background: url(../img/banner_bg.png) center no-repeat, -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0b5ba8), to(#0b5ba8));      /* Safari 4-5, Chrome 1-9*/
+    background: url(../img/banner_bg.png) center no-repeat, -webkit-linear-gradient(top, #0b5ba8, #0b5ba8);   /*Safari5.1 Chrome 10+*/
+    background: url(../img/banner_bg.png) center no-repeat, -o-linear-gradient(top, #0b5ba8, #0b5ba8);  /*Opera 11.10+*/
 }
 
 .zui-banner-slide {
@@ -432,7 +432,7 @@ body {
 .zui-banner-slide .text-block ul {
     width: 550px;
     height: 36px;
-    background: url(/mark/static/img/zhongbao/base/banner_li_background.png) no-repeat;
+    background: url(../img/banner_li_background.png) no-repeat;
 }
 
 .zui-banner-slide .text-block ul li {
@@ -482,7 +482,7 @@ body {
     right: -24px;
     width: 500px;
     height: 400px;
-    background: url(/mark/static/img/zhongbao/new/banner_right.png) center no-repeat;
+    background: url(../img/banner_right.png) center no-repeat;
 }
 
 .zui-banner-slide .contact p{
@@ -567,7 +567,7 @@ body {
     width: 55px;
     margin: 0 17px 0 0;
     background-repeat: no-repeat;
-    background-image: url(/mark/static/img/zhongbao/new/steps_icon_all.png);
+    background-image: url(../img/steps_icon_all.png);
 }
 
 .step-icon.design {
@@ -591,7 +591,7 @@ body {
     margin: 25px 60px;
     width: 50px;
     height: 50px;
-    background-image: url(/mark/static/img/zhongbao/new/steps_icon_all.png);
+    background-image: url(../img/steps_icon_all.png);
     background-position: -220px 0;
     background-repeat: no-repeat;
 }
@@ -628,7 +628,7 @@ body {
 }
 .custom-item-next {
     display: inline-block;
-    background-image: url(/mark/static/img/zhongbao/newly/next.png);
+    background-image: url(../img/next.png);
     margin: auto;
     width: 30px;
     height: 80px;
@@ -640,7 +640,7 @@ body {
     height: 100px;
     margin-bottom: 20px;
     background-repeat: no-repeat;
-    background-image: url(/mark/static/img/zhongbao/newly/custom_service.png);
+    background-image: url(../img/custom_service.png);
     margin-left: 60px;
     margin-top: -50px;
 }
@@ -662,7 +662,7 @@ body {
     height: 80px;
     margin-bottom: 40px;
     background-repeat: no-repeat;
-    background-image: url(/mark/static/img/zhongbao/newly/quality_assurance.png);
+    background-image: url(../img/quality_assurance.png);
     margin-left: 80px;
 }
 
@@ -781,7 +781,7 @@ body {
     height: 100px;
     margin-bottom: 20px;
     background-repeat: no-repeat;
-    background-image: url(/mark/static/img/zhongbao/new/function_icons.png);
+    background-image: url(../img/function_icons.png);
 }
 
 .function-item-icon.data {
@@ -839,7 +839,7 @@ body {
 }
 
 .customer-case-wrap .corporation-item .case-item-header {
-    background-image: url(/mark/static/img/zhongbao/newly/audio.png);
+    background-image: url(../img/audio.png);
     background-repeat: no-repeat;
     background-position: center;
     -webkit-box-sizing: border-box;
@@ -850,19 +850,19 @@ body {
 }
 
 .customer-case-wrap .corporation-item:nth-child(2) .case-item-header {
-    background-image: url(/mark/static/img/zhongbao/newly/BigData.png);
+    background-image: url(../img/BigData.png);
 }
 
 .customer-case-wrap .corporation-item:nth-child(3) .case-item-header {
-    background-image: url(/mark/static/img/zhongbao/newly/IDL.png);
+    background-image: url(../img/IDL.png);
 }
 
 .customer-case-wrap .corporation-item:nth-child(4) .case-item-header {
-    background-image: url(/mark/static/img/zhongbao/newly/NLP.png);
+    background-image: url(../img/NLP.png);
 }
 
 .customer-case-wrap .corporation-item:nth-child(5) .case-item-header {
-    background-image: url(/mark/static/img/zhongbao/newly/nuomi.png);
+    background-image: url(../img/nuomi.png);
 }
 
 /*  scene and case css*/
@@ -1089,7 +1089,7 @@ body {
 }
 
 .custom-section.section-banner {
-    background-image: url(/mark/static/img/zhongbao/newly/custom_banner.png);
+    background-image: url(../img/custom_banner.png);
     -webkit-background-size: 100%;
     background-size: cover;
     width: 100%;
@@ -1156,7 +1156,7 @@ body {
 
 .custom-banner-icon {
     background-size: cover;
-    background-image: url(../../../img/zhongbao/new/custom_step.png);
+    background-image: url(../img/new/custom_step.png);
     width: 230px;
     height: 70px;
     display: inline-block;
@@ -1512,19 +1512,19 @@ body {
     border-bottom: 1px solid #3999fa;
     font-size: 20px;
     color: #3999fa;
-    background: url(/mark/static/img/zhongbao/newly/step_title.png) 0 0 no-repeat #ebf5fe;
+    background: url(../img/step_title.png) 0 0 no-repeat #ebf5fe;
 }
 
 .scene-step-content-block .scene-step-card:nth-child(3) .scene-step-title {
-    background: url(/mark/static/img/zhongbao/newly/step_title.png) 0 -68px no-repeat #ebf5fe;
+    background: url(../img/step_title.png) 0 -68px no-repeat #ebf5fe;
 }
 
 .scene-step-content-block .scene-step-card:nth-child(5) .scene-step-title {
-    background: url(/mark/static/img/zhongbao/newly/step_title.png) 0 -136px no-repeat #ebf5fe;
+    background: url(../img/step_title.png) 0 -136px no-repeat #ebf5fe;
 }
 
 .scene-step-content-block .scene-step-card:nth-child(7) .scene-step-title {
-    background: url(/mark/static/img/zhongbao/newly/step_title.png) 0 -204px no-repeat #ebf5fe;
+    background: url(../img/step_title.png) 0 -204px no-repeat #ebf5fe;
 }
 
 .scene-step-content {
@@ -1540,7 +1540,7 @@ body {
     height: 190px;
     display: inline-block;
     width: 40px;
-    background: url(/mark/static/img/zhongbao/newly/step_connect.png) no-repeat center;
+    background: url(../img/step_connect.png) no-repeat center;
 }
 
 .scene-button-wrap .apply-now {
@@ -1580,16 +1580,16 @@ body {
 }
 
 .contact-content .item.email {
-    background: url(/mark/static/img/zhongbao/newly/contact_icons.png) -4px -4px no-repeat;
+    background: url(../img/contact_icons.png) -4px -4px no-repeat;
 }
 
 .contact-content .item.qq {
-    background: url(/mark/static/img/zhongbao/newly/contact_icons.png) -4px -52px no-repeat;
+    background: url(../img/contact_icons.png) -4px -52px no-repeat;
 }
 
 .contact-content .item.yeying {
     margin-right: 0;
-    background: url(/mark/static/img/zhongbao/newly/contact_icons.png) -4px -100px no-repeat;
+    background: url(../img/contact_icons.png) -4px -100px no-repeat;
 }
 
 .contact-service-wrap {
@@ -1667,11 +1667,11 @@ body {
 }
 
 .contact-icon1 {
-    background-image: url(../../../img/zhongbao/contact-icon1.png);
+    background-image: url(../img/contact-icon1.png);
 }
 
 .contact-icon2 {
-    background-image: url(../../../img/zhongbao/contact-icon2.png);
+    background-image: url(../img/contact-icon2.png);
 }
 
 @keyframes banner-slide-20 {
@@ -1844,7 +1844,7 @@ body {
 
 @media only screen and (min-device-pixel-ratio: 2) {
     .section-banner .banner-step .custom-icon {
-        background-image: url(../../../img/zhongbao/new/custom_step_2.png);
+        background-image: url(../img/new/custom_step_2.png);
         width: 230px;
         height: 60px;
         display: inline-block;
@@ -1868,11 +1868,11 @@ body {
     }
 
     .contact-icon1 {
-        background-image: url(../../../img/zhongbao/contact-icon1_2.png);
+        background-image: url(../img/contact-icon1_2.png);
     }
 
     .contact-icon2 {
-        background-image: url(../../../img/zhongbao/contact-icon2_2.png);
+        background-image: url(../img/contact-icon2_2.png);
     }
 }
 
