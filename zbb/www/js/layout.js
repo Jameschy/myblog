@@ -38,14 +38,14 @@
         forgetLink: 'http://passport.baidu.com/?getpass_index',
         registerLink: 'https://passport.baidu.com/v2/?reg&tpl=crowdtest&u=http%3A%2F%2Ftest.baidu.com%2F',
         // 产品图片
-        // img: 'pass_login_logo.png'/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/pass_login_logo.png*/,
+        // img: '/mark/static/img/zhongbao/pass_login_logo.png',
         onLoginSuccess: function (args) {
             // 登录成功后，执行回调函数，在跳转到U之前触发
         }
     };
 
     if (!isMobile) {
-        config.img = 'pass_login_logo.png'/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/pass_login_logo.png*/;
+        config.img = '/mark/static/img/zhongbao/pass_login_logo.png';
     }
 
     var instace = window.passport.pop.init(config);
@@ -125,7 +125,7 @@
     var footer = $('.zui-footer');
     if (!module && !controller && !action) {
         footer.css({
-            'margin-bottom': 'error.html'/*tpa=http://zhongbao.baidu.com/mark//static/js/1.2rem*/
+            'margin-bottom': '1.2rem'
         });
     }
     var modelMap = {
@@ -146,7 +146,7 @@
         });
         if (currentModel === 'index') {
             footer.css({
-                'margin-bottom': 'error.html'/*tpa=http://zhongbao.baidu.com/mark//static/js/1.2rem*/
+                'margin-bottom': '1.2rem'
             });
         }
         $('.zui-header-menu-item-' + currentModel).addClass('zui-header-menu-item-checked');

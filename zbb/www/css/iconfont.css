@@ -10,11 +10,11 @@
 *
 */
 @font-face {font-family: "Hui-iconfont";
-  src: url("iconfont.eot")/*tpa=http://zhongbao.baidu.com/mark/static/js_bf/static/css/hui_iconfont_v1.0.6/iconfont.eot*/; /* IE9*/
-  src: url("iconfont.eot-#iefix")/*tpa=http://zhongbao.baidu.com/mark/static/js_bf/static/css/hui_iconfont_v1.0.6/iconfont.eot?#iefix*/ format('embedded-opentype'), /* IE6-IE8 */
-  url("iconfont.woff")/*tpa=http://zhongbao.baidu.com/mark/static/js_bf/static/css/hui_iconfont_v1.0.6/iconfont.woff*/ format('woff'), /* chrome、firefox */
-  url("iconfont.ttf")/*tpa=http://zhongbao.baidu.com/mark/static/js_bf/static/css/hui_iconfont_v1.0.6/iconfont.ttf*/ format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-  url("../img/iconfont.svg#Hui-iconfont")/*tpa=http://zhongbao.baidu.com/mark/static/js_bf/static/css/hui_iconfont_v1.0.6/iconfont.svg#Hui-iconfont*/ format('svg'); /* iOS 4.1- */
+  src: url('iconfont.eot'); /* IE9*/
+  src: url('iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff') format('woff'), /* chrome、firefox */
+  url('iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('iconfont.svg#Hui-iconfont') format('svg'); /* iOS 4.1- */
 }
 
 .Hui-iconfont {
