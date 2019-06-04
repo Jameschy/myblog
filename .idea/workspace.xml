@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8466950a-1e01-428c-b6a6-de0886846a8b" name="Default Changelist" comment="新加众包数据demo">
+    <list default="true" id="8466950a-1e01-428c-b6a6-de0886846a8b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/m/mark.html" beforeDir="false" afterPath="$PROJECT_DIR$/zbb/m/mark.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demos/g2/cart/飞瓜数据_files/g2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/demos/g2/cart/飞瓜数据_files/g2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demos/g2/js/g2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/demos/g2/js/g2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demos/g2/payment/飞瓜数据_files/g2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/demos/g2/payment/飞瓜数据_files/g2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demos/g2/personal/飞瓜数据_files/g2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/demos/g2/personal/飞瓜数据_files/g2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demos/g2/upgrade/飞瓜数据_files/g2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/demos/g2/upgrade/飞瓜数据_files/g2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/g2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/g2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.magnific-popup.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery.magnific-popup.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/owl.carousel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/owl.carousel.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zbb/m/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/zbb/m/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zbb/m/js/mkd.js" beforeDir="false" afterPath="$PROJECT_DIR$/zbb/m/js/mkd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zbb/m/js/uni_login_wrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/zbb/m/js/uni_login_wrapper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zbb/m/js/wrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/zbb/m/js/wrapper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zbb/m/js/wrapper_touch(1).js" beforeDir="false" afterPath="$PROJECT_DIR$/zbb/m/js/wrapper_touch(1).js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zbb/m/js/wrapper_touch.js" beforeDir="false" afterPath="$PROJECT_DIR$/zbb/m/js/wrapper_touch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zbb/www/js/loadingApi_tangram_6256e4f.js" beforeDir="false" afterPath="$PROJECT_DIR$/zbb/www/js/loadingApi_tangram_6256e4f.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zbb/www/js/regPhone_3576a13.js" beforeDir="false" afterPath="$PROJECT_DIR$/zbb/www/js/regPhone_3576a13.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zbb/www/js/regPhone_tangram_9b9baf8.js" beforeDir="false" afterPath="$PROJECT_DIR$/zbb/www/js/regPhone_tangram_9b9baf8.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zbb/www/js/reg_tangram_931dbc1.js" beforeDir="false" afterPath="$PROJECT_DIR$/zbb/www/js/reg_tangram_931dbc1.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,11 +33,68 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/zbb/m/mark.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zbb/m/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="81" column="63" lean-forward="true" selection-start-line="81" selection-start-column="63" selection-end-line="81" selection-end-column="63" />
+            <state relative-caret-position="1424">
+              <caret line="89" column="103" selection-start-line="89" selection-start-column="83" selection-end-line="89" selection-end-column="103" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zbb/m/collection.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="640">
+              <caret line="40" column="72" selection-start-line="40" selection-start-column="72" selection-end-line="40" selection-end-column="72" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/zbb/m/contact.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="121" column="17" lean-forward="true" selection-start-line="121" selection-start-column="17" selection-end-line="121" selection-end-column="17" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#3865#3871#1" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#p#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#p#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#p#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#p#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#6;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#6;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -41,7 +115,13 @@
       <find>client.version</find>
       <find>.version</find>
       <find>Safari</find>
+      <find>src=&quot;./publicOpinion_files/logo.svg&quot;</find>
+      <find>src=&quot;./faceRecognition_files/logo.svg&quot;</find>
+      <find>src=&quot;img/logo.svg&quot;</find>
     </findStrings>
+    <replaceStrings>
+      <replace>src=&quot;img/header.png&quot;</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -49,15 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ecms/extend_manual/html/dbdoc/page/phome_enewssearch.html" />
-        <option value="$PROJECT_DIR$/ecms/extend_manual/html/dbdoc/page/phome_enewssearchall.html" />
-        <option value="$PROJECT_DIR$/ecms/extend_manual/html/dbdoc/page/phome_enewssearchall_load.html" />
-        <option value="$PROJECT_DIR$/ecms/extend_manual/html/dbdoc/page/phome_enewssearchtemp.html" />
-        <option value="$PROJECT_DIR$/ecms/extend_manual/html/dbdoc/page/phome_enewssearchtempclass.html" />
-        <option value="$PROJECT_DIR$/ecms/extend_manual/html/dbdoc/page/phome_enewsshopdd.html" />
-        <option value="$PROJECT_DIR$/ecms/extend_manual/html/dbdoc/page/phome_enewsshoppayfs.html" />
-        <option value="$PROJECT_DIR$/ecms/extend_manual/html/dbdoc/page/phome_enewsshopps.html" />
-        <option value="$PROJECT_DIR$/ecms/extend_manual/html/dbdoc/page/phome_enewssp.html" />
         <option value="$PROJECT_DIR$/ecms/extend_manual/html/dbdoc/page/phome_enewssp_1.html" />
         <option value="$PROJECT_DIR$/ecms/extend_manual/html/dbdoc/page/phome_enewssp_2.html" />
         <option value="$PROJECT_DIR$/ecms/extend_manual/html/dbdoc/page/phome_enewssp_3.html" />
@@ -100,6 +171,15 @@
         <option value="$PROJECT_DIR$/ecms/admin_manual/defpage/main.html" />
         <option value="$PROJECT_DIR$/ecms/admin_manual/html/adminstyle.html" />
         <option value="$PROJECT_DIR$/zbb/m/mark.html" />
+        <option value="$PROJECT_DIR$/zbb/m/ocr.html" />
+        <option value="$PROJECT_DIR$/zbb/m/publicOpinion.html" />
+        <option value="$PROJECT_DIR$/zbb/m/securitySolution.html" />
+        <option value="$PROJECT_DIR$/zbb/m/faceRecognition.html" />
+        <option value="$PROJECT_DIR$/zbb/m/crawl.html" />
+        <option value="$PROJECT_DIR$/zbb/m/collection.html" />
+        <option value="$PROJECT_DIR$/zbb/m/case_1.html" />
+        <option value="$PROJECT_DIR$/zbb/m/autoPilot.html" />
+        <option value="$PROJECT_DIR$/zbb/m/contact.html" />
       </list>
     </option>
   </component>
@@ -114,6 +194,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -126,18 +207,23 @@
               <item name="myblogs" type="462c0819:PsiDirectoryNode" />
               <item name="zbb" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="myblogs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblogs" type="462c0819:PsiDirectoryNode" />
+              <item name="zbb" type="462c0819:PsiDirectoryNode" />
+              <item name="m" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/zbb/www/img" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -146,6 +232,12 @@
       <recent name="F:\myblogs" />
       <recent name="F:\myblogs\ecms\extend_manual" />
       <recent name="F:\myblogs\ecms\admin_op" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\myblogs\zbb\m\js" />
+      <recent name="F:\myblogs\zbb\m\img" />
+      <recent name="F:\myblogs\zbb\m\html" />
+      <recent name="F:\myblogs\zbb\www\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -180,7 +272,8 @@
       <workItem from="1559117899061" duration="599000" />
       <workItem from="1559179674540" duration="2149000" />
       <workItem from="1559186334776" duration="1151000" />
-      <workItem from="1559620553250" duration="5466000" />
+      <workItem from="1559620553250" duration="6753000" />
+      <workItem from="1559629812215" duration="481000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1557891488049</created>
@@ -364,17 +457,31 @@
       <option name="project" value="LOCAL" />
       <updated>1559627307598</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="修改mark">
+      <created>1559627781769</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1559627781769</updated>
+    </task>
+    <task id="LOCAL-00028" summary="修改logo指向">
+      <created>1559628653041</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1559628653041</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25797000" />
+    <option name="totallyTimeSpent" value="27565000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.170706" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.170706" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -386,9 +493,9 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="GraphQL" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49736565" visible="true" weight="0.13841201" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" sideWeight="0.49683878" visible="true" weight="0.15665236" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50263435" side_tool="true" visible="true" weight="0.13841201" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50316125" side_tool="true" visible="true" weight="0.15665236" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -454,93 +561,11 @@
     <MESSAGE value="修改" />
     <MESSAGE value="修改帝国后台中文声明" />
     <MESSAGE value="新加众包数据demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="新加众包数据demo" />
+    <MESSAGE value="修改mark" />
+    <MESSAGE value="修改logo指向" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改logo指向" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ecms/extend_manual/html/dbdoc/page/phome_enewssql.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecms/extend_manual/html/dbdoc/page/phome_enewstable.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecms/extend_manual/html/dbdoc/page/phome_enewstags.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecms/extend_manual/html/dbdoc/page/phome_enewstagsclass.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecms/extend_manual/html/dbdoc/page/phome_enewstagsdata.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecms/extend_manual/html/dbdoc/page/phome_enewstask.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecms/extend_manual/html/dbdoc/page/phome_enewstempbak.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecms/extend_manual/html/dbdoc/page/phome_enewstempgroup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecms/extend_manual/html/dbdoc/page/phome_enewstempvar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecms/extend_manual/html/dbdoc/page/phome_enewstempvarclass.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecms/extend_manual/html/dbdoc/page/phome_enewsuserjs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecms/extend_manual/html/dbdoc/page/phome_enewsuseradd.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ecms/extend_manual/html/dbdoc/page/phome_enewsuser.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -753,8 +778,125 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/zbb/m/mark.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="81" column="63" lean-forward="true" selection-start-line="81" selection-start-column="63" selection-end-line="81" selection-end-column="63" />
+        <state relative-caret-position="179">
+          <caret line="57" column="155" selection-start-line="57" selection-start-column="155" selection-end-line="57" selection-end-column="155" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zbb/m/ocr.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-416">
+          <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zbb/m/publicOpinion.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="57" column="193" selection-start-line="57" selection-start-column="193" selection-end-line="57" selection-end-column="193" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zbb/m/saved_resource.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zbb/m/securitySolution.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="57" column="155" selection-start-line="57" selection-start-column="155" selection-end-line="57" selection-end-column="155" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zbb/m/faceRecognition.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="57" column="174" selection-start-line="57" selection-start-column="174" selection-end-line="57" selection-end-column="174" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zbb/m/crawl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="57" column="175" selection-start-line="57" selection-start-column="175" selection-end-line="57" selection-end-column="175" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zbb/m/case_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1051">
+          <caret line="69" column="175" selection-start-line="69" selection-start-column="175" selection-end-line="69" selection-end-column="175" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zbb/m/autoPilot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="13" column="49" lean-forward="true" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zbb/m/speechSolution.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-581" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zbb/m/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1424">
+          <caret line="89" column="103" selection-start-line="89" selection-start-column="83" selection-end-line="89" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zbb/m/collection.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="40" column="72" selection-start-line="40" selection-start-column="72" selection-end-line="40" selection-end-column="72" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zbb/m/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="121" column="17" lean-forward="true" selection-start-line="121" selection-start-column="17" selection-end-line="121" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#3865#3871#1" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#p#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#p#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#p#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#p#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#6;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#6;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
