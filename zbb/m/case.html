@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)http://zhongbao.baidu.com/mark/home/case#case_1 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>  百度数据众包平台  </title>
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE">
+    <meta name="keywords" content="百度数据众包,数据标注,数据采集,数据清洗,文本数据,语音数据,图像数据">
+    <meta name="description" content="百度数据众包，提供专业的数据标注、制作、采集服务，全方位支持文本、语音、图像、视频等各类型数据的处理，速度快、成本低、质量高。服务适合舆情监控、图片识别、OCR识别、语音识别、自然语言处理、交通、电商、医疗等领域的数据处理。">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="telephone=no" name="format-detection">
+    <link rel="shortcut icon" href="https://www.baidu.com/cache/icon/favicon.ico" type="image/x-icon">
+    <link rel="icon" sizes="any" href="https://www.baidu.com/cache/icon/favicon.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
+
+    <!--basic css-->
+    
+    <link rel="stylesheet" href="css/mobase.css">
+    
+<link rel="stylesheet" href="css/base_for_mobile.css">
+
+<link rel="stylesheet" href="css/case_for_mobile.css">
+
+    <script async="" src="js/g.min.js" id="new_FIAOWNBFDIQILY"></script><script src="js/hm.js"></script><script src="js/cal_font_size.js"></script><style>html{font-size:54.93333333333333px;}</style>
+        <script>var _hmt = _hmt || [];(function() {var hm = document.createElement("script");hm.src = "//hm.baidu.com/hm.js?48f82868aa1ed62bf1defb68bd7972b1";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(hm, s);})();</script>
+
+    <!--basic lib-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/sea.js"></script>
+    <script src="js/seaconfig.js"></script>
+    <script src="js/polyfill.min.js"></script>
+    <!--basic css-->
+    <link rel="stylesheet" type="text/css" href="css/iconfont.css">
+
+    <!--global var-->
+    <script>
+        var baseUrl = 'http://zhongbao.baidu.com/';
+        var base_url_module = 'http://zhongbao.baidu.com/crowdtest/';
+        var base_dir_module = 'http://zhongbao.baidu.com/crowdtest/';
+        var yii_csrf_token_global = '4671b3997067b694fabe3001530b0587c839e597';
+        var yii_csrf_token = '4671b3997067b694fabe3001530b0587c839e597';
+
+        var BASE_ADMIN_DIR_MODULE = "/admin/";
+        var BASE_MARK_DIR_MODULE = "/mark/";
+        var BASE_PROXY_URL = "";
+//        seajs.use('/mark/static/js/popup/RightSideDock', function(dock) {
+//            dock.init("");
+//        });
+    var isMobile = "1";
+    if (!isMobile) {
+        window.seajs.use('/mark/static/js/popup/MenuSidebar', function (dock) {
+            dock.init();
+        });
+    }
+    </script>
+<link rel="stylesheet" type="text/css" href="css/uni_login_new_473cd93.css" data-for="result"><script type="text/javascript" charset="UTF-8" src="js/uni_login_tangram_60410df.js"></script><script type="text/javascript" charset="UTF-8" src="./case_files/login_2e40211.js"></script><script type="text/javascript" charset="UTF-8" src="./case_files/ld.min.js"></script><script type="text/javascript" charset="UTF-8" src="js/wrapper_touch.js"></script><link rel="stylesheet" type="text/css" href="css/mkd_0ff2c55.css"><script type="text/javascript" charset="UTF-8" src="./case_files/mkd.js"></script></head>
+<body style="font-size: 16px;"><div id="TANGRAM__PSP_5__" class="pop-mask" style="top: 0px; left: 0px; position: fixed; width: 412px; height: 660px; opacity: 0.15; z-index: 60000; background-color: rgb(0, 0, 0); display: none;"><iframe frameborder="0" style="filter:progid:DXImageTransform.Microsoft.Alpha(opacity:0);position:absolute;top:0px;left:0px;width:100%;height:100%;z-index:-1" src="html/saved_resource.html"></iframe><div style="position:absolute;top:0px;left:0px;width:100%;height:100%;z-index:-1;">&nbsp;</div></div>
+ <div class="zui-header-wrap"><div class="zui-header"><div class="zui-header-logo dib"><a href="http://zhongbao.baidu.com/"><img class="zui-header-logo-img" src="img/header.png" style="width: 3.02rem;height: 0.5rem;padding-top: "></a></div><div class="zui-header-op dib"><span class="zui-header-op-item" id="js_pass_login_btn">登录</span><div class="toggle-language">EN</div></div></div></div><label for="is-mobile" style="display: none;"></label><input type="hidden" id="is-mobile" value="1"><ul class="zui-header-menu">
+        <li class="zui-header-menu-item zui-header-menu-item-index zui-header-menu-item zui-header-menu-item-dropdown">
+        <a class="nav-link" href="index.html">首页</a>
+            </li>
+        <li class="zui-header-menu-item zui-header-menu-item-service zui-header-menu-item zui-header-menu-item-dropdown">
+        <a class="nav-link" href="javascript:;">产品服务</a>
+                <ul class="zui-header-inner-nav service-nav">
+                        <li class="zui-header-inner-menu-item">
+                                <a href="collection.html"><span class="nav-text">人工采集</span><span class="nav-tab"></span></a>
+                            </li>
+                        <li class="zui-header-inner-menu-item">
+                                <a href="mark.html"><span class="nav-text">数据标注</span><span class="nav-tab"></span></a>
+                            </li>
+                        <li class="zui-header-inner-menu-item">
+                                <a href="crawl.html"><span class="nav-text">数据抓取</span><span class="nav-tab"></span></a>
+                            </li>
+                    </ul>
+            </li>
+        <li class="zui-header-menu-item zui-header-menu-item-case zui-header-menu-item zui-header-menu-item-dropdown zui-header-menu-item-checked">
+        <a class="nav-link" href="javascript:;">案例中心</a>
+                <ul class="zui-header-inner-nav case-nav">
+                        <li class="zui-header-inner-menu-item">
+                                <a href="case.html#case_1"><span class="nav-text">数据采集</span><span class="nav-tab"></span></a>
+                            </li>
+                        <li class="zui-header-inner-menu-item">
+                                <a href="case.html#case_5"><span class="nav-text">数据标注</span><span class="nav-tab"></span></a>
+                            </li>
+                    </ul>
+            </li>
+        <li class="zui-header-menu-item zui-header-menu-item-solution zui-header-menu-item zui-header-menu-item-dropdown">
+        <a class="nav-link" href="javascript:;">解决方案</a>
+                <ul class="zui-header-inner-nav solution-nav">
+                        <li class="zui-header-inner-menu-item">
+                                <h3>行业解决方案</h3>
+                <ul class="zui-header-nest-solution-nav">
+                                        <li><a href="autoPilot.html"><span class="nav-text">自动驾驶数据解决方案</span><span class="nav-tab"></span></a></li>
+                                        <li><a href="securitySolution.html"><span class="nav-text">智能安防解决方案</span><span class="nav-tab"></span></a></li>
+                                        <li><a href="publicOpinion.html"><span class="nav-text">新闻舆情解决方案</span><span class="nav-tab"></span></a></li>
+                                    </ul>
+                            </li>
+                        <li class="zui-header-inner-menu-item">
+                                <h3>专项解决方案</h3>
+                <ul class="zui-header-nest-solution-nav">
+                                        <li><a href="faceRecognition.html"><span class="nav-text">人脸人像解决方案</span><span class="nav-tab"></span></a></li>
+                                        <li><a href="ocr.html"><span class="nav-text">OCR识别解决方案</span><span class="nav-tab"></span></a></li>
+                                        <li><a href="speechSolution.html"><span class="nav-text">智能语音解决方案</span><span class="nav-tab"></span></a></li>
+                                    </ul>
+                            </li>
+                    </ul>
+            </li>
+        <li class="zui-header-menu-item zui-header-menu-item-contact zui-header-menu-item zui-header-menu-item-dropdown">
+        <a class="nav-link" href="contact.html">联系我们</a>
+            </li>
+        <div class="clear"></div>
+</ul>
+
+
+<div class="case-item" id="case_1">
+    <div class="case-item-header-wrap">
+        <div class="case-item-title">方言语料采集</div>
+        <div class="case-item-des">具备中国粤语、四川方言、闽南语等多地域方言采集能力：采集速度：55-100小时/天；累计采集时长：18万小时（约216万条）</div>
+    </div>
+    <div class="case-item-content">
+        <div class="item-title">
+            <span class="title-type">案例</span>
+            <span class="title-content">粤语方言语料采集</span>
+        </div>
+        <div class="case-des-item">
+            <span class="case-des-title">项目需求：</span>
+            <p class="case-des-detail">录制2,000人累计时长1,000小时粤语方言语料。录制者需包含：女性、男性、儿童、成人、老人等。</p>
+        </div>
+        <div class="case-des-item">
+            <span class="case-des-title">实际效果：</span>
+            <p class="case-des-detail">20天完成1,100小时粤语语音采集。成本比一般市场价格低30%，节约用时约10天。</p>
+        </div>
+        <div class="case-des-item">
+            <span class="case-des-title">效果展示：</span>
+                        <div class="case-img case-img-item1 img-small-h1"></div>
+                        <div class="case-img case-img-item2 img-small-h2"></div>
+                    </div>
+    </div>
+</div>
+<div class="case-item" id="case_3">
+    <div class="case-item-header-wrap">
+        <div class="case-item-title">唤醒词采集</div>
+        <div class="case-item-des">具备依照距离、年龄、性别等多种条件下采集能力：采集速度：70-120小时/天；累计采集时长：2万小时（约186万条）</div>
+    </div>
+    <div class="case-item-content">
+        <div class="item-title">
+            <span class="title-type">案例</span>
+            <span class="title-content">唤醒词采集</span>
+        </div>
+        <div class="case-des-item">
+            <span class="case-des-title">项目需求：</span>
+            <p class="case-des-detail">采集不同年龄段人群（着重区分儿童、老人）语音，目标采集300人的机器录制和3万人手机录制唤醒词语音。希望环境最大程度还原家居环境。</p>
+        </div>
+        <div class="case-des-item">
+            <span class="case-des-title">实际效果：</span>
+            <p class="case-des-detail">2周内，采集语料覆盖全年龄段，共计采集382人机器录制语音，32,665人手机录制语音。成本比一般市场价格低30%，节约用时约3-5天。</p>
+        </div>
+        <div class="case-des-item">
+            <span class="case-des-title">效果展示：</span>
+                        <div class="case-img case-img-item3 img-small-h1"></div>
+                    </div>
+    </div>
+</div>
+<div class="case-item" id="case_4">
+    <div class="case-item-header-wrap">
+        <div class="case-item-title">图片采集</div>
+        <div class="case-item-des">具备多种条件下的人像、实物、道路信息等多类图片采集能力：采集速度：1.5-3万张/天；累计采集图片量：1,200万张</div>
+    </div>
+    <div class="case-item-content">
+        <div class="item-title">
+            <span class="title-type">案例</span>
+            <span class="title-content">多表情人脸照片采集</span>
+        </div>
+        <div class="case-des-item">
+            <span class="case-des-title">项目需求：</span>
+            <p class="case-des-detail">10万张人脸照片采集，每人的人脸照片包含至少20种不同夸张表情、各种不同角度和动作。</p>
+        </div>
+        <div class="case-des-item">
+            <span class="case-des-title">实际效果：</span>
+            <p class="case-des-detail">9天内采集129,248张人脸照片，照片涉及6,000余人，每人20个不同表情及动作。成本比一般市场价格低30%，节约用时约1-2天。</p>
+        </div>
+        <div class="case-des-item">
+            <span class="case-des-title">效果展示：</span>
+                        <div class="case-img case-img-item4 img-small-h1"></div>
+                    </div>
+    </div>
+</div>
+<div class="case-item" id="case_5">
+    <div class="case-item-header-wrap">
+        <div class="case-item-title">音频标注</div>
+        <div class="case-item-des">具备方言语音、唤醒语音、对话语音、外文语音等多类音频的标注能力：标注速度：290-300小时/天；累计音频标注量：50万小时（约3,000万条）</div>
+    </div>
+    <div class="case-item-content">
+        <div class="item-title">
+            <span class="title-type">案例</span>
+            <span class="title-content">语音数据转写与分类</span>
+        </div>
+        <div class="case-des-item">
+            <span class="case-des-title">项目需求：</span>
+            <p class="case-des-detail">对10,000条语音数据进行文本转义，并对语音录制质量进行分类清洗（清晰、有噪声、语音不完整等）</p>
+        </div>
+        <div class="case-des-item">
+            <span class="case-des-title">实际效果：</span>
+            <p class="case-des-detail">3天内标注10,000条语音数据，通过率100%</p>
+        </div>
+        <div class="case-des-item">
+            <span class="case-des-title">效果展示：</span>
+                        <div class="case-img case-img-item5 img-small-h3"></div>
+                    </div>
+    </div>
+</div>
+<div class="case-item" id="case_6">
+    <div class="case-item-header-wrap">
+        <div class="case-item-title">图片标注</div>
+        <div class="case-item-des">具备植物照片、票据图片、黄反图片、人物图片等多类图片标注能力：标注速度：15-18万张/天；累计标注量：2,000万张</div>
+    </div>
+    <div class="case-item-content">
+        <div class="item-title">
+            <span class="title-type">案例</span>
+            <span class="title-content">花卉图片分类标注</span>
+        </div>
+        <div class="case-des-item">
+            <span class="case-des-title">项目需求：</span>
+            <p class="case-des-detail">经过自动化初步分类的3,300,000张花卉照片进行进一步人工分类。</p>
+        </div>
+        <div class="case-des-item">
+            <span class="case-des-title">实际效果：</span>
+            <p class="case-des-detail">22天完成3,380,796张图的筛选，准确率达96%。</p>
+        </div>
+        <div class="case-des-item">
+            <span class="case-des-title">效果展示：</span>
+                        <div class="case-img case-img-item6 img-small-h3"></div>
+                    </div>
+    </div>
+</div>
+<div class="case-item" id="case_7">
+    <div class="case-item-header-wrap">
+        <div class="case-item-title">人脸标注</div>
+        <div class="case-item-des">具备68点、95点、118点等多种人脸打点能力：标注速度：11-15万张/天；累计标注量：7,000万张</div>
+    </div>
+    <div class="case-item-content">
+        <div class="item-title">
+            <span class="title-type">案例</span>
+            <span class="title-content">人脸照片标注</span>
+        </div>
+        <div class="case-des-item">
+            <span class="case-des-title">项目需求：</span>
+            <p class="case-des-detail">300万张人脸照片分类、检测及定位标注，部分图需标出600余个定位点。</p>
+        </div>
+        <div class="case-des-item">
+            <span class="case-des-title">实际效果：</span>
+            <p class="case-des-detail">27天完成300万的人脸照片打点标注，准确率99%以上，成本为外包公司的1/4。</p>
+        </div>
+        <div class="case-des-item">
+            <span class="case-des-title">效果展示：</span>
+                        <div class="case-img case-img-item8 img-small-h3"></div>
+                    </div>
+    </div>
+</div>
+<div class="case-item" id="case_8">
+    <div class="case-item-header-wrap">
+        <div class="case-item-title">道路2D图片标注</div>
+        <div class="case-item-des">具备道路交通元素、道路信息等多类道路图片的框选、parsing标注能力：标注速度：19.8-23.4万帧/天；累计标注量：800万帧</div>
+    </div>
+    <div class="case-item-content">
+        <div class="item-title">
+            <span class="title-type">案例</span>
+            <span class="title-content">道路图片交通元素分类提取</span>
+        </div>
+        <div class="case-des-item">
+            <span class="case-des-title">项目需求：</span>
+            <p class="case-des-detail">300万张人脸照片分类、检测及定位标注，部分图需标出600余个定位点。</p>
+        </div>
+        <div class="case-des-item">
+            <span class="case-des-title">实际效果：</span>
+            <p class="case-des-detail">分批次交付，准确率99%，合作方肯定交付速度与质量。</p>
+        </div>
+        <div class="case-des-item">
+            <span class="case-des-title">效果展示：</span>
+                        <div class="case-img case-img-item9 img-small-h3"></div>
+                    </div>
+    </div>
+</div>
+<div class="case-item" id="case_9">
+    <div class="case-item-header-wrap">
+        <div class="case-item-title">道路3D图片标注</div>
+        <div class="case-item-des">具备3D点云离散标注、语义标注、2D与3D融合标注、3Sensor标注能力：标注速度：2.5-3万帧/天；累积标注量：500万帧</div>
+    </div>
+    <div class="case-item-content">
+        <div class="item-title">
+            <span class="title-type">案例</span>
+            <span class="title-content">自动驾驶数据集标注</span>
+        </div>
+        <div class="case-des-item">
+            <span class="case-des-title">项目需求：</span>
+            <p class="case-des-detail">点云数据标注，部分单帧图片中含有多达162辆交通工具或80名行人；同时需将路段对应的室外稠密点云数据按照19个分类进行精确分割标注。</p>
+        </div>
+        <div class="case-des-item">
+            <span class="case-des-title">实际效果：</span>
+            <p class="case-des-detail">在20天内交付了正确率高于98%的22344帧图像语义标注与1.5km点云分割结果，工作效率是需求方自有标注人员的2倍，并陆续以高度的弹性与专业的快速反应能力应对了七次标注规则变更。</p>
+        </div>
+        <div class="case-des-item">
+            <span class="case-des-title">效果展示：</span>
+                        <div class="case-img case-img-item10 img-small-h3"></div>
+                    </div>
+    </div>
+</div>
+
+<div class="img-mask"></div>
+<div class="img-mask-close">x</div>
+<div class="img-detail"></div><input type="hidden" value="1" id="isMobile">
+<div class="zui-footer">
+    <div class="footer-section">
+        <p class="footer-title">关于百度众包</p>
+                <div class="footer-text">
+            <a href="custom" target="">定制服务</a>
+        </div>
+                <div class="footer-text">
+            <a href="scene" target="">自助平台</a>
+        </div>
+                <div class="footer-text">
+            <a href="case" target="">成功案例</a>
+        </div>
+            </div>
+    <div class="footer-section">
+        <p class="footer-title">联系我们</p>
+        <p class="footer-text">Email: <a target="_blank" href="mailto:zhongbao@baidu.com">zhongbao@baidu.com</a></p>
+        <p class="footer-text">QQ: <a target="_blank" href="tencent://message/?uin=1537361276">1537361276</a></p>
+    </div>
+
+    <div class="footer-section">
+        <p class="footer-title">代理业务</p>
+        <p class="footer-text">Email: <a target="_blank" href="mailto:Crowdtest@baidu.com">Crowdtest@baidu.com</a></p>
+    </div>
+</div> 
+
+
+
+
+<script src="js/uni_login_wrapper.js"></script>
+<script src="js/wrapper.js"></script>
+<script>
+window.showLogin = '';
+window.oldUrl = '';
+window.userId = '0';
+
+</script>
+<script src="js/layout.js"></script>
+
+<script>
+    $(document).ready(function () {
+        function activeNavItem(dom) {
+            var caseTag = dom.attr('case-tag');
+            $('.case-nav').find('.case-nav-item').find('li').removeClass('active');
+            $(dom).find('li').addClass('active');
+            $('.case-detail .case-item').addClass('hide');
+            $('.case-detail .case-item[case-tag="' + caseTag +'"]').removeClass('hide');
+        }
+
+        $('.case-nav-item').click(function () {
+            activeNavItem($(this));
+            scrollTo(0,0);
+        });
+
+        $('.case-nav-item').first().click();
+
+        if ($('a[href="' + location.hash +'"]').length > 0) {
+            $('a[href="' + location.hash +'"]').click();
+        }
+        var isMobile = $('#isMobile').val();
+        if (!isMobile) {
+            $('.case-nav').css({'top': 220});
+        }
+
+        $(".show-user-info").click(function() {
+            $('#right-dock-user-info').click();
+        });
+
+        // 移动端查看大图
+        var caseImg = $('.case-img');
+        var mask = $('.img-mask');
+        var imgContent = $('.img-detail');
+        var close = $('.img-mask-close');
+        function clearImgDetailClass() {
+            imgContent.removeClass();
+            imgContent.addClass('img-detail');
+        }
+        caseImg.on('click', function () {
+            clearImgDetailClass();
+            var imgClass = $(this).attr('class').split(' ');
+            var imgDetailClass;
+            var imgDetailHeight;
+            for (var i = 0; i<imgClass.length; i++) {
+                if (/case-img/i.test(imgClass[i])) {
+                    imgDetailClass = imgClass[i];
+                }
+                if (/img-small-h/.test(imgClass[i])) {
+                    imgDetailHeight = imgClass[i].replace(/small/, 'big');
+                }
+            }
+
+            imgContent.addClass(imgDetailClass);
+            imgContent.addClass(imgDetailHeight);
+            mask.show();
+            imgContent.show();
+            close.show();
+        });
+        mask.on('click', function () {
+            mask.hide();
+            imgContent.hide();
+            close.hide();
+        });
+        close.on('click', function () {
+            mask.hide();
+            imgContent.hide();
+            close.hide();
+        });
+    });
+</script>
+
+
+
+<div class="sogoutip" style="z-index: 2147483645; visibility: hidden; display: none;"></div><div class="sogoubottom" id="sougou_bottom" style="display: none;"></div><div id="ext_stophi" style="z-index: 2147483647;"><div class="extnoticebg"></div><div class="extnotice"><h2>关闭提示 <a href="case#" title="关闭提示" id="closenotice" class="closenotice">关闭</a></h2><p id="sogouconfirmtxt"></p>  <a id="sogouconfirm" href="case#" class="extconfirm">确 认</a> <a id="sogoucancel" href="case#" class="extconfirm">取 消</a></div></div><div id="ext_overlay" class="ext_overlayBG" style="display: none; z-index: 2147483646;"></div><iframe class="sogou_sugg_feedbackquan" frameborder="0" scrolling="no" src="html/yun6.html" style="background: transparent; border: none; display: none; height: 84px; width: 100%; z-index: 2147483645;"></iframe><div id="passport-login-pop" class="tang-pass-pop-login-noimg tang-pass-pop-login-merge tang-pass-pop-login-tpl-crt tang-pass-pop-login-color-blue tang-pass-pop-login" style="left: 9px; top: 198.5px; z-index: 60001; display: none;"><div class="tang-background" id="TANGRAM__PSP_6__" style="position:absolute; top:0px; left:0px;width:100%;height:100%;z-index:-9; -webkit-user-select:none; -moz-user-select:none;" onselectstart="return false"><div class="tang-background-inner" style="width:100%;height:100%;" id="TANGRAM__PSP_6__inner"></div><div style="filter:progid:DXImageTransform.Microsoft.Alpha(opacity:0);position:absolute;z-index:-1;top:0;left:0;width:100%;height:100%;opacity:0;background-color:#FFFFFF"></div></div><div class="tang-foreground" id="TANGRAM__PSP_4__foreground" style="width: 393px;"><div class="tang-title tang-title-dragable" id="TANGRAM__PSP_4__title"><div class="buttons" id="TANGRAM__PSP_4__titleButtons"><a id="TANGRAM__PSP_4__closeBtn" class="close-btn" href="case###" onmousedown="event.stopPropagation &amp;&amp; event.stopPropagation(); event.cancelBubble = true; return false;" onclick="return false;"></a></div><span id="TANGRAM__PSP_4__titleText">登录百度帐号</span></div><div class="tang-body" id="TANGRAM__PSP_4__body"><div class="tang-content" id="TANGRAM__PSP_4__content"><div id="passport-login-pop-dialog"><div class="clearfix"><div class="pass-login-pop-content"><div class="pass-login-pop-form"><div id="passport-login-pop-api" class="tang-pass-login"><form id="TANGRAM__PSP_10__form" class="pass-form pass-form-normal" method="POST" autocomplete="off"><p id="TANGRAM__PSP_10__errorWrapper" class="pass-generalErrorWrapper"><span id="TANGRAM__PSP_10__error" class="pass-generalError pass-generalError-error"></span></p><p id="TANGRAM__PSP_10__MakeTextWrapper" class="pass-make-text" style="display:none;"></p><p class="pass-smsSwitchWrapper" id="TANGRAM__PSP_10__smsSwitchWrapper"><a class="pass-sms-btn" title="短信快捷登录" data-type="sms" id="TANGRAM__PSP_10__smsSwitch">短信快捷登录</a></p><p id="TANGRAM__PSP_10__hiddenFields" style="display:none"><input type="hidden" id="TANGRAM__PSP_10__codeString" name="codeString" value=""><input type="hidden" id="TANGRAM__PSP_10__safeFlag" name="safeFlag" value="0"><input type="hidden" id="TANGRAM__PSP_10__u" name="u" value="http://zhongbao.baidu.com/mark/home/index"><input type="hidden" id="TANGRAM__PSP_10__isPhone" name="isPhone" value="false"><input type="hidden" id="TANGRAM__PSP_10__detect" name="detect" value="1"><input type="hidden" id="TANGRAM__PSP_10__gid" name="gid" value="AEE6353-EF6B-4ACA-A4D6-3E9C88E07C39"><input type="hidden" id="TANGRAM__PSP_10__staticPage" name="staticPage" value="http://zhongbao.baidu.com/v3Jump.html"><input type="hidden" id="TANGRAM__PSP_10__quick_user" name="quick_user" value="0"><input type="hidden" id="TANGRAM__PSP_10__logintype" name="logintype" value="dialogLogin"><input type="hidden" id="TANGRAM__PSP_10__logLoginType" name="logLoginType" value="pc_loginDialog"><input type="hidden" id="TANGRAM__PSP_10__subpro" name="subpro" value=""><input type="hidden" id="TANGRAM__PSP_10__idc" name="idc" value=""><input type="hidden" id="TANGRAM__PSP_10__loginMerge" name="loginMerge" value="true"></p><p id="TANGRAM__PSP_10__userNameWrapper" class="pass-form-item pass-form-item-userName" style="display:"><label for="TANGRAM__PSP_10__userName" id="TANGRAM__PSP_10__userNameLabel" class="pass-label pass-label-userName">手机/邮箱/用户名</label><input type="text" style="display:none;"><input id="TANGRAM__PSP_10__userName" type="text" name="userName" class="pass-text-input pass-text-input-userName" autocomplete="off" value="" placeholder="手机/邮箱/用户名"><span id="TANGRAM__PSP_10__userName_clearbtn" class="pass-clearbtn pass-clearbtn-userName" style="display:none;"></span><span id="TANGRAM__PSP_10__userNameTip" class="pass-item-tip pass-item-tip-userName" style="display:none"><span id="TANGRAM__PSP_10__userNameTipText" class="pass-item-tiptext pass-item-tiptext-userName"></span></span></p><p id="TANGRAM__PSP_10__passwordWrapper" class="pass-form-item pass-form-item-password" style="display:"><label for="TANGRAM__PSP_10__password" id="TANGRAM__PSP_10__passwordLabel" class="pass-label pass-label-password">密码</label><input type="password" style="display: none;"><input id="TANGRAM__PSP_10__password" type="password" name="password" class="pass-text-input pass-text-input-password" autocomplete="off" value="" placeholder="密码"><span id="TANGRAM__PSP_10__password_clearbtn" class="pass-clearbtn pass-clearbtn-password" style="display:none;"></span><span id="TANGRAM__PSP_10__passwordTip" class="pass-item-tip pass-item-tip-password" style="display:none"><span id="TANGRAM__PSP_10__passwordTipText" class="pass-item-tiptext pass-item-tiptext-password"></span></span></p><p id="TANGRAM__PSP_10__verifyCodeImgWrapper" class="pass-form-item pass-form-item-verifyCode" style="display:none"><label for="TANGRAM__PSP_10__verifyCode" id="TANGRAM__PSP_10__verifyCodeLabel" class="pass-label pass-label-verifyCode">验证码</label><input id="TANGRAM__PSP_10__verifyCode" type="text" name="verifyCode" class="pass-text-input pass-text-input-verifyCode" maxlength="6" placeholder="验证码"><span id="TANGRAM__PSP_10__verifyCode_clearbtn" class="pass-clearbtn pass-clearbtn-verifyCode" style="display:none;"></span><span id="TANGRAM__PSP_10__verifyCodeImgParent" class="pass-verifyCodeImgParent"><img id="TANGRAM__PSP_10__verifyCodeImg" class="pass-verifyCode" src="./case_files/small_blank.gif"></span><a id="TANGRAM__PSP_10__verifyCodeChange" href="case#" class="pass-change-verifyCode">换一张</a><span id="TANGRAM__PSP_10__verifyCodeError" class="pass-error pass-error-verifyCode"></span><span id="TANGRAM__PSP_10__verifyCodeTip" class="pass-tip pass-tip-verifyCode"></span><span id="TANGRAM__PSP_10__verifyCodeSuccess" class="pass-success pass-success-verifyCode"></span></p><p id="TANGRAM__PSP_10__memberPassWrapper" class="pass-form-item pass-form-item-memberPass"><input id="TANGRAM__PSP_10__memberPass" type="checkbox" name="memberPass" class="pass-checkbox-input pass-checkbox-memberPass" checked="checked"><label for="TANGRAM__PSP_10__memberPass" id="TANGRAM__PSP_10__memberPassLabel" class="">下次自动登录</label></p><p id="TANGRAM__PSP_10__submitWrapper" class="pass-form-item pass-form-item-submit"><input id="TANGRAM__PSP_10__submit" type="submit" value="登录" class="pass-button pass-button-submit"><a class="pass-reglink" href="https://passport.baidu.com/v2/?reg&amp;tpl=crowdtest&amp;u=http%3A%2F%2Ftest.baidu.com%2F" target="_blank">立即注册</a><a class="pass-fgtpwd" href="https://passport.baidu.com/?getpassindex&amp;tt=1559630469182&amp;gid=AEE6353-EF6B-4ACA-A4D6-3E9C88E07C39&amp;tpl=crt&amp;u=http%3A%2F%2Fzhongbao.baidu.com%2Fmark%2Fhome%2Findex" target="_blank">登录遇到问题</a></p></form></div><div id="TANGRAM__PSP_10__sms" class="tang-pass-login tang-pass-sms" style="display:none"><p class="tang-pass-sms-title">短信登录</p><p class="tang-pass-sms-tip">验证即登录，未注册将自动创建百度帐号</p><form id="TANGRAM__PSP_10__smsForm" method="POST"><p id="TANGRAM__PSP_10__smsHiddenFields" style="display:none"><input type="hidden" id="TANGRAM__PSP_10__smsHiddenFields_u" name="u" value="http://zhongbao.baidu.com/mark/home/index"><input type="hidden" id="TANGRAM__PSP_10__smsHiddenFields_staticPage" name="staticPage" value="http://zhongbao.baidu.com/v3Jump.html"><input type="hidden" id="TANGRAM__PSP_10__smsHiddenFields_tpl" name="tpl" value="crt"><input type="hidden" id="TANGRAM__PSP_10__smsHiddenFields_idc" name="idc" value=""><input type="hidden" id="TANGRAM__PSP_10__smsHiddenFields_isdpass" name="isdpass" value="1"><input type="hidden" id="TANGRAM__PSP_10__smsHiddenFields_gid" name="gid" value="AEE6353-EF6B-4ACA-A4D6-3E9C88E07C39"><input type="hidden" id="TANGRAM__PSP_10__smsHiddenFields_switchuname" name="switchuname" value=""><input type="hidden" id="TANGRAM__PSP_10__smsHiddenFields_smsCodeString" name="smsCodeString" value=""><input type="hidden" id="TANGRAM__PSP_10__smsHiddenFields_smsVcodesign" name="smsVcodesign" value=""><input type="hidden" id="TANGRAM__PSP_10__smsHiddenFields_smsVcodestr" name="smsVcodestr" value=""><input type="hidden" id="TANGRAM__PSP_10__smsHiddenFields_subpro" name="subpro" value=""><input type="hidden" id="TANGRAM__PSP_10__smsHiddenFields_is_voice_sms" name="is_voice_sms" value="0"><input type="hidden" id="TANGRAM__PSP_10__smsHiddenFields_voice_sms_flag" name="voice_sms_flag" value="0"></p><p id="TANGRAM__PSP_10__smsErrorWrapper" class="pass-generalErrorWrapper"><span id="TANGRAM__PSP_10__smsError" class="pass-generalError"></span></p><div id="TANGRAM__PSP_10__smsPhoneWrapper" class="pass-form-item pass-form-item-smsPhone"><label for="TANGRAM__PSP_10__smsPhone" id="TANGRAM__PSP_10__smsPhoneLabel" class="pass-label pass-label-smsPhone" data-countrycode="">手机号</label><input id="TANGRAM__PSP_10__smsPhone" type="text" name="username" class="pass-text-input pass-text-input-smsPhone" placeholder="请输入手机号"><span id="TANGRAM__PSP_10__smsPhone_clearbtn" class="pass-clearbtn pass-clearbtn-smsPhone" style="display:none;"></span><span id="TANGRAM__PSP_10__smsPhoneTip" class="pass-item-tip pass-item-tip-smsPhone" style="display:none"><span id="TANGRAM__PSP_10__smsPhoneTipText"></span></span></div><p id="TANGRAM__PSP_10__smsVerifyCodeWrapper" class="pass-form-item pass-form-item-smsVerifyCode"><label for="TANGRAM__PSP_10__smsVerifyCode" id="TANGRAM__PSP_10__smsVerifyCodeLabel" class="pass-label pass-label-smsVerifyCode">动态密码</label><input id="TANGRAM__PSP_10__smsVerifyCode" type="text" name="password" class="pass-text-input pass-text-input-smsVerifyCode" placeholder="动态密码"><span id="TANGRAM__PSP_10__smsVerifyCode_clearbtn" class="pass-clearbtn pass-clearbtn-smsVerifyCode" style="display:none;"></span><button id="TANGRAM__PSP_10__smsTimer" class="pass-item-timer">发送动态密码</button><span id="TANGRAM__PSP_10__smsVerifyCodeTip" class="pass-item-tip pass-item-tip-smsVerifyCode" style="display:none"><span id="TANGRAM__PSP_10__smsVerifyCodeTipText"></span></span></p><p id="TANGRAM__PSP_10__smsUnReceiveWrapper" class="pass-form-item pass-form-item-unrecevie" style="display:none;"><span id="TANGRAM__PSP_10__smsUnReceiveTipWrapper" class="pass-sms-unreceive-tips">收不到短信验证码?</span></p><p id="TANGRAM__PSP_10__smsSubmitWrapper" class="pass-form-item pass-form-item-submit"><input id="TANGRAM__PSP_10__smsSubmit" type="submit" value="登录" class="pass-button pass-button-submit"><span class="tang-pass-sms-agreement">阅读并接受<a target="_blank" href="http://passport.baidu.com/static/passpc-account/html/protocal.html">《百度用户协议》</a></span><a id="TANGRAM__PSP_10__sms_btn_back" class="pass-sms-link pass-sms-link-back">帐号密码登录</a></p></form></div><div id="TANGRAM__PSP_10__qrcode" class="clearfix tang-pass-qrcode tang-pass-login" style="display:none;"><div class="tang-pass-qrcode-content" id="TANGRAM__PSP_10__qrcodeContent"><div class="tang-pass-qrcode-init"><p class="tang-pass-qrcode-title">请使用<span>百度App</span>扫码登录</p><div class="Qrcode-status-con tang-pass-qrcode-imgWrapper" id="TANGRAM__PSP_10__QrcodeMain"><img class="tang-pass-qrcode-img" src="./case_files/loading.gif"></div><div class="Qrcode-status-con Qrcode-status-success" id="TANGRAM__PSP_10__QrcodeSuccess"><p class="Qrcode-status-icon"></p><p>扫描成功</p><p class="Qrcode-status-msg">请在手机端确认登录</p></div><div class="Qrcode-status-con Qrcode-status-error" id="TANGRAM__PSP_10__QrcodeError"><p class="Qrcode-status-icon"></p><p>网络连接失败</p><p class="Qrcode-status-msg">请稍候再试</p></div><div class="Qrcode-status-con Qrcode-status-refresh" id="TANGRAM__PSP_10__QrcodeRefresh"><p class="Qrcode-status-icon"></p><p class="refresh-title refresh-timeout">二维码已失效</p><p class="refresh-title refresh-loadout">二维码加载失败</p><p class="Qrcode-refresh-btn" id="TANGRAM__PSP_10__QrcodeRefreshBtn">刷新二维码</p></div><p class="tang-pass-qrcode-info">百度技术加密，保障您的隐私安全</p></div></div></div><div id="TANGRAM__PSP_10__pass_b2c" style="display:none;"></div><div class="tang-pass-pop-login-changeWrapper"><div class="tang-pass-pop-login-change tang-pass-pop-qrcodeLogin" data-type="normal"></div></div></div></div></div></div></div></div><div class="tang-footer" id="TANGRAM__PSP_4__footer" style="display: none;"><div id="TANGRAM__PSP_4__footerContainer"></div></div></div></div><div id="TANGRAM__PSP_10__unRecevieSmsTip" class="pass-unreceiveSms-tip-wrapper" style="display:none"><div class="pass-unreceiveSms-mask"></div><div class="pass-unreceiveSms-tip-wrapper-content"><div class="unreceiveSms-header"><h3 class="unreceiveSms-header-h3">收不到验证码</h3><a class="unreceiveSms-header-a" id="TANGRAM__PSP_10__closeUnRecevieSmsTip"></a></div><div class="unreceiveSms-article"><div class="pass-unreceiveSms-content"><p class="pass-unreceiveSms-p">1.请检查短信是否被安全软件拦截</p><p class="pass-unreceiveSms-p">2.运营商网络原因，短信可能延迟到达</p><p class="pass-unreceiveSms-t25" id="TANGRAM__PSP_10__unRecevieSmsReged" style="display:none;">建议您<a class="pass-unreceiveSms-btn-tip" id="TANGRAM__PSP_10__unRecevieSmsChangeLogin">切换登录方式</a>或使用该手机号，编辑短信“<span class="pass-unreceiveSms-btn-tip" id="TANGRAM__PSP_10__unRecevieSmsSendCode"></span>”，发送至<span id="TANGRAM__PSP_10__unRecevieSmsSendNumber"></span>即可登录成功<span class="pass-unreceiveSms-text-tip">（短信费用请参考运营商资费标准）</span></p><p class="pass-unreceiveSms-t25" id="TANGRAM__PSP_10__unRecevieSmsUnReg" style="display:none;">建议使用当前手机号，编辑短信 8-14 位字符（支持数字/字母/符号），作为登录密码，发送至1069 0691 036590，即可注册成功<span class="pass-unreceiveSms-text-tip">（短信费用请参考运营商资费标准）</span></p></div></div></div></div></body></html>
