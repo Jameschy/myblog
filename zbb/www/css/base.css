@@ -4,8 +4,10 @@
     -moz-osx-font-smoothing: grayscale;
     font-weight: normal;
 }
-html {
-    width: fit-content;
+@media screen and (max-width:1024px){
+    html {
+        width: fit-content;
+    }
 }
 body {
     margin: 0;
