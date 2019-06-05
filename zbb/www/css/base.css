@@ -1159,7 +1159,7 @@ body {
 
 .custom-banner-icon {
     background-size: cover;
-    background-image: url(../img/new/custom_step.png);
+    background-image: url(../img/custom_step.png);
     width: 230px;
     height: 70px;
     display: inline-block;
