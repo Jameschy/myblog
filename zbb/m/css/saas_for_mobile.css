@@ -8,14 +8,26 @@
     z-index: 10;
 }
 .section-introduce .banner-wrap {
-    height: 3.4rem;
-    background-image: url(../img/index-banner.jpg);
+    /*height: 3.4rem;*/
+    height: -webkit-fill-available;
+
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     padding: 0 .4rem;
     overflow: hidden;
 }
-
+.section-introduce .group{
+    width: 50%;
+    text-align: center;
+    margin: 55% auto;
+}
+.wrap-bg1{
+    background-image: url(../img/index-banner1.jpg);
+}
+.wrap-bg2{
+    background-image: url(../img/index-banner2.jpg);
+}
 .section-introduce .banner-wrap .banner-title {
     font-size: 25px;
     line-height: 31px;
@@ -26,15 +38,16 @@
 .section-introduce .banner-wrap .banner-tip {
     color: #fff;
     font-size: 9px;
-    line-height: 12px;
+    line-height: 25px;
 }
 
 .section-introduce .banner-wrap .desc {
-    width: 4.4rem;
+    /*width: 4.4rem;*/
+    width: 100%;
     word-wrap:break-word;
     word-break:break-all;
     font-size: 10px;
-    line-height: 18px;
+    line-height: 25px;
     color: #fff;
     margin-top: .3rem;
 }
@@ -212,14 +225,16 @@
 }
 
 #section-advantage .advantage-img-wrap {
-    height: 3.3rem;
+    /*height: 3.3rem;*/
+    height: 2.25rem;
     width: 100%;
     position:relative;
 }
 
 #section-advantage .advantage-item {
     width: 95%;
-    height: 3.3rem;
+    /*height: 3.3rem;*/
+    height: 2.25rem;
     background-size: 100%;
     background-repeat: no-repeat;
     -webkit-border-radius: .1rem;
@@ -234,7 +249,8 @@
 .advantage-img-cover {
     background: #333;
     width: 95%;
-    height: 3.3rem;
+    /*height: 3.3rem;*/
+    height: 2.25rem;
     position: absolute;
     left: 50%;
     margin-left: -47.5%;
@@ -322,7 +338,8 @@
 }
 
 .advantage-item-icon-wrap {
-    margin-top: .62rem;
+    /*margin-top: .62rem;*/
+    margin-top: .2rem;
 }
 
 .advantage-adjust-EN {
@@ -399,7 +416,8 @@
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
-    padding: .48rem 0 .4rem .64rem;
+    /*padding: .48rem 0 .4rem .64rem;*/
+    padding: 0.15rem 0 .15rem .4rem;
     overflow: hidden;
 }
 
@@ -485,14 +503,16 @@
 }
 
 #section-case .case-item {
-    margin-bottom: .2rem;
+    margin-bottom: .12rem;
     position: relative;
-    height: 1.64rem;
+    /*height: 1.64rem;*/
+    height: 1.25rem;
 }
 
 #section-case .case-item-img {
     width: 95%;
-    height: 1.64rem;
+    /*height: 1.64rem;*/
+    height: 1.25rem;
     background-size: 100%;
     background-repeat: no-repeat;
     -webkit-border-radius: .06rem;
@@ -506,7 +526,8 @@
 
 #section-case .case-img-wrap {
     width: 95%;
-    height: 1.64rem;
+    /*height: 1.64rem;*/
+    height: 1.25rem;
     background: #333;
     position: absolute;
     opacity: .3;
@@ -550,7 +571,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     float: left;
-    margin-top: .46rem;
+    margin-top: .25rem;
     margin-left: .5rem;
 }
 
@@ -560,7 +581,8 @@
     line-height: .5rem;
     font-family: PingFangSC-Regular;
     float: left;
-    margin-top: .58rem;
+    /*margin-top: .58rem;*/
+    margin-top: 0.35rem;
     margin-left: .22rem;
     width: 64%;
 }
@@ -643,7 +665,7 @@
 }
 
 .delivery-img {
-    width: 95%;
+    width: 80%;
     margin: 0 auto;
     background-size: 100%;
     background-repeat: no-repeat;

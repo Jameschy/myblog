@@ -3,7 +3,6 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title> 鼎业数据众包平台 </title>
@@ -13,31 +12,112 @@
           content="鼎业数据众包，提供专业的数据标注、制作、采集服务，全方位支持文本、语音、图像、视频等各类型数据的处理，速度快、成本低、质量高。服务适合舆情监控、图片识别、OCR识别、语音识别、自然语言处理、交通、电商、医疗等领域的数据处理。">
     <meta content="yes" name="apple-mobile-web-app-capable">
     <meta content="telephone=no" name="format-detection">
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-<!--    <link rel="icon" sizes="any" href="###zbxz/cache/icon/favicon.svg">-->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" sizes="any" href="img/favicon.svg">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
 
     <!--basic css-->
-
     <link rel="stylesheet" href="css/mobase.css">
-
     <link rel="stylesheet" href="css/base_for_mobile.css">
-
     <link rel="stylesheet" href="css/saas_for_mobile.css">
 
-    <script async="" src="js/g.min.js" id="new_FIAOWNBFDIQILY"></script>
-    <script src="css/hm.js"></script>
-    <script src="css/cal_font_size.js"></script>
-    <style>html {
-        font-size: 54.93333333333333px;
-    }</style>
-    <script>var _hmt = _hmt || [];
-    (function () {
-        var hm = document.createElement("script");
-        hm.src = "//hm.baidu.com/hm.js?48f82868aa1ed62bf1defb68bd7972b1";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(hm, s);
-    })();</script>
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <script src="js/swiper.min.js"></script>
+    <script src="js/swiper.animate.min.js"></script>
+    <style>
+        html {
+            font-size: 54.93333333333333px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html, body {
+            height: 100%;
+        }
+
+        .swiper-container {
+            /*  width: 320px;
+              height: 480px;*/
+            width: 100%;
+            height: 100%;
+            background: #000;
+
+
+        }
+
+        .swiper-slide {
+            width: 100%;
+            height: 100%;
+            background: url(img/bg.jpg) no-repeat left top;
+            background: #fff;
+            background-size: 100% 100%;
+
+        }
+
+        @-webkit-keyframes start {
+            0%, 30% {
+                opacity: 0;
+                -webkit-transform: translate(0, 10px);
+            }
+            60% {
+                opacity: 1;
+                -webkit-transform: translate(0, 0);
+            }
+            100% {
+                opacity: 0;
+                -webkit-transform: translate(0, -8px);
+            }
+        }
+
+        @-moz-keyframes start {
+            0%, 30% {
+                opacity: 0;
+                -moz-transform: translate(0, 10px);
+            }
+            60% {
+                opacity: 1;
+                -moz-transform: translate(0, 0);
+            }
+            100% {
+                opacity: 0;
+                -moz-transform: translate(0, -8px);
+            }
+        }
+
+        @keyframes start {
+            0%, 30% {
+                opacity: 0;
+                transform: translate(0, 10px);
+            }
+            60% {
+                opacity: 1;
+                transform: translate(0, 0);
+            }
+            100% {
+                opacity: 0;
+                transform: translate(0, -8px);
+            }
+        }
+
+        .ani {
+            position: absolute;
+        }
+
+        .txt {
+            position: absolute;
+        }
+
+        #array {
+            position: absolute;
+            z-index: 999;
+            -webkit-animation: start 1.5s infinite ease-in-out;
+        }
+    </style>
+
 
     <!--basic lib-->
     <script src="js/jquery.min.js"></script>
@@ -46,42 +126,11 @@
     <script src="js/polyfill.min.js"></script>
     <!--basic css-->
     <link rel="stylesheet" type="textcss" href="css/iconfont.css">
-
     <!--global var-->
-    <script>
-        var baseUrl = '###zbbb/';
-        var base_url_module = '###zbbb/crowdtest/';
-        var base_dir_module = '###zbbb/crowdtest/';
-        var yii_csrf_token_global = '4671b3997067b694fabe3001530b0587c839e597';
-        var yii_csrf_token = '4671b3997067b694fabe3001530b0587c839e597';
-
-        var BASE_ADMIN_DIR_MODULE = "/admin/";
-        var BASE_MARK_DIR_MODULE = "/mark/";
-        var BASE_PROXY_URL = "";
-        //        seajs.use('/mark/staticjs/popup/RightSideDock', function(dock) {
-        //            dock.init("");
-        //        });
-        var isMobile = "1";
-        if (!isMobile) {
-            window.seajs.use('/mark/staticjs/popup/MenuSidebar', function (dock) {
-                dock.init();
-            });
-        }
-    </script>
-    <link rel="stylesheet" type="textcss" href="css/uni_login_new_473cd93.css" data-for="result">
-    <script type="text/javascript" charset="UTF-8" src="js/uni_login_tangram_36aacf9.js"></script>
-    <script type="text/javascript" charset="UTF-8" src="js/login_c99c4ee.js"></script>
-    <script type="text/javascript" charset="UTF-8" src="js/ld.min.js"></script>
-    <script type="text/javascript" charset="UTF-8" src="js/wrapper_touch.js"></script>
-    <script src="js/wrapper_touch(1).js"></script>
-<!--    <script src="http://183.59.53.202:3737/ad_unified_access?SP=ABzs/Ly4PPyMrKz83Pz8/Hxsu/zsnM0Zibg7Gah4qM38qDzIPLy8/Mz8+DzoPOysrGysrPyMvPg87KysbKys/Iy8/PyM7GysbNg8rKx8jO"></script>-->
 </head>
 <body style="font-size: 16px;">
 <div id="TANGRAM__PSP_5__" class="pop-mask"
      style="top: 0px; left: 0px; position: fixed; width: 412px; height: 660px; opacity: 0.15; z-index: 60000; background-color: rgb(0, 0, 0); display: none;">
-    <iframe frameborder="0"
-            style="filter:progid:DXImageTransform.Microsoft.Alpha(opacity:0);position:absolute;top:0px;left:0px;width:100%;height:100%;z-index:-1"
-            src="css/saved_resource.html"></iframe>
     <div style="position:absolute;top:0px;left:0px;width:100%;height:100%;z-index:-1;">&nbsp;</div>
 </div>
 <div class="zui-header-wrap">
@@ -95,23 +144,396 @@
         </div>
     </div>
 </div>
-<label for="is-mobile" style="display: none;"></label><input type="hidden" id="is-mobile" value="1"><!-- banner -->
-<div class="zui-section section-introduce">
-    <div class="banner-wrap">
-        <div class="group">
-            <p class="banner-title">数据众包服务</p>
-            <p class="banner-tip">Data Crowdsourcing Service</p>
-            <div class="desc">采用众包模式采集原始数据，并进行数据加工为客户交付AI算法所需结构化数据。</div>
-            <div class="banner-img-wrap banner-img"></div>
-        </div>
+<label for="is-mobile" style="display: none;"></label><input type="hidden" id="is-mobile" value="1">
+
+
+<div class="swiper-container swiper-container-v">
+    <div class="swiper-wrapper">
+        <!-- banner -->
+        <section class="swiper-slide swiper-slide1" id="banner">
+            <div class="swiper-container swiper-container-h">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide zui-section section-introduce">
+                        <div class="banner-wrap wrap-bg1">
+                            <div class="group">
+                                <p class="banner-title">数据众包服务</p>
+                                <p class="banner-tip">Data Crowdsourcing Service</p>
+                                <div class="desc">采用众包模式采集原始数据，并进行数据加工为客户交付AI算法所需结构化数据。</div>
+                                <div class="banner-img-wrap banner-img"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide zui-section section-introduce">
+                        <div class="banner-wrap wrap-bg2">
+                            <div class="group">
+                                <p class="banner-title">数据众包服务</p>
+                                <p class="banner-tip">Data Crowdsourcing Service</p>
+                                <div class="desc">采用众包模式采集原始数据，并进行数据加工为客户交付AI算法所需结构化数据。</div>
+                                <div class="banner-img-wrap banner-img"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination swiper-pagination-h"></div>
+                </div>
+            </div>
+        </section>
+
+        <!--service-->
+        <section class="swiper-slide swiper-slide2" id="div-section-service">
+            <div class="zui-section" id="section-service">
+                <div class="service-title">服务内容</div>
+                <div class="service-wrap">
+                    <a href="collection.html">
+                        <div class="service-item">
+                            <div class="service-icon service-collection-icon"></div>
+                            <div class="service-content">
+                                <div>
+                                    <span class="service-item-title">人工采集</span>
+                                    <i class="service-item-icon"></i>
+                                </div>
+                                <p class="service-item-des">海量众包用户定制化线下采集，涵盖图片、文本、语音、视频等多维度数据。</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="mark.html">
+                        <div class="service-item">
+                            <div class="service-icon service-mark-icon"></div>
+                            <div class="service-content">
+                                <div>
+                                    <span class="service-item-title">数据标注</span>
+                                    <i class="service-item-icon"></i>
+                                </div>
+                                <p class="service-item-des">提供针对图像、视频、语音、文本等数据的清洗、评估、提取以及特殊信息标注。</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="crawl.html">
+                        <div class="service-item">
+                            <div class="service-icon service-capture-icon"></div>
+                            <div class="service-content">
+                                <div>
+                                    <span class="service-item-title">数据抓取</span>
+                                    <i class="service-item-icon"></i>
+                                </div>
+                                <p class="service-item-des">通过自动化数据采集终端完成海量互联网数据（网页、文本等）的自动化采集。</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--advantage-->
+        <section class="swiper-slide swiper-slide3" id="div-section-advantage">
+            <div class="zui-section" id="section-advantage">
+                <div class="advantage-title">优势概览</div>
+                <div class="advantage-wrap">
+                    <div class="advantage-item-wrap">
+                        <div class="advantage-img-wrap">
+                            <div class="advantage-item advantage-img1"></div>
+                            <div class="advantage-img-cover"></div>
+                        </div>
+                        <div class="advantage-content">
+                            <div class="advantage-item-icon-wrap ">
+                                <span class="advantage-item-icon advantage-icon1" style="width: ; height: ;"></span>
+                                <span class="advantage-item-title">处理流程更专业</span>
+                            </div>
+                            <p class="advantage-item-des">强大的平台功能和多样化基础工具，作业流科学合理；专业项目人员全流程一对一跟进，实时掌控项目进度。</p>
+                        </div>
+                    </div>
+                    <div class="advantage-item-wrap">
+                        <div class="advantage-img-wrap">
+                            <div class="advantage-item advantage-img2"></div>
+                            <div class="advantage-img-cover"></div>
+                        </div>
+                        <div class="advantage-content">
+                            <div class="advantage-item-icon-wrap ">
+                                <span class="advantage-item-icon advantage-icon2" style="width: ; height: ;"></span>
+                                <span class="advantage-item-title">处理速度更高效</span>
+                            </div>
+                            <p class="advantage-item-des">1万名专职外场数据采集员、5000+在线标注人员、100+核心专职数据处理专家，百万级数据标注处理能力。</p>
+                        </div>
+                    </div>
+                    <div class="advantage-item-wrap">
+                        <div class="advantage-img-wrap">
+                            <div class="advantage-item advantage-img3"></div>
+                            <div class="advantage-img-cover"></div>
+                        </div>
+                        <div class="advantage-content">
+                            <div class="advantage-item-icon-wrap ">
+                                <span class="advantage-item-icon advantage-icon3" style="width: ; height: ;"></span>
+                                <span class="advantage-item-title">数据质量更精准</span>
+                            </div>
+                            <p class="advantage-item-des">7年数据行业积累，严格的人员培训考核准入机制，多重数据人工审核质检机制、人工智能辅助审核，数据质量远高于竞品。</p>
+                        </div>
+                    </div>
+                    <div class="advantage-item-wrap">
+                        <div class="advantage-img-wrap">
+                            <div class="advantage-item advantage-img4"></div>
+                            <div class="advantage-img-cover"></div>
+                        </div>
+                        <div class="advantage-content">
+                            <div class="advantage-item-icon-wrap ">
+                                <span class="advantage-item-icon advantage-icon4" style="width: ; height: ;"></span>
+                                <span class="advantage-item-title">支付费用更优惠</span>
+                            </div>
+                            <p class="advantage-item-des">成熟的众包任务分发模式、易用的采集与标注终端工具，效率高，收费低于竞品。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--model-->
+        <section class="swiper-slide swiper-slide4" id="div-section-model">
+            <div class="zui-section" id="section-model">
+                <div class="model-title">成熟模式</div>
+                <div class="model-header">
+                    <ul class="model-item-wrap">
+                        <li class="model-header-item item-left">您的需求</li>
+                        <li class="model-header-item item-middle">数据众包服务</li>
+                        <li class="model-header-item item-right">数据交付</li>
+                    </ul>
+                </div>
+                <div class="model-img-wrap" style="height: 8.8rem;">
+                    <div class="model-img model-img-CH"></div>
+                </div>
+            </div>
+        </section>
+
+        <!--scene-->
+        <section class="swiper-slide swiper-slide5" id="div-section-scenes">
+            <div class="zui-section" id="section-scenes">
+                <div class="scenes-title">多场景应用</div>
+                <div class="scenes-content-wrap">
+                    <a href="autoPilot.html">
+                        <div class="scenes-item">
+                            <div class="scenes-icon scenes-icon1"></div>
+                            <div class="scenes-content">
+                                <div>
+                                    <span class="scenes-item-title">智能交通数据应用</span>
+                                    <span class="scenes-link"></span>
+                                </div>
+                                <p class="scenes-text">通过采集与标注为行人、车辆、红绿灯、车道线等识别技术提供精确训练数据。</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="publicOpinion.html">
+                        <div class="scenes-item">
+                            <div class="scenes-icon scenes-icon2"></div>
+                            <div class="scenes-content">
+                                <div>
+                                    <span class="scenes-item-title">网络舆论监控</span>
+                                    <span class="scenes-link"></span>
+                                </div>
+                                <p class="scenes-text">提供各种新闻、论坛、博客、贴吧等社交媒体用户发表的文章、评论、点赞等数据的采集和分析。</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="securitySolution.html">
+                        <div class="scenes-item">
+                            <div class="scenes-icon scenes-icon3"></div>
+                            <div class="scenes-content">
+                                <div>
+                                    <span class="scenes-item-title">安全防护应用</span>
+                                    <span class="scenes-link"></span>
+                                </div>
+                                <p class="scenes-text">车辆、行人、道路监控视频、市内监控视频、防暴反恐等数据的采集与标注。</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="speechSolution.html">
+                        <div class="scenes-item">
+                            <div class="scenes-icon scenes-icon4"></div>
+                            <div class="scenes-content">
+                                <div>
+                                    <span class="scenes-item-title">智能语音数据应用</span>
+                                    <span class="scenes-link"></span>
+                                </div>
+                                <p class="scenes-text">采集语种语料并加工处理，为语音识别(ASR)、语音合成(TTS)等提供高质量语音数据。</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="faceRecognition.html">
+                        <div class="scenes-item">
+                            <div class="scenes-icon scenes-icon5"></div>
+                            <div class="scenes-content">
+                                <div>
+                                    <span class="scenes-item-title">人脸识别数据应用</span>
+                                    <span class="scenes-link"></span>
+                                </div>
+                                <p class="scenes-text">提供多种要求的人脸图像采集，并为人脸关键信息点标注，为人脸识别技术提升提供数据保障。</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="ocr.html">
+                        <div class="scenes-item">
+                            <div class="scenes-icon scenes-icon6"></div>
+                            <div class="scenes-content">
+                                <div>
+                                    <span class="scenes-item-title">OCR数据应用</span>
+                                    <span class="scenes-link"></span>
+                                </div>
+                                <p class="scenes-text">车牌、彩票、名片、身份证、银行卡、手写轨迹等多种垂类图片采集及内容识别提取。</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--case-->
+        <section class="swiper-slide swiper-slide6" id="div-section-case">
+            <div class="zui-section" id="section-case">
+                <div class="case-title">案例中心</div>
+                <div class="case-wrap">
+                    <a href="case.html#case_1">
+                        <div class="case-item">
+                            <div class="case-item-img case-img1"></div>
+                            <div class="case-img-wrap"></div>
+                            <div class="case-content">
+                                <div class="case-icon case-icon1"></div>
+                                <p class="case-text ">粤语方言语料采集</p>
+                                <span class="case-link"></span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="case.html#case_2">
+                        <div class="case-item">
+                            <div class="case-item-img case-img2"></div>
+                            <div class="case-img-wrap"></div>
+                            <div class="case-content">
+                                <div class="case-icon case-icon2"></div>
+                                <p class="case-text ">多表情人脸采集</p>
+                                <span class="case-link"></span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="case.html#case_3">
+                        <div class="case-item">
+                            <div class="case-item-img case-img3"></div>
+                            <div class="case-img-wrap"></div>
+                            <div class="case-content">
+                                <div class="case-icon case-icon3"></div>
+                                <p class="case-text ">语音数据转写与分类</p>
+                                <span class="case-link"></span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="case.html#case_4">
+                        <div class="case-item">
+                            <div class="case-item-img case-img4"></div>
+                            <div class="case-img-wrap"></div>
+                            <div class="case-content">
+                                <div class="case-icon case-icon4"></div>
+                                <p class="case-text ">花卉图片分类标注</p>
+                                <span class="case-link"></span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="case.html#case_5">
+                        <div class="case-item">
+                            <div class="case-item-img case-img5"></div>
+                            <div class="case-img-wrap"></div>
+                            <div class="case-content">
+                                <div class="case-icon case-icon5"></div>
+                                <p class="case-text ">人脸照片标注</p>
+                                <span class="case-link"></span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="case.html#case_6">
+                        <div class="case-item">
+                            <div class="case-item-img case-img6"></div>
+                            <div class="case-img-wrap"></div>
+                            <div class="case-content">
+                                <div class="case-icon case-icon6"></div>
+                                <p class="case-text ">道路图片交通元素分类提取</p>
+                                <span class="case-link"></span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="case.html#case_7">
+                        <div class="case-item">
+                            <div class="case-item-img case-img7"></div>
+                            <div class="case-img-wrap"></div>
+                            <div class="case-content">
+                                <div class="case-icon case-icon7"></div>
+                                <p class="case-text ">自动驾驶数据集标注</p>
+                                <span class="case-link"></span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--delivery-->
+        <section class="swiper-slide swiper-slide7" id="div-section-delivery">
+            <div class="zui-section" id="section-delivery">
+                <div class="delivery-title">交付便捷</div>
+                <div class="delivery-des">支出数据公有化和私有化数据交付</div>
+                <div class="delivery-img delivery-img-CH" style="height: 11rem;"></div>
+            </div>
+        </section>
+
+        <!--company-->
+        <section class="swiper-slide swiper-slide8">
+            <div class="zui-section" id="section-company">
+                <div class="company-title">合作流程</div>
+                <div class="company-img-wrap">
+                    <div class="company-img company-img-CH"></div>
+                </div>
+                <a href="contact.html?language">
+                    <div class="apply-btn">申请使用</div>
+                </a>
+            </div>
+            <div class="zui-footer" style="margin-bottom: 1.2rem;">
+                <div class="footer-section">
+                    <p class="footer-title">关于鼎业众包</p>
+                    <div class="footer-text">
+                        <a href="contact.html" target="">定制服务</a>
+                    </div>
+                    <div class="footer-text">
+                        <a href="scene.html" target="">自助平台</a>
+                    </div>
+                    <div class="footer-text">
+                        <a href="case.html" target="">成功案例</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <p class="footer-title">联系我们</p>
+                    <!--        <p class="footer-text">Email: <a target="_blank" href="mailto:zhongbao@baidu.com">zhongbao@baidu.com</a></p>-->
+                    <!--        <p class="footer-text">QQ: <a target="_blank" href="tencent://message/?uin=1537361276">1537361276</a></p>-->
+                    <p class="footer-text">电话: <a target="_blank"
+                                                  href="tencent://message/?uin=1537361276">0755-86534692</a>
+                    </p>
+                </div>
+
+            </div>
+        </section>
     </div>
+
+    <!-- Add Pagination -->
+    <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-v">
+        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span>
+        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span>
+        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span>
+        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4"></span>
+        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 5"></span>
+        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 6"></span>
+        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 7"></span>
+        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 8"></span>
+    </div>
+    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
 </div>
 
 <!--nav-->
 <div class="zui-section section-nav" id="drag-nav">
     <ul class="nav-wrap" id="nav-wrap">
         <li class="nav-item">
-            <a href="#section-service">
+            <a href="collection.html">
                 <div class="nav-icon nav-service-icon"></div>
                 <span class="sass-nav-text">服务</span>
             </a>
@@ -123,376 +545,45 @@
             </a>
         </li>
         <li class="nav-item">
-            <a href="#section-model">
+            <a href="#div-section-model">
                 <div class="nav-icon nav-model-icon"></div>
                 <span class="sass-nav-text">模式</span>
             </a>
         </li>
         <li class="nav-item">
-            <a href="#section-scenes">
+            <a href="#div-section-scenes">
                 <div class="nav-icon nav-scenes-icon"></div>
                 <span class="sass-nav-text">场景</span>
             </a>
         </li>
         <li class="nav-item">
-            <a href="#section-case">
+            <a href="#div-section-case">
                 <div class="nav-icon nav-case-icon"></div>
                 <span class="sass-nav-text">案例</span>
             </a>
         </li>
         <li class="nav-item">
-            <a href="#section-delivery">
+            <a href="#div-section-delivery">
                 <div class="nav-icon nav-delivery-icon"></div>
                 <span class="sass-nav-text">交付</span>
             </a>
         </li>
         <li class="nav-item">
-            <a href="#section-company">
+            <a href="#div-section-company">
                 <div class="nav-icon nav-process-icon"></div>
                 <span class="sass-nav-text">流程</span>
             </a>
         </li>
         <li class="nav-item">
-            <a href="#section-company">
+            <a href="#div-section-company">
                 <div class="nav-icon nav-company-icon"></div>
                 <span class="sass-nav-text">合作</span>
             </a>
         </li>
     </ul>
 </div>
-
-<!--service-->
-<div class="zui-section" id="section-service">
-    <div class="service-title">服务内容</div>
-    <div class="service-wrap">
-        <a href="collection.html">
-            <div class="service-item">
-                <div class="service-icon service-collection-icon"></div>
-                <div class="service-content">
-                    <div>
-                        <span class="service-item-title">人工采集</span>
-                        <i class="service-item-icon"></i>
-                    </div>
-                    <p class="service-item-des">海量众包用户定制化线下采集，涵盖图片、文本、语音、视频等多维度数据。</p>
-                </div>
-            </div>
-        </a>
-        <a href="mark.html">
-            <div class="service-item">
-                <div class="service-icon service-mark-icon"></div>
-                <div class="service-content">
-                    <div>
-                        <span class="service-item-title">数据标注</span>
-                        <i class="service-item-icon"></i>
-                    </div>
-                    <p class="service-item-des">提供针对图像、视频、语音、文本等数据的清洗、评估、提取以及特殊信息标注。</p>
-                </div>
-            </div>
-        </a>
-        <a href="crawl.html">
-            <div class="service-item">
-                <div class="service-icon service-capture-icon"></div>
-                <div class="service-content">
-                    <div>
-                        <span class="service-item-title">数据抓取</span>
-                        <i class="service-item-icon"></i>
-                    </div>
-                    <p class="service-item-des">通过自动化数据采集终端完成海量互联网数据（网页、文本等）的自动化采集。</p>
-                </div>
-            </div>
-        </a>
-    </div>
-</div>
-
-<!--advantage-->
-<div class="zui-section" id="section-advantage">
-    <div class="advantage-title">优势概览</div>
-    <div class="advantage-wrap">
-        <div class="advantage-item-wrap">
-            <div class="advantage-img-wrap">
-                <div class="advantage-item advantage-img1"></div>
-                <div class="advantage-img-cover"></div>
-            </div>
-            <div class="advantage-content">
-                <div class="advantage-item-icon-wrap ">
-                    <span class="advantage-item-icon advantage-icon1" style="width: ; height: ;"></span>
-                    <span class="advantage-item-title">处理流程更专业</span>
-                </div>
-                <p class="advantage-item-des">强大的平台功能和多样化基础工具，作业流科学合理；专业项目人员全流程一对一跟进，实时掌控项目进度。</p>
-            </div>
-        </div>
-        <div class="advantage-item-wrap">
-            <div class="advantage-img-wrap">
-                <div class="advantage-item advantage-img2"></div>
-                <div class="advantage-img-cover"></div>
-            </div>
-            <div class="advantage-content">
-                <div class="advantage-item-icon-wrap ">
-                    <span class="advantage-item-icon advantage-icon2" style="width: ; height: ;"></span>
-                    <span class="advantage-item-title">处理速度更高效</span>
-                </div>
-                <p class="advantage-item-des">1万名专职外场数据采集员、5000+在线标注人员、100+核心专职数据处理专家，百万级数据标注处理能力。</p>
-            </div>
-        </div>
-        <div class="advantage-item-wrap">
-            <div class="advantage-img-wrap">
-                <div class="advantage-item advantage-img3"></div>
-                <div class="advantage-img-cover"></div>
-            </div>
-            <div class="advantage-content">
-                <div class="advantage-item-icon-wrap ">
-                    <span class="advantage-item-icon advantage-icon3" style="width: ; height: ;"></span>
-                    <span class="advantage-item-title">数据质量更精准</span>
-                </div>
-                <p class="advantage-item-des">7年数据行业积累，严格的人员培训考核准入机制，多重数据人工审核质检机制、人工智能辅助审核，数据质量远高于竞品。</p>
-            </div>
-        </div>
-        <div class="advantage-item-wrap">
-            <div class="advantage-img-wrap">
-                <div class="advantage-item advantage-img4"></div>
-                <div class="advantage-img-cover"></div>
-            </div>
-            <div class="advantage-content">
-                <div class="advantage-item-icon-wrap ">
-                    <span class="advantage-item-icon advantage-icon4" style="width: ; height: ;"></span>
-                    <span class="advantage-item-title">支付费用更优惠</span>
-                </div>
-                <p class="advantage-item-des">成熟的众包任务分发模式、易用的采集与标注终端工具，效率高，收费低于竞品。</p>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!--model-->
-<div class="zui-section" id="section-model">
-    <div class="model-title">成熟模式</div>
-    <div class="model-header">
-        <ul class="model-item-wrap">
-            <li class="model-header-item item-left">您的需求</li>
-            <li class="model-header-item item-middle">数据众包服务</li>
-            <li class="model-header-item item-right">数据交付</li>
-        </ul>
-    </div>
-    <div class="model-img-wrap" style="height: 8.8rem;">
-        <div class="model-img model-img-CH"></div>
-    </div>
-</div>
-
-<!--scene-->
-<div class="zui-section" id="section-scenes">
-    <div class="scenes-title">多场景应用</div>
-    <div class="scenes-content-wrap">
-        <a href="autoPilot.html">
-            <div class="scenes-item">
-                <div class="scenes-icon scenes-icon1"></div>
-                <div class="scenes-content">
-                    <div>
-                        <span class="scenes-item-title">智能交通数据应用</span>
-                        <span class="scenes-link"></span>
-                    </div>
-                    <p class="scenes-text">通过采集与标注为行人、车辆、红绿灯、车道线等识别技术提供精确训练数据。</p>
-                </div>
-            </div>
-        </a>
-        <a href="publicOpinion.html">
-            <div class="scenes-item">
-                <div class="scenes-icon scenes-icon2"></div>
-                <div class="scenes-content">
-                    <div>
-                        <span class="scenes-item-title">网络舆论监控</span>
-                        <span class="scenes-link"></span>
-                    </div>
-                    <p class="scenes-text">提供各种新闻、论坛、博客、贴吧等社交媒体用户发表的文章、评论、点赞等数据的采集和分析。</p>
-                </div>
-            </div>
-        </a>
-        <a href="securitySolution.html">
-            <div class="scenes-item">
-                <div class="scenes-icon scenes-icon3"></div>
-                <div class="scenes-content">
-                    <div>
-                        <span class="scenes-item-title">安全防护应用</span>
-                        <span class="scenes-link"></span>
-                    </div>
-                    <p class="scenes-text">车辆、行人、道路监控视频、市内监控视频、防暴反恐等数据的采集与标注。</p>
-                </div>
-            </div>
-        </a>
-        <a href="speechSolution.html">
-            <div class="scenes-item">
-                <div class="scenes-icon scenes-icon4"></div>
-                <div class="scenes-content">
-                    <div>
-                        <span class="scenes-item-title">智能语音数据应用</span>
-                        <span class="scenes-link"></span>
-                    </div>
-                    <p class="scenes-text">采集语种语料并加工处理，为语音识别(ASR)、语音合成(TTS)等提供高质量语音数据。</p>
-                </div>
-            </div>
-        </a>
-        <a href="faceRecognition.html">
-            <div class="scenes-item">
-                <div class="scenes-icon scenes-icon5"></div>
-                <div class="scenes-content">
-                    <div>
-                        <span class="scenes-item-title">人脸识别数据应用</span>
-                        <span class="scenes-link"></span>
-                    </div>
-                    <p class="scenes-text">提供多种要求的人脸图像采集，并为人脸关键信息点标注，为人脸识别技术提升提供数据保障。</p>
-                </div>
-            </div>
-        </a>
-        <a href="ocr.html">
-            <div class="scenes-item">
-                <div class="scenes-icon scenes-icon6"></div>
-                <div class="scenes-content">
-                    <div>
-                        <span class="scenes-item-title">OCR数据应用</span>
-                        <span class="scenes-link"></span>
-                    </div>
-                    <p class="scenes-text">车牌、彩票、名片、身份证、银行卡、手写轨迹等多种垂类图片采集及内容识别提取。</p>
-                </div>
-            </div>
-        </a>
-    </div>
-</div>
-
-<!--case-->
-<div class="zui-section" id="section-case">
-    <div class="case-title">案例中心</div>
-    <div class="case-wrap">
-        <a href="case.html#case_1">
-            <div class="case-item">
-                <div class="case-item-img case-img1"></div>
-                <div class="case-img-wrap"></div>
-                <div class="case-content">
-                    <div class="case-icon case-icon1"></div>
-                    <p class="case-text ">粤语方言语料采集</p>
-                    <span class="case-link"></span>
-                </div>
-            </div>
-        </a>
-        <a href="case.html#case_2">
-            <div class="case-item">
-                <div class="case-item-img case-img2"></div>
-                <div class="case-img-wrap"></div>
-                <div class="case-content">
-                    <div class="case-icon case-icon2"></div>
-                    <p class="case-text ">多表情人脸采集</p>
-                    <span class="case-link"></span>
-                </div>
-            </div>
-        </a>
-        <a href="case.html#case_3">
-            <div class="case-item">
-                <div class="case-item-img case-img3"></div>
-                <div class="case-img-wrap"></div>
-                <div class="case-content">
-                    <div class="case-icon case-icon3"></div>
-                    <p class="case-text ">语音数据转写与分类</p>
-                    <span class="case-link"></span>
-                </div>
-            </div>
-        </a>
-        <a href="case.html#case_4">
-            <div class="case-item">
-                <div class="case-item-img case-img4"></div>
-                <div class="case-img-wrap"></div>
-                <div class="case-content">
-                    <div class="case-icon case-icon4"></div>
-                    <p class="case-text ">花卉图片分类标注</p>
-                    <span class="case-link"></span>
-                </div>
-            </div>
-        </a>
-        <a href="case.html#case_5">
-            <div class="case-item">
-                <div class="case-item-img case-img5"></div>
-                <div class="case-img-wrap"></div>
-                <div class="case-content">
-                    <div class="case-icon case-icon5"></div>
-                    <p class="case-text ">人脸照片标注</p>
-                    <span class="case-link"></span>
-                </div>
-            </div>
-        </a>
-        <a href="case.html#case_6">
-            <div class="case-item">
-                <div class="case-item-img case-img6"></div>
-                <div class="case-img-wrap"></div>
-                <div class="case-content">
-                    <div class="case-icon case-icon6"></div>
-                    <p class="case-text ">道路图片交通元素分类提取</p>
-                    <span class="case-link"></span>
-                </div>
-            </div>
-        </a>
-        <a href="case.html#case_7">
-            <div class="case-item">
-                <div class="case-item-img case-img7"></div>
-                <div class="case-img-wrap"></div>
-                <div class="case-content">
-                    <div class="case-icon case-icon7"></div>
-                    <p class="case-text ">自动驾驶数据集标注</p>
-                    <span class="case-link"></span>
-                </div>
-            </div>
-        </a>
-    </div>
-</div>
-
-<!--delivery-->
-<div class="zui-section" id="section-delivery">
-    <div class="delivery-title">交付便捷</div>
-    <div class="delivery-des">支出数据公有化和私有化数据交付</div>
-    <div class="delivery-img delivery-img-CH" style="height: 11rem;"></div>
-</div>
-
-<!--company-->
-<div class="zui-section" id="section-company">
-    <div class="company-title">合作流程</div>
-    <div class="company-img-wrap">
-        <div class="company-img company-img-CH"></div>
-    </div>
-    <a href="contact.html?language">
-        <div class="apply-btn">申请使用</div>
-    </a>
-</div>
-<div class="zui-footer" style="margin-bottom: 1.2rem;">
-    <div class="footer-section">
-        <p class="footer-title">关于鼎业众包</p>
-        <div class="footer-text">
-            <a href="contact.html" target="">定制服务</a>
-        </div>
-        <div class="footer-text">
-            <a href="scene.html" target="">自助平台</a>
-        </div>
-        <div class="footer-text">
-            <a href="case.html" target="">成功案例</a>
-        </div>
-    </div>
-    <div class="footer-section">
-        <p class="footer-title">联系我们</p>
-<!--        <p class="footer-text">Email: <a target="_blank" href="mailto:zhongbao@baidu.com">zhongbao@baidu.com</a></p>-->
-<!--        <p class="footer-text">QQ: <a target="_blank" href="tencent://message/?uin=1537361276">1537361276</a></p>-->
-        <p class="footer-text">电话: <a target="_blank" href="tencent://message/?uin=1537361276">0755-86534692</a></p>
-    </div>
-
-<!--    <div class="footer-section">-->
-<!--        <p class="footer-title">代理业务</p>-->
-<!--        <p class="footer-text">Email: <a target="_blank" href="mailto:Crowdtest@baidu.com">Crowdtest@baidu.com</a></p>-->
-<!--    </div>-->
-</div>
-
-
 <script src="css/uni_login_wrapper.js"></script>
 <script src="css/wrapper.js"></script>
-<script>
-    window.showLogin = '';
-    window.oldUrl = '';
-    window.userId = '0';
-
-</script>
 <script src="css/layout.js"></script>
 
 <script>
@@ -500,44 +591,7 @@
         // 初始化
         $('.product-nav i').css('left', $($("a[href^='#']")[0]).offset().left + $($("a[href^='#']")[0]).width() / 2 - 20);
 
-        // banner切换
-        var bannerSection = $('.section-introduce');
-        var switchBanner = function (nextIndex) {
-            if (nextIndex === undefined) {
-                var nextIndex = 0;
-                var length = bannerSection.find('.banner-wrap').length;
-                nextIndex = bannerSection.find('.banner-wrap.active').data('index') + 1;
-                if (nextIndex >= length) {
-                    nextIndex = 0;
-                }
-            }
-            bannerSection.find('.banner-wrap').removeClass('active');
-            bannerSection.find('.banner-control li').removeClass('active');
-            bannerSection.find('[data-index="' + nextIndex + '"]').addClass('active');
-        };
-        var bannerTimer = window.setInterval(function () {
-            switchBanner();
-        }, 4000);
-        bannerSection.find('.banner-control li').on('click', function () {
-            var nextIndex = $(this).data('index');
-            switchBanner(nextIndex);
-            if (bannerTimer) {
-                window.clearInterval(bannerTimer);
-            }
-            bannerTimer = window.setInterval(function () {
-                switchBanner();
-            }, 4000);
-        });
-        bannerSection.find('.banner-wrap').mouseover(function () {
-            if (bannerTimer) {
-                window.clearInterval(bannerTimer);
-            }
-        });
-        bannerSection.find('.banner-wrap').mouseleave(function () {
-            bannerTimer = window.setInterval(function () {
-                switchBanner();
-            }, 4000);
-        });
+
         // menu滚动
         $("a[href^='#']").each(function () {
             $(this).bind('click', function () {
@@ -607,304 +661,71 @@
             };
         }
 
-        // 按钮登录控制
-        $('.apply-btn .submit').click(function () {
-            if (0 == 0) {
-                $("#js_pass_login_btn").click();
-                $('#TANGRAM__PSP_4__closeBtn').addClass("close-btn");
-                return false;
-            }
-        });
-
-
     });
 </script>
+<script>
+
+    scaleW = window.innerWidth / 320;
+    scaleH = window.innerHeight / 480;
+    var resizes = document.querySelectorAll('.resize');
+    for (var j = 0; j < resizes.length; j++) {
+        resizes[j].style.width = parseInt(resizes[j].style.width) * scaleW + 'px';
+        resizes[j].style.height = parseInt(resizes[j].style.height) * scaleH + 'px';
+        resizes[j].style.top = parseInt(resizes[j].style.top) * scaleH + 'px';
+        resizes[j].style.left = parseInt(resizes[j].style.left) * scaleW + 'px';
+    }
+
+    var mySwiper = new Swiper('.swiper-container-v', {
+        direction: 'vertical',
+        pagination: '.swiper-pagination-v',
+        paginationClickable: true,
+        // virtualTranslate : true,
+        mousewheelControl: true,
+        onInit: function (swiper) {
+            swiperAnimateCache(swiper);
+            swiperAnimate(swiper);
+        },
+        onSlideChangeEnd: function (swiper) {
+            swiperAnimate(swiper);
+        },
+        onTransitionEnd: function (swiper) {
+            swiperAnimate(swiper);
+        },
 
 
-<div class="sogoutip" style="z-index: 2147483645; visibility: hidden; display: none;"></div>
-<div class="sogoubottom" id="sougou_bottom" style="display: none;"></div>
-<div id="ext_stophi" style="z-index: 2147483647;">
-    <div class="extnoticebg"></div>
-    <div class="extnotice"><h2>关闭提示 <a href="#" title="关闭提示" id="closenotice"
-                                       class="closenotice">关闭</a></h2>
-        <p id="sogouconfirmtxt"></p>  <a id="sogouconfirm" href="###zbbb/mark/home/index#"
-                                         class="extconfirm">确 认</a> <a id="sogoucancel"
-                                                                       href="###zbbb/mark/home/index#"
-                                                                       class="extconfirm">取 消</a></div>
-</div>
-<div id="ext_overlay" class="ext_overlayBG" style="display: none; z-index: 2147483646;"></div>
-<iframe class="sogou_sugg_feedbackquan" frameborder="0" scrolling="no" src="css/yun6.html"
-        style="background: transparent; border: none; display: none; height: 84px; width: 100%; z-index: 2147483645;"></iframe>
-<div id="passport-login-pop"
-     class="tang-pass-pop-login-noimg tang-pass-pop-login-merge tang-pass-pop-login-tpl-crt tang-pass-pop-login-color-blue tang-pass-pop-login"
-     style="left: 9px; top: 150.5px; z-index: 60001; display: none;">
-    <div class="tang-background" id="TANGRAM__PSP_6__"
-         style="position:absolute; top:0px; left:0px;width:100%;height:100%;z-index:-9; -webkit-user-select:none; -moz-user-select:none;"
-         onselectstart="return false">
-        <div class="tang-background-inner" style="width:100%;height:100%;" id="TANGRAM__PSP_6__inner"></div>
-        <div style="filter:progid:DXImageTransform.Microsoft.Alpha(opacity:0);position:absolute;z-index:-1;top:0;left:0;width:100%;height:100%;opacity:0;background-color:#FFFFFF"></div>
-    </div>
-    <div class="tang-foreground" id="TANGRAM__PSP_4__foreground" style="width: 393px;">
-        <div class="tang-title tang-title-dragable" id="TANGRAM__PSP_4__title">
-            <div class="buttons" id="TANGRAM__PSP_4__titleButtons"><a id="TANGRAM__PSP_4__closeBtn" class="close-btn"
-                                                                      href="###zbbb/mark/home/index###"
-                                                                      onmousedown="event.stopPropagation &amp;&amp; event.stopPropagation(); event.cancelBubble = true; return false;"
-                                                                      onclick="return false;"></a></div>
-            <span id="TANGRAM__PSP_4__titleText">登录鼎业帐号</span></div>
-        <div class="tang-body" id="TANGRAM__PSP_4__body">
-            <div class="tang-content" id="TANGRAM__PSP_4__content">
-                <div id="passport-login-pop-dialog">
-                    <div class="clearfix">
-                        <div class="pass-login-pop-content">
-                            <div class="pass-login-pop-form">
-                                <div id="passport-login-pop-api" class="tang-pass-login">
-                                    <form id="TANGRAM__PSP_10__form" class="pass-form pass-form-normal" method="POST"
-                                          autocomplete="off"><p id="TANGRAM__PSP_10__errorWrapper"
-                                                                class="pass-generalErrorWrapper"><span
-                                            id="TANGRAM__PSP_10__error"
-                                            class="pass-generalError pass-generalError-error"></span></p>
-                                        <p id="TANGRAM__PSP_10__MakeTextWrapper" class="pass-make-text"
-                                           style="display:none;"></p>
-                                        <p class="pass-smsSwitchWrapper" id="TANGRAM__PSP_10__smsSwitchWrapper"><a
-                                                class="pass-sms-btn" title="短信快捷登录" data-type="sms"
-                                                id="TANGRAM__PSP_10__smsSwitch">短信快捷登录</a></p>
-                                        <p id="TANGRAM__PSP_10__hiddenFields" style="display:none"><input type="hidden"
-                                                                                                          id="TANGRAM__PSP_10__codeString"
-                                                                                                          name="codeString"
-                                                                                                          value=""><input
-                                                type="hidden" id="TANGRAM__PSP_10__safeFlag" name="safeFlag"
-                                                value="0"><input type="hidden" id="TANGRAM__PSP_10__u" name="u"
-                                                                 value="###zbbb/mark/home/index"><input
-                                                type="hidden" id="TANGRAM__PSP_10__isPhone" name="isPhone"
-                                                value="false"><input type="hidden" id="TANGRAM__PSP_10__detect"
-                                                                     name="detect" value="1"><input type="hidden"
-                                                                                                    id="TANGRAM__PSP_10__gid"
-                                                                                                    name="gid"
-                                                                                                    value="C2D2845-D591-4147-96E1-78B1DAF013F6"><input
-                                                type="hidden" id="TANGRAM__PSP_10__staticPage" name="staticPage"
-                                                value="###zbbb/v3Jump.html"><input type="hidden"
-                                                                                                     id="TANGRAM__PSP_10__quick_user"
-                                                                                                     name="quick_user"
-                                                                                                     value="0"><input
-                                                type="hidden" id="TANGRAM__PSP_10__logintype" name="logintype"
-                                                value="dialogLogin"><input type="hidden"
-                                                                           id="TANGRAM__PSP_10__logLoginType"
-                                                                           name="logLoginType"
-                                                                           value="pc_loginDialog"><input type="hidden"
-                                                                                                         id="TANGRAM__PSP_10__subpro"
-                                                                                                         name="subpro"
-                                                                                                         value=""><input
-                                                type="hidden" id="TANGRAM__PSP_10__idc" name="idc" value=""><input
-                                                type="hidden" id="TANGRAM__PSP_10__loginMerge" name="loginMerge"
-                                                value="true"></p>
-                                        <p id="TANGRAM__PSP_10__userNameWrapper"
-                                           class="pass-form-item pass-form-item-userName" style="display:"><label
-                                                for="TANGRAM__PSP_10__userName" id="TANGRAM__PSP_10__userNameLabel"
-                                                class="pass-label pass-label-userName">手机/邮箱/用户名</label><input
-                                                type="text" style="display:none;"><input id="TANGRAM__PSP_10__userName"
-                                                                                         type="text" name="userName"
-                                                                                         class="pass-text-input pass-text-input-userName"
-                                                                                         autocomplete="off" value=""
-                                                                                         placeholder="手机/邮箱/用户名"><span
-                                                id="TANGRAM__PSP_10__userName_clearbtn"
-                                                class="pass-clearbtn pass-clearbtn-userName"
-                                                style="display:none;"></span><span id="TANGRAM__PSP_10__userNameTip"
-                                                                                   class="pass-item-tip pass-item-tip-userName"
-                                                                                   style="display:none"><span
-                                                id="TANGRAM__PSP_10__userNameTipText"
-                                                class="pass-item-tiptext pass-item-tiptext-userName"></span></span></p>
-                                        <p id="TANGRAM__PSP_10__passwordWrapper"
-                                           class="pass-form-item pass-form-item-password" style="display:"><label
-                                                for="TANGRAM__PSP_10__password" id="TANGRAM__PSP_10__passwordLabel"
-                                                class="pass-label pass-label-password">密码</label><input type="password"
-                                                                                                        style="display: none;"><input
-                                                id="TANGRAM__PSP_10__password" type="password" name="password"
-                                                class="pass-text-input pass-text-input-password" autocomplete="off"
-                                                value="" placeholder="密码"><span id="TANGRAM__PSP_10__password_clearbtn"
-                                                                                class="pass-clearbtn pass-clearbtn-password"
-                                                                                style="display:none;"></span><span
-                                                id="TANGRAM__PSP_10__passwordTip"
-                                                class="pass-item-tip pass-item-tip-password" style="display:none"><span
-                                                id="TANGRAM__PSP_10__passwordTipText"
-                                                class="pass-item-tiptext pass-item-tiptext-password"></span></span></p>
-                                        <p id="TANGRAM__PSP_10__verifyCodeImgWrapper"
-                                           class="pass-form-item pass-form-item-verifyCode" style="display:none"><label
-                                                for="TANGRAM__PSP_10__verifyCode" id="TANGRAM__PSP_10__verifyCodeLabel"
-                                                class="pass-label pass-label-verifyCode">验证码</label><input
-                                                id="TANGRAM__PSP_10__verifyCode" type="text" name="verifyCode"
-                                                class="pass-text-input pass-text-input-verifyCode" maxlength="6"
-                                                placeholder="验证码"><span id="TANGRAM__PSP_10__verifyCode_clearbtn"
-                                                                        class="pass-clearbtn pass-clearbtn-verifyCode"
-                                                                        style="display:none;"></span><span
-                                                id="TANGRAM__PSP_10__verifyCodeImgParent"
-                                                class="pass-verifyCodeImgParent"><img
-                                                id="TANGRAM__PSP_10__verifyCodeImg" class="pass-verifyCode"
-                                                src="img/small_blank.gif"></span><a
-                                                id="TANGRAM__PSP_10__verifyCodeChange"
-                                                href="###zbbb/mark/home/index#"
-                                                class="pass-change-verifyCode">换一张</a><span
-                                                id="TANGRAM__PSP_10__verifyCodeError"
-                                                class="pass-error pass-error-verifyCode"></span><span
-                                                id="TANGRAM__PSP_10__verifyCodeTip"
-                                                class="pass-tip pass-tip-verifyCode"></span><span
-                                                id="TANGRAM__PSP_10__verifyCodeSuccess"
-                                                class="pass-success pass-success-verifyCode"></span></p>
-                                        <p id="TANGRAM__PSP_10__memberPassWrapper"
-                                           class="pass-form-item pass-form-item-memberPass"><input
-                                                id="TANGRAM__PSP_10__memberPass" type="checkbox" name="memberPass"
-                                                class="pass-checkbox-input pass-checkbox-memberPass"
-                                                checked="checked"><label for="TANGRAM__PSP_10__memberPass"
-                                                                         id="TANGRAM__PSP_10__memberPassLabel" class="">下次自动登录</label>
-                                        </p>
-                                        <p id="TANGRAM__PSP_10__submitWrapper"
-                                           class="pass-form-item pass-form-item-submit"><input
-                                                id="TANGRAM__PSP_10__submit" type="submit" value="登录"
-                                                class="pass-button pass-button-submit"><a class="pass-reglink"
-                                                                                          href="https://passport.baidu.com/v2/?reg&amp;tpl=crowdtest&amp;u=http%3A%2F%2Ftest.baidu.com%2F"
-                                                                                          target="_blank">立即注册</a><a
-                                                class="pass-fgtpwd"
-                                                href="https://passport.baidu.com/?getpassindex&amp;tt=1559550907658&amp;gid=C2D2845-D591-4147-96E1-78B1DAF013F6&amp;tpl=crt&amp;u=http%3A%2F%2Fzhongbao.baidu.com%2Fmark%2Fhome%2Findex"
-                                                target="_blank">登录遇到问题</a></p></form>
-                                </div>
-                                <div id="TANGRAM__PSP_10__sms" class="tang-pass-login tang-pass-sms"
-                                     style="display:none"><p class="tang-pass-sms-title">短信登录</p>
-                                    <p class="tang-pass-sms-tip">验证即登录，未注册将自动创建鼎业帐号</p>
-                                    <form id="TANGRAM__PSP_10__smsForm" method="POST"><p
-                                            id="TANGRAM__PSP_10__smsHiddenFields" style="display:none"><input
-                                            type="hidden" id="TANGRAM__PSP_10__smsHiddenFields_u" name="u"
-                                            value="###zbbb/mark/home/index"><input type="hidden"
-                                                                                                     id="TANGRAM__PSP_10__smsHiddenFields_staticPage"
-                                                                                                     name="staticPage"
-                                                                                                     value="###zbbb/v3Jump.html"><input
-                                            type="hidden" id="TANGRAM__PSP_10__smsHiddenFields_tpl" name="tpl"
-                                            value="crt"><input type="hidden" id="TANGRAM__PSP_10__smsHiddenFields_idc"
-                                                               name="idc" value=""><input type="hidden"
-                                                                                          id="TANGRAM__PSP_10__smsHiddenFields_isdpass"
-                                                                                          name="isdpass"
-                                                                                          value="1"><input type="hidden"
-                                                                                                           id="TANGRAM__PSP_10__smsHiddenFields_gid"
-                                                                                                           name="gid"
-                                                                                                           value="C2D2845-D591-4147-96E1-78B1DAF013F6"><input
-                                            type="hidden" id="TANGRAM__PSP_10__smsHiddenFields_switchuname"
-                                            name="switchuname" value=""><input type="hidden"
-                                                                               id="TANGRAM__PSP_10__smsHiddenFields_smsCodeString"
-                                                                               name="smsCodeString" value=""><input
-                                            type="hidden" id="TANGRAM__PSP_10__smsHiddenFields_smsVcodesign"
-                                            name="smsVcodesign" value=""><input type="hidden"
-                                                                                id="TANGRAM__PSP_10__smsHiddenFields_smsVcodestr"
-                                                                                name="smsVcodestr" value=""><input
-                                            type="hidden" id="TANGRAM__PSP_10__smsHiddenFields_subpro" name="subpro"
-                                            value=""><input type="hidden"
-                                                            id="TANGRAM__PSP_10__smsHiddenFields_is_voice_sms"
-                                                            name="is_voice_sms" value="0"><input type="hidden"
-                                                                                                 id="TANGRAM__PSP_10__smsHiddenFields_voice_sms_flag"
-                                                                                                 name="voice_sms_flag"
-                                                                                                 value="0"></p>
-                                        <p id="TANGRAM__PSP_10__smsErrorWrapper" class="pass-generalErrorWrapper"><span
-                                                id="TANGRAM__PSP_10__smsError" class="pass-generalError"></span></p>
-                                        <div id="TANGRAM__PSP_10__smsPhoneWrapper"
-                                             class="pass-form-item pass-form-item-smsPhone"><label
-                                                for="TANGRAM__PSP_10__smsPhone" id="TANGRAM__PSP_10__smsPhoneLabel"
-                                                class="pass-label pass-label-smsPhone"
-                                                data-countrycode="">手机号</label><input id="TANGRAM__PSP_10__smsPhone"
-                                                                                      type="text" name="username"
-                                                                                      class="pass-text-input pass-text-input-smsPhone"
-                                                                                      placeholder="请输入手机号"><span
-                                                id="TANGRAM__PSP_10__smsPhone_clearbtn"
-                                                class="pass-clearbtn pass-clearbtn-smsPhone"
-                                                style="display:none;"></span><span id="TANGRAM__PSP_10__smsPhoneTip"
-                                                                                   class="pass-item-tip pass-item-tip-smsPhone"
-                                                                                   style="display:none"><span
-                                                id="TANGRAM__PSP_10__smsPhoneTipText"></span></span></div>
-                                        <p id="TANGRAM__PSP_10__smsVerifyCodeWrapper"
-                                           class="pass-form-item pass-form-item-smsVerifyCode"><label
-                                                for="TANGRAM__PSP_10__smsVerifyCode"
-                                                id="TANGRAM__PSP_10__smsVerifyCodeLabel"
-                                                class="pass-label pass-label-smsVerifyCode">动态密码</label><input
-                                                id="TANGRAM__PSP_10__smsVerifyCode" type="text" name="password"
-                                                class="pass-text-input pass-text-input-smsVerifyCode"
-                                                placeholder="动态密码"><span id="TANGRAM__PSP_10__smsVerifyCode_clearbtn"
-                                                                         class="pass-clearbtn pass-clearbtn-smsVerifyCode"
-                                                                         style="display:none;"></span>
-                                            <button id="TANGRAM__PSP_10__smsTimer" class="pass-item-timer">发送动态密码
-                                            </button>
-                                            <span id="TANGRAM__PSP_10__smsVerifyCodeTip"
-                                                  class="pass-item-tip pass-item-tip-smsVerifyCode"
-                                                  style="display:none"><span
-                                                    id="TANGRAM__PSP_10__smsVerifyCodeTipText"></span></span></p>
-                                        <p id="TANGRAM__PSP_10__smsUnReceiveWrapper"
-                                           class="pass-form-item pass-form-item-unrecevie" style="display:none;"><span
-                                                id="TANGRAM__PSP_10__smsUnReceiveTipWrapper"
-                                                class="pass-sms-unreceive-tips">收不到短信验证码?</span></p>
-                                        <p id="TANGRAM__PSP_10__smsSubmitWrapper"
-                                           class="pass-form-item pass-form-item-submit"><input
-                                                id="TANGRAM__PSP_10__smsSubmit" type="submit" value="登录"
-                                                class="pass-button pass-button-submit"><span
-                                                class="tang-pass-sms-agreement">阅读并接受<a target="_blank"
-                                                                                        href="http://passport.baidu.com/static/passpc-account/html/protocal.html">《鼎业用户协议》</a></span><a
-                                                id="TANGRAM__PSP_10__sms_btn_back"
-                                                class="pass-sms-link pass-sms-link-back">帐号密码登录</a></p></form>
-                                </div>
-                                <div id="TANGRAM__PSP_10__qrcode" class="clearfix tang-pass-qrcode tang-pass-login"
-                                     style="display:none;">
-                                    <div class="tang-pass-qrcode-content" id="TANGRAM__PSP_10__qrcodeContent">
-                                        <div class="tang-pass-qrcode-init"><p class="tang-pass-qrcode-title">请使用<span>鼎业App</span>扫码登录
-                                        </p>
-                                            <div class="Qrcode-status-con tang-pass-qrcode-imgWrapper"
-                                                 id="TANGRAM__PSP_10__QrcodeMain"><img class="tang-pass-qrcode-img"
-                                                                                       src="img/loading.gif"></div>
-                                            <div class="Qrcode-status-con Qrcode-status-success"
-                                                 id="TANGRAM__PSP_10__QrcodeSuccess"><p class="Qrcode-status-icon"></p>
-                                                <p>扫描成功</p>
-                                                <p class="Qrcode-status-msg">请在手机端确认登录</p></div>
-                                            <div class="Qrcode-status-con Qrcode-status-error"
-                                                 id="TANGRAM__PSP_10__QrcodeError"><p class="Qrcode-status-icon"></p>
-                                                <p>网络连接失败</p>
-                                                <p class="Qrcode-status-msg">请稍候再试</p></div>
-                                            <div class="Qrcode-status-con Qrcode-status-refresh"
-                                                 id="TANGRAM__PSP_10__QrcodeRefresh"><p class="Qrcode-status-icon"></p>
-                                                <p class="refresh-title refresh-timeout">二维码已失效</p>
-                                                <p class="refresh-title refresh-loadout">二维码加载失败</p>
-                                                <p class="Qrcode-refresh-btn" id="TANGRAM__PSP_10__QrcodeRefreshBtn">
-                                                    刷新二维码</p></div>
-                                            <p class="tang-pass-qrcode-info">鼎业技术加密，保障您的隐私安全</p></div>
-                                    </div>
-                                </div>
-                                <div id="TANGRAM__PSP_10__pass_b2c" style="display:none;"></div>
-                                <div class="tang-pass-pop-login-changeWrapper">
-                                    <div class="tang-pass-pop-login-change tang-pass-pop-qrcodeLogin"
-                                         data-type="normal"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="tang-footer" id="TANGRAM__PSP_4__footer" style="display: none;">
-            <div id="TANGRAM__PSP_4__footerContainer"></div>
-        </div>
-    </div>
-</div>
-<div id="TANGRAM__PSP_10__unRecevieSmsTip" class="pass-unreceiveSms-tip-wrapper" style="display:none">
-    <div class="pass-unreceiveSms-mask"></div>
-    <div class="pass-unreceiveSms-tip-wrapper-content">
-        <div class="unreceiveSms-header"><h3 class="unreceiveSms-header-h3">收不到验证码</h3><a class="unreceiveSms-header-a"
-                                                                                          id="TANGRAM__PSP_10__closeUnRecevieSmsTip"></a>
-        </div>
-        <div class="unreceiveSms-article">
-            <div class="pass-unreceiveSms-content"><p class="pass-unreceiveSms-p">1.请检查短信是否被安全软件拦截</p>
-                <p class="pass-unreceiveSms-p">2.运营商网络原因，短信可能延迟到达</p>
-                <p class="pass-unreceiveSms-t25" id="TANGRAM__PSP_10__unRecevieSmsReged" style="display:none;">建议您<a
-                        class="pass-unreceiveSms-btn-tip" id="TANGRAM__PSP_10__unRecevieSmsChangeLogin">切换登录方式</a>或使用该手机号，编辑短信“<span
-                        class="pass-unreceiveSms-btn-tip" id="TANGRAM__PSP_10__unRecevieSmsSendCode"></span>”，发送至<span
-                        id="TANGRAM__PSP_10__unRecevieSmsSendNumber"></span>即可登录成功<span
-                        class="pass-unreceiveSms-text-tip">（短信费用请参考运营商资费标准）</span></p>
-                <p class="pass-unreceiveSms-t25" id="TANGRAM__PSP_10__unRecevieSmsUnReg" style="display:none;">
-                    建议使用当前手机号，编辑短信 8-14 位字符（支持数字/字母/符号），作为登录密码，发送至1069 0691 036590，即可注册成功<span
-                        class="pass-unreceiveSms-text-tip">（短信费用请参考运营商资费标准）</span></p></div>
-        </div>
-    </div>
-</div>
+        watchSlidesProgress: true,
+
+        onProgress: function (swiper) {
+            for (var i = 0; i < swiper.slides.length; i++) {
+                var slide = swiper.slides[i];
+                var progress = slide.progress;
+                var translate = progress * swiper.height / 4;
+                scale = 1 - Math.min(Math.abs(progress * 0.5), 1);
+                var opacity = 1 - Math.min(Math.abs(progress / 2), 0.5);
+                slide.style.opacity = opacity;
+                es = slide.style;
+                es.webkitTransform = es.MsTransform = es.msTransform = es.MozTransform = es.OTransform = es.transform = 'translate3d(0,' + translate + 'px,-' + translate + 'px) scaleY(' + scale + ')';
+
+            }
+        },
+
+        onSetTransition: function (swiper, speed) {
+            for (var i = 0; i < swiper.slides.length; i++) {
+                es = swiper.slides[i].style;
+                es.webkitTransitionDuration = es.MsTransitionDuration = es.msTransitionDuration = es.MozTransitionDuration = es.OTransitionDuration = es.transitionDuration = speed + 'ms';
+
+            }
+        },
+
+
+    })
+    var swiperH = new Swiper('.swiper-container-h', {
+        spaceBetween: 50,
+        pagination: {
+            el: '.swiper-pagination-h',
+            clickable: true,
+        },
+    });
+</script>
 </body>
 </html>

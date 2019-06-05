@@ -15,6 +15,7 @@ body {
 .zui-header {
     position: relative;
     height: .88rem;
+    height: 1rem;
     background: #000;
     width: 100%;
     font-size: 14px;
@@ -46,7 +47,8 @@ body {
 
 .footer-section {
     border-bottom: 1px solid #666;
-    padding: .48rem .64rem;
+    /*padding: .48rem .64rem;*/
+    padding: .3rem .64rem;
     background: #3E3D3D;
 }
 
