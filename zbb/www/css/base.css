@@ -1888,3 +1888,7 @@ body {
 .zui-header-menu-item-checked {
     border-bottom: 2px solid #108CEF;
 }
+.sidebar-menu,
+#ext_stophi{
+    display: none;
+}
