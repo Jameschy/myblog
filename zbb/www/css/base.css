@@ -4,7 +4,9 @@
     -moz-osx-font-smoothing: grayscale;
     font-weight: normal;
 }
-
+html {
+    width: fit-content;
+}
 body {
     margin: 0;
     overflow-x: hidden;
