@@ -5,7 +5,7 @@
       <paths name="dygw_jdd18_com">
         <serverdata>
           <mappings>
-            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/" local="$PROJECT_DIR$/zbb" web="/" />
           </mappings>
         </serverdata>
       </paths>

@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8466950a-1e01-428c-b6a6-de0886846a8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/m/css/base_for_mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/zbb/m/css/base_for_mobile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zbb/m/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/zbb/m/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zbb/www/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/zbb/www/index.htm" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,10 +19,18 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/zbb/m/css/base_for_mobile.css">
+        <entry file="file://$PROJECT_DIR$/zbb/m/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+            <state relative-caret-position="433">
+              <caret line="723" column="24" selection-start-line="723" selection-start-column="24" selection-end-line="723" selection-end-column="24" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#section#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#3;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#4;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,7 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/zbb/m/ocr.html" />
         <option value="$PROJECT_DIR$/zbb/m/publicOpinion.html" />
         <option value="$PROJECT_DIR$/zbb/m/securitySolution.html" />
         <option value="$PROJECT_DIR$/zbb/m/speechSolution.html" />
@@ -131,7 +138,6 @@
         <option value="$PROJECT_DIR$/zbb/www/custom.htm" />
         <option value="$PROJECT_DIR$/zbb/www/dataStore.htm" />
         <option value="$PROJECT_DIR$/zbb/www/faceRecognition.htm" />
-        <option value="$PROJECT_DIR$/zbb/www/index.htm" />
         <option value="$PROJECT_DIR$/zbb/www/mark.htm" />
         <option value="$PROJECT_DIR$/zbb/www/ocr.htm" />
         <option value="$PROJECT_DIR$/zbb/www/paas.htm" />
@@ -146,8 +152,10 @@
         <option value="$PROJECT_DIR$/zbb/www/case.htm" />
         <option value="$PROJECT_DIR$/zbb/www/css/base.css" />
         <option value="$PROJECT_DIR$/zbb/m/css/saas_for_mobile.css" />
-        <option value="$PROJECT_DIR$/zbb/m/index.html" />
         <option value="$PROJECT_DIR$/zbb/m/css/base_for_mobile.css" />
+        <option value="$PROJECT_DIR$/zbb/www/index.htm" />
+        <option value="&lt;b2fe6bf2-01cd-4cd0-a85e-c2fc40560e40&gt;/m/index.html" />
+        <option value="$PROJECT_DIR$/zbb/m/index.html" />
       </list>
     </option>
   </component>
@@ -197,10 +205,10 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="E:/插件组/swiper-4.5.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/zbb" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -254,14 +262,7 @@
       <workItem from="1559629812215" duration="14771000" />
       <workItem from="1559696422992" duration="373000" />
       <workItem from="1559696809366" duration="465000" />
-      <workItem from="1559697287733" duration="17163000" />
-    </task>
-    <task id="LOCAL-00022" summary="修改">
-      <created>1559116084866</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1559116084866</updated>
+      <workItem from="1559697287733" duration="18294000" />
     </task>
     <task id="LOCAL-00023" summary="修改">
       <created>1559116224909</created>
@@ -599,11 +600,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559725438334</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="新加图片">
+      <created>1559726030764</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1559726030764</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59856000" />
+    <option name="totallyTimeSpent" value="60987000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -618,9 +626,10 @@
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26172706" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16257995" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="File Transfer" sideWeight="0.49946696" visible="true" weight="0.11480687" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -630,10 +639,10 @@
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49947312" weight="0.32939914" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="GraphQL" order="8" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" sideWeight="0.5117271" visible="true" weight="0.3111588" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.5117271" weight="0.3111588" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.48827294" side_tool="true" visible="true" weight="0.3111588" />
-      <window_info anchor="right" id="Remote Host" visible="true" weight="0.32995737" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.11480687" />
+      <window_info anchor="right" id="Remote Host" visible="true" weight="0.3379531" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -693,7 +702,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="百度所有词替换为鼎业" />
     <MESSAGE value="新加logo" />
     <MESSAGE value="修改icon" />
     <MESSAGE value="修改icon,二次提交" />
@@ -718,7 +726,8 @@
     <MESSAGE value="改写为响应式" />
     <MESSAGE value="测试case" />
     <MESSAGE value="优化移动端首页" />
-    <option name="LAST_COMMIT_MESSAGE" value="优化移动端首页" />
+    <MESSAGE value="新加图片" />
+    <option name="LAST_COMMIT_MESSAGE" value="新加图片" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/zbb/www/index-url=http---zhongbao.baidu.com-mark-scene-preview-id=3&amp;showLogin=1.htm">
@@ -1134,21 +1143,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zbb/www/index.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="486" column="26" selection-start-line="486" selection-start-column="26" selection-end-line="486" selection-end-column="26" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#2;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zbb/www/mark.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="449">
@@ -1465,33 +1459,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/zbb/m/css/base_for_mobile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zbb/m/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1800" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zbb/www/index.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="244" column="12" selection-start-line="244" selection-start-column="12" selection-end-line="244" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/zbb/m/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="541" column="22" lean-forward="true" selection-start-line="541" selection-start-column="22" selection-end-line="541" selection-end-column="22" />
+        <state relative-caret-position="433">
+          <caret line="723" column="24" selection-start-line="723" selection-start-column="24" selection-end-line="723" selection-end-column="24" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#section#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#3;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#4;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#5;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#10;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#11;n#body#0;n#html#0;n#!!top" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zbb/m/css/base.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zbb/m/css/base_for_mobile.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
         </state>
       </provider>
     </entry>

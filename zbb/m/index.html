@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0041)###zbbb/mark/home/index -->
+<!-- saved from url=(0041)###zbbb/mark/home/index 00-->
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -693,6 +693,7 @@
         },
 
 
+
         watchSlidesProgress: true,
 
         onProgress: function (swiper) {
@@ -720,11 +721,16 @@
 
     })
     var swiperH = new Swiper('.swiper-container-h', {
-        spaceBetween: 50,
+        spaceBetween: 20,
+        loop : true,
+        autoplay: {
+            delay: 5000,//1.5秒切换一次
+        },
         pagination: {
             el: '.swiper-pagination-h',
             clickable: true,
         },
+
     });
 </script>
 </body>
