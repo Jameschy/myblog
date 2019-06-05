@@ -899,6 +899,7 @@ ul.portfolio-image li .desc{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position-x: center;
   background-repeat: no-repeat;
   position: relative;
   padding: 0;
