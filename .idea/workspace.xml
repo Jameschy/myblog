@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8466950a-1e01-428c-b6a6-de0886846a8b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zbb/m/js/swiper.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zbb/m/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/zbb/m/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/zbb/www/index.htm" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/zbb/m/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="723" column="24" selection-start-line="723" selection-start-column="24" selection-end-line="723" selection-end-column="24" />
+            <state relative-caret-position="383">
+              <caret line="726" column="20" selection-start-line="726" selection-start-column="20" selection-end-line="726" selection-end-column="20" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -189,6 +188,21 @@
               <item name="zbb" type="462c0819:PsiDirectoryNode" />
               <item name="m" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="myblogs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblogs" type="462c0819:PsiDirectoryNode" />
+              <item name="zbb" type="462c0819:PsiDirectoryNode" />
+              <item name="m" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myblogs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblogs" type="462c0819:PsiDirectoryNode" />
+              <item name="zbb" type="462c0819:PsiDirectoryNode" />
+              <item name="m" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="swiper.js" type="620a8d5e:NestingTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -205,7 +219,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/zbb" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/zbb/m/js" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
@@ -219,10 +233,10 @@
       <recent name="F:\myblogs\zbb\m\img" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\myblogs\zbb\m\js" />
       <recent name="F:\myblogs\zbb\m\img" />
       <recent name="F:\myblogs\zbb\m" />
       <recent name="F:\myblogs\zbb\m\css" />
-      <recent name="F:\myblogs\zbb\m\js" />
       <recent name="F:\myblogs\zbb\www\img" />
     </key>
   </component>
@@ -262,14 +276,7 @@
       <workItem from="1559629812215" duration="14771000" />
       <workItem from="1559696422992" duration="373000" />
       <workItem from="1559696809366" duration="465000" />
-      <workItem from="1559697287733" duration="18294000" />
-    </task>
-    <task id="LOCAL-00023" summary="修改">
-      <created>1559116224909</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1559116224909</updated>
+      <workItem from="1559697287733" duration="19299000" />
     </task>
     <task id="LOCAL-00024" summary="修改">
       <created>1559116484030</created>
@@ -607,11 +614,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559726030764</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="优化动画">
+      <created>1559727176401</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1559727176402</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60987000" />
+    <option name="totallyTimeSpent" value="61992000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -702,7 +716,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="新加logo" />
     <MESSAGE value="修改icon" />
     <MESSAGE value="修改icon,二次提交" />
     <MESSAGE value="修改icon,二次提交，禁止js测" />
@@ -727,32 +740,10 @@
     <MESSAGE value="测试case" />
     <MESSAGE value="优化移动端首页" />
     <MESSAGE value="新加图片" />
-    <option name="LAST_COMMIT_MESSAGE" value="新加图片" />
+    <MESSAGE value="优化动画" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化动画" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/zbb/www/index-url=http---zhongbao.baidu.com-mark-scene-preview-id=3&amp;showLogin=1.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7227">
-          <caret line="455" column="270" selection-start-line="455" selection-start-column="270" selection-end-line="455" selection-end-column="270" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#2;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#3;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#4;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#24342#24348#0" expanded="true" />
-            <element signature="e#24349#24355#0" expanded="true" />
-            <element signature="e#24472#24478#0" expanded="true" />
-            <element signature="e#24479#24485#0" expanded="true" />
-            <element signature="e#24682#24688#0" expanded="true" />
-            <element signature="e#24688#24694#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zbb/www/index-url=http---zhongbao.baidu.com-mark-scene-preview-id=5&amp;showLogin=1.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7227">
@@ -1486,10 +1477,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/zbb/m/js/swiper.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/zbb/m/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="723" column="24" selection-start-line="723" selection-start-column="24" selection-end-line="723" selection-end-column="24" />
+        <state relative-caret-position="383">
+          <caret line="726" column="20" selection-start-line="726" selection-start-column="20" selection-end-line="726" selection-end-column="20" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />

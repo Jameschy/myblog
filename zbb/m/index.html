@@ -153,7 +153,7 @@
         <section class="swiper-slide swiper-slide1" id="banner">
             <div class="swiper-container swiper-container-h">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide zui-section section-introduce">
+                    <div class="swiper-slide zui-section section-introduce" data-swiper-autoplay="2000">
                         <div class="banner-wrap wrap-bg1">
                             <div class="group">
                                 <p class="banner-title">数据众包服务</p>
@@ -164,7 +164,7 @@
                         </div>
                     </div>
 
-                    <div class="swiper-slide zui-section section-introduce">
+                    <div class="swiper-slide zui-section section-introduce" data-swiper-autoplay="2000">
                         <div class="banner-wrap wrap-bg2">
                             <div class="group">
                                 <p class="banner-title">数据众包服务</p>
@@ -174,8 +174,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-pagination swiper-pagination-h"></div>
+
                 </div>
+                <div class="swiper-pagination swiper-pagination-h"></div>
             </div>
         </section>
 
@@ -586,83 +587,83 @@
 <script src="css/wrapper.js"></script>
 <script src="css/layout.js"></script>
 
-<script>
-    $(document).ready(function () {
-        // 初始化
-        $('.product-nav i').css('left', $($("a[href^='#']")[0]).offset().left + $($("a[href^='#']")[0]).width() / 2 - 20);
+<!--<script>-->
+<!--    $(document).ready(function () {-->
+<!--        // 初始化-->
+<!--        $('.product-nav i').css('left', $($("a[href^='#']")[0]).offset().left + $($("a[href^='#']")[0]).width() / 2 - 20);-->
 
 
-        // menu滚动
-        $("a[href^='#']").each(function () {
-            $(this).bind('click', function () {
-                var target = $(this).attr('href');
-                $('html,body').animate({
-                    scrollTop: $(target).offset().top
-                }, 1000, 'swing');
-                return false;
-            });
-        });
+<!--        // menu滚动-->
+<!--        $("a[href^='#']").each(function () {-->
+<!--            $(this).bind('click', function () {-->
+<!--                var target = $(this).attr('href');-->
+<!--                $('html,body').animate({-->
+<!--                    scrollTop: $(target).offset().top-->
+<!--                }, 1000, 'swing');-->
+<!--                return false;-->
+<!--            });-->
+<!--        });-->
 
-        // 页面滚动动画
-        var isMobile = '1';
-        if (!isMobile) {
-            $(window).scroll(function (event) {
-                if ($(document).scrollTop() > 450) {
-                    $('.product-nav').attr('class', 'product-nav nav-fixed');
-                } else {
-                    $('.product-nav').attr('class', 'product-nav');
-                }
-                var sections = $('.zui-section');
-                for (var i = 0; i < sections.length; i++) {
-                    var section = $(sections[i]);
-                    if (i && section.offset().top > $(window).scrollTop()) {
-                        var targetNav = $(".module-nav a[href='#" + section.attr('id') + "']");
-                        $(".module-nav a[href^='#']").attr('class', 'nav');
-                        targetNav.attr('class', 'nav current');
-                        $('.product-nav i').css('left', targetNav.offset().left + targetNav.width() / 2 - 20);
-                        break;
-                    }
-                }
-            });
-        } else {
-            // 移动端拖拽导航栏
-            var isdrag = false;
-            var NowLeft, disX;
-            var obj = document.getElementById('nav-wrap');
+<!--        // 页面滚动动画-->
+<!--        var isMobile = '1';-->
+<!--        if (!isMobile) {-->
+<!--            $(window).scroll(function (event) {-->
+<!--                if ($(document).scrollTop() > 450) {-->
+<!--                    $('.product-nav').attr('class', 'product-nav nav-fixed');-->
+<!--                } else {-->
+<!--                    $('.product-nav').attr('class', 'product-nav');-->
+<!--                }-->
+<!--                var sections = $('.zui-section');-->
+<!--                for (var i = 0; i < sections.length; i++) {-->
+<!--                    var section = $(sections[i]);-->
+<!--                    if (i && section.offset().top > $(window).scrollTop()) {-->
+<!--                        var targetNav = $(".module-nav a[href='#" + section.attr('id') + "']");-->
+<!--                        $(".module-nav a[href^='#']").attr('class', 'nav');-->
+<!--                        targetNav.attr('class', 'nav current');-->
+<!--                        $('.product-nav i').css('left', targetNav.offset().left + targetNav.width() / 2 - 20);-->
+<!--                        break;-->
+<!--                    }-->
+<!--                }-->
+<!--            });-->
+<!--        } else {-->
+<!--            // 移动端拖拽导航栏-->
+<!--            var isdrag = false;-->
+<!--            var NowLeft, disX;-->
+<!--            var obj = document.getElementById('nav-wrap');-->
 
-            obj.addEventListener('touchstart', thismousedown);
-            obj.addEventListener('touchend', thismouseup);
-            obj.addEventListener('touchmove', thismousemove);
+<!--            obj.addEventListener('touchstart', thismousedown);-->
+<!--            obj.addEventListener('touchend', thismouseup);-->
+<!--            obj.addEventListener('touchmove', thismousemove);-->
 
-            function thismousedown(e) {
-                isdrag = true;
-                NowLeft = parseInt(obj.style.left + 0);
-                disX = e.touches[0].pageX;
-                return false;
-            }
+<!--            function thismousedown(e) {-->
+<!--                isdrag = true;-->
+<!--                NowLeft = parseInt(obj.style.left + 0);-->
+<!--                disX = e.touches[0].pageX;-->
+<!--                return false;-->
+<!--            }-->
 
-            function thismousemove(e) {
-                if (isdrag) {
-                    var left = NowLeft + e.touches[0].pageX - disX;
-                    // 阻止页面左右滑动
-                    e.preventDefault();
-                    if (parseInt(left, 10) >= 0) {
-                        left = 0;
-                    } else if (parseInt(left, 10) <= document.body.clientWidth - obj.offsetWidth) {
-                        left = document.body.clientWidth - obj.offsetWidth;
-                    }
-                    obj.style.left = left + 'px';
-                    return false;
-                }
-            }
+<!--            function thismousemove(e) {-->
+<!--                if (isdrag) {-->
+<!--                    var left = NowLeft + e.touches[0].pageX - disX;-->
+<!--                    // 阻止页面左右滑动-->
+<!--                    e.preventDefault();-->
+<!--                    if (parseInt(left, 10) >= 0) {-->
+<!--                        left = 0;-->
+<!--                    } else if (parseInt(left, 10) <= document.body.clientWidth - obj.offsetWidth) {-->
+<!--                        left = document.body.clientWidth - obj.offsetWidth;-->
+<!--                    }-->
+<!--                    obj.style.left = left + 'px';-->
+<!--                    return false;-->
+<!--                }-->
+<!--            }-->
 
-            function thismouseup() {
-                isdrag = false;
-            };
-        }
+<!--            function thismouseup() {-->
+<!--                isdrag = false;-->
+<!--            };-->
+<!--        }-->
 
-    });
-</script>
+<!--    });-->
+<!--</script>-->
 <script>
 
     scaleW = window.innerWidth / 320;
@@ -722,10 +723,8 @@
     })
     var swiperH = new Swiper('.swiper-container-h', {
         spaceBetween: 20,
-        loop : true,
-        autoplay: {
-            delay: 5000,//1.5秒切换一次
-        },
+        // loop : true,
+        autoplay: 3500,//5秒切换一次
         pagination: {
             el: '.swiper-pagination-h',
             clickable: true,
