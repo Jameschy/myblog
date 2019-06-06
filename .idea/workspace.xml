@@ -2,673 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8466950a-1e01-428c-b6a6-de0886846a8b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/zbb/www/about.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/autoPilot.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/case.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/collection.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/contact.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/crawl.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/IDCertify.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/IDCertifyQrcode.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/IDCertifyQrcode_3fd0e4a.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/IDCertify_cd32648.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/about.css-v=83b1df6fbc52c54bb18c5f35c8ef9dd1.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/accRealName.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/accRealName_3f7bcd2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/accSetPwd.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/accSetPwd_0f3eff1.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/authsite.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/authsite_c01e2ff.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/base.css-v=3834dcaa7e585a3dfbbc25051fe0cd68.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/bindGuide.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/bindGuide_f705cca.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/case.css-v=920c1adb9c16663a50c2843c777d594e.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/collection.css-v=53c5c12c4446a4a0ccee2e44da74c753.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/crawl.css-v=55d9b07a05915d689b1d6285768c4bae.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/custom.css-v=5857775bb523f6862b87f14a7f69cad0.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/iconfont.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/iconfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/iconfont.eot-" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/iconfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/iconfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/loadingApi.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/loadingApi_528e5bc.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/loginv4_098d251.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/mark.css-v=ae76b495b7fd8590b870a055a8b1ed71.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/mkd_0ff2c55.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/mobase.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/mobase.css-v=83d856cfd5908c7f7c7583fd155952e8.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/paas.css-v=eb51431d04ff3331ebdc3b34c9130bec.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/partner.css-v=77e200e71be15c3aa8494338091e954e.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/saas.css-v=079f927b6e8ec7e23a8c95e49d8b6ef9.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/secondCardVerify.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/secondCardVerify_f456adb.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/smsloginEn.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/smsloginEn_4449178.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/solution_pc.css-v=71b8d8cba312008215b8a7bf3405f63b.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/survey.css-v=03b4ef5bfe80c4318af3ef570bcd7aba.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/travelComplete.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/travelComplete_3d4be86.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/uni_IDCertifyQrcode_1e8827b.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/uni_IDCertify_36e091b.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/uni_accConnect_ab6dda9.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/uni_accRealName_a224a37.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/uni_accSetPwd_29f7784.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/uni_armorwidget_c2f8a55.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/uni_bindGuide_35d4a06.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/uni_changeUser_c7ae7b4.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/uni_checkIDcard_be79680.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/uni_checkPhone_cd7c7a0.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/uni_confirmWidget_3d41f3b.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/uni_fillUserName_931cb17.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/uni_forceverify_2a5ae5d.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/uni_loadingApi_f8732c0.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/uni_loginMultichoice_289d3a0.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/uni_loginPad_af389a4.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/uni_loginWap_f57424a.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/uni_login_merge.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/uni_login_merge_6777421.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/uni_login_new_473cd93.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/uni_loginv4_5ed2a45.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/uni_multiBind_e8d24e4.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/uni_multiUnbind_21428a6.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/uni_rebindGuide_347ecf2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/uni_secondCardVerify_1a69328.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/uni_smsloginEn_eef0a6a.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/css/uni_travelComplete_b06b013.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/custom.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/dataStore.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/error.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/faceRecognition.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/html/dataStore-sort=default&amp;type=4.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/html/dataStore-sort=default&amp;type=5.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/html/dataStore-sort=default&amp;type=6.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/html/dataStore-sort=default&amp;type=9.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/html/dataStore-sort=default.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/html/dataStore-sort=hot&amp;type=4.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/html/dataStore-sort=hot&amp;type=5.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/html/dataStore-sort=hot&amp;type=6.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/html/dataStore-sort=hot&amp;type=9.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/html/dataStore-sort=hot.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/html/dataStore-sort=new&amp;type=4.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/html/dataStore-sort=new&amp;type=5.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/html/dataStore-sort=new&amp;type=6.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/html/dataStore-sort=new&amp;type=9.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/html/dataStore-sort=new.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/html/dataStore-type=4&amp;sort=default.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/html/dataStore-type=4&amp;sort=hot.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/html/dataStore-type=4&amp;sort=new.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/html/dataStore-type=5&amp;sort=default.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/html/dataStore-type=5&amp;sort=hot.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/html/dataStore-type=5&amp;sort=new.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/html/dataStore-type=6&amp;sort=default.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/html/dataStore-type=6&amp;sort=hot.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/html/dataStore-type=6&amp;sort=new.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/html/dataStore-type=9&amp;sort=default.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/html/dataStore-type=9&amp;sort=hot.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/html/dataStore-type=9&amp;sort=new.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/1-logo-nielsen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/10-logo-zhongke.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/11-logo-chuangwei.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/113297197657c911f7208579.50727840_19944803_20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/122014952657c8de8b59a467.27053919_19944784_15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/151650139557c8eb55e75483.29820730_19944790_17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/155807327957c911f6c0d199.29768543_19944802_19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/155807327957c911f6c0d199.29768543_19944802_19.png.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/185414673557c8f4e8463725.63920959_19944794_18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/2-meizu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/3-logo-didi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/30432fbf08b892aebd2ef3152ebd4edb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/30432fbf08b892aebd2ef3152ebd4edb.png.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/4-xiaomi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/5-logo-pingan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/6-logo-coolpad.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/7-logo-qinghua.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/7085762857c8e03c79dee9.78823645_19944785_16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/8-logo-BCG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/80f016044853ccfd4d3ec6505201e8f4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/9-logo-zhijia.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/BigData.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/IDL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/NLP.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/O2O_collect.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/about-event-icon1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/about-event-icon2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/about-event-icon3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/about-header.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/about-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/about-item-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/about-site-icon1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/about-site-icon2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/about-site-icon3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/about-site-icon4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/about-site-icon5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/about-site-icon6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/alarm_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/app.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/asr_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/asr_icon_active.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/audio-clear-EN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/audio-clear.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/audio-text.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/audio.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/audio_clear.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/audio_pick.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/audio_text.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/auto-pilot-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/auto-pilot-road-3d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/auto-pilot-road-info.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/auto-pilot-road-mark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/auto-pilot-road-spli.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/auto-pilot-road.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/auto-pilot-solution.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/auto-pilot-solution_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/bank-card.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/banner1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/banner2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/banner_bg-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/banner_bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/banner_li_background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/banner_right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/banner_tmp2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/bushu-CH.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/bushu-EN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/business-card.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/category_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/check_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/children-speech.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/classify.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/classify_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/collect-banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/contact-icon1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/contact-icon1_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/contact-icon2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/contact-icon2_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/contact_icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/crawl-banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/crawl_html_icon-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/crawl_html_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/crawl_html_icon_2-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/crawl_img_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/crawl_img_icon_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/crawl_knowledge_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/crawl_knowledge_icon_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/crawl_text_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/crawl_text_icon_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/crawl_yuqing_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/crawl_yuqing_icon_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/ctr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/custom_banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/custom_service.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/custom_step.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/custom_step_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/data-store-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/data-store-fg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/data.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/data_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/dataway.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/e5255939ffa6e5bcb60bb8b66066eaff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/extract.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/extract_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/f7607055a906c26417209c16ab53e762.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/face-recog-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/face-recognition-solution.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/face_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/face_icon_active.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/favicon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/forum.jpg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/function_icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/gailan-EN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/gailan-EN_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/gailan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/gailan2-CH.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/gailan2-EN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/gailan_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/gongzhonghao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/gs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/header.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/hm.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/ico-biaozhu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/ico-biaozhu_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/ico-caiji.jpg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/ico-caiji_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/ico-dianshang.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/ico-dianshang_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/ico-huatong.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/ico-huatong_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/ico-kexue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/ico-linghuo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/ico-liucheng.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/ico-liucheng_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/ico-map.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/ico-map_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/ico-ocr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/ico-ocr_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/ico-paas.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/ico-paas_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/ico-pay.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/ico-pay_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/ico-renlian.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/ico-renlian_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/ico-saas.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/ico-sudu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/ico-sudu_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/ico-wending.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/ico-yewu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/ico-yonghu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/ico-yuqing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/ico-yuqing_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/ico-zhiliang.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/ico-zhiliang_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/iconfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/image_collect.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/iresearch.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/jiaofu-EN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/jiaofu-EN_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/jiaofu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/language_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/language_icon_active.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/left-triangle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/logo-SB.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/logo-chumenwenwen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/logo-ict.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/logo-kairos.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/logo-qingqing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/logo-yuncong.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/mark-banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/menu-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/multi-person-one-img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/multi-pose-img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/multi-scene.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/nav-top.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/ndateam.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/next.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/nielsen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/nio.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/nuomi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/o2o-shop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/o2o_pick.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/o2o_shop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/ocr-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/ocr-plate.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/ocr-solution.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/ocr_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/ocr_icon_active.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/one-person-multi-img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/paas-banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/page-clear-EN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/page-clear.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/page-contrast-EN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/page-contrast.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/page_clear.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/page_contrast.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/pass_login_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/people_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/picture-extract-EN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/picture-extract.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/picture-filter-EN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/picture-filter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/picture_extract.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/picture_extract_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/picture_filter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/picture_filter_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/place_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/plant.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/position_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/public-opinion-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/public-opinion-solution.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/qss_baidu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/qss_custom.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/qss_custom_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/qss_customer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/qss_header.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/qss_process_bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/qss_process_custom.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/qss_process_custom_EN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/qss_process_standard.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/qss_process_standard_EN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/qss_product_cover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/qss_product_cover_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/qss_product_data.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/qss_product_data_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/qss_product_quality.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/qss_product_quality_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/qss_product_quality_EN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/qss_sample.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/qss_sample_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/qss_search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/quality_assurance.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/quality_assurance_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/quality_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/review.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/review_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/saas-banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/saas-banner_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/scene_img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/search-btn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/security-anti-terror.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/security-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/security-car.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/security-indoor-monitor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/security-passerby.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/security-road.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/security-solution.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/small_blank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/social.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/special-scene-img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/speech-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/speech-solution.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/speech-solution_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/step-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/step-1_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/step-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/step-2_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/step-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/step-3_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/step-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/step-4_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/step_connect.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/step_title.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/steps_icon_all.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/taobao.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/terminal_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/text-based-speech.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/text-extract-EN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/text-extract.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/text-mark-EN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/text-mark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/text-verify-EN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/text-verify.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/text_collect.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/text_extract.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/text_extract_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/text_mark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/text_mark_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/text_verify.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/text_verify_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/theme-based-speech.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/theme.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/variety-speech.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/video_collect.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/web.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/xros-age-img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/img/zhaomu-banner_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/index-url=http---zhongbao.baidu.com-mark-check-projectIndex&amp;showLogin=1.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/index-url=http---zhongbao.baidu.com-mark-scene-preview-id=1&amp;showLogin=1.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/index-url=http---zhongbao.baidu.com-mark-scene-preview-id=2&amp;showLogin=1.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/index-url=http---zhongbao.baidu.com-mark-scene-preview-id=3&amp;showLogin=1.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/index-url=http---zhongbao.baidu.com-mark-scene-preview-id=38&amp;showLogin=1.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/index-url=http---zhongbao.baidu.com-mark-scene-preview-id=40&amp;showLogin=1.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/index-url=http---zhongbao.baidu.com-mark-scene-preview-id=5&amp;showLogin=1.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/index-url=http---zhongbao.baidu.com-mark-scene-preview-id=51&amp;showLogin=1.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/index-url=http---zhongbao.baidu.com-mark-scene-preview-id=52&amp;showLogin=1.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/index-url=http---zhongbao.baidu.com-mark-scene-preview-id=6&amp;showLogin=1.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/index-url=http---zhongbao.baidu.com-mark-scene-preview-id=9&amp;showLogin=1.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/index.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/GB2260.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/IDCertify-1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/IDCertify-2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/IDCertify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/IDCertifyQrcode-1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/IDCertifyQrcode-2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/IDCertifyQrcode.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/IDCertifyQrcode_4db6064.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/IDCertifyQrcode_tangram.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/IDCertifyQrcode_tangram_6536ce1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/IDCertify_cf99365.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/IDCertify_tangram.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/IDCertify_tangram_ef7eb24.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/IDValidator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/accConnect-1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/accConnect-2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/accConnect.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/accConnect_8dea38d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/accConnect_tangram.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/accConnect_tangram_b42d6cb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/accRealName-1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/accRealName-2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/accRealName.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/accRealName_cf7f3e5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/accRealName_tangram.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/accRealName_tangram_58165f1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/accSetPwd-1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/accSetPwd-2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/accSetPwd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/accSetPwd_8109ba5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/accSetPwd_tangram.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/accSetPwd_tangram_d00b180.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/armorwidget_09e8a40.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/armorwidget_wrapper.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/bind-1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/bind.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/bindGuide-1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/bindGuide-2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/bindGuide.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/bindGuide_abc8126.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/bindGuide_tangram.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/bindGuide_tangram_5781ac6.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/bind_dc6801e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/bind_tangram.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/bind_tangram_6252ab0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/cal_font_size.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/changeUser-1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/changeUser-2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/changeUser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/changeUser_4191a2a.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/changeUser_tangram_d21b67c.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/checkIDcard-1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/checkIDcard-2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/checkIDcard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/checkIDcard_59a38e5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/checkIDcard_tangram.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/checkIDcard_tangram_801bdc5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/checkPhone-1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/checkPhone-2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/checkPhone.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/checkPhone_d490a05.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/checkPhone_tangram.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/checkPhone_tangram_d734576.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/confirmWidget-1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/confirmWidget-2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/confirmWidget.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/confirmWidget_8e53be9.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/confirmWidget_tangram.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/confirmWidget_tangram_b35a593.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/dialog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/domain.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/fillUserName-1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/fillUserName-2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/fillUserName_ed92944.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/fillUserName_tangram.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/fillUserName_tangram_6ee9d13.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/fillusername.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/forceverify_wrapper.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/g.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/hint_pb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/hm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/hm.js-48f82868aa1ed62bf1defb68bd7972b1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/idcard_validate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/idcard_validate.min_6738f5b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/jquery.pagination.js-v=17c832ddb7fc9babbe2736ff04418f84" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/layout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/ld.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/loadingApi-1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/loadingApi-2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/loadingApi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/loadingApi_c483bcd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/loadingApi_tangram.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/loadingApi_tangram_6256e4f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/login-1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/login-2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/login-3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/login-4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/login.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/loginMultichoice-1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/loginMultichoice-2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/loginMultichoice.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/loginMultichoice_cdef7c5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/loginMultichoice_tangram.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/loginMultichoice_tangram_4d221fa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/loginWLtoPC-1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/loginWLtoPC.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/loginWLtoPC_98684d0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/loginWap-1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/loginWap-2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/loginWap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/loginWap_6da7ccb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/login_2e40211.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/login_b6ddb5d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/login_tangram.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/login_tangram_cbb2f15.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/loginv4_2a0aa34.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/loginv4_tangram_51175aa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/magic.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/md5.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/md5.min_8c25c62.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/mkd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/module_define.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/multiBind-1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/multiBind-2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/multiBind.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/multiBind_ca67689.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/multiBind_tangram.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/multiBind_tangram_36a0fe6.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/multiUnbind-1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/multiUnbind-2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/multiUnbind.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/multiUnbind_6370bbd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/multiUnbind_tangram.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/multiUnbind_tangram_14f0f35.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/polyfill.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/qrcode-1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/qrcode.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/qrcode_5efa25e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/qrcode_tangram.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/qrcode_tangram_ade950f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/realUserTag-1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/realUserTag.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/realUserTag_0013893.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/realUserTag_tangram.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/realUserTag_tangram_e5f75f4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/rebindGuide_wrapper.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/reg-1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/reg-2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/reg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/regPhone.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/regPhone_3576a13.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/regPhone_tangram.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/regPhone_tangram_9b9baf8.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/reg_33edf97.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/reg_tangram.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/reg_tangram_931dbc1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/rsa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/rsa_6ce55c4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/rsa_wap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/sea.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/sea.js-version=2016102520" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/seaconfig.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/seaconfig.js-version=2016102520" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/secondCardVerify-1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/secondCardVerify-2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/secondCardVerify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/secondCardVerify_7d5de75.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/secondCardVerify_tangram.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/secondCardVerify_tangram_918560f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/smsloginEn-1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/smsloginEn-2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/smsloginEn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/smsloginEn_6e229f0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/smsloginEn_tangram.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/smsloginEn_tangram_7824f1f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/suggestion.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/tangram-min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/tangram.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/travelComplete-1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/travelComplete-2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/travelComplete.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/travelComplete_86e2912.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/travelComplete_tangram.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/travelComplete_tangram_a3d4b0a.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/ui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_IDCertifyQrcode_8e9c640.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_IDCertifyQrcode_tangram_bd6fce0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_IDCertify_3bdd5ef.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_IDCertify_tangram_868d5f5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_accConnect_4b01b4e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_accConnect_tangram_7d9ac36.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_accConnect_wrapper.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_accRealName_b471792.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_accRealName_tangram_a61a824.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_accSetPwd_2133bde.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_accSetPwd_tangram_6788139.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_armorwidget.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_armorwidget_13812f7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_bindGuide_1fd7ec5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_bindGuide_tangram_63c3937.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_changeUser_cabd155.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_changeUser_tangram_a7127f2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_checkIDcard_074ae2b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_checkIDcard_tangram_a2a458d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_checkPhone_488ff2a.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_checkPhone_tangram_09e4271.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_confirmWidget_52f25ea.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_confirmWidget_tangram_6c1eb3f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_fillUserName_1d75130.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_fillUserName_tangram_594efb8.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_forceverify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_forceverify_core.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_forceverify_fd55741.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_loadingApi_5da8b04.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_loadingApi_tangram_6153d42.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_loginMultichoice_b58e5f4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_loginMultichoice_tangram_1a70e2b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_loginPad_a263105.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_loginPad_tangram_695a60e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_loginWap_baf06d6.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_login_6921596.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_login_tangram_3fac68b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_login_tangram_60410df.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_login_wrapper.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_login_wrapper.js-cdnversion=201906040958" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_login_wrapper.js-cdnversion=201906040959" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_login_wrapper.js-cdnversion=201906041000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_loginv4_85589df.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_loginv4_tangram_e8474d0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_multiBind_25c6052.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_multiBind_tangram_8c55eaf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_multiUnbind_0432470.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_multiUnbind_tangram_e9360b1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_rebindGuide.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_rebindGuide_4224215.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_rebindGuide_tangram.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_rebindGuide_tangram_4234c58.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_secondCardVerify_9a9ca55.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_secondCardVerify_tangram_751b7c2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_smsloginEn_83c499b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_smsloginEn_tangram_c5b61fd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_travelComplete_2e351f4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_travelComplete_tangram_88cef43.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/uni_wrapper.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/wrapper.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/wrapper.js-cdnversion=20190604" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/js/wrapper_touch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/mark.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/ocr.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/paas.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/privacy.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/publicOpinion.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/scene.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/securitySolution.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/serviceAgreement.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/speechSolution.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/www/survey.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zbb/m/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/zbb/m/css/base.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -693,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/zbb/m/css/base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="1844" column="47" selection-start-line="1844" selection-start-column="47" selection-end-line="1844" selection-end-column="47" />
+            <state relative-caret-position="361">
+              <caret line="1854" column="4" selection-start-line="1854" selection-start-column="4" selection-end-line="1854" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -817,9 +152,9 @@
         <option value="$PROJECT_DIR$/zbb/www/index.htm" />
         <option value="&lt;b2fe6bf2-01cd-4cd0-a85e-c2fc40560e40&gt;/m/index.html" />
         <option value="$PROJECT_DIR$/zbb/m/index.html" />
-        <option value="$PROJECT_DIR$/zbb/m/css/base.css" />
         <option value="$PROJECT_DIR$/zbb/www/css/base.css" />
         <option value="$PROJECT_DIR$/zbb/pc/index.htm" />
+        <option value="$PROJECT_DIR$/zbb/m/css/base.css" />
       </list>
     </option>
   </component>
@@ -846,19 +181,6 @@
               <item name="myblogs" type="b2602c69:ProjectViewProjectNode" />
               <item name="myblogs" type="462c0819:PsiDirectoryNode" />
               <item name="zbb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblogs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblogs" type="462c0819:PsiDirectoryNode" />
-              <item name="zbb" type="462c0819:PsiDirectoryNode" />
-              <item name="m" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblogs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblogs" type="462c0819:PsiDirectoryNode" />
-              <item name="zbb" type="462c0819:PsiDirectoryNode" />
-              <item name="m" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -943,21 +265,7 @@
       <workItem from="1559629812215" duration="14771000" />
       <workItem from="1559696422992" duration="373000" />
       <workItem from="1559696809366" duration="465000" />
-      <workItem from="1559697287733" duration="20735000" />
-    </task>
-    <task id="LOCAL-00027" summary="修改mark">
-      <created>1559627781769</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1559627781769</updated>
-    </task>
-    <task id="LOCAL-00028" summary="修改logo指向">
-      <created>1559628653041</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1559628653041</updated>
+      <workItem from="1559697287733" duration="61935000" />
     </task>
     <task id="LOCAL-00029" summary="修改contact">
       <created>1559630465407</created>
@@ -1288,11 +596,25 @@
       <option name="project" value="LOCAL" />
       <updated>1559729150510</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="更新www为pc">
+      <created>1559729640246</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1559729640246</updated>
+    </task>
+    <task id="LOCAL-00077" summary="更新www为pc">
+      <created>1559781308564</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1559781308564</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63428000" />
+    <option name="totallyTimeSpent" value="104628000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1307,10 +629,10 @@
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16257995" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16257995" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="File Transfer" sideWeight="0.49840087" visible="true" weight="0.19849785" />
+      <window_info anchor="bottom" id="File Transfer" sideWeight="0.49840087" weight="0.19849785" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.32939914" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -1320,9 +642,9 @@
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49840087" weight="0.32939914" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="GraphQL" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.51119405" weight="0.58476394" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" sideWeight="0.510661" visible="true" weight="0.34978542" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50159913" side_tool="true" visible="true" weight="0.19849785" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.48933902" side_tool="true" visible="true" weight="0.34978542" />
       <window_info anchor="right" id="Remote Host" visible="true" weight="0.2521322" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1383,7 +705,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="修复误改部分" />
     <MESSAGE value="隐藏登陆二维码" />
     <MESSAGE value="修复首页icon" />
     <MESSAGE value="修复客户定制跳转" />
@@ -1408,7 +729,8 @@
     <MESSAGE value="优化动画3.0不可按照swiper4.0" />
     <MESSAGE value="更新basecss" />
     <MESSAGE value="更新www/basecss" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新www/basecss" />
+    <MESSAGE value="更新www为pc" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新www为pc" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/zbb/www/index-url=http---zhongbao.baidu.com-mark-scene-preview-id=6&amp;showLogin=1.htm">
@@ -2143,8 +1465,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/zbb/m/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="1844" column="47" selection-start-line="1844" selection-start-column="47" selection-end-line="1844" selection-end-column="47" />
+        <state relative-caret-position="361">
+          <caret line="1854" column="4" selection-start-line="1854" selection-start-column="4" selection-end-line="1854" selection-end-column="4" />
         </state>
       </provider>
     </entry>
