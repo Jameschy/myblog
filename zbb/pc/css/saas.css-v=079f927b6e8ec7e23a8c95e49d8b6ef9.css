@@ -1,5 +1,5 @@
 .section-introduce {
-    height: 416px;
+    height: 388px;
     overflow: hidden;
 }
 
@@ -26,11 +26,11 @@
 }
 
 .section-introduce .banner-wrap.service .group .group {
-    background: url("../img/saas-banner.jpg")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/partner/saas-banner.jpg*/ right 0 no-repeat;
+    /*background: url("../img/saas-banner.jpg")!*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/partner/saas-banner.jpg*! right 0 no-repeat;*/
 }
 
 .section-introduce .banner-wrap.channel .group .group {
-    background-image: url("../img/zhaomu-banner_2.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/new/zhaomu-banner_2.png*/;
+    /*background-image: url("../img/zhaomu-banner_2.png")!*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/new/zhaomu-banner_2.png*!;*/
     background-repeat: no-repeat;
     background-position: right 0;
 }
