@@ -14,13 +14,14 @@ body {
 
 .zui-header {
     position: relative;
-    height: .88rem;
+    /*height: .88rem;*/
     height: 1rem;
     background: #000;
     width: 100%;
     font-size: 14px;
     color: #fff;
 }
+
 .zui-header-logo-img {
     margin-top: .16rem;
     margin-left: .24rem;
@@ -28,7 +29,6 @@ body {
 }
 
 .zui-header-op {
-    display: none;
     position: absolute;
     top: .1rem;
     right: 0;
@@ -46,8 +46,7 @@ body {
 
 .footer-section {
     border-bottom: 1px solid #666;
-    /*padding: .48rem .64rem;*/
-    padding: .3rem .64rem;
+    padding: .48rem .64rem;
     background: #3E3D3D;
 }
 
@@ -178,11 +177,11 @@ body {
     margin-right: 1rem;
 }
 
-
-div#ext_stophi,
-div#passport-login-pop{
+.zui-header-op{
     display: none;
 }
+
+
 
 
 

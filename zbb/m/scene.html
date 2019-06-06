@@ -1,28 +1,43 @@
 <!DOCTYPE html>
-<!-- saved from url=(0041)###dycm/mark/home/scene -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <title>  鼎业数据众包平台  </title>
+<!-- saved from url=(0041)http://zhongbao.baidu.com/mark/home/scene -->
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title> 百度数据众包平台 </title>
     <meta http-equiv="X-UA-Compatible" content="IE=EDGE">
-    <meta name="keywords" content="鼎业数据众包,数据标注,数据采集,数据清洗,文本数据,语音数据,图像数据">
-    <meta name="description" content="鼎业数据众包，提供专业的数据标注、制作、采集服务，全方位支持文本、语音、图像、视频等各类型数据的处理，速度快、成本低、质量高。服务适合舆情监控、图片识别、OCR识别、语音识别、自然语言处理、交通、电商、医疗等领域的数据处理。">
+    <meta name="keywords" content="百度数据众包,数据标注,数据采集,数据清洗,文本数据,语音数据,图像数据">
+    <meta name="description"
+          content="百度数据众包，提供专业的数据标注、制作、采集服务，全方位支持文本、语音、图像、视频等各类型数据的处理，速度快、成本低、质量高。服务适合舆情监控、图片识别、OCR识别、语音识别、自然语言处理、交通、电商、医疗等领域的数据处理。">
     <meta content="yes" name="apple-mobile-web-app-capable">
     <meta content="telephone=no" name="format-detection">
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-<!--    <link rel="icon" sizes="any" href="https://www.baidu.com/cache/icon/favicon.svg">-->
+    <link rel="shortcut icon" href="https://www.baidu.com/cache/icon/favicon.ico" type="image/x-icon">
+    <link rel="icon" sizes="any" href="https://www.baidu.com/cache/icon/favicon.svg">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
 
     <!--basic css-->
-    
+
     <link rel="stylesheet" href="css/mobase.css">
-    
-<link rel="stylesheet" href="css/base_for_mobile.css">
 
-<link rel="stylesheet" href="css/scene_for_mobile.css">
+    <link rel="stylesheet" href="css/base_for_mobile.css">
 
-    <script async="" src="img/g.min.js" id="new_FIAOWNBFDIQILY"></script><script src="js/hm.js"></script><script src="js/cal_font_size.js"></script><style>html{font-size:54.93333333333333px;}</style>
-        <script>var _hmt = _hmt || [];(function() {var hm = document.createElement("script");hm.src = "//hm.baidu.com/hm.js?48f82868aa1ed62bf1defb68bd7972b1";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(hm, s);})();</script>
+    <link rel="stylesheet" href="css/scene_for_mobile.css">
+
+    <script async="" src="./scene_files/g.min.js" id="new_FIAOWNBFDIQILY"></script>
+    <script src="js/hm.js"></script>
+    <script src="js/cal_font_size.js"></script>
+    <style>html {
+        font-size: 54.93333333333333px;
+    }</style>
+    <script>var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?48f82868aa1ed62bf1defb68bd7972b1";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();</script>
 
     <!--basic lib-->
     <script src="js/jquery.min.js"></script>
@@ -34,81 +49,111 @@
 
     <!--global var-->
     <script>
-        var baseUrl = '###dycm/';
-        var base_url_module = '###dycm/crowdtest/';
-        var base_dir_module = '###dycm/crowdtest/';
-        var yii_csrf_token_global = '4671b3997067b694fabe3001530b0587c839e597';
-        var yii_csrf_token = '4671b3997067b694fabe3001530b0587c839e597';
+        var baseUrl = 'http://zhongbao.baidu.com/';
+        var base_url_module = 'http://zhongbao.baidu.com/crowdtest/';
+        var base_dir_module = 'http://zhongbao.baidu.com/crowdtest/';
+        var yii_csrf_token_global = '56306c9922ba646beca5b15e4cdeda34ab378631';
+        var yii_csrf_token = '56306c9922ba646beca5b15e4cdeda34ab378631';
 
         var BASE_ADMIN_DIR_MODULE = "/admin/";
         var BASE_MARK_DIR_MODULE = "/mark/";
         var BASE_PROXY_URL = "";
-//        seajs.use('/mark/static/js/popup/RightSideDock', function(dock) {
-//            dock.init("");
-//        });
-    var isMobile = "1";
-    if (!isMobile) {
-        window.seajs.use('/mark/static/js/popup/MenuSidebar', function (dock) {
-            dock.init();
-        });
-    }
+        //        seajs.use('/mark/static/js/popup/RightSideDock', function(dock) {
+        //            dock.init("");
+        //        });
+        var isMobile = "1";
+        if (!isMobile) {
+            window.seajs.use('/mark/static/js/popup/MenuSidebar', function (dock) {
+                dock.init();
+            });
+        }
     </script>
-<link rel="stylesheet" type="text/css" href="./scene_files/uni_login_new_473cd93.css" data-for="result"><script type="text/javascript" charset="UTF-8" src="img/uni_login_tangram_60410df.js"></script><script type="text/javascript" charset="UTF-8" src="img/login_2e40211.js"></script><script type="text/javascript" charset="UTF-8" src="img/ld.min.js"></script><script type="text/javascript" charset="UTF-8" src="img/wrapper_touch.js"></script><link rel="stylesheet" type="text/css" href="./scene_files/mkd_0ff2c55.css"><script type="text/javascript" charset="UTF-8" src="img/mkd.js"></script></head>
-<body style="font-size: 16px;"><div id="TANGRAM__PSP_5__" class="pop-mask" style="top: 0px; left: 0px; position: fixed; width: 412px; height: 660px; opacity: 0.15; z-index: 60000; background-color: rgb(0, 0, 0); display: none;"><iframe frameborder="0" style="filter:progid:DXImageTransform.Microsoft.Alpha(opacity:0);position:absolute;top:0px;left:0px;width:100%;height:100%;z-index:-1" src="img/saved_resource.html"></iframe><div style="position:absolute;top:0px;left:0px;width:100%;height:100%;z-index:-1;">&nbsp;</div></div>
- <div class="zui-header-wrap"><div class="zui-header"><div class="zui-header-logo dib"><a href="###dycm/"><img class="zui-header-logo-img" src="img/header.png" style="width: 3.02rem;height: 0.5rem;padding-top: "></a></div><div class="zui-header-op dib"><span class="zui-header-op-item" id="js_pass_login_btn">登录</span><div class="toggle-language">EN</div></div></div></div><label for="is-mobile" style="display: none;"></label><input type="hidden" id="is-mobile" value="1"><ul class="zui-header-menu">
-        <li class="zui-header-menu-item zui-header-menu-item-index zui-header-menu-item zui-header-menu-item-dropdown">
+<!--    <link rel="stylesheet" type="text/css" href="./scene_files/uni_login_new_473cd93.css" data-for="result">-->
+<!--    <script type="text/javascript" charset="UTF-8" src="./scene_files/uni_login_tangram_e1dd0d9.js"></script>-->
+<!--    <script type="text/javascript" charset="UTF-8" src="./scene_files/login_df29480.js"></script>-->
+<!--    <script type="text/javascript" charset="UTF-8" src="./scene_files/ld.min.js"></script>-->
+<!--    <script type="text/javascript" charset="UTF-8" src="./scene_files/wrapper_touch.js"></script>-->
+<!--    <link rel="stylesheet" type="text/css" href="./scene_files/mkd_0ff2c55.css">-->
+<!--    <script type="text/javascript" charset="UTF-8" src="./scene_files/mkd.js"></script>-->
+</head>
+<body style="font-size: 16px;">
+<div id="TANGRAM__PSP_5__" class="pop-mask"
+     style="top: 0px; left: 0px; position: fixed; width: 412px; height: 660px; opacity: 0.15; z-index: 60000; background-color: rgb(0, 0, 0); display: none;">
+    <iframe frameborder="0"
+            style="filter:progid:DXImageTransform.Microsoft.Alpha(opacity:0);position:absolute;top:0px;left:0px;width:100%;height:100%;z-index:-1"
+            src="./scene_files/saved_resource.html"></iframe>
+    <div style="position:absolute;top:0px;left:0px;width:100%;height:100%;z-index:-1;">&nbsp;</div>
+</div>
+<div class="zui-header-wrap">
+    <div class="zui-header">
+        <div class="zui-header-logo dib">
+            <a href="index.html"><img class="zui-header-logo-img" src="img/header.png"
+                                      style="width: 3.02rem;height: 0.5rem;padding-top: "></a></div>
+        <div class="zui-header-op dib"><span class="zui-header-op-item" id="js_pass_login_btn">登录</span>
+            <div class="toggle-language">EN</div>
+        </div>
+    </div>
+</div>
+<label for="is-mobile" style="display: none;"></label><input type="hidden" id="is-mobile" value="1">
+<ul class="zui-header-menu">
+    <li class="zui-header-menu-item zui-header-menu-item-index zui-header-menu-item zui-header-menu-item-dropdown">
         <a class="nav-link" href="index.html">首页</a>
-            </li>
-        <li class="zui-header-menu-item zui-header-menu-item-service zui-header-menu-item zui-header-menu-item-dropdown">
+    </li>
+    <li class="zui-header-menu-item zui-header-menu-item-service zui-header-menu-item zui-header-menu-item-dropdown">
         <a class="nav-link" href="javascript:;">产品服务</a>
-                <ul class="zui-header-inner-nav service-nav" style="display: none;">
-                        <li class="zui-header-inner-menu-item">
-                                <a href="collection.html"><span class="nav-text">人工采集</span><span class="nav-tab"></span></a>
-                            </li>
-                        <li class="zui-header-inner-menu-item">
-                                <a href="mark.html"><span class="nav-text">数据标注</span><span class="nav-tab"></span></a>
-                            </li>
-                        <li class="zui-header-inner-menu-item">
-                                <a href="crawl.html"><span class="nav-text">数据抓取</span><span class="nav-tab"></span></a>
-                            </li>
-                    </ul>
+        <ul class="zui-header-inner-nav service-nav" style="display: none;">
+            <li class="zui-header-inner-menu-item">
+                <a href="collection.html"><span class="nav-text">人工采集</span><span class="nav-tab"></span></a>
             </li>
-        <li class="zui-header-menu-item zui-header-menu-item-case zui-header-menu-item zui-header-menu-item-dropdown">
+            <li class="zui-header-inner-menu-item">
+                <a href="mark.html"><span class="nav-text">数据标注</span><span class="nav-tab"></span></a>
+            </li>
+            <li class="zui-header-inner-menu-item">
+                <a href="crawl.html"><span class="nav-text">数据抓取</span><span class="nav-tab"></span></a>
+            </li>
+        </ul>
+    </li>
+    <li class="zui-header-menu-item zui-header-menu-item-case zui-header-menu-item zui-header-menu-item-dropdown">
         <a class="nav-link" href="javascript:;">案例中心</a>
-                <ul class="zui-header-inner-nav case-nav" style="display: none;">
-                        <li class="zui-header-inner-menu-item">
-                                <a href="case.html#case_1"><span class="nav-text">数据采集</span><span class="nav-tab"></span></a>
-                            </li>
-                        <li class="zui-header-inner-menu-item">
-                                <a href="case.html#case_5"><span class="nav-text">数据标注</span><span class="nav-tab"></span></a>
-                            </li>
-                    </ul>
+        <ul class="zui-header-inner-nav case-nav" style="display: none;">
+            <li class="zui-header-inner-menu-item">
+                <a href="case.html#case_1"><span class="nav-text">数据采集</span><span class="nav-tab"></span></a>
             </li>
-        <li class="zui-header-menu-item zui-header-menu-item-solution zui-header-menu-item zui-header-menu-item-dropdown">
+            <li class="zui-header-inner-menu-item">
+                <a href="case.html#case_5"><span class="nav-text">数据标注</span><span class="nav-tab"></span></a>
+            </li>
+        </ul>
+    </li>
+    <li class="zui-header-menu-item zui-header-menu-item-solution zui-header-menu-item zui-header-menu-item-dropdown">
         <a class="nav-link" href="javascript:;">解决方案</a>
-                <ul class="zui-header-inner-nav solution-nav" style="display: none;">
-                        <li class="zui-header-inner-menu-item">
-                                <h3>行业解决方案</h3>
+        <ul class="zui-header-inner-nav solution-nav" style="display: none;">
+            <li class="zui-header-inner-menu-item">
+                <h3>行业解决方案</h3>
                 <ul class="zui-header-nest-solution-nav">
-                                        <li><a href="autoPilot.html"><span class="nav-text">自动驾驶数据解决方案</span><span class="nav-tab"></span></a></li>
-                                        <li><a href="securitySolution.html"><span class="nav-text">智能安防解决方案</span><span class="nav-tab"></span></a></li>
-                                        <li><a href="publicOpinion.html"><span class="nav-text">新闻舆情解决方案</span><span class="nav-tab"></span></a></li>
-                                    </ul>
-                            </li>
-                        <li class="zui-header-inner-menu-item">
-                                <h3>专项解决方案</h3>
-                <ul class="zui-header-nest-solution-nav">
-                                        <li><a href="faceRecognition.html"><span class="nav-text">人脸人像解决方案</span><span class="nav-tab"></span></a></li>
-                                        <li><a href="ocr.html"><span class="nav-text">OCR识别解决方案</span><span class="nav-tab"></span></a></li>
-                                        <li><a href="speechSolution.html"><span class="nav-text">智能语音解决方案</span><span class="nav-tab"></span></a></li>
-                                    </ul>
-                            </li>
-                    </ul>
+                    <li><a href="autoPilot.html"><span class="nav-text">自动驾驶数据解决方案</span><span
+                            class="nav-tab"></span></a></li>
+                    <li><a href="securitySolution.html"><span class="nav-text">智能安防解决方案</span><span
+                            class="nav-tab"></span></a></li>
+                    <li><a href="publicOpinion.html"><span class="nav-text">新闻舆情解决方案</span><span class="nav-tab"></span></a>
+                    </li>
+                </ul>
             </li>
-        <li class="zui-header-menu-item zui-header-menu-item-contact zui-header-menu-item zui-header-menu-item-dropdown">
+            <li class="zui-header-inner-menu-item">
+                <h3>专项解决方案</h3>
+                <ul class="zui-header-nest-solution-nav">
+                    <li><a href="faceRecognition.html"><span class="nav-text">人脸人像解决方案</span><span
+                            class="nav-tab"></span></a></li>
+                    <li><a href="ocr.html"><span class="nav-text">OCR识别解决方案</span><span class="nav-tab"></span></a></li>
+                    <li><a href="speechSolution.html"><span class="nav-text">智能语音解决方案</span><span
+                            class="nav-tab"></span></a></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li class="zui-header-menu-item zui-header-menu-item-contact zui-header-menu-item zui-header-menu-item-dropdown">
         <a class="nav-link" href="contact.html">联系我们</a>
-            </li>
-        <div class="clear"></div>
+    </li>
+    <div class="clear"></div>
 </ul>
 
 
@@ -117,7 +162,7 @@
     <h3 class="scene-banner-title">为您提供优质的应用场景</h3>
     <div class="scene-btn-wrap">
         <div class="btn-back"></div>
-        <a href="contact" class="scene-apply-btn">我要定制服务</a>
+        <a href="contact.html" class="scene-apply-btn">我要定制服务</a>
     </div>
 </div>
 
@@ -155,212 +200,233 @@
     <div class="process-title">自助服务场景</div>
     <div class="scene-nav-wrap">
         <ul class="scene-nav">
-                        <li class="nav-item nav-item-checked" scene-tag="text">文本处理 <div class="checked-bottom" style="display: block;"></div></li>
-                        <li class="nav-item" scene-tag="image">图片处理 <div class="checked-bottom" style="display: none;"></div></li>
-                        <li class="nav-item" scene-tag="audio">语音处理 <div class="checked-bottom" style="display: none;"></div></li>
-                        <li class="nav-item" scene-tag="web">网页处理 <div class="checked-bottom" style="display: none;"></div></li>
-                    </ul>
+            <li class="nav-item nav-item-checked" scene-tag="text">文本处理
+                <div class="checked-bottom" style="display: block;"></div>
+            </li>
+            <li class="nav-item" scene-tag="image">图片处理
+                <div class="checked-bottom" style="display: none;"></div>
+            </li>
+            <li class="nav-item" scene-tag="audio">语音处理
+                <div class="checked-bottom" style="display: none;"></div>
+            </li>
+            <li class="nav-item" scene-tag="web">网页处理
+                <div class="checked-bottom" style="display: none;"></div>
+            </li>
+        </ul>
     </div>
     <div class="scene-desc-wrap">
-                <div class="scene-content-detail" scene-tag="text">
-                        <div class="scene-desc-item">
-                <div class="scene-desc-img" style="background-image: url(/mark/static/img/zhongbao/icon/text_mark_mobile.png);"></div>
+        <div class="scene-content-detail" scene-tag="text">
+            <div class="scene-desc-item">
+                <div class="scene-desc-img" style="background-image: url(img/text_mark_mobile.png);"></div>
                 <div class="scene-desc-content">
                     <div class="scene-content-title">文本归类</div>
                     <div class="scene-content-des">
                         大数据时代，如何让你的大数据变成有效的数据是更为重要的事情。大量的产品评价信息、搜索关键词、实体词汇都需要去冗余处理、分类处理。使用该场景，可快速创建针对文本的归类任务，点击预览可以查看该场景提供的标注题型。<br>例如，如果您有数量庞大的产品评价信息等待处理，而您需要筛选出其中明确好评及明确差评的信息进行分析，该场景下可为每条评价信息配置多个选项（如：明确差评，明确好评，中立，广告），最终您的原始数据会按照选项分类标注。
                     </div>
                     <div class="btn-wrap">
-                        <a class="btn-preview" target="_blank" href="###dycm/mark/scene/preview?id=1">预览</a>
-                        <a class="btn-use" target="_blank" href="###dycm/mark/check/projectIndex">立即使用</a>
+                        <a class="btn-preview" target="_blank" href="http://zhongbao.baidu.com/mark/scene/preview?id=1">预览</a>
+                        <a class="btn-use" target="_blank"
+                           href="http://zhongbao.baidu.com/mark/check/projectIndex">立即使用</a>
                     </div>
                 </div>
             </div>
-                        <div class="scene-desc-item">
-                <div class="scene-desc-img" style="background-image: url(/mark/static/img/zhongbao/icon/text_extract_mobile.png);"></div>
+            <div class="scene-desc-item">
+                <div class="scene-desc-img" style="background-image: url(img/text_extract_mobile.png);"></div>
                 <div class="scene-desc-content">
                     <div class="scene-content-title">文本提取</div>
                     <div class="scene-content-des">
                         如果您需要从网页、文章、文本集合中提取出符合需求的文本，甚至是撰写新的文本（如网页摘要），都可选择该场景。<br>例如，如果您现在有大量的网页链接，需要通过网页展示的信息提取出三个网页的内容关键词，该场景下可以配置一个网页展示区域及多个文本输入框，您最终回收的数据为所有网页链接及与其一一对应的关键词集合。
                     </div>
                     <div class="btn-wrap">
-                        <a class="btn-preview" target="_blank" href="###dycm/mark/scene/preview?id=51">预览</a>
-                        <a class="btn-use" target="_blank" href="###dycm/mark/check/projectIndex">立即使用</a>
+                        <a class="btn-preview" target="_blank"
+                           href="http://zhongbao.baidu.com/mark/scene/preview?id=51">预览</a>
+                        <a class="btn-use" target="_blank"
+                           href="http://zhongbao.baidu.com/mark/check/projectIndex">立即使用</a>
                     </div>
                 </div>
             </div>
-                        <div class="scene-desc-item">
-                <div class="scene-desc-img" style="background-image: url(/mark/static/img/zhongbao/icon/text_verify_mobile.png);"></div>
+            <div class="scene-desc-item">
+                <div class="scene-desc-img" style="background-image: url(img/text_verify_mobile.png);"></div>
                 <div class="scene-desc-content">
                     <div class="scene-content-title">文本校正</div>
                     <div class="scene-content-des">
                         在文本的处理中，人工的校正总是更为准确。特别是针对中文这种语法多变、词义复杂的语种，人工校正当然是必不可少的一步。选择该场景，创建可以完成文本词法、准确用词等校正工作的任务。<br>假如，您正在做自然语言处理，有一些机器分析的文本词法需要进行人工校验，则可以用该场景，将您的词法规则描述清晰，按照特定样式展示出您的原始数据，众包平台将为您返回校正后的文本。
                     </div>
                     <div class="btn-wrap">
-                        <a class="btn-preview" target="_blank" href="###dycm/mark/scene/preview?id=52">预览</a>
-                        <a class="btn-use" target="_blank" href="###dycm/mark/check/projectIndex">立即使用</a>
+                        <a class="btn-preview" target="_blank"
+                           href="http://zhongbao.baidu.com/mark/scene/preview?id=52">预览</a>
+                        <a class="btn-use" target="_blank"
+                           href="http://zhongbao.baidu.com/mark/check/projectIndex">立即使用</a>
                     </div>
                 </div>
             </div>
-                    </div>
-                <div class="scene-content-detail hide" scene-tag="image">
-                        <div class="scene-desc-item">
-                <div class="scene-desc-img" style="background-image: url(/mark/static/img/zhongbao/icon/picture_filter_mobile.png);"></div>
+        </div>
+        <div class="scene-content-detail hide" scene-tag="image">
+            <div class="scene-desc-item">
+                <div class="scene-desc-img" style="background-image: url(img/picture_filter_mobile.png);"></div>
                 <div class="scene-desc-content">
                     <div class="scene-content-title">图片归类</div>
                     <div class="scene-content-des">
                         与文本相似，大量的图片数据也有分类处理、有效图片筛选等需求。该场景设计了非常简洁的图片筛选题型，让图片分类处理更加高效、快速。您只需提供图片链接及筛选条件即可快速创建发布任务。<br>假如，您是电商平台开发方，有大量图片需要根据关键词归类，该场景提供了非常高效的筛选方式，您只需要提供图片链接集合及对应需筛选的类别关键字，可以很快回收分类后的图片数据。
                     </div>
                     <div class="btn-wrap">
-                        <a class="btn-preview" target="_blank" href="###dycm/mark/scene/preview?id=9">预览</a>
-                        <a class="btn-use" target="_blank" href="###dycm/mark/check/projectIndex">立即使用</a>
+                        <a class="btn-preview" target="_blank" href="http://zhongbao.baidu.com/mark/scene/preview?id=9">预览</a>
+                        <a class="btn-use" target="_blank"
+                           href="http://zhongbao.baidu.com/mark/check/projectIndex">立即使用</a>
                     </div>
                 </div>
             </div>
-                        <div class="scene-desc-item">
-                <div class="scene-desc-img" style="background-image: url(/mark/static/img/zhongbao/icon/picture_filter_mobile.png);"></div>
+            <div class="scene-desc-item">
+                <div class="scene-desc-img" style="background-image: url(img/picture_filter_mobile.png);"></div>
                 <div class="scene-desc-content">
                     <div class="scene-content-title">图片标签化</div>
                     <div class="scene-content-des">
                         为菜品图片标记口味和烹饪方式信息，为服装图片标记花色、款式等信息，是一种为图片打标签的需求，图片标签化场景可以很好地满足这种需求。<br>如果您的电商平台有大量的图片数据，需要进行多维度的标签标注，那这个场景将非常满足您的需求。
                     </div>
                     <div class="btn-wrap">
-                        <a class="btn-preview" target="_blank" href="###dycm/mark/scene/preview?id=38">预览</a>
-                        <a class="btn-use" target="_blank" href="###dycm/mark/check/projectIndex">立即使用</a>
+                        <a class="btn-preview" target="_blank"
+                           href="http://zhongbao.baidu.com/mark/scene/preview?id=38">预览</a>
+                        <a class="btn-use" target="_blank"
+                           href="http://zhongbao.baidu.com/mark/check/projectIndex">立即使用</a>
                     </div>
                 </div>
             </div>
-                        <div class="scene-desc-item">
-                <div class="scene-desc-img" style="background-image: url(/mark/static/img/zhongbao/icon/picture_extract_mobile.png);"></div>
+            <div class="scene-desc-item">
+                <div class="scene-desc-img" style="background-image: url(img/picture_extract_mobile.png);"></div>
                 <div class="scene-desc-content">
                     <div class="scene-content-title">图片内容标记</div>
                     <div class="scene-content-des">
-                        在鼎业无人车交通元素识别，图片文字识别中，需要大量的原始识别数据支持。该场景很好地支持图片中实体内容的识别标注，提供简单的框选标注工具让数据回收效率、准确度更高。<br>对于正在做图像识别的您来说，这个场景将能为您快速地提供相当准确的框标注数据，如图片中的人脸框标注、文字框标注等。
+                        在百度无人车交通元素识别，图片文字识别中，需要大量的原始识别数据支持。该场景很好地支持图片中实体内容的识别标注，提供简单的框选标注工具让数据回收效率、准确度更高。<br>对于正在做图像识别的您来说，这个场景将能为您快速地提供相当准确的框标注数据，如图片中的人脸框标注、文字框标注等。
                     </div>
                     <div class="btn-wrap">
-                        <a class="btn-preview" target="_blank" href="###dycm/mark/scene/preview?id=6">预览</a>
-                        <a class="btn-use" target="_blank" href="###dycm/mark/check/projectIndex">立即使用</a>
+                        <a class="btn-preview" target="_blank" href="http://zhongbao.baidu.com/mark/scene/preview?id=6">预览</a>
+                        <a class="btn-use" target="_blank"
+                           href="http://zhongbao.baidu.com/mark/check/projectIndex">立即使用</a>
                     </div>
                 </div>
             </div>
-                        <div class="scene-desc-item">
-                <div class="scene-desc-img" style="background-image: url(/mark/static/img/zhongbao/icon/picture_pick_mobile.png);"></div>
+            <div class="scene-desc-item">
+                <div class="scene-desc-img" style="background-image: url(img/picture_pick_mobile.png);"></div>
                 <div class="scene-desc-content">
                     <div class="scene-content-title">图片采集</div>
                     <div class="scene-content-des">
                         特定物体、实体图片采集，基于地理位置的图片信息采集，无论是需要大量的图片数据或者是需要特定条件下收集的图片数据，都可以通过这个场景实现。<br>如果您正在开发LBS相关服务，需要大量的基于地理位置信息的图片，如商场、门店、景点等图片，该场景则是最好的选择。
                     </div>
                     <div class="btn-wrap">
-                        <a class="btn-preview" target="_blank" href="###dycm/mark/scene/preview?id=40">预览</a>
-                        <a class="btn-use" target="_blank" href="###dycm/mark/check/projectIndex">立即使用</a>
+                        <a class="btn-preview" target="_blank"
+                           href="http://zhongbao.baidu.com/mark/scene/preview?id=40">预览</a>
+                        <a class="btn-use" target="_blank"
+                           href="http://zhongbao.baidu.com/mark/check/projectIndex">立即使用</a>
                     </div>
                 </div>
             </div>
-                    </div>
-                <div class="scene-content-detail hide" scene-tag="audio">
-                        <div class="scene-desc-item">
-                <div class="scene-desc-img" style="background-image: url(/mark/static/img/zhongbao/icon/audio_text_mobile.png);"></div>
+        </div>
+        <div class="scene-content-detail hide" scene-tag="audio">
+            <div class="scene-desc-item">
+                <div class="scene-desc-img" style="background-image: url(img/audio_text_mobile.png);"></div>
                 <div class="scene-desc-content">
                     <div class="scene-content-title">语音内容提取</div>
                     <div class="scene-content-des">
                         机器往往不能完全准确地识别出语音的内容，但人工可以做到，而要优化语音识别也需要人工的介入。该场景通过人工转义，可以实现高质量的音频内容文本化。<br>如果正在研发语音识别的您有大量的语料需要做文本化处理，这个场景将为您提供无语种限制的人工转义，可很大程度保障转义的正确性。
                     </div>
                     <div class="btn-wrap">
-                        <a class="btn-preview" target="_blank" href="###dycm/mark/scene/preview?id=2">预览</a>
-                        <a class="btn-use" target="_blank" href="###dycm/mark/check/projectIndex">立即使用</a>
+                        <a class="btn-preview" target="_blank" href="http://zhongbao.baidu.com/mark/scene/preview?id=2">预览</a>
+                        <a class="btn-use" target="_blank"
+                           href="http://zhongbao.baidu.com/mark/check/projectIndex">立即使用</a>
                     </div>
                 </div>
             </div>
-                        <div class="scene-desc-item">
-                <div class="scene-desc-img" style="background-image: url(/mark/static/img/zhongbao/icon/audio_clear_mobile.png);"></div>
+            <div class="scene-desc-item">
+                <div class="scene-desc-img" style="background-image: url(img/audio_clear_mobile.png);"></div>
                 <div class="scene-desc-content">
                     <div class="scene-content-title">语音筛选</div>
                     <div class="scene-content-des">
                         如果您的机器学习已经有了对音频的识别但需要校验结果，或者您采集的音频数据需要进行一轮清洗以提高采集质量，则可以使用语音筛选场景实现。<br>如果您已经采集了大量规定内容的语音，可以通过该场景进行语音文件的有效性筛选（如：内容是否清晰，是否为规定内容的语音），或者语音提供者的属性筛选（如：男声、女声、孩童、老人等）。
                     </div>
                     <div class="btn-wrap">
-                        <a class="btn-preview" target="_blank" href="###dycm/mark/scene/preview?id=2">预览</a>
-                        <a class="btn-use" target="_blank" href="###dycm/mark/check/projectIndex">立即使用</a>
+                        <a class="btn-preview" target="_blank" href="http://zhongbao.baidu.com/mark/scene/preview?id=2">预览</a>
+                        <a class="btn-use" target="_blank"
+                           href="http://zhongbao.baidu.com/mark/check/projectIndex">立即使用</a>
                     </div>
                 </div>
             </div>
-                        <div class="scene-desc-item">
-                <div class="scene-desc-img" style="background-image: url(/mark/static/img/zhongbao/icon/audio_pick_mobile.png);"></div>
+            <div class="scene-desc-item">
+                <div class="scene-desc-img" style="background-image: url(img/audio_pick_mobile.png);"></div>
                 <div class="scene-desc-content">
                     <div class="scene-content-title">语料采集</div>
                     <div class="scene-content-des">
                         与图片采集不同，语音采集的难度更大，尤其是对特殊内容及语种的语料采集。在众包平台这些问题都能得到解决，您只需要定义好采集需求，我们的语音采集场景将能快速支持。<br>如果您的语音技术研发需要大量特定条件的语音（如：女声阅读特定内容）或者普通语音，这个场景则可完全满足您的需求。
                     </div>
                     <div class="btn-wrap">
-                        <a class="btn-preview" target="_blank" href="###dycm/mark/scene/preview?id=5">预览</a>
-                        <a class="btn-use" target="_blank" href="###dycm/mark/check/projectIndex">立即使用</a>
+                        <a class="btn-preview" target="_blank" href="http://zhongbao.baidu.com/mark/scene/preview?id=5">预览</a>
+                        <a class="btn-use" target="_blank"
+                           href="http://zhongbao.baidu.com/mark/check/projectIndex">立即使用</a>
                     </div>
                 </div>
             </div>
-                    </div>
-                <div class="scene-content-detail hide" scene-tag="web">
-                        <div class="scene-desc-item">
-                <div class="scene-desc-img" style="background-image: url(/mark/static/img/zhongbao/icon/page_clear_mobile.png);"></div>
+        </div>
+        <div class="scene-content-detail hide" scene-tag="web">
+            <div class="scene-desc-item">
+                <div class="scene-desc-img" style="background-image: url(img/page_clear_mobile.png);"></div>
                 <div class="scene-desc-content">
                     <div class="scene-content-title">有效网页筛选</div>
                     <div class="scene-content-des">
                         该场景支持嵌入iframe，您只需提供网页链接及相关query，即可发布网页有效性筛选的任务。该场景可以处理的类型包括搜索结果相关性判断、网页内容与query匹配度判断、网页搜索内容对比选择等。<br>假如，您是搜索引擎开发方，需要人工判断分析您的产品搜索结果与query的匹配程度，在该场景下，嵌入搜索网页展示，及相应的匹配程度选项（如：非常符合，一般符合，不太符合等），标注员会按照您设定的判断规则进行归类处理。
                     </div>
                     <div class="btn-wrap">
-                        <a class="btn-preview" target="_blank" href="###dycm/mark/scene/preview?id=3">预览</a>
-                        <a class="btn-use" target="_blank" href="###dycm/mark/check/projectIndex">立即使用</a>
+                        <a class="btn-preview" target="_blank" href="http://zhongbao.baidu.com/mark/scene/preview?id=3">预览</a>
+                        <a class="btn-use" target="_blank"
+                           href="http://zhongbao.baidu.com/mark/check/projectIndex">立即使用</a>
                     </div>
                 </div>
             </div>
-                    </div>
-            </div>
-</div><div class="zui-footer">
+        </div>
+    </div>
+</div>
+<div class="zui-footer">
     <div class="footer-section">
-        <p class="footer-title">关于鼎业众包</p>
-                <div class="footer-text">
-            <a href="contact.html" target="">定制服务</a>
+        <p class="footer-title">关于百度众包</p>
+        <div class="footer-text">
+            <a href="custom" target="">定制服务</a>
         </div>
-                <div class="footer-text">
-            <a href="scene.html" target="">自助平台</a>
+        <div class="footer-text">
+            <a href="scene" target="">自助平台</a>
         </div>
-                <div class="footer-text">
-            <a href="case.html" target="">成功案例</a>
+        <div class="footer-text">
+            <a href="case" target="">成功案例</a>
         </div>
-            </div>
+    </div>
     <div class="footer-section">
         <p class="footer-title">联系我们</p>
-        <!--        <p class="footer-text">Email: <a target="_blank" href="mailto:zhongbao@baidu.com">zhongbao@baidu.com</a></p>-->
-        <!--        <p class="footer-text">QQ: <a target="_blank" href="tencent://message/?uin=1537361276">1537361276</a></p>-->
-        <p class="footer-text">电话: <a target="_blank" href="tencent://message/?uin=1537361276">0755-86534692</a></p>
+        <p class="footer-text">Email: <a target="_blank" href="mailto:zhongbao@baidu.com">zhongbao@baidu.com</a></p>
+        <p class="footer-text">QQ: <a target="_blank" href="tencent://message/?uin=1537361276">1537361276</a></p>
     </div>
 
-    <!--    <div class="footer-section">-->
-    <!--        <p class="footer-title">代理业务</p>-->
-    <!--        <p class="footer-text">Email: <a target="_blank" href="mailto:Crowdtest@baidu.com">Crowdtest@baidu.com</a></p>-->
-    <!--    </div>-->
-</div> 
-
-
+    <div class="footer-section">
+        <p class="footer-title">代理业务</p>
+        <p class="footer-text">Email: <a target="_blank" href="mailto:Crowdtest@baidu.com">Crowdtest@baidu.com</a></p>
+    </div>
+</div>
 
 
 <script src="js/uni_login_wrapper.js"></script>
 <script src="js/wrapper.js"></script>
 <script>
-window.showLogin = '';
-window.oldUrl = '';
-window.userId = '0';
+    window.showLogin = '';
+    window.oldUrl = '';
+    window.userId = '0';
 
 </script>
 <script src="js/layout.js"></script>
 
 <script>
     $(document).ready(function () {
-        $('.scene-type-tab .scene-sub-type').click(function() {
+        $('.scene-type-tab .scene-sub-type').click(function () {
             var typeTag = $(this).attr('scene-tag');
             $('.scene-type-tab .scene-sub-type').removeClass('active');
             $(this).addClass('active');
             $('.scene-sub-type-content').addClass('hide');
-            $('.scene-sub-type-content[scene-tag=' + typeTag +']').removeClass('hide');
+            $('.scene-sub-type-content[scene-tag=' + typeTag + ']').removeClass('hide');
         });
         $('.scene-type-tab .scene-sub-type').first().click();
 
@@ -380,5 +446,290 @@ window.userId = '0';
 </script>
 
 
-
-<div class="sogoutip" style="z-index: 2147483645; visibility: hidden; display: none;"></div><div class="sogoubottom" id="sougou_bottom" style="display: none;"></div><div id="ext_stophi" style="z-index: 2147483647;"><div class="extnoticebg"></div><div class="extnotice"><h2>关闭提示 <a href="scene#" title="关闭提示" id="closenotice" class="closenotice">关闭</a></h2><p id="sogouconfirmtxt"></p>  <a id="sogouconfirm" href="###dycm/mark/home/scene#" class="extconfirm">确 认</a> <a id="sogoucancel" href="###dycm/mark/home/scene#" class="extconfirm">取 消</a></div></div><div id="ext_overlay" class="ext_overlayBG" style="display: none; z-index: 2147483646;"></div><iframe class="sogou_sugg_feedbackquan" frameborder="0" scrolling="no" src="img/yun6.html" style="background: transparent; border: none; display: none; height: 84px; width: 100%; z-index: 2147483645;"></iframe><div id="passport-login-pop" class="tang-pass-pop-login-noimg tang-pass-pop-login-merge tang-pass-pop-login-tpl-crt tang-pass-pop-login-color-blue tang-pass-pop-login" style="left: 9px; top: 150.5px; z-index: 60001; display: none;"><div class="tang-background" id="TANGRAM__PSP_6__" style="position:absolute; top:0px; left:0px;width:100%;height:100%;z-index:-9; -webkit-user-select:none; -moz-user-select:none;" onselectstart="return false"><div class="tang-background-inner" style="width:100%;height:100%;" id="TANGRAM__PSP_6__inner"></div><div style="filter:progid:DXImageTransform.Microsoft.Alpha(opacity:0);position:absolute;z-index:-1;top:0;left:0;width:100%;height:100%;opacity:0;background-color:#FFFFFF"></div></div><div class="tang-foreground" id="TANGRAM__PSP_4__foreground" style="width: 393px;"><div class="tang-title tang-title-dragable" id="TANGRAM__PSP_4__title"><div class="buttons" id="TANGRAM__PSP_4__titleButtons"><a id="TANGRAM__PSP_4__closeBtn" class="close-btn" href="###dycm/mark/home/scene###" onmousedown="event.stopPropagation &amp;&amp; event.stopPropagation(); event.cancelBubble = true; return false;" onclick="return false;"></a></div><span id="TANGRAM__PSP_4__titleText">登录鼎业帐号</span></div><div class="tang-body" id="TANGRAM__PSP_4__body"><div class="tang-content" id="TANGRAM__PSP_4__content"><div id="passport-login-pop-dialog"><div class="clearfix"><div class="pass-login-pop-content"><div class="pass-login-pop-form"><div id="passport-login-pop-api" class="tang-pass-login"><form id="TANGRAM__PSP_10__form" class="pass-form pass-form-normal" method="POST" autocomplete="off"><p id="TANGRAM__PSP_10__errorWrapper" class="pass-generalErrorWrapper"><span id="TANGRAM__PSP_10__error" class="pass-generalError pass-generalError-error"></span></p><p id="TANGRAM__PSP_10__MakeTextWrapper" class="pass-make-text" style="display:none;"></p><p class="pass-smsSwitchWrapper" id="TANGRAM__PSP_10__smsSwitchWrapper"><a class="pass-sms-btn" title="短信快捷登录" data-type="sms" id="TANGRAM__PSP_10__smsSwitch">短信快捷登录</a></p><p id="TANGRAM__PSP_10__hiddenFields" style="display:none"><input type="hidden" id="TANGRAM__PSP_10__codeString" name="codeString" value=""><input type="hidden" id="TANGRAM__PSP_10__safeFlag" name="safeFlag" value="0"><input type="hidden" id="TANGRAM__PSP_10__u" name="u" value="###dycm/mark/home/index"><input type="hidden" id="TANGRAM__PSP_10__isPhone" name="isPhone" value="false"><input type="hidden" id="TANGRAM__PSP_10__detect" name="detect" value="1"><input type="hidden" id="TANGRAM__PSP_10__gid" name="gid" value="CF7F13A-7B5E-4C51-9F34-E522CC8FDE42"><input type="hidden" id="TANGRAM__PSP_10__staticPage" name="staticPage" value="###dycm/v3Jump.html"><input type="hidden" id="TANGRAM__PSP_10__quick_user" name="quick_user" value="0"><input type="hidden" id="TANGRAM__PSP_10__logintype" name="logintype" value="dialogLogin"><input type="hidden" id="TANGRAM__PSP_10__logLoginType" name="logLoginType" value="pc_loginDialog"><input type="hidden" id="TANGRAM__PSP_10__subpro" name="subpro" value=""><input type="hidden" id="TANGRAM__PSP_10__idc" name="idc" value=""><input type="hidden" id="TANGRAM__PSP_10__loginMerge" name="loginMerge" value="true"></p><p id="TANGRAM__PSP_10__userNameWrapper" class="pass-form-item pass-form-item-userName" style="display:"><label for="TANGRAM__PSP_10__userName" id="TANGRAM__PSP_10__userNameLabel" class="pass-label pass-label-userName">手机/邮箱/用户名</label><input type="text" style="display:none;"><input id="TANGRAM__PSP_10__userName" type="text" name="userName" class="pass-text-input pass-text-input-userName" autocomplete="off" value="" placeholder="手机/邮箱/用户名"><span id="TANGRAM__PSP_10__userName_clearbtn" class="pass-clearbtn pass-clearbtn-userName" style="display:none;"></span><span id="TANGRAM__PSP_10__userNameTip" class="pass-item-tip pass-item-tip-userName" style="display:none"><span id="TANGRAM__PSP_10__userNameTipText" class="pass-item-tiptext pass-item-tiptext-userName"></span></span></p><p id="TANGRAM__PSP_10__passwordWrapper" class="pass-form-item pass-form-item-password" style="display:"><label for="TANGRAM__PSP_10__password" id="TANGRAM__PSP_10__passwordLabel" class="pass-label pass-label-password">密码</label><input type="password" style="display: none;"><input id="TANGRAM__PSP_10__password" type="password" name="password" class="pass-text-input pass-text-input-password" autocomplete="off" value="" placeholder="密码"><span id="TANGRAM__PSP_10__password_clearbtn" class="pass-clearbtn pass-clearbtn-password" style="display:none;"></span><span id="TANGRAM__PSP_10__passwordTip" class="pass-item-tip pass-item-tip-password" style="display:none"><span id="TANGRAM__PSP_10__passwordTipText" class="pass-item-tiptext pass-item-tiptext-password"></span></span></p><p id="TANGRAM__PSP_10__verifyCodeImgWrapper" class="pass-form-item pass-form-item-verifyCode" style="display:none"><label for="TANGRAM__PSP_10__verifyCode" id="TANGRAM__PSP_10__verifyCodeLabel" class="pass-label pass-label-verifyCode">验证码</label><input id="TANGRAM__PSP_10__verifyCode" type="text" name="verifyCode" class="pass-text-input pass-text-input-verifyCode" maxlength="6" placeholder="验证码"><span id="TANGRAM__PSP_10__verifyCode_clearbtn" class="pass-clearbtn pass-clearbtn-verifyCode" style="display:none;"></span><span id="TANGRAM__PSP_10__verifyCodeImgParent" class="pass-verifyCodeImgParent"><img id="TANGRAM__PSP_10__verifyCodeImg" class="pass-verifyCode" src="img/small_blank.gif"></span><a id="TANGRAM__PSP_10__verifyCodeChange" href="###dycm/mark/home/scene#" class="pass-change-verifyCode">换一张</a><span id="TANGRAM__PSP_10__verifyCodeError" class="pass-error pass-error-verifyCode"></span><span id="TANGRAM__PSP_10__verifyCodeTip" class="pass-tip pass-tip-verifyCode"></span><span id="TANGRAM__PSP_10__verifyCodeSuccess" class="pass-success pass-success-verifyCode"></span></p><p id="TANGRAM__PSP_10__memberPassWrapper" class="pass-form-item pass-form-item-memberPass"><input id="TANGRAM__PSP_10__memberPass" type="checkbox" name="memberPass" class="pass-checkbox-input pass-checkbox-memberPass" checked="checked"><label for="TANGRAM__PSP_10__memberPass" id="TANGRAM__PSP_10__memberPassLabel" class="">下次自动登录</label></p><p id="TANGRAM__PSP_10__submitWrapper" class="pass-form-item pass-form-item-submit"><input id="TANGRAM__PSP_10__submit" type="submit" value="登录" class="pass-button pass-button-submit"><a class="pass-reglink" href="https://passport.baidu.com/v2/?reg&amp;tpl=crowdtest&amp;u=http%3A%2F%2Ftest.baidu.com%2F" target="_blank">立即注册</a><a class="pass-fgtpwd" href="https://passport.baidu.com/?getpassindex&amp;tt=1559634370470&amp;gid=CF7F13A-7B5E-4C51-9F34-E522CC8FDE42&amp;tpl=crt&amp;u=http%3A%2F%2Fzhongbao.baidu.com%2Fmark%2Fhome%2Findex" target="_blank">登录遇到问题</a></p></form></div><div id="TANGRAM__PSP_10__sms" class="tang-pass-login tang-pass-sms" style="display:none"><p class="tang-pass-sms-title">短信登录</p><p class="tang-pass-sms-tip">验证即登录，未注册将自动创建鼎业帐号</p><form id="TANGRAM__PSP_10__smsForm" method="POST"><p id="TANGRAM__PSP_10__smsHiddenFields" style="display:none"><input type="hidden" id="TANGRAM__PSP_10__smsHiddenFields_u" name="u" value="###dycm/mark/home/index"><input type="hidden" id="TANGRAM__PSP_10__smsHiddenFields_staticPage" name="staticPage" value="###dycm/v3Jump.html"><input type="hidden" id="TANGRAM__PSP_10__smsHiddenFields_tpl" name="tpl" value="crt"><input type="hidden" id="TANGRAM__PSP_10__smsHiddenFields_idc" name="idc" value=""><input type="hidden" id="TANGRAM__PSP_10__smsHiddenFields_isdpass" name="isdpass" value="1"><input type="hidden" id="TANGRAM__PSP_10__smsHiddenFields_gid" name="gid" value="CF7F13A-7B5E-4C51-9F34-E522CC8FDE42"><input type="hidden" id="TANGRAM__PSP_10__smsHiddenFields_switchuname" name="switchuname" value=""><input type="hidden" id="TANGRAM__PSP_10__smsHiddenFields_smsCodeString" name="smsCodeString" value=""><input type="hidden" id="TANGRAM__PSP_10__smsHiddenFields_smsVcodesign" name="smsVcodesign" value=""><input type="hidden" id="TANGRAM__PSP_10__smsHiddenFields_smsVcodestr" name="smsVcodestr" value=""><input type="hidden" id="TANGRAM__PSP_10__smsHiddenFields_subpro" name="subpro" value=""><input type="hidden" id="TANGRAM__PSP_10__smsHiddenFields_is_voice_sms" name="is_voice_sms" value="0"><input type="hidden" id="TANGRAM__PSP_10__smsHiddenFields_voice_sms_flag" name="voice_sms_flag" value="0"></p><p id="TANGRAM__PSP_10__smsErrorWrapper" class="pass-generalErrorWrapper"><span id="TANGRAM__PSP_10__smsError" class="pass-generalError"></span></p><div id="TANGRAM__PSP_10__smsPhoneWrapper" class="pass-form-item pass-form-item-smsPhone"><label for="TANGRAM__PSP_10__smsPhone" id="TANGRAM__PSP_10__smsPhoneLabel" class="pass-label pass-label-smsPhone" data-countrycode="">手机号</label><input id="TANGRAM__PSP_10__smsPhone" type="text" name="username" class="pass-text-input pass-text-input-smsPhone" placeholder="请输入手机号"><span id="TANGRAM__PSP_10__smsPhone_clearbtn" class="pass-clearbtn pass-clearbtn-smsPhone" style="display:none;"></span><span id="TANGRAM__PSP_10__smsPhoneTip" class="pass-item-tip pass-item-tip-smsPhone" style="display:none"><span id="TANGRAM__PSP_10__smsPhoneTipText"></span></span></div><p id="TANGRAM__PSP_10__smsVerifyCodeWrapper" class="pass-form-item pass-form-item-smsVerifyCode"><label for="TANGRAM__PSP_10__smsVerifyCode" id="TANGRAM__PSP_10__smsVerifyCodeLabel" class="pass-label pass-label-smsVerifyCode">动态密码</label><input id="TANGRAM__PSP_10__smsVerifyCode" type="text" name="password" class="pass-text-input pass-text-input-smsVerifyCode" placeholder="动态密码"><span id="TANGRAM__PSP_10__smsVerifyCode_clearbtn" class="pass-clearbtn pass-clearbtn-smsVerifyCode" style="display:none;"></span><button id="TANGRAM__PSP_10__smsTimer" class="pass-item-timer">发送动态密码</button><span id="TANGRAM__PSP_10__smsVerifyCodeTip" class="pass-item-tip pass-item-tip-smsVerifyCode" style="display:none"><span id="TANGRAM__PSP_10__smsVerifyCodeTipText"></span></span></p><p id="TANGRAM__PSP_10__smsUnReceiveWrapper" class="pass-form-item pass-form-item-unrecevie" style="display:none;"><span id="TANGRAM__PSP_10__smsUnReceiveTipWrapper" class="pass-sms-unreceive-tips">收不到短信验证码?</span></p><p id="TANGRAM__PSP_10__smsSubmitWrapper" class="pass-form-item pass-form-item-submit"><input id="TANGRAM__PSP_10__smsSubmit" type="submit" value="登录" class="pass-button pass-button-submit"><span class="tang-pass-sms-agreement">阅读并接受<a target="_blank" href="http://passport.baidu.com/static/passpc-account/html/protocal.html">《鼎业用户协议》</a></span><a id="TANGRAM__PSP_10__sms_btn_back" class="pass-sms-link pass-sms-link-back">帐号密码登录</a></p></form></div><div id="TANGRAM__PSP_10__qrcode" class="clearfix tang-pass-qrcode tang-pass-login" style="display:none;"><div class="tang-pass-qrcode-content" id="TANGRAM__PSP_10__qrcodeContent"><div class="tang-pass-qrcode-init"><p class="tang-pass-qrcode-title">请使用<span>鼎业App</span>扫码登录</p><div class="Qrcode-status-con tang-pass-qrcode-imgWrapper" id="TANGRAM__PSP_10__QrcodeMain"><img class="tang-pass-qrcode-img" src="img/loading.gif"></div><div class="Qrcode-status-con Qrcode-status-success" id="TANGRAM__PSP_10__QrcodeSuccess"><p class="Qrcode-status-icon"></p><p>扫描成功</p><p class="Qrcode-status-msg">请在手机端确认登录</p></div><div class="Qrcode-status-con Qrcode-status-error" id="TANGRAM__PSP_10__QrcodeError"><p class="Qrcode-status-icon"></p><p>网络连接失败</p><p class="Qrcode-status-msg">请稍候再试</p></div><div class="Qrcode-status-con Qrcode-status-refresh" id="TANGRAM__PSP_10__QrcodeRefresh"><p class="Qrcode-status-icon"></p><p class="refresh-title refresh-timeout">二维码已失效</p><p class="refresh-title refresh-loadout">二维码加载失败</p><p class="Qrcode-refresh-btn" id="TANGRAM__PSP_10__QrcodeRefreshBtn">刷新二维码</p></div><p class="tang-pass-qrcode-info">鼎业技术加密，保障您的隐私安全</p></div></div></div><div id="TANGRAM__PSP_10__pass_b2c" style="display:none;"></div><div class="tang-pass-pop-login-changeWrapper"><div class="tang-pass-pop-login-change tang-pass-pop-qrcodeLogin" data-type="normal"></div></div></div></div></div></div></div></div><div class="tang-footer" id="TANGRAM__PSP_4__footer" style="display: none;"><div id="TANGRAM__PSP_4__footerContainer"></div></div></div></div><div id="TANGRAM__PSP_10__unRecevieSmsTip" class="pass-unreceiveSms-tip-wrapper" style="display:none"><div class="pass-unreceiveSms-mask"></div><div class="pass-unreceiveSms-tip-wrapper-content"><div class="unreceiveSms-header"><h3 class="unreceiveSms-header-h3">收不到验证码</h3><a class="unreceiveSms-header-a" id="TANGRAM__PSP_10__closeUnRecevieSmsTip"></a></div><div class="unreceiveSms-article"><div class="pass-unreceiveSms-content"><p class="pass-unreceiveSms-p">1.请检查短信是否被安全软件拦截</p><p class="pass-unreceiveSms-p">2.运营商网络原因，短信可能延迟到达</p><p class="pass-unreceiveSms-t25" id="TANGRAM__PSP_10__unRecevieSmsReged" style="display:none;">建议您<a class="pass-unreceiveSms-btn-tip" id="TANGRAM__PSP_10__unRecevieSmsChangeLogin">切换登录方式</a>或使用该手机号，编辑短信“<span class="pass-unreceiveSms-btn-tip" id="TANGRAM__PSP_10__unRecevieSmsSendCode"></span>”，发送至<span id="TANGRAM__PSP_10__unRecevieSmsSendNumber"></span>即可登录成功<span class="pass-unreceiveSms-text-tip">（短信费用请参考运营商资费标准）</span></p><p class="pass-unreceiveSms-t25" id="TANGRAM__PSP_10__unRecevieSmsUnReg" style="display:none;">建议使用当前手机号，编辑短信 8-14 位字符（支持数字/字母/符号），作为登录密码，发送至1069 0691 036590，即可注册成功<span class="pass-unreceiveSms-text-tip">（短信费用请参考运营商资费标准）</span></p></div></div></div></div></body></html>
+<div class="sogoutip" style="z-index: 2147483645; visibility: hidden; display: none;"></div>
+<div class="sogoubottom" id="sougou_bottom" style="display: none;"></div>
+<div id="ext_stophi" style="z-index: 2147483647;">
+    <div class="extnoticebg"></div>
+    <div class="extnotice"><h2>关闭提示 <a href="scene#" title="关闭提示" id="closenotice" class="closenotice">关闭</a></h2>
+        <p id="sogouconfirmtxt"></p>  <a id="sogouconfirm" href="http://zhongbao.baidu.com/mark/home/scene#"
+                                         class="extconfirm">确 认</a> <a id="sogoucancel"
+                                                                       href="http://zhongbao.baidu.com/mark/home/scene#"
+                                                                       class="extconfirm">取 消</a></div>
+</div>
+<div id="ext_overlay" class="ext_overlayBG" style="display: none; z-index: 2147483646;"></div>
+<iframe class="sogou_sugg_feedbackquan" frameborder="0" scrolling="no" src="./scene_files/yun6.html"
+        style="background: transparent; border: none; display: none; height: 84px; width: 100%; z-index: 2147483645;"></iframe>
+<div id="passport-login-pop"
+     class="tang-pass-pop-login-noimg tang-pass-pop-login-merge tang-pass-pop-login-tpl-crt tang-pass-pop-login-color-blue tang-pass-pop-login"
+     style="left: 9px; top: 150.5px; z-index: 60001; display: none;">
+    <div class="tang-background" id="TANGRAM__PSP_6__"
+         style="position:absolute; top:0px; left:0px;width:100%;height:100%;z-index:-9; -webkit-user-select:none; -moz-user-select:none;"
+         onselectstart="return false">
+        <div class="tang-background-inner" style="width:100%;height:100%;" id="TANGRAM__PSP_6__inner"></div>
+        <div style="filter:progid:DXImageTransform.Microsoft.Alpha(opacity:0);position:absolute;z-index:-1;top:0;left:0;width:100%;height:100%;opacity:0;background-color:#FFFFFF"></div>
+    </div>
+    <div class="tang-foreground" id="TANGRAM__PSP_4__foreground" style="width: 393px;">
+        <div class="tang-title tang-title-dragable" id="TANGRAM__PSP_4__title">
+            <div class="buttons" id="TANGRAM__PSP_4__titleButtons"><a id="TANGRAM__PSP_4__closeBtn" class="close-btn"
+                                                                      href="http://zhongbao.baidu.com/mark/home/scene###"
+                                                                      onmousedown="event.stopPropagation &amp;&amp; event.stopPropagation(); event.cancelBubble = true; return false;"
+                                                                      onclick="return false;"></a></div>
+            <span id="TANGRAM__PSP_4__titleText">登录百度帐号</span></div>
+        <div class="tang-body" id="TANGRAM__PSP_4__body">
+            <div class="tang-content" id="TANGRAM__PSP_4__content">
+                <div id="passport-login-pop-dialog">
+                    <div class="clearfix">
+                        <div class="pass-login-pop-content">
+                            <div class="pass-login-pop-form">
+                                <div id="passport-login-pop-api" class="tang-pass-login">
+                                    <form id="TANGRAM__PSP_10__form" class="pass-form pass-form-normal" method="POST"
+                                          autocomplete="off"><p id="TANGRAM__PSP_10__errorWrapper"
+                                                                class="pass-generalErrorWrapper"><span
+                                            id="TANGRAM__PSP_10__error"
+                                            class="pass-generalError pass-generalError-error"></span></p>
+                                        <p id="TANGRAM__PSP_10__MakeTextWrapper" class="pass-make-text"
+                                           style="display:none;"></p>
+                                        <p class="pass-smsSwitchWrapper" id="TANGRAM__PSP_10__smsSwitchWrapper"><a
+                                                class="pass-sms-btn" title="短信快捷登录" data-type="sms"
+                                                id="TANGRAM__PSP_10__smsSwitch">短信快捷登录</a></p>
+                                        <p id="TANGRAM__PSP_10__hiddenFields" style="display:none"><input type="hidden"
+                                                                                                          id="TANGRAM__PSP_10__codeString"
+                                                                                                          name="codeString"
+                                                                                                          value=""><input
+                                                type="hidden" id="TANGRAM__PSP_10__safeFlag" name="safeFlag"
+                                                value="0"><input type="hidden" id="TANGRAM__PSP_10__u" name="u"
+                                                                 value="http://zhongbao.baidu.com/mark/home/index"><input
+                                                type="hidden" id="TANGRAM__PSP_10__isPhone" name="isPhone"
+                                                value="false"><input type="hidden" id="TANGRAM__PSP_10__detect"
+                                                                     name="detect" value="1"><input type="hidden"
+                                                                                                    id="TANGRAM__PSP_10__gid"
+                                                                                                    name="gid"
+                                                                                                    value="6F41B3B-5555-4412-9AF3-EA61378EF826"><input
+                                                type="hidden" id="TANGRAM__PSP_10__staticPage" name="staticPage"
+                                                value="http://zhongbao.baidu.com/v3Jump.html"><input type="hidden"
+                                                                                                     id="TANGRAM__PSP_10__quick_user"
+                                                                                                     name="quick_user"
+                                                                                                     value="0"><input
+                                                type="hidden" id="TANGRAM__PSP_10__logintype" name="logintype"
+                                                value="dialogLogin"><input type="hidden"
+                                                                           id="TANGRAM__PSP_10__logLoginType"
+                                                                           name="logLoginType"
+                                                                           value="pc_loginDialog"><input type="hidden"
+                                                                                                         id="TANGRAM__PSP_10__subpro"
+                                                                                                         name="subpro"
+                                                                                                         value=""><input
+                                                type="hidden" id="TANGRAM__PSP_10__idc" name="idc" value=""><input
+                                                type="hidden" id="TANGRAM__PSP_10__loginMerge" name="loginMerge"
+                                                value="true"></p>
+                                        <p id="TANGRAM__PSP_10__userNameWrapper"
+                                           class="pass-form-item pass-form-item-userName" style="display:"><label
+                                                for="TANGRAM__PSP_10__userName" id="TANGRAM__PSP_10__userNameLabel"
+                                                class="pass-label pass-label-userName">手机/邮箱/用户名</label><input
+                                                type="text" style="display:none;"><input id="TANGRAM__PSP_10__userName"
+                                                                                         type="text" name="userName"
+                                                                                         class="pass-text-input pass-text-input-userName"
+                                                                                         autocomplete="off" value=""
+                                                                                         placeholder="手机/邮箱/用户名"><span
+                                                id="TANGRAM__PSP_10__userName_clearbtn"
+                                                class="pass-clearbtn pass-clearbtn-userName"
+                                                style="display:none;"></span><span id="TANGRAM__PSP_10__userNameTip"
+                                                                                   class="pass-item-tip pass-item-tip-userName"
+                                                                                   style="display:none"><span
+                                                id="TANGRAM__PSP_10__userNameTipText"
+                                                class="pass-item-tiptext pass-item-tiptext-userName"></span></span></p>
+                                        <p id="TANGRAM__PSP_10__passwordWrapper"
+                                           class="pass-form-item pass-form-item-password" style="display:"><label
+                                                for="TANGRAM__PSP_10__password" id="TANGRAM__PSP_10__passwordLabel"
+                                                class="pass-label pass-label-password">密码</label><input type="password"
+                                                                                                        style="display: none;"><input
+                                                id="TANGRAM__PSP_10__password" type="password" name="password"
+                                                class="pass-text-input pass-text-input-password" autocomplete="off"
+                                                value="" placeholder="密码"><span id="TANGRAM__PSP_10__password_clearbtn"
+                                                                                class="pass-clearbtn pass-clearbtn-password"
+                                                                                style="display:none;"></span><span
+                                                id="TANGRAM__PSP_10__passwordTip"
+                                                class="pass-item-tip pass-item-tip-password" style="display:none"><span
+                                                id="TANGRAM__PSP_10__passwordTipText"
+                                                class="pass-item-tiptext pass-item-tiptext-password"></span></span></p>
+                                        <p id="TANGRAM__PSP_10__verifyCodeImgWrapper"
+                                           class="pass-form-item pass-form-item-verifyCode" style="display:none"><label
+                                                for="TANGRAM__PSP_10__verifyCode" id="TANGRAM__PSP_10__verifyCodeLabel"
+                                                class="pass-label pass-label-verifyCode">验证码</label><input
+                                                id="TANGRAM__PSP_10__verifyCode" type="text" name="verifyCode"
+                                                class="pass-text-input pass-text-input-verifyCode" maxlength="6"
+                                                placeholder="验证码"><span id="TANGRAM__PSP_10__verifyCode_clearbtn"
+                                                                        class="pass-clearbtn pass-clearbtn-verifyCode"
+                                                                        style="display:none;"></span><span
+                                                id="TANGRAM__PSP_10__verifyCodeImgParent"
+                                                class="pass-verifyCodeImgParent"><img
+                                                id="TANGRAM__PSP_10__verifyCodeImg" class="pass-verifyCode"
+                                                src="./scene_files/small_blank.gif"></span><a
+                                                id="TANGRAM__PSP_10__verifyCodeChange"
+                                                href="http://zhongbao.baidu.com/mark/home/scene#"
+                                                class="pass-change-verifyCode">换一张</a><span
+                                                id="TANGRAM__PSP_10__verifyCodeError"
+                                                class="pass-error pass-error-verifyCode"></span><span
+                                                id="TANGRAM__PSP_10__verifyCodeTip"
+                                                class="pass-tip pass-tip-verifyCode"></span><span
+                                                id="TANGRAM__PSP_10__verifyCodeSuccess"
+                                                class="pass-success pass-success-verifyCode"></span></p>
+                                        <p id="TANGRAM__PSP_10__memberPassWrapper"
+                                           class="pass-form-item pass-form-item-memberPass"><input
+                                                id="TANGRAM__PSP_10__memberPass" type="checkbox" name="memberPass"
+                                                class="pass-checkbox-input pass-checkbox-memberPass"
+                                                checked="checked"><label for="TANGRAM__PSP_10__memberPass"
+                                                                         id="TANGRAM__PSP_10__memberPassLabel" class="">下次自动登录</label>
+                                        </p>
+                                        <p id="TANGRAM__PSP_10__submitWrapper"
+                                           class="pass-form-item pass-form-item-submit"><input
+                                                id="TANGRAM__PSP_10__submit" type="submit" value="登录"
+                                                class="pass-button pass-button-submit"><a class="pass-reglink"
+                                                                                          href="https://passport.baidu.com/v2/?reg&amp;tpl=crowdtest&amp;u=http%3A%2F%2Ftest.baidu.com%2F"
+                                                                                          target="_blank">立即注册</a><a
+                                                class="pass-fgtpwd"
+                                                href="https://passport.baidu.com/?getpassindex&amp;tt=1559816164789&amp;gid=6F41B3B-5555-4412-9AF3-EA61378EF826&amp;tpl=crt&amp;u=http%3A%2F%2Fzhongbao.baidu.com%2Fmark%2Fhome%2Findex"
+                                                target="_blank">登录遇到问题</a></p></form>
+                                </div>
+                                <div id="TANGRAM__PSP_10__sms" class="tang-pass-login tang-pass-sms"
+                                     style="display:none"><p class="tang-pass-sms-title">短信登录</p>
+                                    <p class="tang-pass-sms-tip">验证即登录，未注册将自动创建百度帐号</p>
+                                    <form id="TANGRAM__PSP_10__smsForm" method="POST"><p
+                                            id="TANGRAM__PSP_10__smsHiddenFields" style="display:none"><input
+                                            type="hidden" id="TANGRAM__PSP_10__smsHiddenFields_u" name="u"
+                                            value="http://zhongbao.baidu.com/mark/home/index"><input type="hidden"
+                                                                                                     id="TANGRAM__PSP_10__smsHiddenFields_staticPage"
+                                                                                                     name="staticPage"
+                                                                                                     value="http://zhongbao.baidu.com/v3Jump.html"><input
+                                            type="hidden" id="TANGRAM__PSP_10__smsHiddenFields_tpl" name="tpl"
+                                            value="crt"><input type="hidden" id="TANGRAM__PSP_10__smsHiddenFields_idc"
+                                                               name="idc" value=""><input type="hidden"
+                                                                                          id="TANGRAM__PSP_10__smsHiddenFields_isdpass"
+                                                                                          name="isdpass"
+                                                                                          value="1"><input type="hidden"
+                                                                                                           id="TANGRAM__PSP_10__smsHiddenFields_gid"
+                                                                                                           name="gid"
+                                                                                                           value="6F41B3B-5555-4412-9AF3-EA61378EF826"><input
+                                            type="hidden" id="TANGRAM__PSP_10__smsHiddenFields_switchuname"
+                                            name="switchuname" value=""><input type="hidden"
+                                                                               id="TANGRAM__PSP_10__smsHiddenFields_smsCodeString"
+                                                                               name="smsCodeString" value=""><input
+                                            type="hidden" id="TANGRAM__PSP_10__smsHiddenFields_smsVcodesign"
+                                            name="smsVcodesign" value=""><input type="hidden"
+                                                                                id="TANGRAM__PSP_10__smsHiddenFields_smsVcodestr"
+                                                                                name="smsVcodestr" value=""><input
+                                            type="hidden" id="TANGRAM__PSP_10__smsHiddenFields_subpro" name="subpro"
+                                            value=""><input type="hidden"
+                                                            id="TANGRAM__PSP_10__smsHiddenFields_is_voice_sms"
+                                                            name="is_voice_sms" value="0"><input type="hidden"
+                                                                                                 id="TANGRAM__PSP_10__smsHiddenFields_voice_sms_flag"
+                                                                                                 name="voice_sms_flag"
+                                                                                                 value="0"></p>
+                                        <p id="TANGRAM__PSP_10__smsErrorWrapper" class="pass-generalErrorWrapper"><span
+                                                id="TANGRAM__PSP_10__smsError" class="pass-generalError"></span></p>
+                                        <div id="TANGRAM__PSP_10__smsPhoneWrapper"
+                                             class="pass-form-item pass-form-item-smsPhone"><label
+                                                for="TANGRAM__PSP_10__smsPhone" id="TANGRAM__PSP_10__smsPhoneLabel"
+                                                class="pass-label pass-label-smsPhone"
+                                                data-countrycode="">手机号</label><input id="TANGRAM__PSP_10__smsPhone"
+                                                                                      type="text" name="username"
+                                                                                      class="pass-text-input pass-text-input-smsPhone"
+                                                                                      placeholder="请输入手机号"><span
+                                                id="TANGRAM__PSP_10__smsPhone_clearbtn"
+                                                class="pass-clearbtn pass-clearbtn-smsPhone"
+                                                style="display:none;"></span><span id="TANGRAM__PSP_10__smsPhoneTip"
+                                                                                   class="pass-item-tip pass-item-tip-smsPhone"
+                                                                                   style="display:none"><span
+                                                id="TANGRAM__PSP_10__smsPhoneTipText"></span></span></div>
+                                        <p id="TANGRAM__PSP_10__smsVerifyCodeWrapper"
+                                           class="pass-form-item pass-form-item-smsVerifyCode"><label
+                                                for="TANGRAM__PSP_10__smsVerifyCode"
+                                                id="TANGRAM__PSP_10__smsVerifyCodeLabel"
+                                                class="pass-label pass-label-smsVerifyCode">动态密码</label><input
+                                                id="TANGRAM__PSP_10__smsVerifyCode" type="text" name="password"
+                                                class="pass-text-input pass-text-input-smsVerifyCode"
+                                                placeholder="动态密码"><span id="TANGRAM__PSP_10__smsVerifyCode_clearbtn"
+                                                                         class="pass-clearbtn pass-clearbtn-smsVerifyCode"
+                                                                         style="display:none;"></span>
+                                            <button id="TANGRAM__PSP_10__smsTimer" class="pass-item-timer">发送动态密码
+                                            </button>
+                                            <span id="TANGRAM__PSP_10__smsVerifyCodeTip"
+                                                  class="pass-item-tip pass-item-tip-smsVerifyCode"
+                                                  style="display:none"><span
+                                                    id="TANGRAM__PSP_10__smsVerifyCodeTipText"></span></span></p>
+                                        <p id="TANGRAM__PSP_10__smsUnReceiveWrapper"
+                                           class="pass-form-item pass-form-item-unrecevie" style="display:none;"><span
+                                                id="TANGRAM__PSP_10__smsUnReceiveTipWrapper"
+                                                class="pass-sms-unreceive-tips">收不到短信验证码?</span></p>
+                                        <p id="TANGRAM__PSP_10__smsSubmitWrapper"
+                                           class="pass-form-item pass-form-item-submit"><input
+                                                id="TANGRAM__PSP_10__smsSubmit" type="submit" value="登录"
+                                                class="pass-button pass-button-submit"><span
+                                                class="tang-pass-sms-agreement">阅读并接受<a target="_blank"
+                                                                                        href="http://passport.baidu.com/static/passpc-account/html/protocal.html">《百度用户协议》</a></span><a
+                                                id="TANGRAM__PSP_10__sms_btn_back"
+                                                class="pass-sms-link pass-sms-link-back">帐号密码登录</a></p></form>
+                                </div>
+                                <div id="TANGRAM__PSP_10__qrcode" class="clearfix tang-pass-qrcode tang-pass-login"
+                                     style="display:none;">
+                                    <div class="tang-pass-qrcode-content" id="TANGRAM__PSP_10__qrcodeContent">
+                                        <div class="tang-pass-qrcode-init"><p class="tang-pass-qrcode-title">请使用<span>百度App</span>扫码登录
+                                        </p>
+                                            <div class="Qrcode-status-con tang-pass-qrcode-imgWrapper"
+                                                 id="TANGRAM__PSP_10__QrcodeMain"><img class="tang-pass-qrcode-img"
+                                                                                       src="./scene_files/loading.gif">
+                                            </div>
+                                            <div class="Qrcode-status-con Qrcode-status-success"
+                                                 id="TANGRAM__PSP_10__QrcodeSuccess"><p class="Qrcode-status-icon"></p>
+                                                <p>扫描成功</p>
+                                                <p class="Qrcode-status-msg">请在手机端确认登录</p></div>
+                                            <div class="Qrcode-status-con Qrcode-status-error"
+                                                 id="TANGRAM__PSP_10__QrcodeError"><p class="Qrcode-status-icon"></p>
+                                                <p>网络连接失败</p>
+                                                <p class="Qrcode-status-msg">请稍候再试</p></div>
+                                            <div class="Qrcode-status-con Qrcode-status-refresh"
+                                                 id="TANGRAM__PSP_10__QrcodeRefresh"><p class="Qrcode-status-icon"></p>
+                                                <p class="refresh-title refresh-timeout">二维码已失效</p>
+                                                <p class="refresh-title refresh-loadout">二维码加载失败</p>
+                                                <p class="Qrcode-refresh-btn" id="TANGRAM__PSP_10__QrcodeRefreshBtn">
+                                                    刷新二维码</p></div>
+                                            <p class="tang-pass-qrcode-info">百度技术加密，保障您的隐私安全</p></div>
+                                    </div>
+                                </div>
+                                <div id="TANGRAM__PSP_10__pass_b2c" style="display:none;"></div>
+                                <div class="tang-pass-pop-login-changeWrapper">
+                                    <div class="tang-pass-pop-login-change tang-pass-pop-qrcodeLogin"
+                                         data-type="normal"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tang-footer" id="TANGRAM__PSP_4__footer" style="display: none;">
+            <div id="TANGRAM__PSP_4__footerContainer"></div>
+        </div>
+    </div>
+</div>
+<div id="TANGRAM__PSP_10__unRecevieSmsTip" class="pass-unreceiveSms-tip-wrapper" style="display:none">
+    <div class="pass-unreceiveSms-mask"></div>
+    <div class="pass-unreceiveSms-tip-wrapper-content">
+        <div class="unreceiveSms-header"><h3 class="unreceiveSms-header-h3">收不到验证码</h3><a class="unreceiveSms-header-a"
+                                                                                          id="TANGRAM__PSP_10__closeUnRecevieSmsTip"></a>
+        </div>
+        <div class="unreceiveSms-article">
+            <div class="pass-unreceiveSms-content"><p class="pass-unreceiveSms-p">1.请检查短信是否被安全软件拦截</p>
+                <p class="pass-unreceiveSms-p">2.运营商网络原因，短信可能延迟到达</p>
+                <p class="pass-unreceiveSms-t25" id="TANGRAM__PSP_10__unRecevieSmsReged" style="display:none;">建议您<a
+                        class="pass-unreceiveSms-btn-tip" id="TANGRAM__PSP_10__unRecevieSmsChangeLogin">切换登录方式</a>或使用该手机号，编辑短信“<span
+                        class="pass-unreceiveSms-btn-tip" id="TANGRAM__PSP_10__unRecevieSmsSendCode"></span>”，发送至<span
+                        id="TANGRAM__PSP_10__unRecevieSmsSendNumber"></span>即可登录成功<span
+                        class="pass-unreceiveSms-text-tip">（短信费用请参考运营商资费标准）</span></p>
+                <p class="pass-unreceiveSms-t25" id="TANGRAM__PSP_10__unRecevieSmsUnReg" style="display:none;">
+                    建议使用当前手机号，编辑短信 8-14 位字符（支持数字/字母/符号），作为登录密码，发送至1069 0691 036590，即可注册成功<span
+                        class="pass-unreceiveSms-text-tip">（短信费用请参考运营商资费标准）</span></p></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,7 +1,7 @@
 .scene-banner-wrap {
     height: 3.4rem;
     background-size: cover;
-    background-image: url(../../../../img/zhongbao/new/mobile/scene/scene-banner.png);
+    background-image: url(../img/scene-banner.png);
     text-align: center;
     position: relative;
     overflow: hidden;
