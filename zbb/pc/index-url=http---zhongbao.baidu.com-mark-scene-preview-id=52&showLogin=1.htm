@@ -1,0 +1,604 @@
+
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>  鼎业数据众包平台  </title>
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE">
+    <meta name="keywords" content="鼎业数据众包,数据标注,数据采集,数据清洗,文本数据,语音数据,图像数据">
+    <meta name="description" content="鼎业数据众包，提供专业的数据标注、制作、采集服务，全方位支持文本、语音、图像、视频等各类型数据的处理，速度快、成本低、质量高。服务适合舆情监控、图片识别、OCR识别、语音识别、自然语言处理、交通、电商、医疗等领域的数据处理。">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="telephone=no" name="format-detection">
+    <link rel="shortcut icon" href="https://www.baidu.com/cache/icon/favicon.ico" type="image/x-icon">
+    <link rel="icon" sizes="any"  href="https://www.baidu.com/cache/icon/favicon.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
+
+    <!--basic css-->
+    
+    <link rel="stylesheet" href="css/mobase.css-v=83d856cfd5908c7f7c7583fd155952e8.css" tppabs="http://zhongbao.baidu.com/mark/static/css/mobase.css?v=83d856cfd5908c7f7c7583fd155952e8">
+    
+<link rel="stylesheet" href="css/base.css-v=3834dcaa7e585a3dfbbc25051fe0cd68.css" tppabs="http://zhongbao.baidu.com/mark/static/css/zhongbao/new/base.css?v=3834dcaa7e585a3dfbbc25051fe0cd68">
+
+<link rel="stylesheet" href="css/partner.css-v=77e200e71be15c3aa8494338091e954e.css" tppabs="http://zhongbao.baidu.com/mark/static/css/zhongbao/new/partner.css?v=77e200e71be15c3aa8494338091e954e">
+<link rel="stylesheet" href="css/saas.css-v=079f927b6e8ec7e23a8c95e49d8b6ef9.css" tppabs="http://zhongbao.baidu.com/mark/static/css/zhongbao/new/saas.css?v=079f927b6e8ec7e23a8c95e49d8b6ef9">
+
+    <script src="js/cal_font_size.js" tppabs="http://zhongbao.baidu.com/mark//static/js/cal_font_size.js"></script>
+        <script>var _hmt = _hmt || [];(function() {var hm = document.createElement("script");hm.src = "hm.js-48f82868aa1ed62bf1defb68bd7972b1"/*tpa=http://hm.baidu.com/hm.js?48f82868aa1ed62bf1defb68bd7972b1*/;var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(hm, s);})();</script>
+
+    <!--basic lib-->
+    <script src="js/jquery.min.js" tppabs="http://apps.bdimg.com/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/sea.js-version=2016102520" tppabs="http://zhongbao.baidu.com/mark/static/js_ng/sea.js?version=2016102520"></script>
+    <script src="js/seaconfig.js-version=2016102520" tppabs="http://zhongbao.baidu.com/mark/static/js_ng/seaconfig.js?version=2016102520"></script>
+    <script src="js/polyfill.min.js" tppabs="http://zhongbao.baidu.com/mark/static/js_ng/lib/polyfill.min.js"></script>
+    <!--basic css-->
+    <link rel="stylesheet" type="text/css" href="css/iconfont.css" tppabs="http://zhongbao.baidu.com/mark/static/js_bf/static/css/hui_iconfont_v1.0.6/iconfont.css">
+
+    <!--global var-->
+    <script>
+        var baseUrl = 'index.htm'/*tpa=http://zhongbao.baidu.com/*/;
+        var base_url_module = 'http://zhongbao.baidu.com/crowdtest/';
+        var base_dir_module = 'http://zhongbao.baidu.com/crowdtest/';
+        var yii_csrf_token_global = '45c3bafff3bda49da6a164987c297198a5dee0e2';
+        var yii_csrf_token = '45c3bafff3bda49da6a164987c297198a5dee0e2';
+
+        var BASE_ADMIN_DIR_MODULE = "/admin/";
+        var BASE_MARK_DIR_MODULE = "/mark/";
+        var BASE_PROXY_URL = "";
+//        seajs.use('/mark/static/js/popup/RightSideDock', function(dock) {
+//            dock.init("");
+//        });
+    var isMobile = "";
+    if (!isMobile) {
+        window.seajs.use('/mark/static/js/popup/MenuSidebar', function (dock) {
+            dock.init();
+        });
+    }
+    </script>
+</head>
+<body>
+ <div class="zui-header-wrap"><div class="zui-header"><div class="zui-header-logo dib"><a href="index.htm" tppabs="http://zhongbao.baidu.com/"><img class="zui-header-logo-img" src="img/logo.svg" tppabs="http://zhongbao.baidu.com/mark/static/img/zhongbao/logo.svg" style="width: 216px;height: 38px;"></a></div><ul class="zui-header-menu dib">
+        <li class="zui-header-menu-item zui-header-menu-item-dropdown zui-header-menu-item-index">
+        <a href="index.htm" tppabs="http://zhongbao.baidu.com/mark/home/index">首页</a>
+            </li>
+        <li class="zui-header-menu-item zui-header-menu-item-dropdown zui-header-menu-item-service">
+        <a href="javascript:;">产品服务</a>
+                <ul class="zui-header-inner-nav service-nav">
+                        <li class="zui-header-inner-menu-item">
+                                <a href="collection.htm" tppabs="http://zhongbao.baidu.com/mark/home/collection">人工采集</a>
+                            </li>
+                        <li class="zui-header-inner-menu-item">
+                                <a href="mark.htm" tppabs="http://zhongbao.baidu.com/mark/home/mark">数据标注</a>
+                            </li>
+                        <li class="zui-header-inner-menu-item">
+                                <a href="crawl.htm" tppabs="http://zhongbao.baidu.com/mark/home/crawl">数据抓取</a>
+                            </li>
+                        <li class="zui-header-inner-menu-item">
+                                <a href="survey.htm" tppabs="http://zhongbao.baidu.com/mark/home/survey">问卷调研</a>
+                            </li>
+                    </ul>
+            </li>
+        <li class="zui-header-menu-item zui-header-menu-item-dropdown zui-header-menu-item-case">
+        <a href="case.htm" tppabs="http://zhongbao.baidu.com/mark/home/case">案例中心</a>
+            </li>
+        <li class="zui-header-menu-item zui-header-menu-item-dropdown zui-header-menu-item-solution">
+        <a href="javascript:;">解决方案</a>
+                <ul class="zui-header-inner-nav solution-nav">
+                        <li class="zui-header-inner-menu-item">
+                                <h3>行业解决方案</h3>
+                <ul class="zui-header-nest-solution-nav">
+                                        <li><a href="autoPilot.htm" tppabs="http://zhongbao.baidu.com/mark/home/autoPilot">自动驾驶数据解决方案</a></li>
+                                        <li><a href="securitySolution.htm" tppabs="http://zhongbao.baidu.com/mark/home/securitySolution">智能安防解决方案</a></li>
+                                        <li><a href="publicOpinion.htm" tppabs="http://zhongbao.baidu.com/mark/home/publicOpinion">新闻舆情解决方案</a></li>
+                                    </ul>
+                            </li>
+                        <li class="zui-header-inner-menu-item">
+                                <h3>专项解决方案</h3>
+                <ul class="zui-header-nest-solution-nav">
+                                        <li><a href="faceRecognition.htm" tppabs="http://zhongbao.baidu.com/mark/home/faceRecognition">人脸人像解决方案</a></li>
+                                        <li><a href="ocr.htm" tppabs="http://zhongbao.baidu.com/mark/home/ocr">OCR识别解决方案</a></li>
+                                        <li><a href="speechSolution.htm" tppabs="http://zhongbao.baidu.com/mark/home/speechSolution">智能语音解决方案</a></li>
+                                    </ul>
+                            </li>
+                    </ul>
+            </li>
+        <li class="zui-header-menu-item zui-header-menu-item-dropdown zui-header-menu-item-dataStore">
+        <a href="dataStore.htm" tppabs="http://zhongbao.baidu.com/mark/home/dataStore">数据商店</a>
+            </li>
+        <li class="zui-header-menu-item zui-header-menu-item-dropdown zui-header-menu-item-about">
+        <a href="about.htm" tppabs="http://zhongbao.baidu.com/mark/home/about">关于我们</a>
+            </li>
+        <li class="zui-header-menu-item zui-header-menu-item-dropdown zui-header-menu-item-contact">
+        <a href="contact.htm" tppabs="http://zhongbao.baidu.com/mark/home/contact">联系我们</a>
+            </li>
+    </ul><div class="zui-header-op dib"><span class="zui-header-op-item" id="js_pass_login_btn">登录</span><a href="index.htm" tppabs="http://zhongbao.baidu.com/ds/project/list" class="zui-header-op-item" id="js_pass_console_btn">管理控制台</a><div class="toggle-language"></div></div></div></div><label for="is-mobile" style="display: none;"></label><input type="hidden" id="is-mobile" value=""><!-- banner -->
+<div class="zui-section section-introduce">
+        <div class="banner-wrap service active" data-index="0">
+        <div class="group">
+            <h1>数据众包服务</h1>
+            <h2>Data Crowdsourcing Service</h2>
+            <div class="desc">数据众包服务，使用低成本高效率的众包模式满足客户对数据的需求，可采集大量的原始数据，通过数据加工，为客户交付标准化结构化的可用数据。帮助客户训练算法模型、开展机器学习，提高AI领域的竞争力。</div>
+            <div class="apply-btn">
+                <a class="submit" href="index.htm" tppabs="http://zhongbao.baidu.com/ds/requirement/info">申请使用</a>
+            </div>
+            <div class="banner-img-wrap group"></div>
+        </div>
+    </div>
+        <div class="banner-wrap channel" data-index="1">
+        <div class="group">
+            <h1>鼎业众测团队渠道招募</h1>
+            <h2> </h2>
+            <div class="desc">赚钱？创业？来这里实现你的梦想吧，众测渠道正在紧急招募中。</div>
+            <div class="apply-btn">
+                <a class="submit" href="javascript:if(confirm('http://test.baidu.com/mark/home/newRecruit  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://test.baidu.com/mark/home/newRecruit'" tppabs="http://zhongbao.baidu.com/mark/home/recruit">加入我们</a>
+            </div>
+            <div class="banner-img-wrap group"></div>
+        </div>
+    </div>
+    
+    <ul class="banner-control">
+        <li class="active" data-index="0"></li>
+                <li data-index="1"></li>
+            </ul>
+</div>
+<div class="product-nav">
+    <div class="nav-show-box">
+        <h3 class="nav-product-title">数据众包服务</h3>
+        <div class="apply-btn">
+            <a class="submit" href="index.htm" tppabs="http://zhongbao.baidu.com/ds/requirement/info">申请使用</a>
+        </div>
+    </div>
+    <div class="module-nav">
+                <a href="#summary" class="nav">产品概述</a>
+                <a href="#features" class="nav">产品功能</a>
+                <a href="#advantages" class="nav">产品优势</a>
+                <a href="#scenes" class="nav">使用场景</a>
+                <a href="#receive" class="nav">数据交付方式</a>
+                <a href="#processes" class="nav">使用步骤</a>
+                <a href="#related" class="nav">相关产品</a>
+                <a href="#partner" class="nav">合作伙伴</a>
+            </div>
+    <i></i>
+</div>
+
+<!-- 产品概述 -->
+<div id="summary" class="zui-section section-summary">
+    <div class="group">
+        <div class="title">产品概述</div>
+        <div class="content">
+            <p ui-type="text" class="text">一站式的数据众包服务，可根据特定领域、特定场景的客户需求，提供定制化的数据获取与加工方案的设计与执行服务，
+                为客户交付标准化结构化的可用数据，数据类型涵盖文本、图像、音频、视频、网页等。</p>
+            <div class="diagram gailan-img-CH" ui-type="diagram" style="height: 689px;"></div>
+        </div>
+    </div>
+</div>
+<!-- 产品功能 -->
+<div id="features" class="zui-section section-features">
+    <div class="group">
+        <div class="title">产品功能</div>
+        <div class="content">
+                        <div class="figure">
+                <div class="features-icon features-caiji"></div>
+                <div class="description">
+                    <h3>数据采集</h3>
+                    <div class="content">
+                                                适用于各种复杂场景数据采集的需求，海量众包用户线下采集，为客户提供源数据： <br>
+                                                *文本数据采集：包括广告、杂志、报纸、教材等 <br>
+                                                *图片数据采集：包括实体图片、人物图片、场景图片等 <br>
+                                                *语音视频数据采集：方言、特殊情景语音、视频等 <br>
+                                                *O2O|LBS数据采集：店铺信息、公交站牌、WIFI等 <br>
+                                                *问卷调研：市场机会调研、广告效果调研、使用体验调研等 <br>
+                                            </div>
+                </div>
+            </div>
+                        <div class="figure">
+                <div class="features-icon features-biaozhu"></div>
+                <div class="description">
+                    <h3>数据标注</h3>
+                    <div class="content">
+                                                适用于大规模的数据处理需求，专业的标注团队将源数据转化为可用数据： <br>
+                                                *数据分类/清洗：包括评价内容分类、图片类型分类、垃圾流量清洗、有效语音筛选等 <br>
+                                                *数据校验评估：包括文本语法校验、图片相关性评估、搜索相关性评估、情感倾向性评估等 <br>
+                                                *数据内容提取：包括图片文字提取、文本关键字提取、语音转写文本、网页摘要撰写 <br>
+                                            </div>
+                </div>
+            </div>
+                    </div>
+    </div>
+</div>
+<!-- 产品优势 -->
+<div id="advantages" class="zui-section section-advantages">
+    <div class="group">
+        <div class="title">产品优势</div>
+        <div class="content">
+                        <div class="figure">
+                <div class="advantages-icon advantage-liucheng-icon"></div>
+                <div class="description">
+                    <h3>处理流程更专业</h3>
+                    <div class="content">
+                        强大的平台功能和多样化基础工具，作业流科学合理；专业项目人员全流程一对一跟进，实时掌控项目进度。
+                    </div>
+                </div>
+            </div>
+                        <div class="figure">
+                <div class="advantages-icon advantage-sudu-icon"></div>
+                <div class="description">
+                    <h3>处理速度更高效</h3>
+                    <div class="content">
+                        1万名专职外场数据采集员、5000+在线标注人员、100+核心专职数据处理专家，百万级数据标注处理能力。
+                    </div>
+                </div>
+            </div>
+                        <div class="figure">
+                <div class="advantages-icon advantage-zhiliang-icon"></div>
+                <div class="description">
+                    <h3>数据质量更精准</h3>
+                    <div class="content">
+                        7年数据行业积累，严格的人员培训考核准入机制，多重数据人工审核质检机制、人工智能辅助审核，数据质量远高于竞品。
+                    </div>
+                </div>
+            </div>
+                        <div class="figure">
+                <div class="advantages-icon advantage-pay-icon"></div>
+                <div class="description">
+                    <h3>支付费用更优惠</h3>
+                    <div class="content">
+                        成熟的众包任务分发模式、易用的采集与标注终端工具，效率高，收费低于竞品。
+                    </div>
+                </div>
+            </div>
+                    </div>
+    </div>
+</div>
+<!-- 使用场景 -->
+<div id="scenes" class="zui-section section-scenes">
+    <div class="group">
+        <div class="title">使用场景</div>
+        <div class="content">
+                        <div class="figure">
+                <div class="scenes-icon scene-map-icon"></div>
+                <div class="description">
+                    <h3>智能交通数据应用</h3>
+                    <div class="content">
+                        行车视频采集，路况信息提取，包括3D点云障碍物、红绿灯、车道灯及高精地图。为行人识别、车辆识别、红绿灯识别、车道线识别等技术提供精确训练数据，为智能交通保驾护航。
+                    </div>
+                </div>
+            </div>
+                        <div class="figure">
+                <div class="scenes-icon scene-huatong-icon"></div>
+                <div class="description">
+                    <h3>智能语音数据应用</h3>
+                    <div class="content">
+                        全球主要语种语料采集，语音内容加工处理，含性别判断、情感判断、语音文字转换等。为语音识别(ASR)、语音合成(TTS)等提供高质量语音数据，让您的智能设备听懂用户心声。
+                    </div>
+                </div>
+            </div>
+                        <div class="figure">
+                <div class="scenes-icon scene-renlian-icon"></div>
+                <div class="description">
+                    <h3>人脸识别数据应用</h3>
+                    <div class="content">
+                        多年龄段、多角度、多表情、多光线的人脸图像采集，人脸关键信息点标注，为人脸识别技术提升提供数据保障。
+                    </div>
+                </div>
+            </div>
+                        <div class="figure">
+                <div class="scenes-icon scene-ocr-icon"></div>
+                <div class="description">
+                    <h3>OCR数据应用</h3>
+                    <div class="content">
+                        车牌、彩票、名片、身份证、银行卡、手写轨迹等多种垂类图片采集及内容识别提取。提升智能设备对多场景文字识别准确率，让您的产品随心所欲提取并识别出目标信息。
+                    </div>
+                </div>
+            </div>
+                        <div class="figure">
+                <div class="scenes-icon scene-dianshang-icon"></div>
+                <div class="description">
+                    <h3>电子商务数据应用</h3>
+                    <div class="content">
+                        商品信息、商品销量、用户评价等多种电商数据采集和分析。提供最真实的商品销售数据以及用户真实反馈评价，帮助您更好的了解电商市场。
+                    </div>
+                </div>
+            </div>
+                        <div class="figure">
+                <div class="scenes-icon scene-yuqing-icon"></div>
+                <div class="description">
+                    <h3>网络舆情监控</h3>
+                    <div class="content">
+                        提供各种新闻、论坛、博客、贴吧等社交媒体用户发表的文章、评论、点赞等数据的采集和分析。更快、更准的网络舆情数据，可更好的监控网络用户舆情。
+                    </div>
+                </div>
+            </div>
+                    </div>
+    </div>
+</div>
+<!-- 数据交付方式 -->
+<div id="receive" class="zui-section section-receive">
+    <div class="group">
+        <div class="title">数据交付方式</div>
+        <div class="content">
+            <p ui-type="text" class="text">
+                                支持数据公有化和私有化数据交付。 <br>
+                                公有化交付：客户可在开放云直接提交需求或上传待处理数据，项目执行完毕后，下载结果数据，方便快捷项目实施； <br>
+                                私有化交付：我们将在您的公司内网部署数据客户端，您可以在公司内网批量提交需求并获取结果数据，数据隐私性更高 <br>
+                            </p>
+            <div class="reveive-img receive-img-CH"></div>
+        </div>
+    </div>
+</div>
+<!-- 使用步骤 -->
+<div id="processes" class="zui-section section-processes">
+    <div class="group">
+        <div class="title">使用步骤</div>
+        <div class="content">
+            <div class="figures">
+                                <div class="figure">
+                    <div class="processes-icon step1-icon"></div>
+                    <h3>需求洽谈</h3>
+                    <p>第一步</p>
+                </div>
+                                <div class="figure">
+                    <div class="processes-icon step2-icon"></div>
+                    <h3>定制化解决方案</h3>
+                    <p>第二步</p>
+                </div>
+                                <div class="figure">
+                    <div class="processes-icon step3-icon"></div>
+                    <h3>实时审核监控</h3>
+                    <p>第三步</p>
+                </div>
+                                <div class="figure">
+                    <div class="processes-icon step4-icon"></div>
+                    <h3>交付数据</h3>
+                    <p>第四步</p>
+                </div>
+                            </div>
+            <div class="apply-btn">
+                <a class="submit" href="index.htm" tppabs="http://zhongbao.baidu.com/ds/requirement/info">申请使用</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 相关产品 -->
+<div id="related" class="zui-section section-related">
+    <div class="group">
+        <div class="title">相关产品</div>
+        <div class="content">
+            <div class="figure">
+                <div class="ico icon related-icon"></div>
+                <div class="description">
+                    <h3>数据标注平台服务</h3>
+                    <div class="content">
+                        将成熟的标注平台机制与工具能力以平台的形式对外开放，帮助客户开展标注工作，进行项目管理
+                    </div>
+                    <a href="paas.htm" tppabs="http://zhongbao.baidu.com/mark/home/paas">详情</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 合作伙伴 -->
+<div id="partner" class="zui-section section-partner">
+    <div class="group">
+        <div class="title">合作伙伴</div>
+        <div class="content">
+                        <div class="partner-icon partner-icon1"></div>
+                        <div class="partner-icon partner-icon2"></div>
+                        <div class="partner-icon partner-icon3"></div>
+                        <div class="partner-icon partner-icon4"></div>
+                        <div class="partner-icon partner-icon5"></div>
+                        <div class="partner-icon partner-icon6"></div>
+                        <div class="partner-icon partner-icon7"></div>
+                        <div class="partner-icon partner-icon8"></div>
+                        <div class="partner-icon partner-icon9"></div>
+                        <div class="partner-icon partner-icon10"></div>
+                        <div class="partner-icon partner-icon11"></div>
+                        <div class="partner-icon partner-icon12"></div>
+                        <div class="partner-icon partner-icon13"></div>
+                        <div class="partner-icon partner-icon14"></div>
+                        <div class="partner-icon partner-icon15"></div>
+                        <div class="partner-icon partner-icon16"></div>
+                        <div class="partner-icon partner-icon17"></div>
+                    </div>
+    </div>
+</div><div class="zui-footer">
+    <div class="bui-footer-wrap">
+        <div class="bui-footer">
+            <div class="container">
+                <div class="bui-footer-row">
+                                        <div class="item-group">
+                        <div class="category">关于鼎业众包</div>
+                                                <div class="item">
+                            <a href="custom.htm" tppabs="http://zhongbao.baidu.com/mark/home/custom" target="">定制服务</a>
+                        </div>
+                                                <div class="item">
+                            <a href="scene.htm" tppabs="http://zhongbao.baidu.com/mark/home/scene" target="">自助平台</a>
+                        </div>
+                                                <div class="item">
+                            <a href="case.htm" tppabs="http://zhongbao.baidu.com/mark/home/case" target="">成功案例</a>
+                        </div>
+                                            </div>
+                                        <div class="item-group">
+                        <div class="category">友情链接</div>
+                                                <div class="item">
+                            <a href="javascript:if(confirm('http://test.baidu.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://test.baidu.com/'" tppabs="http://test.baidu.com/" target="black">鼎业众测</a>
+                        </div>
+                                                <div class="item">
+                            <a href="javascript:if(confirm('http://mtc.baidu.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://mtc.baidu.com/'" tppabs="http://mtc.baidu.com/" target="black">鼎业MTC</a>
+                        </div>
+                                                <div class="item">
+                            <a href="javascript:if(confirm('http://ai.baidu.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://ai.baidu.com/'" tppabs="http://ai.baidu.com/" target="black">鼎业大脑</a>
+                        </div>
+                                                <div class="item">
+                            <a href="javascript:if(confirm('http://aim.baidu.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://aim.baidu.com/'" tppabs="http://aim.baidu.com/" target="black">鼎业AI市场</a>
+                        </div>
+                                            </div>
+                                        <div class="item-group">
+                        <div class="category">联系我们</div>
+                        <p style="color: #6b6d76;">商务合作</p>
+                        <p style="color: #6b6d76;">Email: <a target="_blank" href="mailto:zhongbao@baidu.com">zhongbao@baidu.com</a></p>
+                        <p style="color: #6b6d76;">QQ: <a target="_blank" href="tencent://message/?uin=1537361276">1537361276</a></p>
+                        <p style="color: #6b6d76;margin-top: 5px;">代理业务</p>
+                        <p style="color: #6b6d76;">Email: <a target="_blank" href="mailto:Crowdtest@baidu.com">Crowdtest@baidu.com</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="bui-footer-row bottom">
+                <p>
+                    鼎业众包&emsp;|&emsp;<a href="serviceAgreement.htm" tppabs="http://zhongbao.baidu.com/mark/home/serviceAgreement" target="_blank">服务协议</a>&emsp;|&emsp;<a href="privacy.htm" tppabs="http://zhongbao.baidu.com/mark/home/privacy" target="_blank">隐私政策</a>
+                </p>
+                <p>
+                    ©<span id="footerYear"></span> Baidu&nbsp;&nbsp;
+                    <a href="javascript:if(confirm('http://www.baidu.com/duty/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.baidu.com/duty/'" tppabs="http://www.baidu.com/duty/">使用鼎业前必读</a>&nbsp;&nbsp;
+                    <a target="_blank" href="javascript:if(confirm('http://www.miibeian.gov.cn/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.miibeian.gov.cn/'" tppabs="http://www.miibeian.gov.cn/">京ICP证030173号</a>
+                    <img style="width: 15px; height: 17px;" src="img/gs.gif" tppabs="http://gimg.baidu.com/img/gs.gif">
+                </p>
+            </div>
+        </div>
+    </div>
+</div> 
+
+
+
+
+<script src="js/uni_login_wrapper.js-cdnversion=201906041000" tppabs="http://passport.baidu.com/passApi/js/uni_login_wrapper.js?cdnversion=201906041000"></script>
+<script src="js/wrapper.js-cdnversion=20190604" tppabs="http://passport.baidu.com/passApi/js/wrapper.js?cdnversion=20190604"></script>
+<script>
+window.showLogin = '1';
+window.oldUrl = 'index-url=http---zhongbao.baidu.com-mark-scene-preview-id=52&showLogin=1.htm'/*tpa=http://zhongbao.baidu.com/mark/scene/preview?id=52*/;
+window.userId = '0';
+
+</script>
+<script src="js/layout.js" tppabs="http://zhongbao.baidu.com/mark//static/js/layout.js"></script>
+
+<script>
+    $(document).ready(function () {
+        // 初始化
+        $('.product-nav i').css('left', $($("a[href^='#']")[0]).offset().left + $($("a[href^='#']")[0]).width() / 2 - 20);
+
+        // banner切换
+        var bannerSection = $('.section-introduce');
+        var switchBanner = function (nextIndex) {
+            if (nextIndex === undefined) {
+                var nextIndex = 0;
+                var length = bannerSection.find('.banner-wrap').length;
+                nextIndex = bannerSection.find('.banner-wrap.active').data('index') + 1;
+                if (nextIndex >= length) {
+                    nextIndex = 0;
+                }
+            }
+            bannerSection.find('.banner-wrap').removeClass('active');
+            bannerSection.find('.banner-control li').removeClass('active');
+            bannerSection.find('[data-index="' + nextIndex + '"]').addClass('active');
+        };
+        var bannerTimer = window.setInterval(function () {
+            switchBanner();
+        }, 4000);
+        bannerSection.find('.banner-control li').on('click', function () {
+            var nextIndex = $(this).data('index');
+            switchBanner(nextIndex);
+            if (bannerTimer) {
+                window.clearInterval(bannerTimer);
+            }
+            bannerTimer = window.setInterval(function () {
+                switchBanner();
+            }, 4000);
+        });
+        bannerSection.find('.banner-wrap').mouseover(function () {
+            if (bannerTimer) {
+                window.clearInterval(bannerTimer);
+            }
+        });
+        bannerSection.find('.banner-wrap').mouseleave(function () {
+            bannerTimer = window.setInterval(function () {
+                switchBanner();
+            }, 4000);
+        });
+        // menu滚动
+        $("a[href^='#']").each(function() {
+            $(this).bind('click', function() {
+                var target = $(this).attr('href');
+                $('html,body').animate({
+                    scrollTop: $(target).offset().top
+                }, 1000, 'swing');
+                return false;
+            });
+        });
+
+        // 页面滚动动画
+        var isMobile = '';
+        if (!isMobile) {
+            $(window).scroll( function(event) {
+                if ($(document).scrollTop() > 450) {
+                    $('.product-nav').attr('class', 'product-nav nav-fixed');
+                } else {
+                    $('.product-nav').attr('class', 'product-nav');
+                }
+                var sections = $('.zui-section');
+                for(var i = 0; i < sections.length; i++) {
+                    var section = $(sections[i]);
+                    if (i && section.offset().top > $(window).scrollTop()) {
+                        var targetNav = $(".module-nav a[href='#" + section.attr('id') + "']");
+                        $(".module-nav a[href^='#']").attr('class', 'nav');
+                        targetNav.attr('class', 'nav current');
+                        $('.product-nav i').css('left', targetNav.offset().left + targetNav.width() / 2 - 20);
+                        break;
+                    }
+                }
+            });
+        } else {
+            // 移动端拖拽导航栏
+            var isdrag=false;
+            var NowLeft,disX;
+            var obj = document.getElementById('nav-wrap');
+
+            obj.addEventListener('touchstart', thismousedown);
+            obj.addEventListener('touchend', thismouseup);
+            obj.addEventListener('touchmove', thismousemove);
+
+            function thismousedown(e){
+                isdrag = true;
+                NowLeft = parseInt(obj.style.left+0);
+                disX = e.touches[0].pageX;
+                return false;
+            }
+
+            function thismousemove(e){
+                if (isdrag){
+                    var left = NowLeft + e.touches[0].pageX - disX;
+                    // 阻止页面左右滑动
+                    e.preventDefault();
+                    if (parseInt(left, 10) >= 0) {
+                        left = 0;
+                    } else if (parseInt(left, 10) <= document.body.clientWidth - obj.offsetWidth) {
+                        left = document.body.clientWidth - obj.offsetWidth;
+                    }
+                    obj.style.left = left + 'px';
+                    return false;
+                }
+            }
+
+            function thismouseup(){
+                isdrag = false;
+            };
+        }
+
+        // 按钮登录控制
+        $('.apply-btn .submit').click(function (){
+            if (0 == 0) {
+                $("#js_pass_login_btn").click();
+                $('#TANGRAM__PSP_4__closeBtn').addClass("close-btn");
+                return false;
+            }
+        });
+
+
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,399 @@
+.about-summary {
+    background: #f5f5f5;
+    overflow: hidden;
+}
+.wrap {
+    width: 1180px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.about-header {
+    height: 140px;
+    background: url("../img/about-header.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/about-header.png*/center center no-repeat;
+    position: relative;
+}
+
+.header-wrap {
+    width: 100%;
+    height: 140px;
+    background: #333;
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header-text {
+    font-size: 18px;
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    top: 115px;
+    left: 50%;
+    margin-left: -540px;
+}
+
+.summary-title {
+    position: relative;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.summary-tab {
+    background: #1f87ed;
+    width: 4px;
+    height: 25px;
+    position: absolute;
+    top: 4px;
+    left: 0;
+}
+
+.summary-title-text {
+    margin-left: 9px;
+}
+
+.summary-part {
+    overflow: hidden;
+    margin-top: 95px;
+}
+
+.summary-part-line {
+    height: 1px;
+    background: #d8d7d7;
+}
+
+.summary-detail {
+    font-size: 14px;
+    line-height: 24px;
+    color: #333;
+}
+
+.summary-text {
+    float: left;
+    width: 450px;
+}
+
+.point-part {
+    width: 200px;
+    float: left;
+}
+
+.point-icon {
+    width: 68px;
+    height: 67px;
+    margin: 0 auto;
+    background-size: cover;
+}
+
+.point-title {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    margin-top: 14px;
+}
+
+.point-detail {
+    width: 170px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 23px;
+    color: #333;
+    line-height: 24px;
+}
+
+.summary-point {
+    float: left;
+    width: 730px;
+}
+
+.point-part1 {
+    margin-left: 29px;
+}
+
+.summary-part {
+    padding-bottom: 48px;
+}
+
+.site-item,
+.event-item {
+    display: block;
+    width: 360px;
+    height: 203px;
+}
+
+.site-part {
+    float: left;
+    margin-right: 50px;
+}
+
+.event-part {
+    float: left;
+    margin-right: 50px;
+    width: 360px;
+}
+
+.site-left-btn,
+.site-right-btn {
+    width: 46px;
+    height: 65px;
+    -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+            border-radius: 3px;
+    background: #ccc;
+    opacity: .5;
+    position: absolute;
+    color: #fff;
+    line-height: 65px;
+    text-align: center;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.site-left-btn {
+    left: 0;
+    top: 69px;
+}
+
+.site-right-btn {
+    right: 0;
+    top: 69px;
+}
+
+.site-part-text {
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+    text-align: center;
+}
+
+.site-content-wrap {
+    position: relative;
+    overflow: hidden;
+    height: 230px;
+}
+.event-content-wrap {
+    position: relative;
+    overflow: hidden;
+    height: 342px;
+}
+
+.site-content ,
+.event-content {
+    width: 2410px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.event-part-text {
+    font-size: 15px;
+    color: #333;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.event-part-icon {
+    display: block;
+    width: 16px;
+    height: 18px;
+    float: left;
+    margin-right: 5px;
+}
+
+.event-part-icon1 {
+    background: url("../img/about-icon.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/about-icon.png*/ -1px -3px no-repeat;
+}
+
+.event-part-icon2 {
+    background: url("../img/about-icon.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/about-icon.png*/ -1px -22px no-repeat;
+}
+
+.event-part-icon3 {
+    background: url("../img/about-icon.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/about-icon.png*/ -1px -42px no-repeat;
+}
+
+.event-part-text-extra {
+    font-size: 14px;
+    overflow: hidden;
+}
+
+.industry-item {
+    width: 590px;
+    height: 120px;
+    float: left;
+    overflow: hidden;
+}
+
+.industry-item-wrap {
+    overflow: hidden;
+    margin-bottom: 27px;
+}
+
+.industry-item-icon {
+    width: 120px;
+    height: 120px;
+    float: left;
+}
+
+.industry-item-title {
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 13px;
+}
+
+.industry-item-text {
+    float: left;
+    margin-left: 20px;
+    width: 430px;
+    height: 96px;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.industry-part {
+    margin-top: 20px;
+    display: none;
+}
+.about-site {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.sidebar-menu {
+    position: fixed;
+    right: 0;
+    bottom: 220px;
+    z-index: 9999;
+}
+.menu-item {
+    width: 50px;
+    height: 50px;
+    background: #108cef;
+    border-top: 1px solid #fff;
+    box-sizing: border-box;
+}
+.menu-icon {
+    width: 29px;
+    height: 27px;
+    margin-top: 11px;
+    margin-left: 10px;
+}
+.menu-icon1 {
+    background: url("../img/menu-icon.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/common/menu-icon.png*/ -3px -5px no-repeat;
+}
+.menu-icon2 {
+    background: url("../img/menu-icon.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/common/menu-icon.png*/ -3px -35px no-repeat;
+}
+.menu-icon3 {
+    background: url("../img/menu-icon.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/common/menu-icon.png*/ -1px -65px no-repeat;
+}
+.menu-icon4 {
+    background: url("../img/menu-icon.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/common/menu-icon.png*/ 0 -97px no-repeat;
+}
+.menu-icon5 {
+    background: url("../img/menu-icon.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/common/menu-icon.png*/ 1px -124px no-repeat;
+}
+.menu-text {
+    display: none;
+    width: 36px;
+    height: 36px;
+    margin-left: 7px;
+    margin-top: 6px;
+    text-align: center;
+    word-wrap: break-word;
+    font-size: 14px;
+    color: #fff;
+}
+
+.point-first {
+    margin-left: 70px;
+}
+
+.point-second {
+    margin-left: 30px;
+}
+
+.point-third {
+    margin-left: 60px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+.about-site-img {
+    width: 360px;
+    height: 203px;
+    background-size: cover;
+}
+
+.service-img {
+    background-size: cover;
+}
+
+
+.point-icon1 {
+    background: url("../img/about-item-icon.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/about-item-icon.png*/ -3px -3px no-repeat;
+}
+
+.point-icon2 {
+    background: url("../img/about-item-icon.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/about-item-icon.png*/ -3px -76px no-repeat;
+}
+
+.point-icon3 {
+    background: url("../img/about-item-icon.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/about-item-icon.png*/ -3px -149px no-repeat;
+}
+
+.point-icon4 {
+    background: url("../img/about-item-icon.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/about-item-icon.png*/ -3px -220px no-repeat;
+}
+
+@media only screen and (min-device-pixel-ratio: 2) {
+    .point-icon1 {
+        background-image: url("../error.html")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/about-item-icon_2.png*/;
+        background-position: -2px -2px;
+        background-repeat: no-repeat;
+    }
+
+    .point-icon2 {
+        background-image: url("../error.html")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/about-item-icon_2.png*/;
+        background-position: -2px -70px;
+        background-repeat: no-repeat;
+    }
+
+    .point-icon3 {
+        background-image: url("../error.html")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/about-item-icon_2.png*/;
+        background-position: -2px -134px;
+        background-repeat: no-repeat;
+    }
+
+    .point-icon4 {
+        background-image: url("../error.html")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/about-item-icon_2.png*/;
+        background-position: -2px -134px;
+        background-repeat: no-repeat;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,436 @@
+.section-introduce {
+    height: 416px;
+    overflow: hidden;
+}
+
+.section-introduce .banner-wrap {
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    -webkit-transition: all .5s ease-in-out;
+       -moz-transition: all .5s ease-in-out;
+            transition: all .5s ease-in-out;
+    visibility: hidden;
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
+}
+
+.section-introduce .banner-wrap.active {
+    z-index: 100;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    visibility: visible;
+}
+.section-introduce .banner-wrap.service .group .group, .section-introduce .banner-wrap.channel .group .group {
+    background-size: contain;
+}
+
+.section-introduce .banner-wrap.service .group .group {
+    background: url("../img/saas-banner.jpg")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/partner/saas-banner.jpg*/ right 0 no-repeat;
+}
+
+.section-introduce .banner-wrap.channel .group .group {
+    background-image: url("../img/zhaomu-banner_2.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/new/zhaomu-banner_2.png*/;
+    background-repeat: no-repeat;
+    background-position: right 0;
+}
+
+.section-introduce .banner-wrap .banner-img-wrap {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 500px;
+    height: 387px;
+    background-size:500px 387px;
+}
+
+.section-introduce ul.banner-control {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    z-index: 999;
+}
+
+.section-introduce .banner-control li {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin: 0 5px 10px 5px;
+    background-color: #ccc;
+    list-style: none;
+    -webkit-transition: background-color .5s ease-out;
+       -moz-transition: background-color .5s ease-out;
+            transition: background-color .5s ease-out;
+    cursor: pointer;
+}
+
+.section-introduce .banner-control li.active {
+    background-color: #fff;
+}
+
+.section-scenes .figure {
+    padding: 33px 0 20px 0;
+    margin-bottom: 20px;
+}
+
+.section-features .figure .description > .content {
+    font-size: 12px;
+}
+
+.product-nav .module-nav .nav {
+    min-width: 165px;
+}
+
+.section-summary .diagram {
+    width: 1180px;
+}
+
+.section-summary .gailan-img-CH, .section-summary .gailan-img-EN {
+    background-size: cover;
+}
+
+.section-summary .gailan-img-CH {
+    background-image: url("../img/gailan.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/partner/gailan.png*/;
+}
+
+.section-summary .gailan-img-EN {
+    background-image: url("../img/gailan-EN.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/partner/gailan-EN.png*/;
+}
+
+.section-features .features-icon {
+    width: 60px;
+    height: 70px;
+    float: left;
+}
+
+.section-features .features-caiji, .section-features .features-biaozhu {
+    background-size: cover;
+}
+
+.section-features .features-caiji {
+    background-image: url("../img/ico-caiji.jpg.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/partner/ico-caiji.jpg*/;
+}
+
+.section-features .features-biaozhu {
+    background-image: url("../img/ico-biaozhu.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/partner/ico-biaozhu.png*/;
+}
+
+.section-advantages .advantages-icon {
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+.section-advantages .advantage-liucheng-icon,
+.section-advantages .advantage-sudu-icon,
+.section-advantages .advantage-zhiliang-icon,
+.section-advantages .advantage-pay-icon {
+    background-size: cover;
+}
+
+.section-advantages .advantage-liucheng-icon {
+    background-image: url("../img/ico-liucheng.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/partner/ico-liucheng.png*/;
+}
+
+.section-advantages .advantage-sudu-icon {
+    background-image: url("../img/ico-sudu.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/partner/ico-sudu.png*/;
+}
+
+.section-advantages .advantage-zhiliang-icon {
+    background-image: url("../img/ico-zhiliang.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/partner/ico-zhiliang.png*/;
+}
+
+.section-advantages .advantage-pay-icon {
+    background-image: url("../img/ico-pay.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/partner/ico-pay.png*/;
+}
+
+.section-scenes .scenes-icon {
+    width: 70px;
+    height: 70px;
+    float: left;
+}
+
+.section-scenes .scene-map-ico,
+.section-scenes .scene-huatong-icon,
+.section-scenes .scene-renlian-icon,
+.section-scenes .scene-dianshang-icon,
+.section-scenes .scene-yuqing-icon {
+    background-size: cover;
+}
+
+.section-scenes .scene-map-icon {
+    background-image: url("../img/ico-map.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/partner/ico-map.png*/;
+}
+
+.section-scenes .scene-huatong-icon {
+    background-image: url("../img/ico-huatong.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/partner/ico-huatong.png*/;
+}
+
+.section-scenes .scene-renlian-icon {
+    background-image: url("../img/ico-renlian.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/partner/ico-renlian.png*/;
+}
+
+.section-scenes .scene-ocr-icon {
+    background-image: url("../img/ico-ocr.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/partner/ico-ocr.png*/;
+}
+
+.section-scenes .scene-dianshang-icon {
+    background-image: url("../img/ico-dianshang.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/partner/ico-dianshang.png*/;
+}
+
+.section-scenes .scene-yuqing-icon {
+    background-image: url("../img/ico-yuqing.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/partner/ico-yuqing.png*/;
+}
+
+.section-receive .reveive-img {
+    width: 1180px;
+}
+
+.section-receive .receive-img-CH,
+.section-receive .receive-img-EN {
+    background-size: cover;
+}
+
+.section-receive .receive-img-CH {
+     background-image: url("../img/jiaofu.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/partner/jiaofu.png*/;
+    height: 428px;
+}
+
+.section-receive .receive-img-EN {
+    background-image: url("../img/jiaofu-EN.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/partner/jiaofu-EN.png*/;
+    height: 434px;
+}
+
+.section-processes .processes-icon {
+    width: 60px;
+    height: 60px;
+    margin-left: 110px;
+}
+
+.section-processes .step1-icon,
+.section-processes .step2-icon,
+.section-processes .step3-icon,
+.section-processes .step4-icon {
+    background-size: cover;
+}
+
+.section-processes .step1-icon {
+    background-image: url("../img/step-1.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/partner/step-1.png*/;
+}
+
+.section-processes .step2-icon {
+    background-image: url("../img/step-2.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/partner/step-2.png*/;
+}
+
+.section-processes .step3-icon {
+    background-image: url("../img/step-3.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/partner/step-3.png*/;
+}
+
+.section-processes .step4-icon {
+    background-image: url("../img/step-4.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/partner/step-4.png*/;
+}
+
+.section-related .figure .icon {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 20px;
+}
+
+.section-related .related-icon {
+    background-size: cover;
+    background-image: url("../img/ico-paas.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/partner/ico-paas.png*/;
+}
+
+.partner-icon {
+    width: 130px;
+    height: 130px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    border: 1px solid #e6e6e6;
+}
+
+.partner-icon1 {
+    background-image: url("../img/1-logo-nielsen.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/index/1-logo-nielsen.png*/;
+}
+
+.partner-icon2 {
+    background-image: url("../img/2-meizu.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/index/2-meizu.png*/;
+}
+
+.partner-icon3 {
+    background-image: url("../img/3-logo-didi.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/index/3-logo-didi.png*/;
+}
+
+.partner-icon4 {
+    background-image: url("../img/4-xiaomi.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/index/4-xiaomi.png*/;
+}
+
+.partner-icon5 {
+    background-image: url("../img/5-logo-pingan.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/index/5-logo-pingan.png*/;
+}
+
+.partner-icon6 {
+    background-image: url("../img/6-logo-coolpad.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/index/6-logo-coolpad.png*/;
+}
+
+.partner-icon7 {
+    background-image: url("../img/7-logo-qinghua.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/index/7-logo-qinghua.png*/;
+}
+
+.partner-icon8 {
+    background-image: url("../img/8-logo-BCG.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/index/8-logo-BCG.png*/;
+}
+
+.partner-icon9 {
+    background-image: url("../img/9-logo-zhijia.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/index/9-logo-zhijia.png*/;
+}
+
+.partner-icon10 {
+    background-image: url("../img/10-logo-zhongke.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/index/10-logo-zhongke.png*/;
+}
+
+.partner-icon11 {
+    background-image: url("../img/11-logo-chuangwei.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/index/11-logo-chuangwei.png*/;
+}
+
+.partner-icon12 {
+    background-image: url("../img/logo-chumenwenwen.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/index/logo-chumenwenwen.png*/;
+}
+
+.partner-icon13 {
+    background-image: url("../img/logo-ict.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/index/logo-ict.png*/;
+}
+
+.partner-icon14 {
+    background-image: url("../img/logo-kairos.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/index/logo-kairos.png*/;
+}
+
+.partner-icon15 {
+    background-image: url("../img/logo-qingqing.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/index/logo-qingqing.png*/;
+}
+
+.partner-icon16 {
+    background-image: url("../img/logo-SB.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/index/logo-SB.png*/;
+}
+
+.partner-icon17 {
+    background-image: url("../img/logo-yuncong.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/index/logo-yuncong.png*/;
+}
+
+.partner-icon18 {
+    background-image: url("../img/nio.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/index/nio.png*/;
+}
+
+.section-introduce .pc-tmp-banner {
+    height: 415px;
+    background: url("../img/banner_tmp2.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/partner/banner_tmp2.png*/bottom center;
+    text-align: center;
+}
+
+.tmp-banner-img {
+    width: 431px;
+    height: 230px;
+    margin-top: 71px;
+}
+
+@media only screen and (min-device-pixel-ratio: 2) {
+    .section-introduce .banner-wrap .service .group {
+        background-image: url("../img/saas-banner_2.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/new/saas-banner_2.png*/;
+        background-repeat: no-repeat;
+        background-position: right 0;
+    }
+
+    .section-introduce .banner-wrap .channel .group {
+        background-image: url("../img/zhaomu-banner_2.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/new/zhaomu-banner_2.png*/;
+        background-repeat: no-repeat;
+        background-position: right 0;
+    }
+
+    .section-summary .gailan-img-CH {
+        background-image: url("../img/gailan_2.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/partner/gailan_2.png*/;
+    }
+
+    .section-summary .gailan-img-EN {
+        background-image: url("../img/gailan-EN_2.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/partner/gailan-EN_2.png*/;
+    }
+
+    .section-features .features-caiji {
+        background-image: url("../img/ico-caiji_2.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/partner/ico-caiji_2.png*/;
+    }
+
+    .section-features .features-biaozhu {
+        background-image: url("../img/ico-biaozhu_2.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/partner/ico-biaozhu_2.png*/;
+    }
+
+    .section-advantages .advantage-liucheng-icon {
+        background-image: url("../img/ico-liucheng_2.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/partner/ico-liucheng_2.png*/;
+    }
+
+    .section-advantages .advantage-sudu-icon {
+        background-image: url("../img/ico-sudu_2.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/partner/ico-sudu_2.png*/;
+    }
+
+    .section-advantages .advantage-zhiliang-icon {
+        background-image: url("../img/ico-zhiliang_2.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/partner/ico-zhiliang_2.png*/;
+    }
+
+    .section-advantages .advantage-pay-icon {
+        background-image: url("../img/ico-pay_2.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/partner/ico-pay_2.png*/;
+    }
+
+    .section-scenes .scene-map-icon {
+        background-image: url("../img/ico-map_2.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/partner/ico-map_2.png*/;
+    }
+
+    .section-scenes .scene-huatong-icon {
+        background-image: url("../img/ico-huatong_2.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/partner/ico-huatong_2.png*/;
+    }
+
+    .section-scenes .scene-renlian-icon {
+        background-image: url("../img/ico-renlian_2.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/partner/ico-renlian_2.png*/;
+    }
+
+    .section-scenes .scene-ocr-icon {
+        background-image: url("../img/ico-ocr_2.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/partner/ico-ocr_2.png*/;
+    }
+
+    .section-scenes .scene-dianshang-icon {
+        background-image: url("../img/ico-dianshang_2.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/partner/ico-dianshang_2.png*/;
+    }
+
+    .section-scenes .scene-yuqing-icon {
+        background-image: url("../img/ico-yuqing_2.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/partner/ico-yuqing_2.png*/;
+    }
+
+    .section-receive .receive-img-CH {
+        background-image: url("../img/jiaofu.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/partner/jiaofu.png*/;
+    }
+
+    .section-receive .receive-img-EN {
+        background-image: url("../img/jiaofu-EN_2.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/partner/jiaofu-EN_2.png*/;
+    }
+
+    .section-processes .step1-icon {
+        background-image: url("../img/step-1_2.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/partner/step-1_2.png*/;
+    }
+
+    .section-processes .step2-icon {
+        background-image: url("../img/step-2_2.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/partner/step-2_2.png*/;
+    }
+
+    .section-processes .step3-icon {
+        background-image: url("../img/step-3_2.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/partner/step-3_2.png*/;
+    }
+
+    .section-processes .step4-icon {
+        background-image: url("../img/step-4_2.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/partner/step-4_2.png*/;
+    }
+
+    .section-related .related-icon {
+        background-image: url("../img/ico-paas_2.png")/*tpa=http://zhongbao.baidu.com/mark/static/img/zhongbao/partner/ico-paas_2.png*/;
+    }
+}

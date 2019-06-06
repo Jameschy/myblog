@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title> 鼎业数据众包平台 </title>
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE">
+    <meta name="keywords" content="鼎业数据众包,数据标注,数据采集,数据清洗,文本数据,语音数据,图像数据">
+    <meta name="description"
+          content="鼎业数据众包，提供专业的数据标注、制作、采集服务，全方位支持文本、语音、图像、视频等各类型数据的处理，速度快、成本低、质量高。服务适合舆情监控、图片识别、OCR识别、语音识别、自然语言处理、交通、电商、医疗等领域的数据处理。">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="telephone=no" name="format-detection">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" sizes="any" href="img/favicon.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
+
+    <!--basic css-->
+
+    <link rel="stylesheet" href="css/mobase.css-v=83d856cfd5908c7f7c7583fd155952e8.css"
+          tppabs="###dycm/mark/static/css/mobase.css?v=83d856cfd5908c7f7c7583fd155952e8">
+
+    <link rel="stylesheet" href="css/base.css-v=3834dcaa7e585a3dfbbc25051fe0cd68.css"
+          tppabs="###dycm/mark/static/css/zhongbao/new/base.css?v=3834dcaa7e585a3dfbbc25051fe0cd68">
+
+    <link rel="stylesheet" href="css/custom.css-v=5857775bb523f6862b87f14a7f69cad0.css"
+          tppabs="###dycm/mark/static/css/zhongbao/new/custom.css?v=5857775bb523f6862b87f14a7f69cad0">
+    <link rel="stylesheet" href="css/collection.css-v=53c5c12c4446a4a0ccee2e44da74c753.css"
+          tppabs="###dycm/mark/static/css/zhongbao/new/collection.css?v=53c5c12c4446a4a0ccee2e44da74c753">
+
+    <script src="js/cal_font_size.js" tppabs="###dycm/mark//static/js/cal_font_size.js"></script>
+    <script>var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "hm.js-48f82868aa1ed62bf1defb68bd7972b1"/*tpa=http://hm.baidu.com/hm.js?48f82868aa1ed62bf1defb68bd7972b1*/;
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();</script>
+
+    <!--basic lib-->
+    <script src="js/jquery.min.js" tppabs="http://apps.bdimg.com/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/sea.js-version=2016102520" tppabs="###dycm/mark/static/js_ng/sea.js?version=2016102520"></script>
+    <script src="js/seaconfig.js-version=2016102520"
+            tppabs="###dycm/mark/static/js_ng/seaconfig.js?version=2016102520"></script>
+    <script src="js/polyfill.min.js" tppabs="###dycm/mark/static/js_ng/lib/polyfill.min.js"></script>
+    <!--basic css-->
+    <link rel="stylesheet" type="text/css" href="css/iconfont.css"
+          tppabs="###dycm/mark/static/js_bf/static/css/hui_iconfont_v1.0.6/iconfont.css">
+
+    <!--global var-->
+    <script>
+        var baseUrl = 'index.htm'/*tpa=###dycm/*/;
+        var base_url_module = '###dycm/crowdtest/';
+        var base_dir_module = '###dycm/crowdtest/';
+        var yii_csrf_token_global = '45c3bafff3bda49da6a164987c297198a5dee0e2';
+        var yii_csrf_token = '45c3bafff3bda49da6a164987c297198a5dee0e2';
+
+        var BASE_ADMIN_DIR_MODULE = "/admin/";
+        var BASE_MARK_DIR_MODULE = "/mark/";
+        var BASE_PROXY_URL = "";
+        //        seajs.use('/mark/static/js/popup/RightSideDock', function(dock) {
+        //            dock.init("");
+        //        });
+        var isMobile = "";
+        if (!isMobile) {
+            window.seajs.use('/mark/static/js/popup/MenuSidebar', function (dock) {
+                dock.init();
+            });
+        }
+    </script>
+</head>
+<body>
+<div class="zui-header-wrap">
+    <div class="zui-header">
+        <div class="zui-header-logo dib"><a href="index.htm" tppabs="###dycm/"><img class="zui-header-logo-img"
+                                                                                    src="img/header.png"
+                                                                                    tppabs="###dycm/mark/static/img/zhongbao/logo.svg"
+                                                                                    style="width: 216px;height: 38px;"></a>
+        </div>
+        <ul class="zui-header-menu dib">
+            <li class="zui-header-menu-item zui-header-menu-item-dropdown zui-header-menu-item-index">
+                <a href="index.htm" tppabs="###dycm/mark/home/index">首页</a>
+            </li>
+            <li class="zui-header-menu-item zui-header-menu-item-dropdown zui-header-menu-item-service">
+                <a href="javascript:;">产品服务</a>
+                <ul class="zui-header-inner-nav service-nav">
+                    <li class="zui-header-inner-menu-item">
+                        <a href="collection.htm" tppabs="###dycm/mark/home/collection">人工采集</a>
+                    </li>
+                    <li class="zui-header-inner-menu-item">
+                        <a href="mark.htm" tppabs="###dycm/mark/home/mark">数据标注</a>
+                    </li>
+                    <li class="zui-header-inner-menu-item">
+                        <a href="crawl.htm" tppabs="###dycm/mark/home/crawl">数据抓取</a>
+                    </li>
+                    <li class="zui-header-inner-menu-item">
+                        <a href="survey.htm" tppabs="###dycm/mark/home/survey">问卷调研</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="zui-header-menu-item zui-header-menu-item-dropdown zui-header-menu-item-case">
+                <a href="case.htm" tppabs="###dycm/mark/home/case">案例中心</a>
+            </li>
+            <li class="zui-header-menu-item zui-header-menu-item-dropdown zui-header-menu-item-solution">
+                <a href="javascript:;">解决方案</a>
+                <ul class="zui-header-inner-nav solution-nav">
+                    <li class="zui-header-inner-menu-item">
+                        <h3>行业解决方案</h3>
+                        <ul class="zui-header-nest-solution-nav">
+                            <li><a href="autoPilot.htm" tppabs="###dycm/mark/home/autoPilot">自动驾驶数据解决方案</a></li>
+                            <li><a href="securitySolution.htm" tppabs="###dycm/mark/home/securitySolution">智能安防解决方案</a>
+                            </li>
+                            <li><a href="publicOpinion.htm" tppabs="###dycm/mark/home/publicOpinion">新闻舆情解决方案</a></li>
+                        </ul>
+                    </li>
+                    <li class="zui-header-inner-menu-item">
+                        <h3>专项解决方案</h3>
+                        <ul class="zui-header-nest-solution-nav">
+                            <li><a href="faceRecognition.htm" tppabs="###dycm/mark/home/faceRecognition">人脸人像解决方案</a>
+                            </li>
+                            <li><a href="ocr.htm" tppabs="###dycm/mark/home/ocr">OCR识别解决方案</a></li>
+                            <li><a href="speechSolution.htm" tppabs="###dycm/mark/home/speechSolution">智能语音解决方案</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="zui-header-menu-item zui-header-menu-item-dropdown zui-header-menu-item-dataStore">
+                <a href="dataStore.htm" tppabs="###dycm/mark/home/dataStore">数据商店</a>
+            </li>
+            <li class="zui-header-menu-item zui-header-menu-item-dropdown zui-header-menu-item-about">
+                <a href="about.htm" tppabs="###dycm/mark/home/about">关于我们</a>
+            </li>
+            <li class="zui-header-menu-item zui-header-menu-item-dropdown zui-header-menu-item-contact">
+                <a href="contact.htm" tppabs="###dycm/mark/home/contact">联系我们</a>
+            </li>
+        </ul>
+        <div class="zui-header-op dib"><span class="zui-header-op-item" id="js_pass_login_btn">登录</span><a
+                href="index.htm" tppabs="###dycm/ds/project/list" class="zui-header-op-item" id="js_pass_console_btn">管理控制台</a>
+            <div class="toggle-language"></div>
+        </div>
+    </div>
+</div>
+<label for="is-mobile" style="display: none;"></label><input type="hidden" id="is-mobile" value="">
+<div class="zui-section collection-banner-wrap">
+    <div class="collection-banner">
+        <h1 class="banner-title">人工采集</h1>
+        <p class="banner-description">
+            适用于各种复杂场景数据采集的需求，海量众包用户定制化 <br>
+            线下采集，涵盖图片、文本、语音、视频等全维度多媒体数据 <br>
+        </p>
+    </div>
+</div>
+<div class="zui-section section-collect">
+    <div class="header-text-block">
+        <div class="main-title">全维度多媒体数据无缝采集</div>
+        <div class="title-separator"></div>
+    </div>
+    <div class="collect-wrap">
+        <ul class="collect-list">
+            <li class="collect-list-item">
+                <div class="collect-item-img-wrap">
+                    <div class="icon people-icon"></div>
+                </div>
+                <label>
+                    万名专职采集员<br/>
+                    应对各种需求<br/>
+                </label>
+            </li>
+            <li class="collect-list-item">
+                <div class="collect-item-img-wrap">
+                    <div class="icon category-icon"></div>
+                </div>
+                <label>
+                    多种类型和方案<br/>
+                    完美覆盖采集需求<br/>
+                </label>
+            </li>
+            <li class="collect-list-item">
+                <div class="collect-item-img-wrap">
+                    <div class="icon position-icon"></div>
+                </div>
+                <label>
+                    覆盖全国300+城市<br/>
+                    针对地理位置定制采集<br/>
+                </label>
+            </li>
+            <li class="collect-list-item">
+                <div class="collect-item-img-wrap">
+                    <div class="icon quality-icon"></div>
+                </div>
+                <label>
+                    多重审核机制<br/>
+                    保障数据质量<br/>
+                </label>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="zui-section section-collect-eg">
+    <div class="collect-eg-wrap">
+        <div class="collect-eg-item">
+            <div class="collect-eg-text left-part">
+                <p class="collect-eg-title">文本数据采集</p>
+                <label class="collect-eg-description">基于众包的方式提供文本数据采集服务，可包括广告、杂志、报纸、教材等多种形式的文本数据。采集灵活性高、速度快，能够根据需求定制文本采集方案。</label>
+            </div>
+            <div class="collect-eg-image right-part">
+                <div class="collection-img text-collect"></div>
+            </div>
+        </div>
+        <div class="collect-eg-item">
+            <div class="collect-eg-text right-part">
+                <p class="collect-eg-title">图片数据采集</p>
+                <label class="collect-eg-description">根据实际需求提供特定场景的图片数据采集服务，包括实体图片、人物图片、场景图片、基于地理位置的图片采集，采集的图片针对性强、质量高，不与其他用户共享。</label>
+            </div>
+            <div class="collect-eg-image left-part">
+                <div class="collection-img image-collect"></div>
+            </div>
+        </div>
+        <div class="collect-eg-item">
+            <div class="collect-eg-text left-part">
+                <p class="collect-eg-title">语音视频数据采集</p>
+                <label class="collect-eg-description">提供各种特定条件下的语音视频采集服务，采集目标人群分散广、覆盖全，采集数据高度真实有效。能够多人并发采集，采集效率高。</label>
+            </div>
+            <div class="collect-eg-image right-part">
+                <div class="collection-img video-collect"></div>
+            </div>
+        </div>
+        <div class="collect-eg-item">
+            <div class="collect-eg-text right-part">
+                <p class="collect-eg-title">O2O|LBS数据采集</p>
+                <label class="collect-eg-description">根据O2O行业的特性，提供基于LBS的O2O数据采集服务，数据采集专员分布覆盖全国300+城市，可快速有效的采集各类O2O数据。</label>
+            </div>
+            <div class="collect-eg-image left-part">
+                <div class="collection-img O2O-collect"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="custom-section section-banner">
+    <div class="banner-line">
+        <div class="circular"></div>
+        <div class="circular"></div>
+        <div class="circular"></div>
+        <div class="circular"></div>
+    </div>
+    <div class="banner-step">
+        <div class="banner-item">
+            <div class="custom-banner-icon talk">
+                <div class="custom-banner-text">需求洽谈</div>
+            </div>
+        </div>
+        <div class="banner-item">
+            <div class="custom-banner-icon mark">
+                <div class="custom-banner-text">定制化解决方案</div>
+            </div>
+        </div>
+        <div class="banner-item">
+            <div class="custom-banner-icon verify">
+                <div class="custom-banner-text">实时审核监控</div>
+            </div>
+        </div>
+        <div class="banner-item">
+            <div class="custom-banner-icon data">
+                <div class="custom-banner-text">交付数据</div>
+            </div>
+        </div>
+    </div>
+    <div class="banner-apply">
+        <a class="apply-now" href="#submit_demand">立即申请</a>
+    </div>
+</div>
+<div class="custom-section section-type">
+    <div class="custom-type">定制服务类型</div>
+    <div class="custom-type-tab">
+        <a class="custom-sub-type active" custom-tag="text" onclick="clickType(this)">文本</a>
+        <a class="custom-sub-type " custom-tag="picture" onclick="clickType(this)">图片</a>
+        <a class="custom-sub-type " custom-tag="audio" onclick="clickType(this)">语音视频</a>
+        <a class="custom-sub-type " custom-tag="o2o" onclick="clickType(this)">O2O|LBS</a>
+    </div>
+    <div class="custom-type-content-block">
+        <div class="custom-sub-type-content hide" custom-tag="text">
+            <div class="custom-sub-type-img text-mark"></div>
+            <div class="custom-type-content-text">
+                <label></label>
+                <div>支持对指定的文本数据源进行定制化采集，如：采集指定地铁广告语、公交站台广告内容、指定年份期刊/杂志/报纸内容等。</div>
+            </div>
+        </div>
+        <div class="custom-sub-type-content hide" custom-tag="picture">
+            <div class="custom-sub-type-img picture-filter"></div>
+            <div class="custom-type-content-text">
+                <label></label>
+                <div>采集的应用实例包括：特定人群人脸图片采集、药盒图片采集、医疗单图片采集、街道全景采集、名片采集、商铺多角度照片采集等。</div>
+            </div>
+        </div>
+        <div class="custom-sub-type-content hide" custom-tag="audio">
+            <div class="custom-sub-type-img audio-pick"></div>
+            <div class="custom-type-content-text">
+                <label></label>
+                <div>语音采集类型包括：各地方言、多国外语、男/女/童声、多种录音环境等。语音内容可为单词、短句、诗词、短文等。</div>
+            </div>
+            <div class="custom-sub-type-img crawl-html"></div>
+            <div class="custom-type-content-text">
+                <label></label>
+                <div>视频采集类型包括：指定人物、操作的视频，指定环境的视频，甚至是航拍。</div>
+            </div>
+        </div>
+        <div class="custom-sub-type-content hide" custom-tag="o2o">
+            <div class="custom-sub-type-img o2o-pick"></div>
+            <div class="custom-type-content-text">
+                <label></label>
+                <div>
+                    采集类型有：O2O商家店铺信息采集、商场信息采集（包含商铺）、020店铺信息清洗校正（商铺运营情况、位置、电话、店铺实景图等）、公共场所WiFi信息采集等。适合于O2O服务平台处理庞大的数据，保证服务数据的有效性。
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="custom-section section-demand" id="submit_demand" name="submit_demand">
+    <div class="custom-demand">我的需求</div>
+    <div class="custom-demand-content-block">
+        <div class="bui-popup-customer-row personal-name"><p><span class="error">*</span><span>联系人姓名：</span></p> <input
+                type="text"><span class="error message name hide">*</span></div>
+        <div class="bui-popup-customer-row personal-company"><p><span class="error">*</span><span>公司：</span></p> <input
+                type="text"><span class="error message company hide">*</span></div>
+        <div class="bui-popup-customer-row personal-phone"><p><span class="error">*</span><span>手机：</span></p> <input
+                type="text"><span class="error message phone hide">*</span></div>
+        <div class="bui-popup-customer-row personal-code"><p><span></span></p> <input type="text">
+            <div class="send-code">发送验证码</div>
+            <span class="error message code hide">*</span></div>
+        <div class="bui-popup-customer-row personal-email"><p><span>邮箱：</span></p> <input type="text"></div>
+        <div class="bui-popup-customer-row personal-demand"><p><span class="error">*</span><span>需求：</span></p> <input
+                type="text"><span class="error message demand hide">*</span></div>
+        <div class="submit-demand">提交需求</div>
+        <span class="error message submit hide">*</span>
+    </div>
+</div>
+
+<input type="hidden" value="请填写联系人姓名" class="nameErr">
+<input type="hidden" value="请填写公司名称" class="companyErr">
+<input type="hidden" value="请正确填写联系人手机号" class="mobileErr">
+<input type="hidden" value="验证码错误" class="codeErr">
+<input type="hidden" value="获取验证码" class="getCode">
+<input type="hidden" value="请填写您的需求" class="demandErr">
+<input type="hidden" value="提交中" class="submitting">
+<input type="hidden" value="提交需求" class="sendDemand">
+<input type="hidden" value="提交成功" class="success">
+
+<script>
+    $(document).ready(function () {
+        window.$nameTip = $('.nameErr').val();
+        window.$companyTip = $('.companyErr').val();
+        window.$mobileTip = $('.mobileErr').val();
+        window.$codeTip = $('.codeErr').val();
+        window.$demandTip = $('.demandErr').val();
+        window.$submitting = $('.submitting').val();
+        window.$getCode = $('.getCode').val();
+        window.$sendDemand = $('.sendDemand').val();
+        window.$success = $('.success').val();
+
+        $(".custom-sub-type-content[custom-tag='text']").removeClass('hide');
+        $(".send-code").click(function (self) {
+            if ($('.send-code').attr('disabled') == 'disabled') {
+                return;
+            }
+            if (0 == 0) {
+                $("#js_pass_login_btn").click();
+                return;
+            }
+            var telephone = $('.bui-popup-customer-row.personal-phone input').val();
+            if ($(this).hasClass('invalid') || telephone === '' ||
+                telephone.match(/^1[34578]\d{9}$/) === null) {
+                showErrorMsg('.bui-popup-customer-row .error.message.phone', $nameTip);
+            } else {
+                getMessageCode(telephone);
+            }
+        });
+        $(".bui-popup-customer-row.personal-name input").click(function (self) {
+            $('###dycm/mark/home/.bui-popup-customer-row .error.message.name').addClass('hide');
+            $('.error.message.submit').addClass('hide');
+        });
+        $(".bui-popup-customer-row.personal-company input").click(function (self) {
+            $('.bui-popup-customer-row .error.message.company').addClass('hide');
+            $('.error.message.submit').addClass('hide');
+        });
+        $(".bui-popup-customer-row.personal-phone input").click(function (self) {
+            $('.bui-popup-customer-row .error.message.phone').addClass('hide');
+            $('.error.message.submit').addClass('hide');
+        });
+        $(".bui-popup-customer-row.personal-demand input").click(function (self) {
+            $('.bui-popup-customer-row .error.message.demand').addClass('hide');
+            $('.error.message.submit').addClass('hide');
+        });
+        $(".bui-popup-customer-row.personal-code input").click(function (self) {
+            $('###dycm/mark/home/.bui-popup-customer-row .error.message.code').addClass('hide');
+            $('.error.message.submit').addClass('hide');
+        });
+        $(".submit-demand").click(function () {
+            if (0 == 0) {
+                $("#js_pass_login_btn").click();
+                return;
+            }
+            if ($(".submit-demand").hasClass("invalid")) {
+                return;
+            }
+            var data = getData();
+            if (data != false) {
+                $(".submit-demand").text($submitting);
+                $(".submit-demand").addClass("invalid");
+                saveCustomerDemand(data);
+            }
+        })
+    });
+
+    function clickType(self) {
+        var customTag = $(self).attr('custom-tag');
+        $('.custom-sub-type,.custom-sub-type-content').removeClass('active');
+        $(self).addClass('active');
+        $('.custom-sub-type-content').addClass('hide');
+        $('.custom-sub-type-content[custom-tag=' + customTag + ']').removeClass('hide');
+    }
+
+    function showErrorMsg(key, message) {
+        $(key).text(message);
+        $(key).removeClass('hide');
+    }
+
+    function getMessageCode(telephone) {
+        var url = '/mark/home/sendMessageCode';
+        $.post(url, {YII_CSRF_TOKEN: yii_csrf_token, telephone: telephone}, function (res) {
+            if (res.status == 0) {
+                showErrorMsg('###dycm/mark/home/.bui-popup-customer-row .error.message.code', res.log);
+            } else {
+                $('.bui-popup-customer-row .send-code').addClass('invalid');
+                $('.bui-popup-customer-row .send-code').attr('disabled', true);
+                var timeLimit = 60;
+                // 启动计时器
+                var timer = setInterval(function () {
+                    if (timeLimit > 0) {
+                        $('.bui-popup-customer-row .send-code').html(getCode + '(' + timeLimit + 's)');
+                        timeLimit -= 1;
+                    } else {
+                        clearInterval(timer);
+                        $('.bui-popup-customer-row .send-code').html(getCode);
+                        $('.bui-popup-customer-row .send-code').removeClass('invalid');
+                        $('.bui-popup-customer-row .send-code').attr('disabled', false);
+                    }
+                }, 1000);
+            }
+        });
+    }
+
+    function getData() {
+        var data = {};
+        data.company = $('.bui-popup-customer-row.personal-company input').val();
+        data.personal_name = $('.bui-popup-customer-row.personal-name input').val();
+        data.email = $('.bui-popup-customer-row.personal-email input').val();
+        data.telephone = $('.bui-popup-customer-row.personal-phone input').val();
+        data.code = $('.bui-popup-customer-row.personal-code input').val();
+        data.demand = $('.bui-popup-customer-row.personal-demand input').val();
+        data.service = 1;
+        if (data.personal_name == '') {
+            showErrorMsg('###dycm/mark/home/.bui-popup-customer-row .error.message.name', $nameTip);
+            return false;
+        }
+        if (data.company == '') {
+            showErrorMsg('.bui-popup-customer-row .error.message.company', $companyTip);
+            return false;
+        }
+        if (data.telephone == '' || data.telephone.match(/^1[34578]\d{9}$/) === null) {
+            showErrorMsg('.bui-popup-customer-row .error.message.phone', $mobileTip);
+            return false;
+        }
+        if (data.code == '') {
+            showErrorMsg('###dycm/mark/home/.bui-popup-customer-row .error.message.code', $codeTip);
+            return false;
+        }
+        if (data.demand == '') {
+            showErrorMsg('.bui-popup-customer-row .error.message.demand', $demandTip);
+            return false;
+        }
+        return data;
+    }
+
+    function saveCustomerDemand(info) {
+        var url = '/mark/home/saveCustomerDemand';
+        var data = {
+            YII_CSRF_TOKEN: yii_csrf_token,
+            info: info
+        };
+        $.post(url, data, function (res) {
+            $(".submit-demand").text($sendDemand);
+            $(".submit-demand").removeClass('invalid');
+            res = JSON.parse(res);
+            if (res.status == 0) {
+                showErrorMsg('.error.message.submit', res.log);
+            } else {
+                seajs.use('/mark/static/js_ng/lib/popup/notice', function (notice) {
+                    notice.init({
+                        content: $success,
+                        time: 2000
+                    }).promise.then(function () {
+                        location.reload();
+                    });
+                });
+            }
+        });
+    }
+</script>
+<div class="zui-footer">
+    <div class="bui-footer-wrap">
+        <div class="bui-footer">
+            <div class="container">
+                <div class="bui-footer-row">
+                    <div class="item-group">
+                        <div class="category">关于鼎业众包</div>
+                        <div class="item">
+                            <a href="custom.htm" tppabs="###dycm/mark/home/custom" target="">定制服务</a>
+                        </div>
+                        <div class="item">
+                            <a href="scene.htm" tppabs="###dycm/mark/home/scene" target="">自助平台</a>
+                        </div>
+                        <div class="item">
+                            <a href="case.htm" tppabs="###dycm/mark/home/case" target="">成功案例</a>
+                        </div>
+                    </div>
+                    <div class="item-group">
+                        <div class="category">友情链接</div>
+                        <div class="item">
+                            <a href="javascript:if(confirm('http://test.baidu.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://test.baidu.com/'"
+                               tppabs="http://test.baidu.com/" target="black">鼎业众测</a>
+                        </div>
+                        <div class="item">
+                            <a href="javascript:if(confirm('http://mtc.baidu.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://mtc.baidu.com/'"
+                               tppabs="http://mtc.baidu.com/" target="black">鼎业MTC</a>
+                        </div>
+                        <div class="item">
+                            <a href="javascript:if(confirm('http://ai.baidu.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://ai.baidu.com/'"
+                               tppabs="http://ai.baidu.com/" target="black">鼎业大脑</a>
+                        </div>
+                        <div class="item">
+                            <a href="javascript:if(confirm('http://aim.baidu.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://aim.baidu.com/'"
+                               tppabs="http://aim.baidu.com/" target="black">鼎业AI市场</a>
+                        </div>
+                    </div>
+                    <div class="item-group">
+                        <div class="category">联系我们</div>
+                        <p style="color: #6b6d76;">商务合作</p>
+                        <p style="color: #6b6d76;">Email: <a target="_blank" href="mailto:zhongbao@###dycm.com">zhongbao@###dycm.com</a>
+                        </p>
+                        <!--                        <p style="color: #6b6d76;">QQ: <a target="_blank" href="tencent://message/?uin=1537361276">1537361276</a></p>-->
+                        <!--                        <p style="color: #6b6d76;margin-top: 5px;">代理业务</p>-->
+                        <!--                        <p style="color: #6b6d76;">Email: <a target="_blank" href="mailto:Crowdtest@###dycm.com">Crowdtest@###dycm.com</a></p>-->
+                        <p style="color: #6b6d76;">电话: <a target="_blank" href="mailto:Crowdtest@###dycm.com">0755-86534692</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="bui-footer-row bottom">
+                <p>
+                    鼎业众包&emsp;|&emsp;<a href="serviceAgreement.htm" tppabs="###dycm/mark/home/serviceAgreement"
+                                        target="_blank">服务协议</a>&emsp;|&emsp;<a href="privacy.htm"
+                                                                                tppabs="###dycm/mark/home/privacy"
+                                                                                target="_blank">隐私政策</a>
+                </p>
+                <p>
+                    ©<span id="footerYear"></span> Baidu&nbsp;&nbsp;
+                    <a href="javascript:if(confirm('http://www.baidu.com/duty/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.baidu.com/duty/'"
+                       tppabs="http://www.baidu.com/duty/">使用鼎业前必读</a>&nbsp;&nbsp;
+                    <a target="_blank"
+                       href="javascript:if(confirm('http://www.miibeian.gov.cn/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.miibeian.gov.cn/'"
+                       tppabs="http://www.miibeian.gov.cn/">京ICP证030173号</a>
+                    <img style="width: 15px; height: 17px;" src="img/gs.gif" tppabs="http://gimg.baidu.com/img/gs.gif">
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="js/uni_login_wrapper.js-cdnversion=201906040959"
+        tppabs="http://passport.baidu.com/passApi/js/uni_login_wrapper.js?cdnversion=201906040959"></script>
+<script src="js/wrapper.js-cdnversion=20190604"
+        tppabs="http://passport.baidu.com/passApi/js/wrapper.js?cdnversion=20190604"></script>
+<script>
+    window.showLogin = '';
+    window.oldUrl = '';
+    window.userId = '0';
+
+</script>
+<script src="js/layout.js" tppabs="###dycm/mark//static/js/layout.js"></script>
+
+
+</body>
+</html>
