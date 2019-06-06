@@ -9,16 +9,15 @@
 }
 .section-introduce .banner-wrap {
     /*height: 3.4rem;*/
-    height: -webkit-fill-available;
-
+    height: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 0 .4rem;
+    padding: 0 .4rem 0;
     overflow: hidden;
 }
 .section-introduce .group{
-    width: 50%;
+    width: 100%;
     text-align: center;
     margin: 55% auto;
 }
@@ -29,8 +28,9 @@
     background-image: url(../img/index-banner2.jpg);
 }
 .section-introduce .banner-wrap .banner-title {
-    font-size: 25px;
-    line-height: 31px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
     color: #fff;
     margin-top: .85rem;
 }
