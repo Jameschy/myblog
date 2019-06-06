@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8466950a-1e01-428c-b6a6-de0886846a8b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/m/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/zbb/m/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zbb/m/img/index-banner1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/zbb/m/img/index-banner1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zbb/m/img/index-banner2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/zbb/m/img/index-banner2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zbb/m/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/zbb/m/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,20 +18,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zbb/pc/index.htm">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/zbb/m/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+            <state relative-caret-position="50">
+              <caret line="520" selection-start-line="520" selection-end-line="520" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#section#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#3;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#4;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zbb/m/css/base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="1854" column="4" selection-start-line="1854" selection-start-column="4" selection-end-line="1854" selection-end-column="4" />
+            <state relative-caret-position="289">
+              <caret line="1854" selection-start-line="1854" selection-end-line="1854" />
             </state>
           </provider>
         </entry>
@@ -45,7 +57,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>http://zhongbao.baidu.com</find>
       <find>zui-header-op dib</find>
       <find>https://www.baidu.com/cache/icon/favicon.ico</find>
       <find>custom</find>
@@ -75,6 +86,7 @@
       <find>联系</find>
       <find>banner</find>
       <find>../img/new</find>
+      <find>swiper-pagination-v</find>
     </findStrings>
     <replaceStrings>
       <replace>src=&quot;img/header.png&quot;</replace>
@@ -151,10 +163,10 @@
         <option value="$PROJECT_DIR$/zbb/m/css/base_for_mobile.css" />
         <option value="$PROJECT_DIR$/zbb/www/index.htm" />
         <option value="&lt;b2fe6bf2-01cd-4cd0-a85e-c2fc40560e40&gt;/m/index.html" />
-        <option value="$PROJECT_DIR$/zbb/m/index.html" />
         <option value="$PROJECT_DIR$/zbb/www/css/base.css" />
         <option value="$PROJECT_DIR$/zbb/pc/index.htm" />
         <option value="$PROJECT_DIR$/zbb/m/css/base.css" />
+        <option value="$PROJECT_DIR$/zbb/m/index.html" />
       </list>
     </option>
   </component>
@@ -181,6 +193,12 @@
               <item name="myblogs" type="b2602c69:ProjectViewProjectNode" />
               <item name="myblogs" type="462c0819:PsiDirectoryNode" />
               <item name="zbb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myblogs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblogs" type="462c0819:PsiDirectoryNode" />
+              <item name="zbb" type="462c0819:PsiDirectoryNode" />
+              <item name="m" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -265,14 +283,7 @@
       <workItem from="1559629812215" duration="14771000" />
       <workItem from="1559696422992" duration="373000" />
       <workItem from="1559696809366" duration="465000" />
-      <workItem from="1559697287733" duration="61935000" />
-    </task>
-    <task id="LOCAL-00029" summary="修改contact">
-      <created>1559630465407</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1559630465407</updated>
+      <workItem from="1559697287733" duration="69215000" />
     </task>
     <task id="LOCAL-00030" summary="修改">
       <created>1559632357280</created>
@@ -610,11 +621,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559781308564</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="测试，查看更新提交">
+      <created>1559781349103</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1559781349103</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104628000" />
+    <option name="totallyTimeSpent" value="111908000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -629,10 +647,10 @@
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16257995" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16257995" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="File Transfer" sideWeight="0.49840087" weight="0.19849785" />
+      <window_info anchor="bottom" id="File Transfer" sideWeight="0.4978678" visible="true" weight="0.19849785" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.32939914" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -642,9 +660,9 @@
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49840087" weight="0.32939914" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="GraphQL" order="8" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" sideWeight="0.510661" visible="true" weight="0.34978542" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.510661" weight="0.13197425" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.48933902" side_tool="true" visible="true" weight="0.34978542" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5021322" side_tool="true" visible="true" weight="0.19849785" />
       <window_info anchor="right" id="Remote Host" visible="true" weight="0.2521322" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -705,7 +723,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="隐藏登陆二维码" />
     <MESSAGE value="修复首页icon" />
     <MESSAGE value="修复客户定制跳转" />
     <MESSAGE value="禁止contact提交点击" />
@@ -730,7 +747,8 @@
     <MESSAGE value="更新basecss" />
     <MESSAGE value="更新www/basecss" />
     <MESSAGE value="更新www为pc" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新www为pc" />
+    <MESSAGE value="测试，查看更新提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试，查看更新提交" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/zbb/www/index-url=http---zhongbao.baidu.com-mark-scene-preview-id=6&amp;showLogin=1.htm">
@@ -1441,32 +1459,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zbb/m/index.html">
+    <entry file="file://$PROJECT_DIR$/zbb/m/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="156" column="56" selection-start-line="156" selection-start-column="56" selection-end-line="156" selection-end-column="56" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#section#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#3;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#4;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="289">
+          <caret line="1854" selection-start-line="1854" selection-end-line="1854" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zbb/pc/index.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
+        <state relative-caret-position="-10998">
           <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zbb/m/css/base.css">
+    <entry file="file://$PROJECT_DIR$/zbb/m/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="1854" column="4" selection-start-line="1854" selection-start-column="4" selection-end-line="1854" selection-end-column="4" />
+        <state relative-caret-position="50">
+          <caret line="520" selection-start-line="520" selection-end-line="520" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#section#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#3;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#4;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
