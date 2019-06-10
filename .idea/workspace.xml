@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8466950a-1e01-428c-b6a6-de0886846a8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/zbb/m/css/saas_for_mobile.bak0610.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zbb/m/index.bak0610.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zbb/m/css/saas_for_mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/zbb/m/css/saas_for_mobile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/m/img/index-capture.png" beforeDir="false" afterPath="$PROJECT_DIR$/zbb/m/img/index-capture.bak.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/m/img/index-collection.png" beforeDir="false" afterPath="$PROJECT_DIR$/zbb/m/img/index-collection.bak.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/m/img/index-mark.png" beforeDir="false" afterPath="$PROJECT_DIR$/zbb/m/img/index-mark.bak.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/m/img/scene-icon1.png" beforeDir="false" afterPath="$PROJECT_DIR$/zbb/m/img/scene-icon1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/m/img/scene-icon2.png" beforeDir="false" afterPath="$PROJECT_DIR$/zbb/m/img/scene-icon2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/m/img/scene-icon3.png" beforeDir="false" afterPath="$PROJECT_DIR$/zbb/m/img/scene-icon3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/m/img/scene-icon4.png" beforeDir="false" afterPath="$PROJECT_DIR$/zbb/m/img/scene-icon4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/m/img/scene-icon5.png" beforeDir="false" afterPath="$PROJECT_DIR$/zbb/m/img/scene-icon5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/m/img/scene-icon6.png" beforeDir="false" afterPath="$PROJECT_DIR$/zbb/m/img/scene-icon6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbb/m/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/zbb/m/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -70,8 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zbb/m/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="418" column="47" selection-start-line="418" selection-start-column="47" selection-end-line="418" selection-end-column="47" />
+            <state relative-caret-position="403">
+              <caret line="551" column="5" lean-forward="true" selection-start-line="551" selection-start-column="5" selection-end-line="551" selection-end-column="5" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -87,8 +75,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/zbb/m/css/saas_for_mobile.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="541" column="20" selection-start-line="541" selection-start-column="20" selection-end-line="541" selection-end-column="20" />
+            <state relative-caret-position="209">
+              <caret line="293" column="27" lean-forward="true" selection-start-line="293" selection-start-column="27" selection-end-line="293" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zbb/m/css/base_for_mobile.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="511">
+              <caret line="190" lean-forward="true" selection-start-line="190" selection-end-line="190" />
             </state>
           </provider>
         </entry>
@@ -263,6 +260,13 @@
               <item name="zbb" type="462c0819:PsiDirectoryNode" />
               <item name="m" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="myblogs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblogs" type="462c0819:PsiDirectoryNode" />
+              <item name="zbb" type="462c0819:PsiDirectoryNode" />
+              <item name="m" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -349,21 +353,7 @@
       <workItem from="1559697287733" duration="77431000" />
       <workItem from="1559808278603" duration="3351000" />
       <workItem from="1559812686366" duration="4921000" />
-      <workItem from="1560137389123" duration="8711000" />
-    </task>
-    <task id="LOCAL-00041" summary="新加logo">
-      <created>1559635589774</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1559635589774</updated>
-    </task>
-    <task id="LOCAL-00042" summary="修改联系方式">
-      <created>1559635816640</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1559635816640</updated>
+      <workItem from="1560137389123" duration="10299000" />
     </task>
     <task id="LOCAL-00043" summary="修改icon">
       <created>1559636482231</created>
@@ -694,11 +684,25 @@
       <option name="project" value="LOCAL" />
       <updated>1559817571261</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="更新移动端首页">
+      <created>1560151705989</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1560151705990</updated>
+    </task>
+    <task id="LOCAL-00091" summary="更新移动端首页标题高度">
+      <created>1560152344187</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1560152344188</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137107000" />
+    <option name="totallyTimeSpent" value="138695000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -789,8 +793,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="更新五张PC图片" />
-    <MESSAGE value="修改icon指向" />
     <MESSAGE value="修改联系方式" />
     <MESSAGE value="修改case联系跳转" />
     <MESSAGE value="修改个人博客首页图片背景位置居中" />
@@ -814,7 +816,9 @@
     <MESSAGE value="更新zbbPC端背景" />
     <MESSAGE value="更新zbb" />
     <MESSAGE value="更新zbb.超时重提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新zbb.超时重提交" />
+    <MESSAGE value="更新移动端首页" />
+    <MESSAGE value="更新移动端首页标题高度" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新移动端首页标题高度" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/zbb/www/dataStore.htm" />
@@ -1100,13 +1104,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zbb/m/css/base_for_mobile.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zbb/m/scene.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
@@ -1224,10 +1221,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/zbb/m/css/base_for_mobile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="190" lean-forward="true" selection-start-line="190" selection-end-line="190" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/zbb/m/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="418" column="47" selection-start-line="418" selection-start-column="47" selection-end-line="418" selection-end-column="47" />
+        <state relative-caret-position="403">
+          <caret line="551" column="5" lean-forward="true" selection-start-line="551" selection-start-column="5" selection-end-line="551" selection-end-column="5" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1241,8 +1245,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/zbb/m/css/saas_for_mobile.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="541" column="20" selection-start-line="541" selection-start-column="20" selection-end-line="541" selection-end-column="20" />
+        <state relative-caret-position="209">
+          <caret line="293" column="27" lean-forward="true" selection-start-line="293" selection-start-column="27" selection-end-line="293" selection-end-column="27" />
         </state>
       </provider>
     </entry>
