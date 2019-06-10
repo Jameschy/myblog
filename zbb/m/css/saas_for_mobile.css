@@ -144,8 +144,9 @@
 #section-case .case-title,
 #section-delivery .delivery-title,
 #section-company .company-title {
-    height: 1.44rem;
     font-size: 18px;
+    height: 1.2rem;
+    padding-top: 0.65rem;
     line-height: 1.44rem;
     text-align: center;
 }
