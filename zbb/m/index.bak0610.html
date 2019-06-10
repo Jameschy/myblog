@@ -206,14 +206,14 @@
                         </a>
                         <a href="mark.html">
                             <div class="service-item">
-                                <div class="service-content" style="margin-left: 0;margin-right: 5%">
+                                <div class="service-icon service-mark-icon"></div>
+                                <div class="service-content">
                                     <div>
                                         <span class="service-item-title">数据标注</span>
                                         <i class="service-item-icon"></i>
                                     </div>
                                     <p class="service-item-des">提供针对图像、视频、语音、文本等数据的清洗、评估、提取以及特殊信息标注。</p>
                                 </div>
-                                <div class="service-icon service-mark-icon"></div>
                             </div>
                         </a>
                         <a href="crawl.html">
@@ -397,27 +397,83 @@
                 <div class="zui-section" id="section-case">
                     <div class="case-title">案例中心</div>
                     <div class="case-wrap">
-                            <a href="case.html#case_1">
-                                <span>粤语方言语料采集</span>
-                            </a>
-                            <a href="case.html#case_2">
-                                <span>多表情人脸采集</span>
-                            </a>
-                            <a href="case.html#case_3">
-                                <span>语音数据转写与分类</span>
-                            </a>
-                            <a href="case.html#case_4">
-                                <span>花卉图片分类标注</span>
-                            </a>
-                            <a href="case.html#case_5">
-                                <span>人脸照片标注</span>
-                            </a>
-                            <a href="case.html#case_6">
-                                <span>道路图片交通元素分类提取</span>
-                            </a>
-                            <a href="case.html#case_7">
-                                <span>自动驾驶数据集标注</span>
-                            </a>
+                        <a href="case.html#case_1">
+                            <div class="case-item">
+                                <div class="case-item-img case-img1"></div>
+                                <div class="case-img-wrap"></div>
+                                <div class="case-content">
+                                    <div class="case-icon case-icon1"></div>
+                                    <p class="case-text ">粤语方言语料采集</p>
+                                    <span class="case-link"></span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="case.html#case_2">
+                            <div class="case-item">
+                                <div class="case-item-img case-img2"></div>
+                                <div class="case-img-wrap"></div>
+                                <div class="case-content">
+                                    <div class="case-icon case-icon2"></div>
+                                    <p class="case-text ">多表情人脸采集</p>
+                                    <span class="case-link"></span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="case.html#case_3">
+                            <div class="case-item">
+                                <div class="case-item-img case-img3"></div>
+                                <div class="case-img-wrap"></div>
+                                <div class="case-content">
+                                    <div class="case-icon case-icon3"></div>
+                                    <p class="case-text ">语音数据转写与分类</p>
+                                    <span class="case-link"></span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="case.html#case_4">
+                            <div class="case-item">
+                                <div class="case-item-img case-img4"></div>
+                                <div class="case-img-wrap"></div>
+                                <div class="case-content">
+                                    <div class="case-icon case-icon4"></div>
+                                    <p class="case-text ">花卉图片分类标注</p>
+                                    <span class="case-link"></span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="case.html#case_5">
+                            <div class="case-item">
+                                <div class="case-item-img case-img5"></div>
+                                <div class="case-img-wrap"></div>
+                                <div class="case-content">
+                                    <div class="case-icon case-icon5"></div>
+                                    <p class="case-text ">人脸照片标注</p>
+                                    <span class="case-link"></span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="case.html#case_6">
+                            <div class="case-item">
+                                <div class="case-item-img case-img6"></div>
+                                <div class="case-img-wrap"></div>
+                                <div class="case-content">
+                                    <div class="case-icon case-icon6"></div>
+                                    <p class="case-text ">道路图片交通元素分类提取</p>
+                                    <span class="case-link"></span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="case.html#case_7">
+                            <div class="case-item">
+                                <div class="case-item-img case-img7"></div>
+                                <div class="case-img-wrap"></div>
+                                <div class="case-content">
+                                    <div class="case-icon case-icon7"></div>
+                                    <p class="case-text ">自动驾驶数据集标注</p>
+                                    <span class="case-link"></span>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </section>
@@ -539,10 +595,9 @@
 </div>
 
 <style type="text/css">
-    #section-service .service-title, #section-advantage .advantage-title, #section-model .model-title, #section-scenes .scenes-title, #section-case .case-title, #section-delivery .delivery-title, #section-company .company-title {
+    #section-service .service-title, #section-advantage .advantage-title, #section-model .model-title, #section-scenes .scenes-title, #section-case .case-title, #section-delivery .delivery-title, #section-company .company-title{
         padding-top: 1rem;
     }
-
     .zui-header-wrap {
         display: block;
         position: fixed;
@@ -550,11 +605,9 @@
         width: 100%;
         z-index: 10;
     }
-
     .view {
         height: 676px;
     }
-
     .preview {
         display: block;
         position: fixed;
@@ -564,23 +617,22 @@
         background: antiquewhite;
         z-index: 1;
     }
-
-    .preview li {
+    .preview li{
         list-style: none;
     }
 </style>
 </body>
 <script>
-    var screenH = window.screen.height;
+    var screenH= window.screen.height;
 
-    $(function () {
-        $(".view").css("height", screenH);
+    $(function(){
+        $(".view").css("height",screenH);
     });
     console.log(screenH);
     var viewSwiper = new Swiper('.view .swiper-container-v', {
         direction: 'vertical',
         pagination: '.swiper-pagination-v',
-        mousewheelControl: true,
+        mousewheelControl : true,
         paginationClickable: true,
         onSlideChangeStart: function () {
             updateNavPosition()
@@ -610,12 +662,12 @@
     }
 
     var swiperH = new Swiper('.swiper-container-h', {
-        spaceBetween: 20,
-        // loop : true,
-        autoplay: 3500,//5秒切换一次
-        pagination: '.swiper-pagination-h',
-        paginationClickable: true,
+           spaceBetween: 20,
+           // loop : true,
+           autoplay: 3500,//5秒切换一次
+           pagination: '.swiper-pagination-h',
+           paginationClickable: true,
 
-    });
+       });
 </script>
 </html>
