@@ -1,12 +1,13 @@
 .collection-banner,
-.mark-banner-wrap {
+.mark-banner-wrap,
+.crawl-banner-wrap{
     height: 3.4rem;
     background-size: cover;
     background-position: center;
     box-sizing: border-box;
     padding: .66rem .44rem 0 .44rem;
     font-family: MicrosoftYaHei;
-    color: #333;
+    color: #fff;
 }
 .collection-banner {
     background-image: url(../img/collect-banner.png);
