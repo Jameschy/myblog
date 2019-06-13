@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="765a7ccb-1b64-45f9-a275-4606507e32bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/runConfigurations/v3_1_1v_if_html.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/权威指南/p3/v3.1.1v-if.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/权威指南/p3/v3.1.2v-show.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/权威指南/p3/v3.1.3v-else.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/权威指南/p3/v3.1.4v-model.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/权威指南/p3/v3.1.5v-model.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/权威指南/v2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/权威指南/v3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/权威指南/v4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/权威指南/v5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/deployment.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/webServers.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/权威指南/p3/v3.1.5v-if.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/权威指南/v1.html" beforeDir="false" afterPath="$PROJECT_DIR$/权威指南/v1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/权威指南/p3/v3.1.5v-model.html" beforeDir="false" afterPath="$PROJECT_DIR$/权威指南/p3/v3.1.4v-model三属性.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
