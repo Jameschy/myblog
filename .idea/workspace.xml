@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8466950a-1e01-428c-b6a6-de0886846a8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/vueJune/权威指南/p3/v3.1.5v-if.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueJune/权威指南/p3/v3.1.5v-for2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueJune/权威指南/p3/v3.1.5v-for3trackBy.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vueJune/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vueJune/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vueJune/权威指南/p3/v3.1.5v-model.html" beforeDir="false" afterPath="$PROJECT_DIR$/vueJune/权威指南/p3/v3.1.4v-model三属性.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueJune/node_modules/vue/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vueJune/node_modules/vue/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueJune/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vueJune/package-lock.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -69,11 +71,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p3/v3.1.5v-if.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p3/v3.1.5v-for.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="493">
               <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p3/v3.1.5v-for2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p3/v3.1.5v-for3trackBy.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -151,8 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/zbb/www/custom.htm" />
-        <option value="$PROJECT_DIR$/zbb/www/dataStore.htm" />
         <option value="$PROJECT_DIR$/zbb/www/faceRecognition.htm" />
         <option value="$PROJECT_DIR$/zbb/www/mark.htm" />
         <option value="$PROJECT_DIR$/zbb/www/ocr.htm" />
@@ -202,12 +220,14 @@
         <option value="$PROJECT_DIR$/vueJune/权威指南/p3/v3.1.4v-model.html" />
         <option value="$PROJECT_DIR$/vueJune/权威指南/p3/v3.1.5v-model.html" />
         <option value="$PROJECT_DIR$/vueJune/权威指南/p3/v3.1.5v-if.html" />
+        <option value="$PROJECT_DIR$/vueJune/权威指南/p3/v3.1.5v-for2.html" />
+        <option value="$PROJECT_DIR$/vueJune/权威指南/p3/v3.1.5v-for3trackBy.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
+    <option name="x" value="927" />
+    <option name="width" value="1000" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -228,12 +248,6 @@
               <item name="myblogs" type="b2602c69:ProjectViewProjectNode" />
               <item name="myblogs" type="462c0819:PsiDirectoryNode" />
               <item name="vueJune" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblogs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblogs" type="462c0819:PsiDirectoryNode" />
-              <item name="vueJune" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myblogs" type="b2602c69:ProjectViewProjectNode" />
@@ -333,21 +347,7 @@
       <workItem from="1560244464850" duration="41000" />
       <workItem from="1560245012804" duration="1347000" />
       <workItem from="1560301462381" duration="14993000" />
-      <workItem from="1560393468522" duration="4699000" />
-    </task>
-    <task id="LOCAL-00048" summary="修复首页icon">
-      <created>1559637337572</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1559637337572</updated>
-    </task>
-    <task id="LOCAL-00049" summary="修复客户定制跳转">
-      <created>1559637788126</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1559637788126</updated>
+      <workItem from="1560393468522" duration="7137000" />
     </task>
     <task id="LOCAL-00050" summary="禁止contact提交点击">
       <created>1559637989509</created>
@@ -678,11 +678,25 @@
       <option name="project" value="LOCAL" />
       <updated>1560408358772</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="指令学习，v-for">
+      <created>1560419459309</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1560419459309</updated>
+    </task>
+    <task id="LOCAL-00098" summary="指令学习，v-for更名">
+      <created>1560420044109</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1560420044109</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="170979000" />
+    <option name="totallyTimeSpent" value="173417000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -694,10 +708,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1057" extended-state="0" />
+    <frame x="927" y="0" width="1000" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49919224" visible="true" weight="0.23522976" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49919224" visible="true" weight="0.44148937" />
       <window_info id="Structure" order="1" sideWeight="0.50080776" side_tool="true" weight="0.12691467" />
       <window_info id="Favorites" order="2" sideWeight="0.50080776" side_tool="true" weight="0.12691467" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -710,7 +724,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="GraphQL" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.85557985" weight="0.36078006" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4989059" weight="0.33261105" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4989059" visible="true" weight="0.33261105" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5026795" side_tool="true" weight="0.13217768" />
       <window_info anchor="bottom" id="File Transfer" order="12" sideWeight="0.49562362" weight="0.26327193" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -797,8 +811,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="修改静态页缩放处理 base3834dcaa" />
-    <MESSAGE value="改写为响应式" />
     <MESSAGE value="测试case" />
     <MESSAGE value="优化移动端首页" />
     <MESSAGE value="新加图片" />
@@ -822,14 +834,14 @@
     <MESSAGE value="更新移动端首页底部" />
     <MESSAGE value="000" />
     <MESSAGE value="新建权威指南测试demo，input v-model三种附加属性&#10;number lazy debounce" />
-    <option name="LAST_COMMIT_MESSAGE" value="新建权威指南测试demo，input v-model三种附加属性&#10;number lazy debounce" />
+    <MESSAGE value="指令学习，v-for" />
+    <MESSAGE value="指令学习，v-for更名" />
+    <option name="LAST_COMMIT_MESSAGE" value="指令学习，v-for更名" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/myblogs$index_html.dat" NAME="index.html Coverage Results" MODIFIED="1560302014462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/zbb/www/css/accSetPwd.css" />
-    <entry file="file://$PROJECT_DIR$/zbb/www/case.htm" />
     <entry file="file://$PROJECT_DIR$/zbb/m/js/swiper.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1320,10 +1332,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p3/v3.1.5v-if.html">
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p3/v3.1.5v-for.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p3/v3.1.5v-for2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p3/v3.1.5v-for3trackBy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
         </state>
       </provider>
     </entry>
