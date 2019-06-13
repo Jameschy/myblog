@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>v-show</title>
+</head>
+<body class="native">
+<input type="text" v-model="msg" placeholder="edit me"/>
+<div id="example">
+    <p v-if="ok">我是对的</p>
+    <p v-else="ok">我是错的</p>
+</div>
+
+<custom-component v-show="condition"></custom-component>
+<p v-show="!condition">这可能是一个组件</p>
+</body>
+<!--v-if相对于v-show有更高的切换消耗，-->
+<!--如果需要切换频繁，使用v-show较好；-->
+<!--如果运行条件不大变化，使用v-if较好-->
+
+<script src='http://cdnjs.cloudflare.com/ajax/libs/vue/1.0.26/vue.min.js'></script>
+<script type="text/javascript">
+    var vm = new Vue({
+        el:'#example',
+        data:{
+            ok:false
+        }
+    })
+</script>
+</html>

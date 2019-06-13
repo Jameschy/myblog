@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>指令2.1.3| 过滤</title>
+</head>
+<body>
+<div id="didi_navigator">
+    <div v-if="show">DDFE</div>
+    <a v-bind:href="url">你说</a>
+    <div v-on:click="action">doing something</div>
+</div>
+</body>
+<!--标签写入，可计算、判断、字符处理-->
+<script src='http://cdnjs.cloudflare.com/ajax/libs/vue/1.0.26/vue.min.js'></script>
+<script type="text/javascript">
+    var vm = new Vue({
+        el:'#didi_navigator',
+        data:{
+            show:true,
+            url:'www.baidu.com'
+        }
+    })
+</script>
+</html>

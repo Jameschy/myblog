@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>v-model</title>
+</head>
+<body id="example">
+<form>
+    姓名 <input type="text" v-model="data.name" placeholder=""/><br/>
+    性别
+    <input type="radio" id="man" value="One" v-model="data.sex"/>
+    <label for="man">男</label>
+    <input type="radio" id="male" value="Two" v-model="data.sex"/>
+    <label for="male">女</label><br/>
+    兴趣：
+    <input type="checkbox" id="book" value="book" v-model="data.interest"/>
+    <label for="book">阅读</label>
+    <input type="checkbox" id="swim" value="swim" v-model="data.interest"/>
+    <label for="swim">游泳</label>
+    <input type="checkbox" id="game" value="game" v-model="data.interest"/>
+    <label for="game">游戏</label>
+    <input type="checkbox" id="sing" value="sing" v-model="data.interest"/>
+    <label for="sing">唱歌</label><br/>
+    身份：
+    <select v-model="data.identity">
+        <option value="teacher" selected>老师</option>
+        <option value="doctor" >医生</option>
+        <option value="lawyer" >律师</option>
+        <option value="farmer" >农民</option>
+    </select>
+</form>
+</body>
+<!--v-if相对于v-show有更高的切换消耗，-->
+<!--如果需要切换频繁，使用v-show较好；-->
+<!--如果运行条件不大变化，使用v-if较好-->
+
+<script src='http://cdnjs.cloudflare.com/ajax/libs/vue/1.0.26/vue.min.js'></script>
+<script type="text/javascript">
+    var vm = new Vue({
+        el:'#example',
+        data:{
+            data:{
+                name:'',
+                sex:'',
+                interest:[],
+                identity:'',
+            }
+        }
+    })
+</script>
+</html>
