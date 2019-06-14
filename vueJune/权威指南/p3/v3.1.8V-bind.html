@@ -20,9 +20,15 @@
 <img :src="imgSrc" alt="pic" width="50" height="50" title="缩写式"/>
 
 
-
+<!--邦迪Class方法-->
 <!--绑定class 用在class切换，如tab、显隐-->
 <div :class="[classA,{classB:isB,classC:isC}]">你说啥</div>
+
+
+<!--绑定id及其余属性参数方法-->
+<!--没参数时，绑定到一个对象，此时class和style不支持数组和对象（对象key会变为小写）-->
+<div v-bind="{id:someProp,'OTHERAttr':otherProp}">Hello</div>
+
 </body>
 <!--用于响应式更新HTML特性，将一个或多个attribute，或者一个组件prop动态绑定到表达式-->
 
@@ -34,7 +40,9 @@
            imgSrc:'https://ss2.bdstatic.com/lfoZeXSm1A5BphGlnYG/skin/117.jpg?2',
             classA:'A',
             isB:false,
-            isC:true
+            isC:true,
+            someProp:'idName',
+            otherProp:'prop'
         }
     })
 </script>
