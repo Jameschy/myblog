@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>v-on</title>
+    <style>
+        .classC{
+            color: red;
+        }
+    </style>
+</head>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/vue/1.0.26/vue.min.js'></script>
+<body id="example">
+<!--方法处理器-->
+<button v-on:click="doThis">DoThis</button>
+
+<!--内联语句-->
+<button v-on:click="doThat('Hello',$event)">doThat</button>
+
+<!--缩写式-->
+<button @click="doThis">doThis</button>
+
+
+<!--停止冒泡-->
+<button @:click.stop="doThis">DoThis</button>
+
+<!--阻止默认行为-->
+<button @:click.prevent="doThis">DoThis</button>
+
+<!--阻止默认行为 无表达式-->
+<form @submit.prevent>DoThis</form>
+
+<!--串联修饰符-->
+<button @click.stop.prevent="doThis">Stop</button>
+
+<!--键修饰符，键别名-->
+<input @keyup.enter="onEnter">
+
+<!--键修饰符，键代码-->
+<input @keyup.13="onEnter">
+
+
+</body>
+<!--用于响应式更新HTML特性，将一个或多个attribute，或者一个组件prop动态绑定到表达式-->
+
+
+<script type="text/javascript">
+    var vm = new Vue({
+        el:'#example',
+        data:{
+           imgSrc:'https://ss2.bdstatic.com/lfoZeXSm1A5BphGlnYG/skin/117.jpg?2',
+            classA:'A',
+            isB:false,
+            isC:true,
+            someProp:'idName',
+            otherProp:'prop'
+        }
+    })
+</script>
+</html>

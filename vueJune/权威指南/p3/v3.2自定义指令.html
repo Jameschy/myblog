@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>v-ref</title>
+    <style>
+        .classC{
+            color: red;
+        }
+    </style>
+</head>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/vue/1.0.26/vue.min.js'></script>
+<body id="example" @click="up">
+
+<div id="demo" v-demo:hello.a.b="msg"></div>
+
+
+</body>
+<!--用于响应式更新HTML特性，将一个或多个attribute，或者一个组件prop动态绑定到表达式-->
+
+
+<script type="text/javascript">
+    Vue.directive('demo',{
+        bind:function () {
+            console.log('demo bound!!')
+        },
+        update:function (value) {
+            this.el.innerHTML=
+                'name - ' + this.name + '<br/>' +
+                    'expression -' + this.expression + '<br/>' +
+                    'argument -' + this.arg + '<br/>' +
+                    'modifiers -' + JSON.stringify(this.modifiers)+ '<br/>' +
+                    'value -'+value +'<br/>' +
+                    'vm-msg -' + this.vm.msg
+        }
+    })
+
+    var demo = new Vue({
+        el:'#example',
+        data:{
+            msg:'hello你说啥？!'
+        },
+        methods:{
+            up:function () {
+                console.info('click');
+            }
+        }
+    })
+</script>
+</html>
