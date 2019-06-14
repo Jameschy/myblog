@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8466950a-1e01-428c-b6a6-de0886846a8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/vueJune/权威指南/p3/v3.1.5v-for2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueJune/权威指南/p3/v3.1.5v-for3trackBy.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vueJune/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vueJune/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vueJune/node_modules/vue/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vueJune/node_modules/vue/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vueJune/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vueJune/package-lock.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -92,8 +87,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p3/v3.1.5v-for3trackBy.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            <state relative-caret-position="136">
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -347,14 +342,7 @@
       <workItem from="1560244464850" duration="41000" />
       <workItem from="1560245012804" duration="1347000" />
       <workItem from="1560301462381" duration="14993000" />
-      <workItem from="1560393468522" duration="7137000" />
-    </task>
-    <task id="LOCAL-00050" summary="禁止contact提交点击">
-      <created>1559637989509</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1559637989510</updated>
+      <workItem from="1560393468522" duration="7434000" />
     </task>
     <task id="LOCAL-00051" summary="新改文件www">
       <created>1559640102818</created>
@@ -692,11 +680,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560420044109</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="指令学习，v-for trackBy">
+      <created>1560422168213</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1560422168214</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173417000" />
+    <option name="totallyTimeSpent" value="173714000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -811,7 +806,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="测试case" />
     <MESSAGE value="优化移动端首页" />
     <MESSAGE value="新加图片" />
     <MESSAGE value="优化动画" />
@@ -836,7 +830,8 @@
     <MESSAGE value="新建权威指南测试demo，input v-model三种附加属性&#10;number lazy debounce" />
     <MESSAGE value="指令学习，v-for" />
     <MESSAGE value="指令学习，v-for更名" />
-    <option name="LAST_COMMIT_MESSAGE" value="指令学习，v-for更名" />
+    <MESSAGE value="指令学习，v-for trackBy" />
+    <option name="LAST_COMMIT_MESSAGE" value="指令学习，v-for trackBy" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/myblogs$index_html.dat" NAME="index.html Coverage Results" MODIFIED="1560302014462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -1348,8 +1343,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p3/v3.1.5v-for3trackBy.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        <state relative-caret-position="136">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
         </state>
       </provider>
     </entry>

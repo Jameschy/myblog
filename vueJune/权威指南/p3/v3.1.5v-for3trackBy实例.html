@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>trackBy 实例</title>
+</head>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/vue/1.0.26/vue.min.js'></script>
+<body id="example">
+<ul id="repeat_object">
+    <li v-for="value in primitiveValues">
+        {{$key}}:{{value}}
+    </li>
+    <li>====</li>
+    <li v-for="(key,item) in objectValues">
+        {{key}}:{{item.msg}}
+    </li>
+</ul>
+</body>
+<script type="text/javascript">
+    var vm = new Vue({
+        el:'#repeat_object',
+        data:{
+            primitiveValues:{
+                FirstName:'DiDi',
+                LastName:'Fe',
+                Age:4
+            },
+            objectValues:{
+                one:{
+                    msg:'Hello'
+                },
+                two:{
+                    msg:'DiDi Fe'
+                }
+            }
+        }
+    })
+</script>
+</html>
