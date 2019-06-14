@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>filterBy</title>
+</head>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/vue/1.0.26/vue.min.js'></script>
+<body id="example">
+<input v-model="searchText"/>
+<input v-model="searchText" debounce="5000"/>
+<input v-model="searchText" lazy/>
+<ul id="range">
+    <li v-for="user in users | filterBy searchText in 'name'">
+        {{user.name}}
+    </li>
+</ul>
+</body>
+<!--语法：filterBy searchKey[in dataKey...]-->
+<!--应用在已有列表搜索选项-->
+<script type="text/javascript">
+    var vm = new Vue({
+        el:'#example',
+        data:{
+            users:[
+                {
+                    name:'快车',
+                    tag:1
+                },
+                {
+                    name:'的士',
+                    tag:2
+                },
+                {
+                    name:'顺风',
+                    tag:3
+                },
+                {
+                    name:'专车',
+                    tag:4
+                },
+
+            ]
+        }
+    })
+</script>
+</html>

@@ -2,19 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>重复模板</title>
+    <title>v-html</title>
 </head>
 <script src='http://cdnjs.cloudflare.com/ajax/libs/vue/1.0.26/vue.min.js'></script>
 <body id="example">
-<ul id="range">
-    <div v-for="n in 5">Hi!{{$index}}</div>
-</ul>
+
+<div v-html="html">你是啥</div>
+<!--save as-->
+<p>{{html}}</p>
+
 </body>
+<!--不建议在网站上动态渲染任意html片段，可能导致Xss攻击-->
 <script type="text/javascript">
     var vm = new Vue({
-        el:'#range',
+        el:'#example',
         data:{
-
+           html:'<span>这里是新的标签内容</span>'
         }
     })
 </script>
