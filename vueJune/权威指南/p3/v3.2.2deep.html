@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>deep</title>
+    <style>
+        .classC{
+            color: red;
+        }
+    </style>
+</head>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/vue/1.0.26/vue.min.js'></script>
+<body id="demo">
+<div v-my-directive="a"></div>
+<button @click="change">change</button>{{a.b.c}}
+</body>
+<script>
+
+    Vue.directive('my-directive',{
+        deep:true,
+        update:function (obj) {
+                console.info(obj.b.c)
+            }
+
+    })
+
+    var demo = new Vue({
+        el:'#demo',
+        data:{
+           a:{b:{c:2}}
+        },
+        methods:{
+            change:function () {
+                demo.a.b.c = 4;
+            }
+        }
+    })
+</script>
+</html>

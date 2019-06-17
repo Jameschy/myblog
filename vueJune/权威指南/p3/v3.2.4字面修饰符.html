@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>v-ref</title>
+    <style>
+        .classC{
+            color: red;
+        }
+    </style>
+</head>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/vue/1.0.26/vue.min.js'></script>
+<body id="example" @click="up">
+
+<div id="demo" v-demo.literal="foo bar baz">
+    <p>{{value.color}}</p>
+    <p>{{value.text}}</p>
+</div>
+
+
+</body>
+<!--如果指令需要多个值，则可以传入一个js对象字面量。指令可以使用任意合法js表达式-->
+
+<script type="text/javascript">
+    Vue.directive('demo',function (value) {
+     console.info(value)
+    });
+
+    var demo = new Vue({
+        el:'#demo'
+    })
+</script>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>params</title>
+    <style>
+        .classC{
+            color: red;
+        }
+    </style>
+</head>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/vue/1.0.26/vue.min.js'></script>
+<body id="demo">
+<my-directive class="hello" name="hi" v-bind:a="someValue"></my-directive>
+<input type="text" v-model="someValue" />
+</body>
+<script type="text/javascript">
+
+    Vue.elementDirective('my-directive',{
+        params:['a'],
+        paramWatchers:{
+            a:function (val,oldVal) {
+                console.log('a changed!')
+            }
+        }
+    })
+
+    var demo = new Vue({
+        el:'#demo',
+        data:{
+            someValue:'value'
+        }
+    })
+</script>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>计算属性getter不执行</title>
+</head>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/vue/1.0.26/vue.min.js'></script>
+<body>
+<div id="ex1">
+    <button @click="toggleShow">Toggle Show Total Price</button>
+    <p v-if="showTotal">Total Price ={{totalPrice}}</p>
+</div>
+
+<div id="ex2">
+    <button @click="toggleShow">Toggle Show Total Price2</button>
+    <p>{{totalPrice}}</p>
+    <p v-if="showTotal">Total Price ={{totalPrice}}</p>
+</div>
+
+</body>
+<script>
+    var vm = new Vue({
+        el:'#ex2',
+        data:{
+            showTotal:true,
+            basePrice:100
+        },
+        computed:{
+            totalPrice:function () {
+                return this.basePrice + 1
+            }
+        },
+        methods:{
+            toggleShow:function () {
+                this.showTotal = !this.showTotal
+            }
+        }
+    })
+</script>
+</html>
