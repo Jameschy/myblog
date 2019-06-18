@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>json内置过滤器-限制</title>
+</head>
+<style>
+    h1 {
+        color: #6b1a47;
+    }
+
+    p {
+        background: #00A1FF;
+        color: #fff;
+    }
+</style>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/vue/1.0.26/vue.min.js'></script>
+<!--<script src="../vue1.0.26.min.js"></script>-->
+<body id="ex">
+
+<h1>filterBy过滤</h1>
+<ol id="b3">
+    <p>只显示带hello的数据</p>
+    <li v-for="member in didiFamily | filterBy 'fine' in 'text'">第{{$index+1}}行——{{member.name}}:{{member.text}}</li>
+</ol>
+
+</body>
+<script type="text/javascript">
+    var vm = new Vue({
+        el: '#ex',
+        data: {
+            didiFamily: [
+                {
+                    text: 'Hello how are u?',
+                    name: 'Jim'
+                },
+                {
+                    text: 'Hello,I am fine, and u?',
+                    name: 'Bob'
+                },
+                {
+                    text: 'Me too Thanks',
+                    name: 'Jim'
+                },
+                {
+                    text: 'How about drink?',
+                    name: 'Bob'
+                },
+                {
+                    text: 'That\'s a good idea! where should we go?',
+                    name: 'Jim'
+                },
+                {
+                    text: 'Always?',
+                    name: 'Bob'
+                },
+                {
+                    text: 'Nice,I pick up my coat',
+                    name: 'Jim'
+                },
+                {
+                    text: 'Ok,by the way calling for Jim',
+                    name: 'Bob'
+                },
+                {
+                    text: 'Why? he is aboard',
+                    name: 'Jim'
+                },
+                {
+                    text: 'Really? so pity!',
+                    name: 'Bob'
+                },
+                {
+                    text: 'Maybe is good for him',
+                    name: 'Jim'
+                },
+                {
+                    text: 'How do u think so?',
+                    name: 'Bob'
+                },
+                {
+                    text: 'His wife is so serious',
+                    name: 'Jim'
+                },
+                {
+                    text: 'Uha,Good lucky for him',
+                    name: 'Bob'
+                },
+                {
+                    text: 'The car is comming',
+                    name: 'Jim'
+                },
+                {
+                    text: 'That\'s ur car?',
+                    name: 'Bob'
+                },
+                {
+                    text: 'Yeah',
+                    name: 'Jim'
+                },
+                {
+                    text: 'Let\'s drank to tomorrow.....',
+                    name: 'Bob'
+                }
+            ]
+        }
+    })
+
+</script>
+</html>

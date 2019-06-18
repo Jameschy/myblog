@@ -2,26 +2,51 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>计算属性缓存</title>
+    <title>计算属性缓存v-repeat</title>
 </head>
 <script src='http://cdnjs.cloudflare.com/ajax/libs/vue/1.0.26/vue.min.js'></script>
 <body>
-<div id="ex1">
-    {{welcome}}
+<!--<div id="items">-->
+<!--    <p v-repeat="items" v-component="item">-->
+<!--        <button>{{fulltext}}</button>-->
+<!--    </p>-->
+<!--</div>-->
+
+
+<div id="items">
+    <my-item v-repeat="items" inline-template>
+        <button>{{fulltext}}</button>
+    </my-item>
 </div>
 </body>
 <script>
+    var items=[
+        {number:1,text:'one'},
+        {number:2,text:'two'}
+    ]
+
     var vm = new Vue({
-        el:'#ex1',
+        el:'#items',
         data:{
-            welcome:'welcome to join didiFamily!!!'
+            items:item
         },
-        computed:{
-            example:{
-                // 设置cache为false后，每次直接访问vm.example时都会重新执行getter
-                cache:false,
-                get:function () {
-                    return Date.now()+this.welcome
+       // components:{
+       //      item:{
+       //          computed:{
+       //              fulltext:function () {
+       //                  return 'item ' + this.text
+       //              }
+       //          }
+       //      }
+       // }
+
+        components:{
+            'my-item':{
+                replace:true,
+                computed:{
+                    fulltext:function () {
+                        return 'item '+this.text
+                    }
                 }
             }
         }

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单控件绑定-select单选</title>
+</head>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/vue/1.0.26/vue.min.js'></script>
+<!--<script src="../vue2.6.js"></script>-->
+<body id="ex">
+<select v-model="bizLine">
+    <option v-for="option in options"  :value="option.value">
+    {{option.text}}
+    </option>
+</select>
+
+<span>Selected：{{bizLine}}</span>
+</body>
+<script type="text/javascript">
+var vm = new Vue({
+    el:'#ex',
+    data:{
+        bizLines:'flash',
+        options:[
+            {text:'快车',value:'flash'},
+            {text:'专车',value:'premium'},
+            {text:'巴士',value:'bus'}
+        ]
+    }
+})
+</script>
+</html>
