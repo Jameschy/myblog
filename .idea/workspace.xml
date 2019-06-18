@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8466950a-1e01-428c-b6a6-de0886846a8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/vueJune/权威指南/p5/5.1.1表单控件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueJune/权威指南/p5/5.1.2表单控件checkbox.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueJune/权威指南/p5/5.1.3表单控件checkbox.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueJune/权威指南/p5/5.1.3表单控件radio.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueJune/权威指南/p5/5.1.4单选select.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueJune/权威指南/p5/5.1.4多选select.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueJune/权威指南/p5/5.1.4多选selectJSON.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueJune/权威指南/p5/5.2.1值绑定checkbox.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueJune/权威指南/p5/5.2.2值绑定radio.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueJune/权威指南/p5/5.2.2值绑定select.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueJune/权威指南/p5/5.3修饰指令.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueJune/权威指南/p6/6.1.1过滤器字母操作.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueJune/权威指南/p6/6.1.2过滤器json.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueJune/权威指南/p6/6.1.2过滤器限制.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueJune/权威指南/p6/6.1.2过滤器限制filterBy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueJune/权威指南/vue2.6.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vueJune/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vueJune/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vueJune/权威指南/p4/4.5计算属性v-repeat中使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/vueJune/权威指南/p4/4.5计算属性v-repeat中使用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueJune/权威指南/p6/6.1.2过滤器限制filterBy.html" beforeDir="false" afterPath="$PROJECT_DIR$/vueJune/权威指南/p6/6.1.2过滤器限制filterBy.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -78,8 +61,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p6/6.1.2过滤器限制filterBy.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="681">
-              <caret line="37" column="21" lean-forward="true" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+            <state relative-caret-position="206">
+              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -335,14 +318,7 @@
       <workItem from="1560301462381" duration="14993000" />
       <workItem from="1560393468522" duration="7434000" />
       <workItem from="1560829097969" duration="11701000" />
-      <workItem from="1560850172957" duration="3832000" />
-    </task>
-    <task id="LOCAL-00051" summary="新改文件www">
-      <created>1559640102818</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1559640102818</updated>
+      <workItem from="1560850172957" duration="3890000" />
     </task>
     <task id="LOCAL-00052" summary="修改链接到case5">
       <created>1559641876609</created>
@@ -680,11 +656,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560422168214</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="过滤器学习 filterBy/limitBy">
+      <created>1560854054231</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1560854054231</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189247000" />
+    <option name="totallyTimeSpent" value="189305000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -799,7 +782,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="优化移动端首页" />
     <MESSAGE value="新加图片" />
     <MESSAGE value="优化动画" />
     <MESSAGE value="优化动画3.0不可按照swiper4.0" />
@@ -824,7 +806,8 @@
     <MESSAGE value="指令学习，v-for" />
     <MESSAGE value="指令学习，v-for更名" />
     <MESSAGE value="指令学习，v-for trackBy" />
-    <option name="LAST_COMMIT_MESSAGE" value="指令学习，v-for trackBy" />
+    <MESSAGE value="过滤器学习 filterBy/limitBy" />
+    <option name="LAST_COMMIT_MESSAGE" value="过滤器学习 filterBy/limitBy" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/myblogs$index_html.dat" NAME="index.html Coverage Results" MODIFIED="1560302014462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -1368,8 +1351,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p6/6.1.2过滤器限制filterBy.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="681">
-          <caret line="37" column="21" lean-forward="true" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        <state relative-caret-position="206">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
         </state>
       </provider>
     </entry>
