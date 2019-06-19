@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>对象语法</title>
+</head>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/vue/1.0.26/vue.min.js'></script>
+<body>
+
+<div id="example" class="static" v-bind:class="{'didi-orange':isRipe,'didi-green':isNotRipe}">
+
+</div>
+
+</body>
+<script type="text/javascript">
+    var vm = new Vue({
+        el:'#example',
+        data:{
+            isRipe:true,
+            isNotRipe:false
+        }
+    })
+</script>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>过滤器限制currency</title>
+</head>
+<style>
+    h1 {
+        color: #6b1a47;
+    }
+    p {
+        background: #00A1FF;
+        color: #fff;
+    }
+</style>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/vue/1.0.26/vue.min.js'></script>
+<!--<script src="../vue1.0.26.min.js"></script>-->
+<body id="ex">
+<h1>orderBy过滤</h1>
+<ul>
+<!--    输入参数为字符串时，可以同时传入多个字符串作为排序键名，字符串之间以空格分割-->
+    <li v-for="user in users | orderBy 'age'| filterBy 'Jim'">
+<!--    <li v-for="user in users | orderBy sortKey">-->
+        {{user.lastName}} {{user.firstName}} {{user.age}}:{{user.amount|currency'£'}}
+    </li>
+</ul>
+</body>
+<script type="text/javascript">
+    var vm = new Vue({
+        el: '#ex',
+        data: {
+            users: [
+                {
+                    lastName:'Chy',
+                    age: '21',
+                    firstName: 'Jim',
+                    amount:25501
+                },
+                {
+                    lastName:'Smith',
+                    age: '25',
+                    firstName: 'Jim',
+                    amount:25502
+                },
+                {
+                    lastName:'Bush',
+                    age: '23',
+                    firstName: 'Jason',
+                    amount:25503
+
+                },
+                {
+                    lastName:'Smith',
+                    age: '26',
+                    firstName: 'Jason',
+                    amount:25504
+                },
+                {
+                    lastName:'Frank',
+                    age: '27',
+                    firstName: 'Alex',
+                    amount:25505
+                },
+            ],
+            sortKey:[
+                'lastName','firstName','age'
+            ]
+        }
+    })
+
+</script>
+</html>
