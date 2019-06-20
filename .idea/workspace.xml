@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8466950a-1e01-428c-b6a6-de0886846a8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/vueJune/权威指南/p6/6.1.2过滤器限制currency.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueJune/权威指南/p6/6.1.2过滤器限制debounce.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueJune/权威指南/p6/6.1.2过滤器限制orderBy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueJune/权威指南/p6/6.2.1自定义过滤器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueJune/权威指南/p6/6.2.2自定义过滤器2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueJune/权威指南/p6/6.3.2过滤器解析实现.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueJune/权威指南/p6/6.4常见问题解析.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueJune/权威指南/p7/7.1.1Cls与Sty.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueJune/权威指南/p7/7.1.2数组语法.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueJune/权威指南/p7/7.1.1Cls与Sty.html" beforeDir="false" afterPath="$PROJECT_DIR$/vueJune/权威指南/p7/7.1.1Cls与Sty.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p6/6.2.1自定义过滤器.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="925">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
             </state>
           </provider>
         </entry>
@@ -41,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p6/6.3.2过滤器解析实现.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="1150">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
             </state>
           </provider>
         </entry>
@@ -50,17 +44,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p6/6.4常见问题解析.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
+            <state relative-caret-position="375">
               <caret line="15" column="2" selection-start-line="15" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p7/7.1.1Cls与Sty.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            <state relative-caret-position="581">
+              <caret line="50" column="17" lean-forward="true" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p7/7.1.2数组语法.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -69,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p6/6.1.2过滤器限制orderBy.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="600">
-              <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -148,7 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/zbb/pc/index.htm" />
         <option value="$PROJECT_DIR$/zbb/m/autoPilot.html" />
         <option value="$PROJECT_DIR$/zbb/m/securitySolution.html" />
         <option value="$PROJECT_DIR$/zbb/m/publicOpinion.html" />
@@ -199,6 +201,7 @@
         <option value="$PROJECT_DIR$/vueJune/权威指南/p6/6.3.2过滤器解析实现.html" />
         <option value="$PROJECT_DIR$/vueJune/权威指南/p6/6.4常见问题解析.html" />
         <option value="$PROJECT_DIR$/vueJune/权威指南/p7/7.1.1Cls与Sty.html" />
+        <option value="$PROJECT_DIR$/vueJune/权威指南/p7/7.1.2数组语法.html" />
       </list>
     </option>
   </component>
@@ -223,24 +226,6 @@
             <path>
               <item name="myblogs" type="b2602c69:ProjectViewProjectNode" />
               <item name="myblogs" type="462c0819:PsiDirectoryNode" />
-              <item name="vueJune" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblogs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblogs" type="462c0819:PsiDirectoryNode" />
-              <item name="vueJune" type="462c0819:PsiDirectoryNode" />
-              <item name="权威指南" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblogs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblogs" type="462c0819:PsiDirectoryNode" />
-              <item name="vueJune" type="462c0819:PsiDirectoryNode" />
-              <item name="权威指南" type="462c0819:PsiDirectoryNode" />
-              <item name="p7" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblogs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblogs" type="462c0819:PsiDirectoryNode" />
               <item name="zbb" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -259,25 +244,25 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/vueJune/权威指南/p6" />
+    <property name="last_opened_file_path" value="D:/phpstudy/PHPTutorial/WWW/greend" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\myblogs\vueJune\权威指南\p6" />
-      <recent name="F:\myblogs\vueJune\权威指南" />
-      <recent name="F:\myblogs\vueJune\权威指南\p5" />
-      <recent name="F:\myblogs\vueJune\权威指南\p3" />
-      <recent name="F:\myblogs\zbb\m\img" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\myblogs\zbb\m\img" />
       <recent name="F:\myblogs\zbb\m\css" />
       <recent name="F:\myblogs\zbb\www\img" />
       <recent name="F:\myblogs\zbb\www\js" />
       <recent name="F:\myblogs\zbb\www\css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\myblogs\vueJune\权威指南\p7" />
+      <recent name="F:\myblogs\vueJune\权威指南\p6" />
+      <recent name="F:\myblogs\vueJune\权威指南" />
+      <recent name="F:\myblogs\vueJune\权威指南\p5" />
+      <recent name="F:\myblogs\vueJune\权威指南\p3" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -327,14 +312,8 @@
       <workItem from="1560393468522" duration="7434000" />
       <workItem from="1560829097969" duration="11701000" />
       <workItem from="1560850172957" duration="3890000" />
-      <workItem from="1560905853601" duration="17567000" />
-    </task>
-    <task id="LOCAL-00052" summary="修改链接到case5">
-      <created>1559641876609</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1559641876609</updated>
+      <workItem from="1560905853601" duration="17828000" />
+      <workItem from="1560994312060" duration="3369000" />
     </task>
     <task id="LOCAL-00053" summary="修改链接到case5,再次提交">
       <created>1559641924942</created>
@@ -672,11 +651,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560854054231</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="过滤器学习结案">
+      <created>1560940303044</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1560940303044</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206872000" />
+    <option name="totallyTimeSpent" value="210502000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -691,7 +677,7 @@
     <frame x="953" y="0" width="974" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49919224" weight="0.27242887" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49919224" weight="0.2713348" />
       <window_info id="Structure" order="1" sideWeight="0.50080776" side_tool="true" weight="0.12691467" />
       <window_info id="Favorites" order="2" sideWeight="0.50080776" side_tool="true" weight="0.12691467" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -791,7 +777,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="新加图片" />
     <MESSAGE value="优化动画" />
     <MESSAGE value="优化动画3.0不可按照swiper4.0" />
     <MESSAGE value="更新basecss" />
@@ -816,75 +801,13 @@
     <MESSAGE value="指令学习，v-for更名" />
     <MESSAGE value="指令学习，v-for trackBy" />
     <MESSAGE value="过滤器学习 filterBy/limitBy" />
-    <option name="LAST_COMMIT_MESSAGE" value="过滤器学习 filterBy/limitBy" />
+    <MESSAGE value="过滤器学习结案" />
+    <option name="LAST_COMMIT_MESSAGE" value="过滤器学习结案" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/myblogs$index_html.dat" NAME="index.html Coverage Results" MODIFIED="1560302014462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/zbb/m/scene.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#li#2;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#li#3;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#1;n#ul#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#2;n#ul#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#3;n#ul#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#3;n#div#1;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#2;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#p#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#p#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#p#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#p#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#6;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#6;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#2;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#p#2;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#3;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zbb/m/css/saas_for_mobile.bak0610.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1195,31 +1118,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p6/6.1.2过滤器限制orderBy.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p6/6.3.2过滤器解析实现.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p6/6.1.2过滤器限制debounce.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="470">
           <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p6/6.2.1自定义过滤器.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
     </entry>
@@ -1237,17 +1139,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p6/6.2.1自定义过滤器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p6/6.3.2过滤器解析实现.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p6/6.4常见问题解析.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
+        <state relative-caret-position="375">
           <caret line="15" column="2" selection-start-line="15" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p6/6.1.2过滤器限制orderBy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p7/7.1.1Cls与Sty.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        <state relative-caret-position="581">
+          <caret line="50" column="17" lean-forward="true" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p7/7.1.2数组语法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
         </state>
       </provider>
     </entry>
