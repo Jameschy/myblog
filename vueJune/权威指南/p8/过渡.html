@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>过渡</title>
+    <style>
+        .expand-transition{
+            transition: all .3s ease;
+            height: 50px;
+            width: 30px;
+            padding: 10px;
+            background-color: #eeeeee;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/vue/1.0.26/vue.min.js'></script>
+<body>
+<div v-if="show" transition="expand">Hello</div>
+</body>
+<script type="text/javascript">
+var vv = new Vue({
+
+})
+</script>
+</html>

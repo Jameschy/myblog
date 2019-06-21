@@ -16,6 +16,8 @@
 </div>
 
 <div id="ex3" v-bind:class="ddfe"></div>
+
+<div id="ex4" v-bind:class="[didiHandsome,{didiOrange:isRipe,didiGreen:isNotRipe}]">hello</div>
 </body>
 <script type="text/javascript">
     var vm = new Vue({
@@ -50,6 +52,13 @@
                     'didi-green':this.didiMember > 1000?true:false
                 }
             }
+        }
+    })
+
+    var vm4 = new Vue({
+        el:'#ex4',
+        data:{
+            isRipe:true
         }
     })
 </script>

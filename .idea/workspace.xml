@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8466950a-1e01-428c-b6a6-de0886846a8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/vueJune/权威指南/p7/7.1.2数组语法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueJune/权威指南/p7/7.2.1對象语法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueJune/权威指南/p7/7.2.2数组语法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueJune/权威指南/p7/7.2.3自动添加前缀.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueJune/权威指南/p8/过渡.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vueJune/权威指南/p7/7.1.1Cls与Sty.html" beforeDir="false" afterPath="$PROJECT_DIR$/vueJune/权威指南/p7/7.1.1Cls与Sty.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueJune/权威指南/p7/7.1.2数组语法.html" beforeDir="false" afterPath="$PROJECT_DIR$/vueJune/权威指南/p7/7.1.2数组语法.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -54,16 +57,52 @@
         <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p7/7.1.1Cls与Sty.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="581">
-              <caret line="50" column="17" lean-forward="true" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+              <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p7/7.1.2数组语法.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1500">
+              <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p7/7.2.1對象语法.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="956">
+              <caret line="47" column="18" lean-forward="true" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p7/7.2.2数组语法.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="656">
+              <caret line="32" column="6" lean-forward="true" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p7/7.2.3自动添加前缀.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="14" selection-start-line="14" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p7/7.1.2数组语法.html">
+        <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p8/过渡.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+            <state relative-caret-position="425">
+              <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -88,8 +127,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>img/logo.svg</find>
-      <find>https://www.dycm.com/cache/icon</find>
       <find>https://www.baidu.com/cache/icon</find>
       <find>baidu</find>
       <find>http://zhongbao.baidu.com/mark/static/img</find>
@@ -118,6 +155,8 @@
       <find>mark-banner-wrap</find>
       <find>mark</find>
       <find>acount</find>
+      <find>/ecms75</find>
+      <find>/ecms75/</find>
     </findStrings>
     <replaceStrings>
       <replace>src=&quot;img/header.png&quot;</replace>
@@ -151,11 +190,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/zbb/m/autoPilot.html" />
-        <option value="$PROJECT_DIR$/zbb/m/securitySolution.html" />
-        <option value="$PROJECT_DIR$/zbb/m/publicOpinion.html" />
-        <option value="$PROJECT_DIR$/zbb/m/faceRecognition.html" />
-        <option value="$PROJECT_DIR$/zbb/m/ocr.html" />
         <option value="$PROJECT_DIR$/zbb/m/speechSolution.html" />
         <option value="$PROJECT_DIR$/zbb/m/contact.html" />
         <option value="$PROJECT_DIR$/zbb/m/case.html" />
@@ -201,7 +235,12 @@
         <option value="$PROJECT_DIR$/vueJune/权威指南/p6/6.3.2过滤器解析实现.html" />
         <option value="$PROJECT_DIR$/vueJune/权威指南/p6/6.4常见问题解析.html" />
         <option value="$PROJECT_DIR$/vueJune/权威指南/p7/7.1.1Cls与Sty.html" />
+        <option value="D:/phpstudy/PHPTutorial/WWW/new75/index.html" />
         <option value="$PROJECT_DIR$/vueJune/权威指南/p7/7.1.2数组语法.html" />
+        <option value="$PROJECT_DIR$/vueJune/权威指南/p7/7.2.1對象语法.html" />
+        <option value="$PROJECT_DIR$/vueJune/权威指南/p7/7.2.2数组语法.html" />
+        <option value="$PROJECT_DIR$/vueJune/权威指南/p7/7.2.3自动添加前缀.html" />
+        <option value="$PROJECT_DIR$/vueJune/权威指南/p8/过渡.html" />
       </list>
     </option>
   </component>
@@ -226,6 +265,24 @@
             <path>
               <item name="myblogs" type="b2602c69:ProjectViewProjectNode" />
               <item name="myblogs" type="462c0819:PsiDirectoryNode" />
+              <item name="vueJune" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myblogs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblogs" type="462c0819:PsiDirectoryNode" />
+              <item name="vueJune" type="462c0819:PsiDirectoryNode" />
+              <item name="权威指南" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myblogs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblogs" type="462c0819:PsiDirectoryNode" />
+              <item name="vueJune" type="462c0819:PsiDirectoryNode" />
+              <item name="权威指南" type="462c0819:PsiDirectoryNode" />
+              <item name="p8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myblogs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblogs" type="462c0819:PsiDirectoryNode" />
               <item name="zbb" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -244,25 +301,25 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="D:/phpstudy/PHPTutorial/WWW/greend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/vueJune/权威指南/p7" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\myblogs\zbb\m\img" />
-      <recent name="F:\myblogs\zbb\m\css" />
-      <recent name="F:\myblogs\zbb\www\img" />
-      <recent name="F:\myblogs\zbb\www\js" />
-      <recent name="F:\myblogs\zbb\www\css" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\myblogs\vueJune\权威指南\p7" />
       <recent name="F:\myblogs\vueJune\权威指南\p6" />
       <recent name="F:\myblogs\vueJune\权威指南" />
       <recent name="F:\myblogs\vueJune\权威指南\p5" />
       <recent name="F:\myblogs\vueJune\权威指南\p3" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\myblogs\zbb\m\img" />
+      <recent name="F:\myblogs\zbb\m\css" />
+      <recent name="F:\myblogs\zbb\www\img" />
+      <recent name="F:\myblogs\zbb\www\js" />
+      <recent name="F:\myblogs\zbb\www\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -313,14 +370,8 @@
       <workItem from="1560829097969" duration="11701000" />
       <workItem from="1560850172957" duration="3890000" />
       <workItem from="1560905853601" duration="17828000" />
-      <workItem from="1560994312060" duration="3369000" />
-    </task>
-    <task id="LOCAL-00053" summary="修改链接到case5,再次提交">
-      <created>1559641924942</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1559641924942</updated>
+      <workItem from="1560994312060" duration="5227000" />
+      <workItem from="1561078689454" duration="9206000" />
     </task>
     <task id="LOCAL-00054" summary="修改wwwlogo">
       <created>1559644037484</created>
@@ -658,11 +709,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560940303044</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="数组学习">
+      <created>1561021991855</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1561021991859</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210502000" />
+    <option name="totallyTimeSpent" value="221566000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -677,7 +735,7 @@
     <frame x="953" y="0" width="974" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49919224" weight="0.2713348" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49919224" visible="true" weight="0.2713348" />
       <window_info id="Structure" order="1" sideWeight="0.50080776" side_tool="true" weight="0.12691467" />
       <window_info id="Favorites" order="2" sideWeight="0.50080776" side_tool="true" weight="0.12691467" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -777,7 +835,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="优化动画" />
     <MESSAGE value="优化动画3.0不可按照swiper4.0" />
     <MESSAGE value="更新basecss" />
     <MESSAGE value="更新www/basecss" />
@@ -802,82 +859,13 @@
     <MESSAGE value="指令学习，v-for trackBy" />
     <MESSAGE value="过滤器学习 filterBy/limitBy" />
     <MESSAGE value="过滤器学习结案" />
-    <option name="LAST_COMMIT_MESSAGE" value="过滤器学习结案" />
+    <MESSAGE value="数组学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="数组学习" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/myblogs$index_html.dat" NAME="index.html Coverage Results" MODIFIED="1560302014462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/zbb/m/css/saas_for_mobile.bak0610.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zbb/m/crawl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="160" column="12" selection-start-line="160" selection-start-column="12" selection-end-line="160" selection-end-column="12" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#p#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#p#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#p#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#p#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#6;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#6;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zbb/m/collection.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="99" column="52" selection-start-line="99" selection-start-column="52" selection-end-line="99" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zbb/m/css/collection_for_mobile.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zbb/m/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="434" column="82" selection-start-line="434" selection-start-column="82" selection-end-line="434" selection-end-column="82" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#a#1;n#div#1;n#div#0;n#section#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#2;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#section#7;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zbb/m/css/saas_for_mobile.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1139,6 +1127,7 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/phpstudy/PHPTutorial/WWW/new75/index.html" />
     <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p6/6.2.1自定义过滤器.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="925">
@@ -1170,14 +1159,42 @@
     <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p7/7.1.1Cls与Sty.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="581">
-          <caret line="50" column="17" lean-forward="true" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p7/7.1.2数组语法.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+        <state relative-caret-position="1500">
+          <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p7/7.2.1對象语法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="956">
+          <caret line="47" column="18" lean-forward="true" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p7/7.2.2数组语法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="656">
+          <caret line="32" column="6" lean-forward="true" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p7/7.2.3自动添加前缀.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="14" selection-start-line="14" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p8/过渡.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
         </state>
       </provider>
     </entry>

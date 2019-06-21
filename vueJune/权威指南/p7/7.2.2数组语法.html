@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>数组属性</title>
+    <style>
+        /*.ddfe{*/
+        /*    color: gold;*/
+        /*}*/
+        /*.ddFamily{*/
+        /*    font-size: 55px;*/
+        /*}*/
+    </style>
+</head>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/vue/1.0.26/vue.min.js'></script>
+<body>
+    <div id="ex1" v-bind:style="[ddfe,ddFamily]">
+        {{msg}}
+    </div>
+</body>
+<script type="text/javascript">
+    var vm = new Vue({
+        el:'#ex1',
+        data:{
+            ddfe:{
+                color:'gold'
+            },
+            ddFamily:{
+                fontSize:'32px'
+            },
+            msg:'How Do u Do?'
+        }
+    })
+</script>
+</html>
