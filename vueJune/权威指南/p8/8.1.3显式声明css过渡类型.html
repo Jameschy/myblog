@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>显式声明css过渡类型</title>
+    <style>
+        .expand-transition{
+            transition: all .3s ease;
+            height: 50px;
+            width: 30px;
+            padding: 10px;
+            background-color: #eeeeee;
+            overflow: hidden;
+        }
+
+        .expand-enter,.expand-leave {
+            height: 0;
+            padding: 0 10px;
+            opacity: 0;
+        }
+    </style>
+</head>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/vue/1.0.26/vue.min.js'></script>
+<body>
+<div id="ex">
+
+    <div v-show="ok" class="animated" transition="bounce">
+        Watch me bounce
+    </div>
+
+</div>
+</body>
+<script type="text/javascript">
+var vv = new Vue({
+    el:'#ex',
+    data:{
+        show:false,
+        transitionName:''
+    }
+})
+
+    Vue.transition('bounce',{
+        // 该过渡效果将只侦听‘animationed’事件
+        type:'animation'
+    })
+</script>
+</html>

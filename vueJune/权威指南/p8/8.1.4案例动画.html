@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>动画案例</title>
+    <style>
+        .expand-transition{
+            transition: all .3s ease;
+            height: 50px;
+            width: 30px;
+            padding: 10px;
+            background-color: #eeeeee;
+            overflow: hidden;
+        }
+
+        .expand-enter,.expand-leave {
+            height: 0;
+            padding: 0 10px;
+            opacity: 0;
+        }
+
+        .bounce-transition{
+            display: inline-block;
+        }
+        .bounce-enter{
+            -webkit-animation: bounce-in .5s;
+            -o-animation: bounce-in .5s;
+            animation: bounce-in .5s;
+        }
+        .bounce-leave{
+            -webkit-animation: bounce-out .5s;
+            -o-animation: bounce-out .5s;
+            animation: bounce-out .5s;
+        }
+        @keyframes bounce-in {
+            0%{transform: scale(0);}
+            50%{transform: scale(1.5);}
+            100%{transform: scale(1);}
+        }
+        @keyframes bounce-out {
+            0%{transform: scale(1);}
+            50%{transform: scale(1.5);}
+            100%{transform: scale(0);}
+        }
+    </style>
+</head>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/vue/1.0.26/vue.min.js'></script>
+<body>
+<div id="ex">
+
+<span v-show="show" transition="bounce">Look At Me</span>
+
+</div>
+</body>
+<script type="text/javascript">
+var vv = new Vue({
+    el:'#ex',
+    data:{
+        show:true,
+        transitionName:'bounce'
+    }
+})
+
+    // Vue.transition('bounce',{
+    //     // 该过渡效果将只侦听‘animationed’事件
+    //     type:'animation'
+    // })
+</script>
+</html>
