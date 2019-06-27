@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>渐进过渡</title>
+    <style>
+        .myStaggerTransition{
+            transition: all .5s ease;
+            overflow: hidden;
+            margin: 0;
+            height: 20px;
+        }
+        .myStaggerTransition-enter, .myStaggerTransition-leave{
+            opacity: 0;
+            height: 0;
+        }
+    </style>
+</head>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/vue/1.0.26/vue.min.js'></script>
+<body>
+<div id="ex">
+<div v-for="item in items" transition="myStaggeredTransition" stagger="100">
+    {{item.h}}
+</div>
+</div>
+</body>
+<script type="text/javascript">
+var vv = new Vue({
+    el:'#ex',
+    data:{
+        show:true,
+        transitionName:'myStaggeredTransition',
+        items:[{h:"hi"},{h:"how"},{h:"hooo"}]
+    }
+})
+
+Vue.transition(
+    'myStaggeredTransition',{
+        stagger:function (index){
+            return Math.min(3000,index*5000)
+        }
+    }
+)
+</script>
+</html>

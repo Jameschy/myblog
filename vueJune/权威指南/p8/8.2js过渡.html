@@ -45,10 +45,11 @@
     </style>
 </head>
 <script src='http://cdnjs.cloudflare.com/ajax/libs/vue/1.0.26/vue.min.js'></script>
+<script src="../jquery-3.3.1.js"></script>
 <body>
 <div id="ex">
 
-<span v-show="show" transition="bounce">Look At Me</span>
+<span transition="fade">Look At Me</span>
 
 </div>
 </body>
@@ -60,6 +61,25 @@ var vv = new Vue({
         transitionName:'bounce'
     }
 })
+
+Vue.transition('fade',{
+    css:false,
+    enter:function(el,done){
+        $(el)
+        .css('opacity',0)
+        .animate({opacity:1},1000,done)
+    },
+    enterCancelled:function (el) {
+        $(el).stop()
+    },
+    leave:function (el,done) {
+        $(el).animate({opacity:0},1000,done)
+    },
+    leaveCancelled:function (el){
+        $(el).stop()
+    }
+})
+
 
     // Vue.transition('bounce',{
     //     // 该过渡效果将只侦听‘animationed’事件
