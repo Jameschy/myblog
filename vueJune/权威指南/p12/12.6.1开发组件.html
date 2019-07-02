@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>开发组件</title>
+</head>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/vue/1.0.26/vue.min.js'></script>
+<!-- <script src="../jquery-3.3.1.js"></script> -->
+
+<body id="ex">
+
+    <div id="items">
+        <b>inline-template：</b>
+        <my-item v-for="item in items" :item="item" inline-template>
+            <p>{{a}} , {{item.text}}</p>
+        </my-item>
+
+        <b>no inline-template:</b>
+        <my-item v-for="item in items" :item="item">
+            {{a}},{{item[0].text}}
+        </my-item>
+    </div>
+
+</body>
+<script>
+    // 生命周期
+
+    // 1. init              初始化时同步调用
+    // 2.created            实例创建之后调用
+    // 3.beforeCompile      编译前调用
+    // 4.compiled           编译结束后调用
+    // 5.ready             编译结束和$el首次插入文档后调用
+    // 6.attached          vm.$el插入DOM时调用
+    // 7.detached          vm.$el从DOM中删除时调用
+    // 8.beforeDestroy     开始销毁实例时调用
+    // 9.destroyed         实例销毁后调用
+var items = [
+    {number:1,text:'one'},
+    {number:2,text:'two'}
+];
+var vue = new Vue({
+    el:'#ex',
+    data:function(){
+        return{
+            items:items,
+            a:'i am in parent!'
+        }
+    },
+    components:{
+        'my-item':{
+            props:['item'],
+            data:function(){
+                return{
+                    a:'i am in child!'
+                }
+            },
+            template:'<p>item模板：{{a}},{{item.text}};slot:<slot></slot></p>'
+        }
+
+    }
+})
+</script>
+
+</html>
