@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>KeepAlive</title>
+</head>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/vue/1.0.26/vue.min.js'></script>
+<!-- <script src="../jquery-3.3.1.js"></script> -->
+
+<body id="ex">
+    <input type="radio" id="one" value="fast" v-model="currentView" />
+    <label for="one">fast</label>
+    <br />
+    <input type="radio" id="two" value="bus" v-model="currentView" />
+    <label for="two">bus</label>
+    <input type="radio" id="three" value="business" v-model="currentView" />
+    <label for="three">business</label>
+
+    <template id="bus">
+        <div>滴滴巴士</div>
+    </template>
+    <template id="business">
+        <div>滴滴专车</div>
+    </template>
+    <template id="fast">
+        <div>滴滴快车</div>
+    </template>
+
+    <!-- 将切换出去的组件保留在内存中，则可以保留它的状态或避免重新渲染 -->
+    <component :is="currentView" keep-alive>
+        <!-- 非活动组件将被缓存 -->
+    </component>
+
+</body>
+<script>
+    var bus = Vue.extend({
+        template: '#bus',
+        replace: true
+    });
+    var business = Vue.extend({
+        template: '#business',
+        replace: true
+    })
+    var fast = Vue.extend({
+        template: '#fast',
+        replace: true
+    })
+
+    // 创建根实例
+    new Vue({
+        el: '#ex',
+        data: {
+            currentView: 'fast'
+        },
+        components: {
+            fast: fast,
+            bus: bus,
+            business: business
+        }
+    })
+    
+</script>
+</html>

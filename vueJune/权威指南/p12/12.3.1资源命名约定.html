@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>资源命名约定</title>
+</head>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/vue/1.0.26/vue.min.js'></script>
+<!-- <script src="../jquery-3.3.1.js"></script> -->
+
+<body>
+<my-component 
+:foo='baz'
+:bar='qux'
+@event-a='doThis'
+@event-b='doThat'
+>
+<!-- content -->
+<img src="../vue.png" alt="">
+<p slot="main-text">Hello!</p>
+</my-component>
+</body>
+<script>
+Vue.component('async-example',function (resolve,reject){
+    setTimeout(function(){
+        resolve({
+            template:'<div>I am async!</div>'
+        })
+    },1000)
+})
+
+Vue.component('async-webpack-example',function(resolve){
+    // 组件块将通过ajax请求自动下载
+    require(['./my-async-component'],resolve)
+})
+
+</script>
+
+</html>

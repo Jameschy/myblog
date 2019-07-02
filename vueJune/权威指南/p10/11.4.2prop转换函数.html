@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>prop转换函数</title>
+</head>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/vue/1.0.26/vue.min.js'></script>
+<!-- <script src="../jquery-3.3.1.js"></script> -->
+<body id="ex">
+
+    <input type="text" v-model="info.name"/>
+    <child v-bind:msg.once="info"></child>
+
+</body>
+<script type="text/javascript">
+ Vue.component('example',{
+    props:{
+        // 基础类型检测
+      propG:{
+          coerce:function (val){
+              return val + '' //将值转换为字符串
+          }
+      },
+      propH:{
+          coerce:function(val){
+              return JSON.parse(val) //将json字符串转换为对象
+          }
+      }
+    }
+ })
+</script>
+</html>
