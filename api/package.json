@@ -1,0 +1,23 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "dependencies": {},
+  "status":0,
+  "message":[
+    {
+      "title":"轮播图一LUNBOTUYIswipeone",
+      "src":"/assets/swipe/20191201-01.jpg",
+      "url":"https://www.jameschy.tk/comment/a.txt"
+    },
+    {
+      "title":"轮播图一LUNBOTUYIswipeone",
+      "src":"/assets/swipe/20191201-01.jpg",
+      "url":"https://www.jameschy.tk/comment/b.txt"
+    },
+    {
+      "title":"轮播图一LUNBOTUYIswipeone",
+      "src":"/assets/swipe/20191201-01.jpg",
+      "url":"https://www.jameschy.tk/comment/c.txt"
+    }
+  ]
+}

@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8466950a-1e01-428c-b6a6-de0886846a8b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/api/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comment/a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comment/b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comment/c.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -16,97 +20,72 @@
   <component name="CoverageViewManager">
     <option name="myElementSize" value="196" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-685233933">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.16" value="3" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.opened" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="1" />
+          <entry key="json" value="1" />
+          <entry key="txt" value="4" />
+          <entry key="yml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="1" />
+          <entry key="JSON" value="1" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="YAML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="json" value="205" />
+          <entry key="txt" value="47" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JSON" value="205" />
+          <entry key="PLAIN_TEXT" value="47" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="myblogs" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p7/7.2.2数组语法.html">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="800">
-              <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p7/7.2.3自动添加前缀.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" selection-start-line="14" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p8/8.1css过渡.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p8/8.1.1内置class名.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p8/8.1.2定义css类名.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1100">
-              <caret line="44" selection-start-line="44" selection-end-line="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p8/8.1.3显式声明css过渡类型.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1100">
-              <caret line="44" selection-start-line="44" selection-end-line="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p8/8.1.4案例动画.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1475">
-              <caret line="59" column="23" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p8/8.2js过渡.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+            <state relative-caret-position="575">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wxmp/wx.html">
+        <entry file="file://$PROJECT_DIR$/api/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p6/6.1.2过滤器限制orderBy.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+            <state relative-caret-position="400">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -117,6 +96,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="package.json" />
       </list>
     </option>
   </component>
@@ -185,10 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/zbb/m/scene.html" />
-        <option value="$PROJECT_DIR$/zbb/m/css/base_for_mobile.css" />
-        <option value="$PROJECT_DIR$/zbb/m/index.html" />
-        <option value="$PROJECT_DIR$/zbb/m/css/saas_for_mobile.css" />
         <option value="$PROJECT_DIR$/zbb/m/css/collection_for_mobile.css" />
         <option value="$PROJECT_DIR$/zbb/m/crawl.html" />
         <option value="$PROJECT_DIR$/zbb/m/collection.html" />
@@ -236,13 +212,28 @@
         <option value="$PROJECT_DIR$/vueJune/权威指南/p8/8.1.3显式声明css过渡类型.html" />
         <option value="$PROJECT_DIR$/vueJune/权威指南/p8/8.1.4案例动画.html" />
         <option value="$PROJECT_DIR$/wxmp/wx.html" />
+        <option value="$PROJECT_DIR$/api/package.json" />
+        <option value="$PROJECT_DIR$/comment/a.txt" />
+        <option value="$PROJECT_DIR$/comment/b.txt" />
+        <option value="$PROJECT_DIR$/comment/c.txt" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="913" />
-    <option name="width" value="1014" />
-    <option name="height" value="1057" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/api/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="1005" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -250,8 +241,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="myblogs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblogs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myblogs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblogs" type="462c0819:PsiDirectoryNode" />
+              <item name="comment" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -263,25 +269,25 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="E:/zmmodel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\myblogs\comment" />
+      <recent name="F:\myblogs\vueJune\权威指南\p8" />
+      <recent name="F:\myblogs\vueJune\权威指南\p7" />
+      <recent name="F:\myblogs\vueJune\权威指南\p6" />
+      <recent name="F:\myblogs\vueJune\权威指南" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\myblogs\zbb\m\img" />
       <recent name="F:\myblogs\zbb\m\css" />
       <recent name="F:\myblogs\zbb\www\img" />
       <recent name="F:\myblogs\zbb\www\js" />
       <recent name="F:\myblogs\zbb\www\css" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\myblogs\vueJune\权威指南\p8" />
-      <recent name="F:\myblogs\vueJune\权威指南\p7" />
-      <recent name="F:\myblogs\vueJune\权威指南\p6" />
-      <recent name="F:\myblogs\vueJune\权威指南" />
-      <recent name="F:\myblogs\vueJune\权威指南\p5" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -337,6 +343,21 @@
       <workItem from="1561340123679" duration="5626000" />
       <workItem from="1561424810512" duration="2024000" />
       <workItem from="1561516402986" duration="599000" />
+      <workItem from="1563849605755" duration="794000" />
+      <workItem from="1564988121818" duration="623000" />
+      <workItem from="1565058193562" duration="633000" />
+      <workItem from="1565084393912" duration="113000" />
+      <workItem from="1565166840736" duration="480000" />
+      <workItem from="1565229153135" duration="1233000" />
+      <workItem from="1565334458158" duration="599000" />
+      <workItem from="1565574583747" duration="1202000" />
+      <workItem from="1565761182706" duration="599000" />
+      <workItem from="1565837018303" duration="3009000" />
+      <workItem from="1565915585560" duration="1252000" />
+      <workItem from="1566182092189" duration="599000" />
+      <workItem from="1566263178984" duration="4000" />
+      <workItem from="1566803521437" duration="966000" />
+      <workItem from="1575248859328" duration="483000" />
     </task>
     <task id="LOCAL-00055" summary="修改wwwlogo">
       <created>1559644238544</created>
@@ -685,7 +706,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="229815000" />
+    <option name="totallyTimeSpent" value="242404000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -697,9 +718,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="913" y="0" width="1014" height="1057" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49919224" visible="true" weight="0.28197065" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49919224" visible="true" weight="0.09914712" />
       <window_info id="Structure" order="1" sideWeight="0.50080776" side_tool="true" weight="0.12691467" />
       <window_info id="Favorites" order="2" sideWeight="0.50080776" side_tool="true" weight="0.12691467" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -711,7 +733,7 @@
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49840087" weight="0.25135428" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="GraphQL" order="8" weight="0.32936078" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.85557985" weight="0.36078006" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.85557985" visible="true" weight="0.2537961" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4989059" weight="0.33261105" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5026795" side_tool="true" weight="0.13217768" />
       <window_info anchor="bottom" id="File Transfer" order="12" sideWeight="0.49562362" weight="0.26327193" />
@@ -783,20 +805,9 @@
         </entry>
       </map>
     </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list />
-          </value>
-        </entry>
-        <entry key="User">
-          <value>
-            <list />
-          </value>
-        </entry>
-      </map>
-    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="更新basecss" />
@@ -830,330 +841,86 @@
     <SUITE FILE_PATH="coverage/myblogs$index_html.dat" NAME="index.html Coverage Results" MODIFIED="1560302014462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/v2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/v3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="6" lean-forward="true" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.26/vue.js">
-      <provider selected="true" editor-type-id="httpFileEditor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/v4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/v5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/hinfofun.php" />
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p3/v3.1.1v-if.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p3/v3.1.2v-show.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p3/v3.1.3v-else.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p3/v3.1.5v-for3trackBy.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p3/v3.1.5v-for2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p3/v3.1.5v-for.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="681">
-          <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p5/5.1.2表单控件checkbox.html">
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p3/v3.1.1v-if.html" />
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p3/v3.1.2v-show.html" />
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p3/v3.1.3v-else.html" />
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p3/v3.1.5v-for3trackBy.html" />
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p3/v3.1.5v-for2.html" />
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p3/v3.1.5v-for.html" />
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p5/5.1.2表单控件checkbox.html" />
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p3/v3.2.4字面修饰符.html" />
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p5/5.1.4多选selectJSON.html" />
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p5/5.2.1值绑定checkbox.html" />
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p5/5.2.2值绑定select.html" />
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p5/5.2.2值绑定radio.html" />
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p3/v3.1.4v-model.html" />
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p5/5.1.4单选select.html" />
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p5/5.1.3表单控件radio.html" />
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p5/5.1.3表单控件checkbox.html" />
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p5/5.1.4多选select.html" />
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/vue.common.js" />
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p5/5.3修饰指令.html" />
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p6/6.1.1过滤器字母操作.html" />
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p6/6.1.2过滤器json.html" />
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p6/6.1.2过滤器限制.html" />
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p6/6.1.2过滤器限制currency.html" />
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p3/v3.1.4v-model三属性.html" />
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p3/v3.1.9V-on.html" />
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p6/6.1.2过滤器限制debounce.html" />
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p6/6.2.2自定义过滤器2.html" />
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p6/6.1.2过滤器限制filterBy.html" />
+    <entry file="file://D:/phpstudy/PHPTutorial/WWW/new75/index.html" />
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p6/6.2.1自定义过滤器.html" />
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p6/6.3.2过滤器解析实现.html" />
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p6/6.4常见问题解析.html" />
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p7/7.1.1Cls与Sty.html" />
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p7/7.1.2数组语法.html" />
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p7/7.2.1對象语法.html" />
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p7/7.2.2数组语法.html" />
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p7/7.2.3自动添加前缀.html" />
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p8/8.1css过渡.html" />
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p8/8.1.1内置class名.html" />
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p8/8.1.2定义css类名.html" />
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p8/8.1.3显式声明css过渡类型.html" />
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p8/8.1.4案例动画.html" />
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p8/8.2js过渡.html" />
+    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p6/6.1.2过滤器限制orderBy.html" />
+    <entry file="file://$PROJECT_DIR$/wxmp/wx.html" />
+    <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p3/v3.2.4字面修饰符.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p5/5.1.4多选selectJSON.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p5/5.2.1值绑定checkbox.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="694">
-          <caret line="45" column="2" lean-forward="true" selection-start-line="45" selection-start-column="2" selection-end-line="45" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p5/5.2.2值绑定select.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p5/5.2.2值绑定radio.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p3/v3.1.4v-model.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p5/5.1.4单选select.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p5/5.1.3表单控件radio.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
-          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p5/5.1.3表单控件checkbox.html">
+    <entry file="file://$PROJECT_DIR$/comment/b.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p5/5.1.4多选select.html">
+    <entry file="file://$PROJECT_DIR$/comment/c.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        <state>
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/vue.common.js" />
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p5/5.3修饰指令.html">
+    <entry file="file://$PROJECT_DIR$/comment/a.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        <state>
+          <caret selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p6/6.1.1过滤器字母操作.html">
+    <entry file="file://$PROJECT_DIR$/api/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p6/6.1.2过滤器json.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p6/6.1.2过滤器限制.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p6/6.1.2过滤器限制currency.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p3/v3.1.4v-model三属性.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p3/v3.1.9V-on.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="706">
-          <caret line="39" column="27" lean-forward="true" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p6/6.1.2过滤器限制debounce.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p6/6.2.2自定义过滤器2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p6/6.1.2过滤器限制filterBy.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/phpstudy/PHPTutorial/WWW/new75/index.html" />
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p6/6.2.1自定义过滤器.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="925">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p6/6.3.2过滤器解析实现.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1150">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p6/6.4常见问题解析.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="2" selection-start-line="15" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p7/7.1.1Cls与Sty.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1250">
-          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p7/7.1.2数组语法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p7/7.2.1對象语法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1175">
-          <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p7/7.2.2数组语法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p7/7.2.3自动添加前缀.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" selection-start-line="14" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p8/8.1css过渡.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p8/8.1.1内置class名.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p8/8.1.2定义css类名.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="44" selection-start-line="44" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p8/8.1.3显式声明css过渡类型.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="44" selection-start-line="44" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p8/8.1.4案例动画.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1475">
-          <caret line="59" column="23" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p8/8.2js过渡.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueJune/权威指南/p6/6.1.2过滤器限制orderBy.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wxmp/wx.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="400">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
         </state>
       </provider>
     </entry>
